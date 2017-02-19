@@ -1,13 +1,14 @@
 from gsim_utils import *
 from pprint import pprint
 import logging
-import gensim.corpora as corpora
 import gensim.models as models
-
 
 logging.basicConfig(level=0, format="%(levelname)s:%(message)s")
 
-# fc = FileCorpus(directory=["elettrotecnica", "chimica", "matematica"], pattern="*.txt", minlen=3, stopwordfile="stopwords.txt")
+
+
+
+
 fc = FileCorpus(#directory="topics"],
                 # directory=["topics/Chimica"],
                 # directory=["topics/ElettrotecnicaEdElettronica"],
@@ -39,3 +40,7 @@ pprint(lda[bow])
 # hdp = models.HdpModel(corpus, id2word=dictionary)
 # pprint(hdp)
 
+tc = TopicsCorpus(homedirectory="topics")
+tc.load_copuses()
+
+pass

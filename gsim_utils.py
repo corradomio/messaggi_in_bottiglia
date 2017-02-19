@@ -100,6 +100,12 @@ class StemRules(object):
     # end
 
     def normalize(self, w):
+        """
+        Normalize the word
+
+        :param str w: the word to normalize
+        :return str: the normalized word
+        """
         #
         # Nota: usa lo stemmer, porting da:
         #
@@ -113,16 +119,8 @@ class StemRules(object):
         #           femminile -> maschile
         #           tempo verbale -> infinito
         #
-        return self._stemmer.stemWord(w)
-    # end
+        # return self._stemmer.stemWord(w)
 
-    def normalize_(self, w):
-        """
-        Normalize the word
-
-        :param str w: the word to normalize
-        :return str: the normalized word
-        """
         n = len(w)
         N = min(n, self.N)
         for i in range(N, 0, -1):
@@ -340,6 +338,29 @@ class FileCorpus:
 # end
 
 
+class TopicsCorpus(object):
+
+    def __init__(self, homedirectory, pattern="*.txt"):
+        self._home_dir = path(homedirectory)
+        self._topic_dirs = self._home_dir.dirs()
+        self._topic_dict = dict()
+        self._pattern = pattern
+    # end
+
+    def load_copuses(self):
+
+        for topicdir in self._topic_dirs:
+            name = str(topicdir.name)
+            print("Loading topic '%s'" % name)
+            fc = FileCorpus(directory=topicdir, pattern=self._pattern)
+            fc.load_corpus()
+            self._topic_dict[name] = fc
+        # end
+    # end
+
+    pass
+
+# end
 
     # def _load_stemmer(self, stfile):
     #     if not stfile:
