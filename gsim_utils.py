@@ -7,16 +7,29 @@ import gensim.corpora as corpora
 
 
 class StopWords(object):
+    """
+    Handle the stopwords
+    """
 
     def __init__(self):
         self._swords = set()
     # end
 
     def load_stopwords(self, swfile):
+        """
+        Load the file of stopwords.
+
+        Comments can follow #
+        The words must be sapared by space or newline.
+
+        :param str swfile: path of the file to load
+        """
         if swfile is None:
             return
         with open(swfile, encoding="utf-8", mode="r") as f:
             for line in f:
+                sc = line.find("#")
+                line = line[0:sc] if sc != -1 else line
                 if line.startswith("#") or len(line) == 0:
                     continue
                 for w in line.split():
@@ -27,6 +40,7 @@ class StopWords(object):
     # end
 
     def is_sw(self, w):
+        """Check if the word is a stopword"""
         return w in self._swords
     # end
 
@@ -35,13 +49,26 @@ class StopWords(object):
 
 
 class StemRules(object):
+    """
+    Simple stemmer: used to convert plural words in singulare and female words in male
+    Uses a simple dictionary
+    """
 
     def __init__(self, N=8):
+        """
+        Create the object
+        :param int N: max length of the suffix used in the rules
+        """
         self.N = N
         self._rules = [None] * (self.N+1)
     # end
 
     def load_stemrules(self, stfile):
+        """
+        Load th fie of rules
+
+        :param str stfile:  path of the file to load
+        """
         if stfile is None:
             return
         with open(stfile) as f:
@@ -72,6 +99,12 @@ class StemRules(object):
     # end
 
     def normalize(self, w):
+        """
+        Normalize the word
+
+        :param str w: the word to normalize
+        :return str: the normalized word
+        """
         n = len(w)
         N = min(n, self.N)
         for i in range(N, 0, -1):

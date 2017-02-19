@@ -28,6 +28,4 @@ zzi:zzo
 iche:ica
 cchi:cchio
 orme:orma
-
-
 ica:ico
