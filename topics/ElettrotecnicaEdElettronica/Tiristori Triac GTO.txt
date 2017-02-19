@@ -1,0 +1,586 @@
+211
+
+CAPITOLO 11
+
+
+
+TIRISTORI
+
+
+
+
+
+I tiristori costituiscono una famiglia di dispositivi a semiconduttore comprendente numerosi
+
+componenti, caratterizzati da una struttura a quattro zone pnpn e da un funzionamento in
+
+commutazione. A loro è tuttora riservato il campo del controllo delle altissime correnti e delle
+
+altissime tensioni: la loro principale funzione è di pilotare le alte correnti dei motori, dei
+
+riscaldatori, dei sistemi d’illuminazione e di altri dispositivi simili. Sono tuttavia utilizzati anche in
+
+applicazioni per potenze medie e basse.
+
+Il termine “tiristore” viene dal greco e significa “porta”.
+
+I più diffusi tiristori sono il diodo controllato o SCR (silicon controlled rectifier), in grado di
+
+controllare correnti di qualche migliaio di ampere e tensioni di qualche kV, il triac (triode AC), il
+
+cui funzionamento, è bidirezionale, il GTO (gate turn-off), in grado di essere spento mediante un
+
+impulso negativo. In questo capitolo verrà trattato anche il diac (diode AC) che viene impiegato
+
+normalmente per l’innesco dei tiristori di potenza.
+
+
+
+11.1
+
+SCR (o diodo controllato)
+
+In Fig. 11.1a e b sono riportati rispettivamente il simbolo e la struttura interna dell’SCR: sono
+
+presenti tre terminali: anodo, catodo e gate di controllo.
+
+
+
+
+
+a)
+
+
+
+
+
+b)
+
+
+
+
+
+Fig. 11.1 – SCR: a) simbolo circuitale; b) struttura interna
+
+
+
+
+
+212
+
+Nella Fig. 11.1b si notano quattro zone pnpn; una zona di anodo, di tipo p, è adiacente ad una zona
+
+spessa e poco drogata di tipo n, chiamata zona di blocco. Segue una zona nuovamente di tipo p,
+
+piuttosto sottile, detta zona di comando, ed infine una quarta zona, detta di catodo, molto drogata e
+
+sottile.
+
+Per comprendere il funzionamento del dispositivo risulta comodo far riferimento agli schemi di
+
+Fig. 11.2a e b: nel primo è indicata la posizione dei tre terminali rispetto alle varie regioni del
+
+diodo; nel secondo è rappresentato uno schema equivalente dell’SCR nel quale le tre giunzioni J1,
+
+J2 e J3 sono rappresentate mediante diodi.
+
+
+
+
+
+b)
+
+a)
+
+
+
+
+
+Fig. 11.2 – SCR: a) posizione dei tre terminali; b) modello equivalente
+
+
+
+Nel diagramma di Fìg. 11.3 è illustrato l’andamento della corrente anodica IA in funzione della
+
+tensione VAK, con IG, corrente di gate, come parametro. Mantenendo IG nulla, si aumenti VAK: le
+
+giunzioni J1 e J3 risulteranno polarizzate direttamente, mentre J2, polarizzata inversamente, lascerà
+
+fluire la sola corrente inversa, di valore trascurabile. L’SCR è pertanto interdetto (OFF). Non
+
+appena VAK arriva alla tensione di breakover VBO (dell’ordine delle centinaia di volt), la corrente
+
+inizia ad aumentare e s’innesca un processo a valanga che in brevissimo tempo porta a neutralizzare
+
+la barriera di potenziale ai capi di J2. In pratica, la tensione inversa applicata ai capi di J2 è tale da
+
+favorire la collisione delle (poche) cariche libere in banda di conduzione (quelle generate
+
+termicamente) con gli atomi del reticolo, generando così nuove cariche mobili disponibili per la
+
+conduzione.
+
+Il diodo controllato si riduce alle due giunzioni polarizzate direttamente J1 e J3 e di conseguenza
+
+la caduta di tensione ai suoi capi si porta a 1 ÷ 1,5 V. La corrente corrispondente prende il nome di
+
+corrente di aggancio IL (latching current). Da questo momento in poi, la corrente sale rapidamente
+
+per piccole variazioni della VAK, come in un normale diodo.
+
+
+
+
+
+213
+
+
+
+
+
+Fig. 11.3 – Caratteristiche anodiche o d’uscita dell’SCR
+
+
+
+Viceversa, iniettando corrente nel gate (IG > 0), si provoca un abbassamento della barriera di
+
+potenziale ai capi di J2, sicché è sufficiente una tensione VAK inferiore per provocare l’innesco.
+
+Ovviamente più elevata è IG, più bassa è la tensione d’innesco. Si noti che nel processo di
+
+neutralizzazione della barriera di potenziale la corrente di gate agisce localmente, abbassando la
+
+barriera in prossimità del gate stesso. Ciò è sufficiente però a far scorrere la corrente di anodo che,
+
+se sufficientemente intensa (≥ IL), provvede ad eliminare del tutto la barriera con un meccanismo di
+
+reazione positiva (che qui non spieghiamo) tipico delle strutture pnpn. A questo punto, anche se IG
+
+viene soppressa (è ciò che si fa nelle applicazioni pratiche, dove IG, per ridurre la potenza di
+
+pilotaggio, normalmente non è continua ma impulsiva), la conduzione si autosostiene: il diodo è
+
+ON.
+
+Tornando alle caratteristiche di uscita, si noti che per spegnere l’SCR è necessario che la
+
+corrente di anodo venga fatta scendere al di sotto della corrente di mantenimento IH (holding
+
+current) (qualche mA), ad esempio aprendo il circuito d’uscita o, più comunemente, invertendo la
+
+polarizzazione fra anodo e catodo.
+
+Per tensioni VAK negative l’SCR rimane bloccato (le due giunzioni J1 e J3 sono polarizzate
+
+inversamente) finché non viene raggiunta la tensione di rottura o di breakdown VBD. A questo punto
+
+la corrente aumenta e l’SCR si comporta come un normale diodo in zona di rottura. Si noti che
+
+
+
+
+
+214
+
+l’SCR, per ragioni di sicurezza di funzionamento, non deve essere fatto lavorare vicino a VBO o a
+
+VBD.
+
+In conclusione, l’SCR è sostanzialmente un diodo e quindi può condurre solo se polarizzato
+
+direttamente. Affinché conduca è però necessario iniettare una corrente, anche impulsiva, nel gate.
+
+Una volta innescato, la conduzione si autosostiene finché la corrente di anodo non scende al di sotto
+
+di IH.
+
+L’SCR si presta molto bene al controllo in corrente alternata. In Fig. 11.4a è illustrato lo schema
+
+di principio di un controllo ad SCR, detto controllo di fase. Il dispositivo, lavorando da interruttore,
+
+viene inserito in serie al carico ed alimentato dalla tensione alternata va (di solito la tensione di rete).
+
+Sino a quando sul gate non arriva l’impulso di comando prodotto dal circuito di trigger CT, l’SCR
+
+rimane interdetto e vL = 0, come indicato in Fig. 11.4b. All’arrivo dell’impulso di comando, l’SCR
+
+commuta in ON, la sua VAK si abbassa rapidamente a circa 1,5 V e sul carico viene a cadere
+
+sostanzialmente tutta la tensione di alimentazione (vL ≈ va). Lo stato di conduzione permane finché
+
+IA non scende al di sotto della corrente di mantenimento IH, cioè praticamente per tutta la semionda
+
+positiva. In seguito nella semionda negativa l’SCR rimane interdetto, anche se eventuali impulsi di
+
+comando giungono sul suo gate.
+
+
+
+
+
+a)
+
+
+
+
+
+b)
+
+
+
+
+
+Fig. 11.4 – Controllo di fase a SCR: a) schema di principio; b) forme d’onda parzializzate
+
+
+
+
+
+215
+
+
+
+Nella forma d’onda parzializzata di Fig. 11.4b presente sul carico vengono individuati un
+
+angolo d’innesco ϕ ed un angolo di conduzione α, complementare al primo. Variando l’angolo
+
+d’innesco, varia la porzione di tensione, e quindi la potenza, fornita al carico: per ϕ ≈ 0 la potenza è
+
+massima, per ϕ ≈ 180° la potenza risulta evidentemente nulla.
+
+
+
+11.2
+
+TRIAC
+
+L’SCR è un tiristore unidirezionale, poiché in esso la corrente scorre in un solo verso. Il triac al
+
+contrario è bidirezionale ed assolve quindi la funzione di due SCR collegati in antiparallelo, con il
+
+vantaggio di una semplificazione del circuito di comando del gate, che è ovviamente unico. In
+
+Fig. 11.5a è riportato il simbolo grafico: si distinguono due terminali principali MT1 e MT2 (main
+
+terminal) ed il terminale di gate G; la conformazione interna è illustrata in Fig. 11.5b. Si possono
+
+riconoscere le strutture pnpn di due SCR in antiparallelo: con le linee tratteggiate è indicato il flusso
+
+della corrente dell’SCR che ha il suo anodo in MT2 ed il catodo in MT1; con le linee continue la
+
+corrente dell’SCR con anodo in MT1 e catodo in MT2.
+
+
+
+
+
+a)
+
+b)
+
+
+
+Fig. 11.5 – Triac: a) simbolo circuitale; b) struttura interna
+
+
+
+Il funzionamento del triac è analogo a quello del diodo controllato con la differenza che può
+
+lavorare non solo nel I quadrante, cioè con VMT > 0 e IMT > 0, ma anche nel III quadrante, con
+
+VMT < 0 e IMT < 0 (cfr. Fìg. 11.6). La tensione VG d’innesco può presentare la stessa polarità o
+
+polarità invertita rispetto a VMT. In altre parole con VMT > 0 è possibile l’innesco sia con VG positiva
+
+che negativa; analogamente con VMT < 0.
+
+
+
+
+
+216
+
+
+
+
+
+Fig. 11.6 – Caratteristiche d’uscita del triac
+
+
+
+In Fig. 11.7a è illustrato il circuito di principio per il controllo di fase ad onda intera mediante
+
+triac ed in Fig. 11.7b sono riportate le forme d’onda relative.
+
+
+
+
+
+a)
+
+
+
+
+
+b)
+
+
+
+
+
+Fig. 11.7 – Controllo di fase a triac: a) schema di principio; b) forme d’onda parzializzate
+
+
+
+
+
+217
+
+All’arrivo dell’impulso di trigger il triac passa in conduzione sicché la tensione di alimentazione va
+
+viene a cadere sul carico (vL ≈ va). Il triac si spegne quando la sua corrente IMT scende sotto il valore
+
+di mantenimento IH, in pratica al termine della semionda. Occorre allora un altro impulso di gate per
+
+portarlo in conduzione fino al termine della semionda negativa(♥).
+
+In questo caso, regolando l’angolo di innesco ϕ, è possibile fornire al carico una potenza
+
+variabile da 0 ad un massimo, che corrisponde alla potenza associata all’intera onda sinusoidale.
+
+
+
+11.3
+
+DIAC
+
+Il diac è un tiristore bidirezionale di piccola potenza privo di gate ed usato quasi esclusivamente
+
+per l’innesco del triac. Il simbolo e la struttura interna sono illustrati rispettivamente in Fig. 11.8a e
+
+b.
+
+
+
+
+
+a)
+
+
+
+b)
+
+
+
+Fig. 11.8 – Diac: a) simbolo circuitale; b) struttura interna
+
+
+
+In Fig. 11.9 è riportata la caratteristica I-V. Per meglio comprendere il funzionamento del
+
+dispositivo si è disegnata la retta di carico in corrispondenza a due diversi valori della tensione di
+
+alimentazione Va. Allorché, aumentando Va, la retta (linea a) supera la tensione di breakover
+
+positiva +
+
+V
+
+(circa 30 V), il punto di funzionamento passa bruscamente da A a B, cioè il diac passa
+
+BO
+
+dall’interdizione alla conduzione con un brusco calo di tensione (una decina di volt), che va a
+
+localizzarsi sul carico. Per tornare all’interdizione occorre che Va diminuisca in modo da portare la
+
+retta di carico oltre la posizione di tangenza alla caratteristica (linea b). Un discorso analogo vale
+
+per le tensioni negative.
+
+
+
+
+
+(♥) Si noti che nell’esempio di Fig. 11.7 si è inviato un impulso di gate negativo quando VMT è negativo. Si ricordi
+
+tuttavia che l’innesco si ha sia con impulsi di gate VG positivi che negativi, indipendentemente dal segno di VMT.
+
+
+
+
+
+218
+
+
+
+
+
+Fig. 11.9 – Caratteristica del diac
+
+
+
+Un circuito usato per generare gli impulsi necessari per l’innesco del triac è riportato in
+
+Fig. 11.10a. Il diac è inizialmente interdetto ed il condensatore si carica attraverso R. Allorché vC ai
+
+capi di C arriva a +
+
+V
+
+, il diac s’innesca lasciando passare corrente. Poiché l’alimentazione, a causa
+
+BO
+
+della presenza di R, non è in grado di fornire al diac la corrente di ON, interviene il condensatore,
+
+che inizia ad erogare corrente scaricandosi. La scarica, a causa del basso valore del carico RL, è
+
+molto rapida. Allorché la corrente, diminuendo, arriva al valore corrispondente al punto di tangenza
+
+D di Fig. 11.9, il diac s’interdice. In definitiva su RL si vengono ad avere impulsi di tensione di
+
+qualche volt, associati a correnti piuttosto elevate (un centinaio di mA e più), mentre vC in
+
+corrispondenza degli inneschi presenta bruschi abbassamenti ∆V, come illustrato in Fig. 11.10b.
+
+
+
+
+
+219
+
+
+
+
+
+a)
+
+
+
+
+
+b)
+
+
+
+
+
+Fig. 11.10 – a) Circuito di utilizzo del diac e b) sue forme d’onda significative
+
+
+
+11.4
+
+GTO (gate turn-off)
+
+Un inconveniente degli SCR e dei triac è costituito dalla complessità dei circuiti necessari per il
+
+loro spegnimento quando lavorano con tensioni continue. Il GTO (gate turn-off) è viceversa un
+
+tiristore di potenza (correnti anche di 2000A, tensioni fino a 2 kV e più) unidirezionale in grado di
+
+essere spento mediante un comando di gate.
+
+Presenta una struttura simile a quella dell’SCR; tuttavia per consentire al gate di influire
+
+fortemente sul catodo, le zone di gate e di catodo vengono costruite secondo una struttura a stella o
+
+a pettine fortemente interdigitata, in modo che risultino affacciate fra di loro lungo un perimetro il
+
+più esteso possibile.
+
+L’innesco avviene iniettando una corrente nel gate, analogamente all’SCR. Per lo spegnimento,
+
+o si procede come per gli altri tiristori, abbassando cioè la corrente anodica al di sotto del valore di
+
+mantenimento, oppure si applica al gate una tensione negativa di una decina di volt. Polarizzando
+
+negativamente la giunzione gate-catodo, parte della corrente di anodo viene deviata nel gate,
+
+interrompendo così il processo rigenerativo che autosostiene la conduzione. L’impulso negativo di
+
+corrente che fuoriesce dal gate nella commutazione in OFF è molto elevato (può in certi casi
+
+arrivare a 1/3 della corrente anodica) per cui è necessario dimensionare opportunamente il circuito
+
+di comando.
+
+
+
+
+
+220
+
+In Fig. 11.11a è illustrato il simbolo del GTO; in Fig. 11.11b è riportato lo schema di principio
+
+per il suo comando.
+
+
+
+
+
+a)
+
+
+
+b)
+
+
+
+Fig. 11.11 – GTO: a) simboli circuitali; b) schema di principio per il controllo del GTO
+
+
+
+11.5
+
+Un’applicazione tipica: variatore di luminosità per lampade ad incandescenza
+
+Lo schema di principio di un variatore di luminosità è illustrato in Fig. 11.12a. Con il
+
+potenziometro posizionato su valori bassi di resistenza, il condensatore si carica rapidamente alla
+
+tensione di breakover del diac; questo, innescandosi, fornisce la corrente di gate al triac, che passa
+
+in conduzione. Poiché l’angolo di conduzione è pressappoco pari a quello massimo, la lampada si
+
+accende praticamente alla sua massima luminosità. Il condensatore, dopo aver fornito l’impulso
+
+d’innesco, prosegue la sua scarica attraverso R1 ed il triac (il diac infatti, dopo l’impulso, torna in
+
+OFF).
+
+
+
+
+
+a)
+
+
+
+
+
+b)
+
+
+
+
+
+Fig. 11.12 – a) Schema di principio del variatore di luminosità. b) Forme d’onda relative
+
+
+
+
+
+221
+
+Man mano che si aumenta R1, il condensatore raggiunge sempre più in ritardo la tensione
+
+d’innesco, l’angolo di conduzione pertanto si riduce, la forma d’onda è sempre più parzializzata
+
+(Fig. 11.12b) e così la luminosità diminuisce sino al completo spegnimento della lampada.
+
+
+
+
+

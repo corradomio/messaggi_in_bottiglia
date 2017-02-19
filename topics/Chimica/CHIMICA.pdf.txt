@@ -1,0 +1,1702 @@
+Formulario di
+
+V6.0 - 2002
+
+CHIMICA
+
+con elementi di FantaChimica1
+
+
+
+
+
+by Adriano Nardi - Univ. di Roma “La Sapienza” - V.O.
+
+
+
+
+
+Per il corso di Chimica
+
+di Scienze Geologiche
+
+
+
+
+
+1 “FantaChimica” = chimica empirica appositamente studiata per risolvere i problemi in modo rapido e meccanico senza troppi perché. Le regole fantachimiche sono qui riportate entro riquadri a tratto intero. Si rende noto che le leggi della Fantachimica, pur portando a risultati corretti, sono malviste dal corpo docente. Si declina ogni responsabilità circa gli effetti diseducativi, le reazioni negative degli insegnanti e gli eventuali errori causati dall’uso scorretto, arbitrario o non ponderato delle suddette leggi.
+
+GEOLOGIA 2000 - www.anisn.it/geologia2000 FORMULARIO DI CHIMICA by Adriano Nardi Valenze:
+
+G
+
+in generale
+
+as
+
+Nobili
+
+0 Zinco
+
+2
+
+Gruppo N.O. (valenza)
+
+
+
+Idrogeno
+
+1
+
+
+
+Mercurio
+
+1,2
+
+I +1
+
+Cromo 2,3,6
+
+Argento
+
+1
+
+II
+
++2
+
+Manganese
+
+23467
+
+Rame
+
+1,2
+
+III
+
++3
+
+Ferro
+
+2,3
+
+Piombo 2,4
+
+IV
+
++4 +2 (-4)
+
+
+
+Nichel
+
+2,3
+
+Ossigeno -1,-2
+
+V
+
+-3
+
++5 +3 (-1)
+
+
+
+
+
+VI
+
+-2
+
++6 +4 (+2)
+
+
+
+
+
+Valenza: il n° di atomi di H con il
+
+quale un atomo di un dato elemento
+
+VII
+
+-1
+
++7 +5 +3 +1
+
+
+
+
+
+si combina o reagisce.
+
+
+
+
+
+Esistono 5 principali classi di Composti:
+
+
+
+Ossidi
+
+Basi
+
+Metalli + O2 ⇒ Ossidi Basici + H2O ⇒ Idrossidi
+
+In corsivo è la
+
+
+
+
+
++ ⇒ Sali
+
+nomenclatura
+
+NonMetalli + O
+
+tradizionale
+
+2 ⇒ Ossidi Acidi + H2O ⇒ Acidi
+
+
+
+Anidridi
+
+
+
+Nomenclatura IUPAC (composti inorganici):
+
+
+
+
+
+Prefisso
+
+Suffisso
+
+Ossidi e Acidi:
+
+IPO
+
+yyyy OSO
+
+(-)
+
+
+
+-
+
+yyyy OSO
+
+
+
+-
+
+yyyy ICO
+
+Valenza
+
+
+
+PER
+
+yyyy ICO
+
+(+)
+
+
+
+Sali:
+
+IPO
+
+yyyy
+
+
+
+
+
+ITO
+
+
+
+(-)
+
+
+
+-
+
+yyyy ITO
+
+di XXX
+
+Valenza
+
+
+
+-
+
+yyyy ATO
+
+
+
+PER
+
+yyyy ATO
+
+(+)
+
+
+
+Costruire la Formula (schema fantachimico):
+
+
+
+Composti:
+
+• Binari ⇒ metodo “della Crocetta”
+
+• Ternari
+
+IDROSSIDI ⇒ come nei binari usando il metodo “della Crocetta”
+
+
+
+ACIDI
+
+Si parte
+
+⇒ + H+ col metodo “della Sora Peppa”
+
+
+
+⇒ dall’Ossianione
+
+
+
+SALI
+
+⇒ + Me+ col metodo “della Crocetta”
+
+
+
+Regola generale: tutti i composti devono risultare sempre elettricamente neutri
+
+
+
+2
+
+GEOLOGIA 2000 - www.anisn.it/geologia2000 FORMULARIO DI CHIMICA by Adriano Nardi
+
+• Composti Binari :
+
+Gli OSSIDI sono composti di un qualunque elemento (metallo o non-metallo) con l’ossigeno nello stato di valenza -2. La forma generica è XO combinati secondo la regola della crocetta:
+
+
+
+
+
+m+
+
+n-
+
+Regola della Crocetta: X Y
+
+esempio: Al3+ O2- ⇒ Al2O3
+
+
+
+n
+
+m
+
+il composto è neutro infatti 2⋅(+3) = 6 e 3⋅(-2) = -6
+
+
+
+se m e n sono divisibili per uno stesso numero la formula si semplifica: S2O6 = SO3
+
+
+
+
+
+• Composti Ternari:
+
+Gli IDROSSIDI sono composti formati da un metallo e lo ione (OH)-: Me(OH) Si applica anche in questo caso il metodo della crocetta tra metallo e ione come se fosse un composto binario:
+
+
+
+
+
+esempio: Mg2+ (OH)-
+
+Mem+ (OH)-
+
+⇒ Mg(OH)2
+
+m
+
+
+
+Gli ACIDI sono composti formati da idrogeno con valenza +1, un non-metallo, e l’ossigeno nella valenza -2. La forma generica è: HNmO
+
+
+
+Regola della sora Peppa: “sommo le cariche positive, divido per due e il risultato lo attribuisco ad O. Se la somma delle cariche positive NON è divisibili per due allora aggiungo un H e riprovo”.
+
+dove: b = (a + x) / 2
+
+Esempio: H+
+
+
+
+a X+x O-2b
+
+oppure: b = (2a + x) / 2
+
+
+
+
+
+H+ I+5 O-2 ⇒ HIO3 H+ C+4 O-2 ⇒ H2CO3
+
+
+
+I SALI sono composti formati dall’ossianione di un Acido e il metallo di un Idrossido. La forma generica è MeNmO.
+
+
+
+In pratica si stacca l’H dall’acido e al suo posto si aggancia il metallo dell’idrossido.
+
+Bisogna calcolare che la carica complessiva dell’ossianione deve neutralizzare quella del metallo. I due membri vanno combinati con il metodo della crocetta.
+
+Esempio:
+
+Carbonato di Magnesio
+
+Mg2+ + (C4+O2-)2+
+
+La carica complessiva
+
+
+
+metallo ossianione
+
+dell’ossianione è 2 ma
+
+
+
+
+
+Mg2+ + (C4+O2-
+
+per neutralizzare la +2
+
+3)2-
+
+Si aumentano gli atomi di O
+
+del Mg occorre un
+
+
+
+perché è quello che ha carica
+
+ossianione con carica -2
+
+Infatti:
+
+negativa. Con 3O la carica
+
+complessiva è -2 e neutralizza
+
+Mg(OH)2 + H2CO3 = MgCO3 + 2H2O
+
+quella del Mg.
+
+
+
+ATTENZIONE: alcuni composti hanno la tendenza ad inglobare acqua atmosferica.
+
+Si avranno in questo caso due versioni del composto:
+
+Occorre allora aggiungere H
+
+
+
+2O nella
+
+formula di alcuni composti, tra cui quelli
+
+con acqua ⇒ orto... composto normale
+
+contenenti:
+
+senza acqua ⇒ meta... solo in laboratorio
+
+Boro, Fosforo, Arsenico, Silicio
+
+
+
+3
+
+GEOLOGIA 2000 - www.anisn.it/geologia2000 FORMULARIO DI CHIMICA by Adriano Nardi
+
+• Altri composti (più esotici):
+
+
+
+Gli IDRACIDI (V.N.) sono composti binari dell’idrogeno (valenza sempre +1) con un non-metallo (acidi binari). Seguono anch’essi la regola della crocetta. La forma generica è HNm e prendono il suffisso idrico. Esempio: HF = acido fluoridrico Gli IDRURI (IUPAC) sono ancora composti binari dell’idrogeno e seguono la regola della crocetta. Si dividono in idruri covalenti (H nella valenza +1) e idruri salini (H
+
+con valenza -1). La forma generica è HX e il nome idruro di X.
+
+
+
+SALI BINARI: sono binari perché provenienti da un Idracido. La forma generica è: MeNm e prendono il nome di Nmuro di Me.
+
+
+
+I SALI ACIDI sono quelli in cui rimane qualche H dall’acido. Nella nomenclatura prendono la desinenza biX, idrogenoX, mono/bi acido o mono/di idrogeno.
+
+Esempi: Na2HPO4 bifosfatodisodio o idrogenofosfatodisodio o fosfato monoacido di sodio NaH2PO4 diidrogenofosfatodisodio o fosfato biacido di sodio I SALI DOPPI sono quelli formati da due ossidi e un acido e quindi conterranno due metalli e un non metallo. Prendono la desinenza doppio.
+
+Esempio:
+
+NaKSO4 solfato doppio di sodio e potassio
+
+
+
+PEROSSIDI: ossidi in cui l’O ha eccezionalmente valenza -1.
+
+SUPEROSSIDI: ossidi in cui l’O ha eccezionalmente valenza -1/2.
+
+
+
+
+
+Esempi di nomenclatura e formule:
+
+FeO ossido
+
+ferroso
+
+Fe(OH)2
+
+idrossido ferroso
+
+Fe2O3 ossido
+
+ferrico
+
+Fe(OH)3 idrossido
+
+ferrico
+
+H2SO3
+
+acido solforoso
+
+HNO2 acido
+
+nitroso
+
+H2SO4 acido
+
+solforico
+
+HNO3
+
+acido nitrico
+
+H2SiO3
+
+acido metasilicico
+
+H4SiO4
+
+acido ortosilicico
+
+HPO2
+
+acido fosforoso
+
+HPO3
+
+acido metafosforico
+
+
+
+H3PO3
+
+acidoortofosforoso
+
+H3PO4 acido
+
+ortofosforico
+
+ipoiodito di calcio
+
+Ca(IO)2
+
+metaarsenito di alluminio Al(AsO2)3
+
+monoH ortoborato di Na
+
+Na2HBO3
+
+nitrito di magnesio
+
+Mg(NO2)2
+
+bisolfito ferrico
+
+Fe(HSO3)3
+
+perclorato di bario
+
+Ba(ClO4)2
+
+idrossido di alluminio
+
+Al(OH)3
+
+solfato di alluminio
+
+Al(HSO4)3
+
+anidride solforosa (V.N.) SO3
+
+anidride fosforosa (V.N.) P3O2
+
+ammoniaca (V.N.)
+
+NH3
+
+fosfina (V.N.)
+
+PH3
+
+soda caustica (V.N.)
+
+NaOH
+
+ione Ammonio
+
+(NH4)+
+
+ione Acidato
+
+(CH4COO)-
+
+ione Ossalato
+
+(C2O4)-2
+
+acido formico
+
+HCOOH
+
+
+
+
+
+4
+
+GEOLOGIA 2000 - www.anisn.it/geologia2000 FORMULARIO DI CHIMICA by Adriano Nardi Conversioni :
+
+°K = 273 + °C
+
+1 Atm = 760 Torr = 101325 Pa
+
+-
+
+1 Pa = 9,87⋅10-6 Atm
+
+1 Torr = 0,00131 Atm = 133,3 Pa = 1mm Hg a 0°C
+
+1 l = 1 dm 2
+
+
+
+Rapporti ponderali:
+
+Numero Atomico: Z = N° di elettroni (= N° dei protoni) è il numero d’ordine della tavola periodica.
+
+Peso Atomico:
+
+P.a. = massa rapportata ad 1/12 dell’atomo di C (P.a. del H = 1)
+
+Peso Molecolare: P.m. = somma dei pesi atomici degli atomi che compongono la molecola.
+
+Peso Formula:
+
+P.f. = somma dei pesi atomici nei composti ionici (che non sono molecole discrete).
+
+Peso Equivalente: P.eq. = quantità in peso che reagisce con 1g di H (P.eq. O = 8,00 g) il Peq di una sostanza che si forma o reagisce in una reazione di ⇒ Idrolisi
+
+
+
+= Pf / n° e-
+
+Neutralizzazione
+
+=
+
+Pm
+
+/
+
+n°H+
+
+Peq ⋅ valenza = Pa
+
+
+
+
+
+Ossidoriduzione = Pm / n° e-
+
+N° di equivalenti: N.e. = g / Pe
+
+Mole:
+
+1 mole di entità = un numero di Avogadro di pezzi = 6,02⋅1023 pezzi
+
+Grammoatomo:
+
+quantità in g ≡ Pa
+
+Peso di una mole di una sostanza:
+
+quantità in g ≡ peso atomico, molecolare o formale
+
+Grammomolecola: quantità in g ≡ Pm
+
+Grammoformula: quantità in g ≡ Pf
+
+N° di moli: n = grammi di sostanza / peso di una mole = g / Pa = g / Pm = g / Pf Molarità:
+
+M = n / V l = g / (Pm ⋅V l) (numero moli di soluto in 1 l di soluzione) Formalità: F = nPf / V l
+
+(numero di Pf di soluto in 1 l di soluzione)
+
+Normalità: N = Ne / V l = g / (Peq ⋅V l) (numero di equivalenti in 1 l di soluzione) Molalità:
+
+m = n / Kg
+
+(numero moli di soluto in 1Kg di solvente)
+
+
+
+Leggi dei Gas Ideali:
+
+L. di Boyle:
+
+P1 ⋅ V1 = P2 ⋅ V2
+
+quando T = K
+
+
+
+dove:
+
+L. di Charles:
+
+P1 / T1 = P2 / T2
+
+quando V = K
+
+P=Atm, V= l, T=°K
+
+L. di Gay-Lussac:
+
+V1 / T1 = V2 / T2
+
+quando P = K
+
+Equazione di stato: P° ⋅ V° / T° = P ⋅ V / T (date tutte le condizioni iniziali° e due delle finali) per n moli di Gas si ha: P ⋅ V = n ⋅ R ⋅ T ovvero P ⋅ V = (g / Pm) ⋅ R ⋅ T
+
+dove
+
+R = 0,0821 se la pressione è in Atm e il volume è in l
+
+dove R = 82,1 se la pressione è in Atm e il volume è in ml
+
+⇒ (T è sempre in °K)
+
+Densità:
+
+d = g / V ⇒ d = P ⋅ Pm / R ⋅ T
+
+
+
+
+
+e tra due gas a P e T costanti: da / db = Pma / Pmb
+
+L. di Dalton: Ptot = P1 + P2 + ... +Pn (in una miscela la P totale = somma delle P parziali dei singoli gas) P Parziale: P1 = (n1 / n) ⋅ Ptot dove: n1= moli di un componente
+
+(n1 / n) = X
+
+n = moli tot. della miscela
+
+Frazione Molare
+
+
+
+
+
+P1 = P ⋅ (v1 / V) dove: v1= volume che il componente occuperebbe da solo a P e T
+
+
+
+
+
+V = volume della miscela a P e T, somma dei volumi parziali
+
+[Gas ≠ alle stesse condizioni hanno = n || 1 mole di qualsiasi gas a C.N. (P=1Atm, T=0°C) occupa V=22,4 l]
+
+
+
+
+
+5
+
+GEOLOGIA 2000 - www.anisn.it/geologia2000 FORMULARIO DI CHIMICA by Adriano Nardi Dissociazione Elettrolitica (vale anche per la D.Termica):
+
+Data la reazione cAB ⇔ aA + bB se si hanno inizialmente n moli di reagente, x delle quali si dissociano (grado di dissociazione α) formano υ particelle, all’equilibrio si otterrà: moli di AB iniziali
+
+= n
+
+= n
+
+Grado di dissociazione: α = nd / ni
+
+moli di A formate
+
+= anα =
+
+ax
+
+(α = moli dissociate / moli iniziali)
+
+moli di B formate
+
+= bnα =
+
+bx
+
+moli di AB residue
+
+= n - cnα = n - cx
+
+Moli di reagenti dissociate: x = nα
+
+moli tot dei soli prodotti = nαν
+
+=
+
+xν
+
+N° di paricelle prodotte: ν = a + b
+
+moli totali all’equilibrio = n ⋅ [1+α (ν-1)]
+
+
+
+Costante di Dissociazione:
+
+KE = (c ⋅ α2) / (1 - α)
+
+“legge di diluizione di Ostwald”
+
+
+
+
+
+KE ≅ c ⋅ α2
+
+per gli elettroliti poco dissociati (α << 1)
+
+
+
+
+
+(dove c = n/V e α = moli dissociate / moli iniziali)
+
+
+
+
+
+Costante di dissociazione ( Prodotto Ionico) dell’acqua: KW = [H+] ⋅ [OH-] = 1⋅10-14
+
+
+
+Nella dissociazione di elettroliti deboli tutte le proprietà colligative (P°, Keb, Kcr, π) vanno calcolate moltiplicando il valore per il fattore di correzione: [1 + α(υ-1)] dove α = grado di dissociazione e υ = numero di ioni formatisi
+
+
+
+Nella dissociazione di elettroliti forti (sali, molecole ionich e) la dissociazione è totale (α=1) e le proprietà colligative (P°, Keb, Kcr, π) vanno calcolate moltiplicando per il fattore di correzione: υ = numero di ioni formatisi
+
+
+
+Soluzioni:
+
+Frazione Molare: X = n1 / n (rapporto tra moli di un componente e moli totali)
+
+% in peso:
+
+g di soluto contenuti in 100g di soluzione ⇒ % = ga ⋅ 100 / gtot
+
+% in volume:
+
+ml di soluto contenuti in 100ml di soluzione ⇒ % = mla ⋅ 100 / mltot
+
+NB: la somma delle % in peso dei dei vari componenti è 100% ma non è sempre così per la somma delle % in volume.
+
+Soluzioni Titolate: Ne della soluzione titolata = Ne della soluzione da titolare (Vedi anche pag.9 “Titolazioni”) V1 ⋅ N1 = V2 ⋅ N2
+
+
+
+
+
+dove V è il volume in litri e N la normalità (=Eq/ l)
+
+L. di Raoult: P = P°a Xa + P°b Xb + P°c Xc + ...
+
+Tensione di Vapore (P)
+
+dove P°a, P°b, P°c, sono le tensioni di vapore di un solido o di un liquido, data una T, è la
+
+dei componenti puri A, B, C, a quella T e
+
+pressione della fase vapore in equilibrio con la
+
+Xa, Xb, Xc, sono le rispettive frazioni molari.
+
+fase solida o liquida considerata
+
+Si ha inoltre:
+
+⇒ P° - P / P° = Xb P° = Tens. di vapore solvente puro; Xb = fraz. Mol. Soluto non volatile
+
+⇒ P° - P / P° = gb ⋅ Pma / ga ⋅ Pmb
+
+per soluzioni diluite; ga = grammi solvente puro
+
+⇒ Pmb = (P ⋅ gb ⋅ Pma) / (∆P ⋅ ga)
+
+Pmb = peso molecolare soluto
+
+Innalz. Ebullioscopico ed Abbass. Crioscopico:
+
+∆t = Keb ⋅ m Qui le temperature in °C!
+
+m
+
+=
+
+molalità
+
+∆t = Kcr ⋅ m
+
+∆t = differenza tra il punto di ebollizione o congelamento della soluzione e quello del solvente puro Presione Osmotica:
+
+π = c ⋅ R ⋅ T dove: C = n / V ovvero la concentrazione in moli/litro se V è in litri e R = 0,0821 la pressione osmotica π verrà espressa in Atm
+
+L’abbassamento della pressione di vapore, l’innalzamento ebullioscopico, l’abbassamento crioscopico e la pressione
+
+
+
+osmotica sono proprietà che dipendono dal numero di particelle di soluto e vengono perciò dette colligative
+
+
+
+
+
+6
+
+GEOLOGIA 2000 - www.anisn.it/geologia2000 FORMULARIO DI CHIMICA by Adriano Nardi Equilibri di Solubilità: Absolido ⇔ nA+ + nB-Prodotto di Solubilità:
+
+K
+
+
+
+S = costante = [A+]n ⋅ [B-]n
+
+(di un elettrolita forte poco solubile)
+
+
+
+
+
+KS = nSn ⋅ nSn
+
+
+
+
+
+dove S = Solubilità (Moli/Litro)
+
+Effetto dello Ione Comune:
+
+esempio: AgCl(s) ⇔ pAg+ + qCl-
+
+
+
+
+
+[Ag+] = S + C
+
+considerando che:
+
+AgNO
+
+-
+
+3 ⇔ Ag+ + NO3
+
+
+
+
+
+[Cl-] = S
+
+avremo:
+
+KS = Sq (C + S)p da cui, quando C >> S: KS ≅ SC
+
+
+
+ATTENZIONE: in questo caso occorre considerare come misura della solubilità solo la concentrazione dello ione che deriva esclusivamente dalla dissociaxzione dell’elettrolita poco solubile.
+
+
+
+Solubilità dei Gas nei Liquidi:
+
+Legge di Henry:
+
+S = cost ⋅ P
+
+dove P = Pressione Parziale del Gas, il valore cost dipende da T
+
+
+
+VG/VL = cost ⋅ RT
+
+dove VG = Volume del Gas e VL = Volume del Liquido
+
+
+
+
+
+ATTENZIONE: la legge è valida solo per Gas che NON reagiscono con il solvente
+
+
+
+Costante di Equilibrio:
+
+data la reazione
+
+n A + n B ⇔ n C + n D avremo:
+
+
+
+[C] n ⋅ [D] n
+
+L’attività di una
+
+KC =
+
+
+
+
+
+valida per reazioni in fase gassosa o in soluzione
+
+sostanza pura allo
+
+[A] n ⋅ [B] n
+
+dove [x] = concentrazione molare del reagente x
+
+
+
+stato solido o
+
+
+
+X n ⋅ X n
+
+K
+
+C
+
+D
+
+liquido = 1
+
+X =
+
+
+
+
+
+valida per reazioni in fase gassosa o in soluzione
+
+n
+
+n
+
+dove X = frazione molare = moli componente / moli miscela
+
+XA ⋅ XB
+
+
+
+P n
+
+n
+
+C ⋅ PD
+
+KP =
+
+
+
+
+
+valida solo per reazioni in fase gassosa
+
+P n ⋅ P n
+
+dove P
+
+A
+
+B
+
+N.B.: la costante di equilibrio
+
+X = pressione parziale del componente x
+
+
+
+P
+
+n
+
+n
+
+dipende sempre soltanto
+
+tot XC ⋅ Ptot XD
+
+dalla temperatura
+
+KP =
+
+
+
+
+
+valida solo per reazioni in fase gassosa
+
+P
+
+n
+
+n
+
+tot XA ⋅ Ptot XB
+
+dove X = frazione molare = moli componente / moli miscela
+
+
+
+KP = KC (R⋅T)∆n se
+
+∆n = 0 ⇒
+
+KP = KC
+
+∆n = n C + n D - ( n A + n B)
+
+K
+
+∆n
+
+P = KX ⋅ Ptot
+
+se
+
+∆n = 0 ⇒
+
+KP = KX
+
+(considerare solo i componenti gassosi)
+
+
+
+Idrolisi salina:
+
+data la molecola ionica AB e la reazione:
+
+AB + H2O ⇔ HB + A+ + OH-
+
+avremo la reazione di idrolisi:
+
+B + H2O ⇔ HB + OH- poiché A di fatto non ha reagito
+
+Grado di Idrolisi:
+
+β = √(Ki/C)
+
+(è dell’ordine di 10-2 - 10-3)
+
+
+
+[HB] ⋅ [OH-]
+
+Costante di Idrolisi
+
+Ki =
+
+
+
+
+
+[B]
+
+o anche:
+
+Ki = Kw/Kdebole
+
+⇐ per un sale proveniente da un costituente debole (acido o base)
+
+
+
+Ki = Kw/(Ka⋅Kb) ⇐ per un sale proveniente da acido e base entrambi deboli.
+
+
+
+
+
+7
+
+GEOLOGIA 2000 - www.anisn.it/geologia2000 FORMULARIO DI CHIMICA by Adriano Nardi Termodinamica:
+
+Energia Libera:
+
+G = H - T ⋅ S ∆G = ∆H - T ⋅ ∆S dove H = Entalpia e S = Entropia
+
+• per ∆G < 0 ⇒ la reazione è spontanea (esotermica)
+
+• per ∆G = 0 ⇒ la reazione è all’equilibrio
+
+• per ∆G > 0 ⇒ la reazione non è spontanea (endotermica)
+
+En. Libera Standard: ∆G° = - R ⋅ T ⋅ ln K* = -2,30 R ⋅ T ⋅ log10 K* T = °K R=1,98 cal/grado Equazione di Van’t Hoff: log(Kp1/ Kp2) = -(∆H°/2,3R)⋅(1/T1-1/T2) con: T1>T2
+
+Equazione di Boltzman: NE=N⋅e -E/RT dove NE = numero di molecole con energia ≥E sulle N presenti
+
+Equazione di Clapeiron: d P/ d T=∆H/T∆V ovvero log P2/ P1=(∆H/2,303R)(1/T1-1/T2)
+
+
+
+Acidi e Basi:
+
+pH = -
+
+log [H+]
+
+[H+] = 10-pH
+
+pOH = -
+
+log [OH-]
+
+[OH-] = 10-pOH
+
+pH + pOH = 14 ⇒ pH = 14 - pOH e pOH = 14 - pH
+
+Acidi e Basi Forti = “che si dissociano totalmente”
+
+Acidi e Basi Monoprotici = “che dissociano un solo H+ o OH-” Per acidi e basi Monoprotici ⇒ M = N
+
+
+
+
+
+Principali Acidi Forti:
+
+Principali Basi Forti:
+
+HClO4 HNO3 HCl
+
+NaOH KOH LiOH
+
+HBr HI H2SO4
+
+Ca(OH)2 Ba(OH)2 RbOH
+
+H2SCO4 HSCN HIO3
+
+CSOH SrOH2 TlOH
+
+
+
+Soluzioni di Acidi e Basi Forti:
+
+dove:
+
+pH = - log c
+
+
+
+⇐
+
+se c > 10-6 M C = concentrazione solo per i poliprotici:
+
+[H+]2 - c [H+] - K
+
+iniziale dell’acido
+
+W = 0
+
+⇐
+
+se c < 10-6 M
+
+o della base
+
+pH = - log 2c
+
+
+
+Soluzioni di Acidi Monoprotici Deboli:
+
+HA + H2O ⇔ H3O+ + A-
+
+[H+] = √ ( Ka ⋅ c )
+
+⇐ quando
+
+Ka < 10-3 o
+
+c > 10-3
+
+[H+]2 + Ka [H+] - c Ka = 0 ⇐ quando
+
+Ka > 10-3 o
+
+c < 10-3
+
+qualora fosse noto α
+
+⇒ [H+] = α c e
+
+pH = - log α c
+
+
+
+Soluzioni di Basi Monoprotiche Deboli: B + H2O ⇔ BH+ + OH-
+
+[OH-] = √ ( Kb ⋅ c )
+
+⇐ quando
+
+Kb < 10-3
+
+e
+
+c > 10-3
+
+[OH-]2 + Kb [OH-] - c Kb = 0 ⇐ quando
+
+Kb > 10-3
+
+e
+
+c < 10-3
+
+qualora fosse noto α
+
+⇒ [OH-] = α c e
+
+pOH = - log α c
+
+
+
+Soluzioni di Acidi Poliprotici Deboli:
+
+Considerare solo la prima ionizzazione.
+
+[H+] ≅ c
+
+⇐ quando
+
+K
+
+
+
+a < 10-3
+
+Quando Kc è molto piccolo (tipo 10-7)
+
+[H+]2 + Ka [H+] - c Ka = 0
+
+⇐ quando
+
+Ka > 10-3
+
+si avrà Ka = [acido dissociato]
+
+
+
+Soluzioni Tamponanti (quando ho in soluzione un sale + il suo componente debole):
+
+• Acido Debole + suo Sale: [H+] = Ka ⋅ (ca / cs) pH = - log Ka + log (cs / ca)
+
+• Base Debole + suo Sale: [OH-] = Kb ⋅ (cb / cs)
+
+pOH = - log Kb + log (cs / cb)
+
+• Miscela di Sali di Acido Polibasico: [H+] = Ka ⋅ (c1 / c2) pH = - log Ka + log (c2 / c1) ( c1 = concentrazione acido di I ionizzazione c2 = concentrazione. acido di II ionizzazione ) 8
+
+GEOLOGIA 2000 - www.anisn.it/geologia2000 FORMULARIO DI CHIMICA by Adriano Nardi Equilibri Acido-Base in Soluzioni Saline (quando metto sale in acqua):
+
+• sale di Acido Forte + Base Forte
+
+⇒
+
+PH = 7 (soluz. neutra)
+
+• sale di Acido Debole + Base Forte ⇒
+
+Kb = KW / Ka [OH-] = √ ( Kb ⋅ c ) (soluz. basica)
+
+• sale di Acido Forte + Base Debole ⇒
+
+Ka = KW / Kb [H+] =
+
+√ ( Ka ⋅ c ) (soluz. acida)
+
+• sale di Acido Debole + Base Debole ⇒ [H+] = √ [KW (Ka / Kb)] ; PH = 7 - ½ log Ka + ½ log Kb
+
+• sali di Acidi Poliprotici ed altri Anfoliti ⇒ [H+] = √ [ Ka1 ⋅ (Ka2 ⋅ c + KW) / (Ka1 + c) ]
+
+
+
+Titolazioni: vedi pag.6 “Soluzioni ⇒ Titolate”
+
+Al punto di eq. :
+
+Oltre il punto di eq. :
+
+Indicatori:
+
+HInd ⇔ H+ + Ind-
+
+[X]≈√(K⋅C
+
+[X] ≈ C
+
+log ( [Ind-] / [H
+
+s)
+
+sale
+
+Ind] ) = pH + log Kind
+
+se Acido Forte X=H
+
+se Acido Forte X=H
+
+
+
+se Base Forte X=OH
+
+se Base Forte X=OH
+
+
+
+Reazioni di Ossidoriduzione: “ricetta della sora Lella”
+
+
+
+• Riscrivere l’equazione molecolare in forma ionica (si dissocino tutti gli elettroliti, negli acidi si separino gli H dall’ossianione, nelle basi si separi il metallo dall’OH)
+
+• si osservi quali elementi cambiano il numero di ossidazione.
+
+• si scriva la semireazione di ciascuno di questi elementi sommando l’opportuno numero di elettroni all’elemento più positivo per colmare la differenza con l’altro
+
+• si bilancino le cariche e le masse: la somma algebrica delle cariche di destra deve eguagliare quella delle cariche di sinistra; a destra e a sinistra devono trovarsi le stesse quantità degli stessi elementi
+
+• si scriva a fianco di ciascuna semireazione il numero di elettroni che è in gioco nell’altra. Questo numero verrà usato come fattore di moltiplicazione per tutti gli elettroliti di quella semireazione.
+
+• si riscriva dunque l’equazione ionica sommando membro a membro le due semireazioni. Nel far ciò si dovrà anche moltiplicare il coefficiente stechiometrico di ciascuno ione per il fattore che gli era stato assegnato.
+
+tralasciando gli elettroni, si ricompongano ora tutti gli elettroliti per riformare tutti i composti che si avevano inizialmente con il coefficiente che ne deriva.
+
+Si eliminino le quantità uguali di composti uguali eventualmente presenti in entrambi i membri della reazione. L’equazione molecolare è ora bilanciata.
+
+
+
+
+
+Elettrolisi:
+
+L. di Faraday:
+
+m = (Q ⋅ PEq) / F dove: m = massa in g della sostanza formatasi Q = quantità di elettricità (I⋅t)
+
+PEq = peso equivalente
+
+F = costante di Faraday = 96500 Coulomb = 26,80 Ah
+
+
+
+Pila Chimica:
+
+
+
+
+
+Elettrodo | Ox; Rid || Ox; Rid | Elettrodo
+
+Semireazione: pox + ne- ⇔ qrid
+
+An. (-)
+
+Cat. (+)
+
+
+
+
+
+→
+
+
+
+←
+
+←
+
+Eq. Nernst:
+
+E
+
+0,0592
+
+[ox]p
+
+X = E° + log
+
+e-
+
+e-
+
+Riduzione
+
+
+
+n
+
+[rid]q
+
+
+
+Ossidazion
+
+f.e.m. = EC - EA con: EC > EA
+
+
+
+Regoletta fondamentale
+
+OX = specie ossidante = specie ridotta = specie che acquista elettroni = specie con maggior numero di ossidazione RID = specie riducente = specie ossidata = specie che cede elettroni = specie con minor numero di ossidazione
+
+
+
+(aox)p
+
+in realtà va indicato il logaritmo del rapporto delle ATTIVITA’: log (a ma per a si possono usare le
+
+rid)q
+
+
+
+concentrazioni molari per i Liquidi, le pressioni per i Gas e per Solidi e Liquidi Puri a = 1.
+
+
+
+
+
+9
+
+GEOLOGIA 2000 - www.anisn.it/geologia2000 FORMULARIO DI CHIMICA by Adriano Nardi Pila a Concentrazione: Me | Men c || Men c’ | Me
+
+Pila dove i semielementi sono uguali ma le concentrazioni diverse
+
+
+
+Regola del cavolo
+
+0,0592
+
+C p
+
+dove: C
+
+f.e.m = log
+
+1
+
+
+
+1 > C2
+
+p
+
+n
+
+Se la ∆C è nella specie OX ⇒ la specie con C=max è al catodo C2
+
+Se la ∆C è nella specie RID ⇒ la specie con C=min è al catodo
+
+
+
+In generale nelle Pile:
+
+∆G° = - n ⋅ F ⋅ E°
+
+
+
+dove: F = Kfaraday = 96500 Coulomb = 26,8 Ah
+
+
+
+n = numero di elettroni scambiati
+
+E° = E
+
+log K = 16,9 ⋅ n ⋅ E°
+
+c° - Ea° = differenza tra i potenziali normali
+
+a 25°C
+
+se ∆G° < 0 ⇒ la reazione è spontanea ⇒ esiste una f.e.m.
+
+
+
+
+
+Avvertenze e modalità d’uso:
+
+• Questo formulario non comprende tutto il programma ma soltanto quello che è indispensabile per l’esame di Chimica per Scienze Geologiche, con l’esclusione della chimica organica.
+
+
+
+• Lo scopo del formulario è quello di rappresentare un supporto nello svolgimento degli esercizi ed eventualmente un asso “nella manica”, nel senso letterale, da giocare nell’esame scritto. Nel secondo caso si consiglia di
+
+“miniaturizzare” a partire da pag. 5.
+
+
+
+• La Redazione non si assume alcuna responsabilità circa eventuali danni morali, materiali o cerebrali causati da errori concettuali o di stampa e più un generale dall’uso proprio o improprio di questi appunti.
+
+
+
+• Si sconsiglia vivamente di propagandare con disinvoltura le regole fantachimiche.
+
+
+
+• Questo testo è la stampa del file “ CHIMICA.pdf “ che è stato prelevato GRATUITAMENTE dal sito WEB: Geologia 2000 [ www.anisn.it/geologia2000 ]
+
+
+
+QUESTO TESTO E IL SUO FILE SORGENTE NON POSSONO ESSERE UTILIZZATI A SCOPO DI LUCRO, CIOE' NON POSSONO ESSERE VENDUTI NE' CEDUTI ATTRAVERSO ATTIVITÀ PUBBLICITARIE
+
+DI QUALSIASI TIPO SENZA ESPLICITO CONSENSO DELL’AUTORE.
+
+IN OGNI CASO LA DIFFUSIONE DEVE RISPETTARE L’INTEGRITÀ DEL TESTO
+
+E LA CITAZIONE CHIARA E COMPLETA DI AUTORE E PROVENIENZA.
+
+
+
+10
+
+GEOLOGIA 2000 - www.anisn.it/geologia2000 FORMULARIO DI CHIMICA by Adriano Nardi APPENDICE
+
+
+
+
+
+Alcuni composti (inorganici) chiesti all’esame:
+
+
+
+nitrato di bario
+
+ortosilicato di sodio
+
+solfuro di argento
+
+metaidrogeno ortofosfato di bario
+
+monoidrogeno solfito di calcio
+
+nitrito di litio
+
+dicromato di alluminio
+
+bicarbonato di sodio
+
+ortoiodato di magnesio
+
+iodato di bario
+
+nitrato di alluminio
+
+iodato di calcio
+
+silicato di magnesio
+
+diidrogeno carbonato di magnesio
+
+solfato di ammonio
+
+nitrito di calcio
+
+metaborato di litio
+
+ortoborato di alluminio
+
+carbonato di calcio
+
+bisolfito di bario
+
+nitrato di magnesio
+
+bicarbonato di calcio
+
+ortosilato di magnesio
+
+fosfina (V.N.)
+
+
+
+11
+
+
+
+
+

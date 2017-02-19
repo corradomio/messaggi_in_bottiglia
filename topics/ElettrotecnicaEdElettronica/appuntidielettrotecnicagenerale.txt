@@ -1,0 +1,7658 @@
+APPUNTI DI ELETTROTECNICA GENERALE
+
+versione 0.0
+
+
+
+
+
+9 settembre 2006
+
+
+2
+
+(v. 0.0)
+
+Indice
+
+1 STRUTTURA DELLA MATERIA E FENOMENI ELETTRICI
+
+7
+
+1.1
+
+Cos’é l’elettricità ? . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7
+
+1.2
+
+Fenomeni elettrostatici
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+7
+
+1.3
+
+Struttura della materia . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+8
+
+1.3.1
+
+Le particelle fondamentali . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+9
+
+1.3.2
+
+I modelli atomici . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+10
+
+1.4
+
+Conduttori ed isolanti . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+11
+
+1.5
+
+La legge di Coulomb . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+12
+
+1.6
+
+Induzione elettrostatica . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+12
+
+1.7
+
+Aspetti pratici dei fenomeni elettrostatici . . . . . . . . . . . . . . . . . . . . . . .
+
+13
+
+1.8
+
+Domande . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+14
+
+1.9
+
+Esercizi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+15
+
+
+
+
+
+2 GRANDEZZE ELETTRICHE FONDAMENTALI
+
+
+17
+
+
+2.1
+
+Campo elettrico . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+17
+
+2.2
+
+Tensione elettrica . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+19
+
+2.2.1
+
+Relazione fra campo elettrico e tensione elettrica . . . . . . . . . . . . . . .
+
+21
+
+2.2.2
+
+Potenziale di massa e potenziale di terra . . . . . . . . . . . . . . . . . . . .
+
+22
+
+2.3
+
+Corrente elettrica . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+22
+
+2.3.1
+
+La corrente convenzionale . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+23
+
+2.4
+
+Fenomeno della conduzione elettrica . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+23
+
+2.5
+
+Bipoli elettrici . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+24
+
+2.6
+
+Energia e potenza elettrica assorbita da un bipolo utilizzatore . . . . . . . . . . . .
+
+25
+
+2.6.1
+
+Unità di misura dell’energia elettrica . . . . . . . . . . . . . . . . . . . . . .
+
+26
+
+2.7
+
+Resistenza di un conduttore
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+27
+
+2.7.1
+
+Prima legge di Ohm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+27
+
+2.7.2
+
+Seconda legge di Ohm . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+28
+
+2.7.3
+
+Dipendenza dalla temperatura . . . . . . . . . . . . . . . . . . . . . . . . .
+
+29
+
+2.8
+
+La legge di Joule . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+31
+
+2.8.1
+
+Problematiche tecniche dell’effetto Joule . . . . . . . . . . . . . . . . . . . .
+
+32
+
+2.9
+
+Domande . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+33
+
+2.9.1
+
+Conoscenze . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+33
+
+2.10 Esercizi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+35
+
+
+
+
+
+3 BIPOLI ELETTRICI
+
+
+37
+
+
+3.1
+
+Caratteristica esterna dei bipoli elettrici . . . . . . . . . . . . . . . . . . . . . . . .
+
+37
+
+3.2
+
+Tensione a vuoto e corrente di cortocircuito . . . . . . . . . . . . . . . . . . . . . .
+
+38
+
+3.3
+
+Bipoli ideali . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+40
+
+3.3.1
+
+Generatore ideale di tensione . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+40
+
+3.3.2
+
+Generatore ideale di corrente . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+40
+
+3.3.3
+
+Resistore ideale . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+41
+
+3.3.4
+
+Cortocircuito ideale . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+41
+
+3
+
+4
+
+INDICE
+
+3.3.5
+
+Circuito aperto ideale . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+42
+
+3.4
+
+Bipoli collegati in serie e in parallelo. . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+43
+
+3.5
+
+Convenzioni e proprietà delle differenze di potenziale . . . . . . . . . . . . . . . . .
+
+44
+
+3.6
+
+Principio di additività delle d.d.p.
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+45
+
+3.7
+
+Reti elettriche . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+45
+
+3.8
+
+Principi di Kirchhoff . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+47
+
+3.8.1
+
+Primo principio di Kirchhoff . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+47
+
+3.8.2
+
+Secondo principio di Kirchhoff . . . . . . . . . . . . . . . . . . . . . . . . .
+
+48
+
+3.9
+
+Risoluzione di circuiti chiusi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+50
+
+3.10 Bipoli equivalenti . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+52
+
+3.10.1 Resistori in serie . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+53
+
+3.10.2 Resistori in parallelo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+53
+
+3.10.3 Resistori in serie-parallelo . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+53
+
+3.10.4 Resistori collegati a stella e a triangolo . . . . . . . . . . . . . . . . . . . . .
+
+53
+
+3.11 Partitori di tensione e corrente . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+53
+
+3.11.1 Partitori di tensione . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+53
+
+3.11.2 Partitori di corrente . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+53
+
+3.12 Bilancio energetico in un circuito elettrico . . . . . . . . . . . . . . . . . . . . . . .
+
+54
+
+3.13 Generatore reale di tensione . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+54
+
+3.14 Generatore reale di corrente . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+54
+
+3.14.1 Equivalenza tra il generatore reale di tensione ed il generatore reale di corrente 54
+
+3.15 Domande . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+55
+
+3.16 Esercizi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+56
+
+3.17 Laboratorio . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+59
+
+3.17.1 Esercitazione sulle tensioni e sui resistori. . . . . . . . . . . . . . . . . . . .
+
+59
+
+3.17.2 Esercitazione sulle correnti e sui resistori . . . . . . . . . . . . . . . . . . . .
+
+60
+
+3.17.3 Verifica sperimentale del primo e del secondo principio di Kirchhoff . . . . .
+
+62
+
+
+
+
+
+4 RETI ELETTRICHE IN CORRENTE CONTINUA
+
+
+65
+
+
+4.0.4
+
+Approfondimenti sulla misura di resistenza con il metodo voltamperometrico 65
+
+4.1
+
+Risoluzione delle reti elettriche lineari . . . . . . . . . . . . . . . . . . . . . . . . .
+
+66
+
+4.2
+
+Risoluzione completa di una rete elettrica con il metodo di Kirchhoff . . . . . . . .
+
+66
+
+4.3
+
+Bilancio delle potenze in una rete elettrica . . . . . . . . . . . . . . . . . . . . . . .
+
+68
+
+4.4
+
+Metodo delle correnti di maglia . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+68
+
+4.5
+
+Metodo dei potenziali ai nodi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+68
+
+4.6
+
+Domande . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+69
+
+4.7
+
+Esercizi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+70
+
+
+
+
+
+5 CONDENSATORI
+
+
+71
+
+
+5.1
+
+Domande . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+72
+
+5.2
+
+Esercizi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+73
+
+
+
+
+
+6 FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+
+75
+
+
+6.1
+
+Fenomeni magnetici elementari . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+75
+
+6.2
+
+Campo magnetico prodotto da un conduttore rettilineo . . . . . . . . . . . . . . .
+
+75
+
+6.3
+
+Il vettore induzione magnetica. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+76
+
+6.3.1
+
+Esperienza di Faraday . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+76
+
+6.4
+
+Campo magnetico prodotto da una spira circolare . . . . . . . . . . . . . . . . . . .
+
+77
+
+6.5
+
+Campo magnetico prodotto da un solenoide . . . . . . . . . . . . . . . . . . . . . .
+
+77
+
+6.5.1
+
+Solenoide rettilineo . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+77
+
+6.5.2
+
+Solenoide toroidale . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+77
+
+6.6
+
+Forza magnetomotrice e campo H . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+77
+
+6.7
+
+Proprietà magnetiche dei materiali . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+78
+
+6.8
+
+Materiali ferromagnetici e caratteristica di magnetizzazione . . . . . . . . . . . . .
+
+79
+
+(v. 0.0)
+
+INDICE
+
+5
+
+6.9
+
+Flusso di induzione magnetica . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+80
+
+6.10 Circuiti magnetici e legge di Hopkinson . . . . . . . . . . . . . . . . . . . . . . . .
+
+81
+
+6.11 Legge della circuitazione magnetica . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+82
+
+6.12 Induttanza . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+83
+
+6.13 Energia del campo magnetico . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+84
+
+6.14 Forza agente su un conduttore elettrico
+
+. . . . . . . . . . . . . . . . . . . . . . . .
+
+85
+
+6.15 Coppia agente su una spira . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+86
+
+6.16 Induzione elettromagnetica . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+87
+
+6.17 Tensione indotta in un conduttore in moto relativo rispetto al campo magnetico
+
+.
+
+88
+
+6.17.1 Comportamento da generatore elettrico . . . . . . . . . . . . . . . . . . . .
+
+88
+
+6.17.2 Comportamento da motore elettrico . . . . . . . . . . . . . . . . . . . . . .
+
+88
+
+6.18 Tensione indotta in una spira rotante in un campo magnetico . . . . . . . . . . . .
+
+89
+
+6.19 Autoinduzione . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+90
+
+6.20 Mutua induzione . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+91
+
+6.20.1 Coefficiente di mutua induzione . . . . . . . . . . . . . . . . . . . . . . . . .
+
+91
+
+6.20.2 Tensione indotta per mutua induzione . . . . . . . . . . . . . . . . . . . . .
+
+93
+
+6.21 Transitori di magnetizzazione e smagnetizzazione di un induttore . . . . . . . . . .
+
+95
+
+6.22 Domande . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+96
+
+6.23 Esercizi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+97
+
+6.24 Maxwell e le leggi dell’elettromagnetismo . . . . . . . . . . . . . . . . . . . . . . .
+
+99
+
+6.24.1 Cenni biografici . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+
+99
+
+6.24.2 Le leggi dell’elettromagnetismo . . . . . . . . . . . . . . . . . . . . . . . . .
+
+99
+
+
+
+
+
+7 RETI ELETTRICHE IN REGIME SINUSOIDALE
+
+
+103
+
+
+7.1
+
+Grandezze sinusoidali
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+
+7.1.1
+
+Grandezze sinusoidali e moto circolare uniforme . . . . . . . . . . . . . . . . 103
+
+7.1.2
+
+Periodo, frequenza e velocità angolare . . . . . . . . . . . . . . . . . . . . . 104
+
+7.1.3
+
+Valore massimo e valore efficace . . . . . . . . . . . . . . . . . . . . . . . . . 105
+
+7.2
+
+Il metodo simbolico . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 106
+
+7.3
+
+Bipoli passivi in regime sinusoidale . . . . . . . . . . . . . . . . . . . . . . . . . . . 107
+
+7.3.1
+
+Resistore . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 107
+
+7.4
+
+Rifasamento . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 107
+
+7.5
+
+Domande . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 108
+
+7.6
+
+Esercizi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 109
+
+
+
+
+
+8 SISTEMI TRIFASI
+
+
+111
+
+
+8.1
+
+Definizione di sistema trifase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 111
+
+8.2
+
+Generatore trifase simmetrico . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 114
+
+8.2.1
+
+Generatore connesso a stella . . . . . . . . . . . . . . . . . . . . . . . . . . . 114
+
+8.2.2
+
+Generatore connesso a triangolo
+
+. . . . . . . . . . . . . . . . . . . . . . . . 115
+
+8.3
+
+Carico trifase equilibrato . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 115
+
+8.3.1
+
+Carico connesso a stella . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116
+
+8.3.2
+
+Carico connesso a triangolo . . . . . . . . . . . . . . . . . . . . . . . . . . . 116
+
+8.4
+
+Metodo del circuito equivalente monofase . . . . . . . . . . . . . . . . . . . . . . . 116
+
+8.5
+
+Potenze nei sistemi trifasi simmetrici e equilibrati . . . . . . . . . . . . . . . . . . . 116
+
+8.5.1
+
+Carico connesso a stella . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116
+
+8.5.2
+
+Carico connesso a triangolo . . . . . . . . . . . . . . . . . . . . . . . . . . . 116
+
+8.6
+
+Linee trifasi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116
+
+8.7
+
+Rifasamento trifase . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116
+
+8.8
+
+Sistemi trifasi simmetrici e squilibrati . . . . . . . . . . . . . . . . . . . . . . . . . 116
+
+8.8.1
+
+Sistema trifase a stella con neutro . . . . . . . . . . . . . . . . . . . . . . . 116
+
+8.8.2
+
+Sistema trifase a stella senza neutro . . . . . . . . . . . . . . . . . . . . . . 116
+
+8.8.3
+
+Sistema trifase a triangolo . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116
+
+8.9
+
+Misure di potenza . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 116
+
+(v. 0.0)
+
+6
+
+INDICE
+
+8.9.1
+
+Misure di potenza in un sistema trifase a tre fili mediante l’inserzione Aron
+
+116
+
+8.10 Domande . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 117
+
+8.11 Esercizi . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 118
+
+8.11.1 Esercizi di riepilogo
+
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 120
+
+(v. 0.0)
+
+Capitolo 1
+
+STRUTTURA DELLA
+
+MATERIA E FENOMENI
+
+ELETTRICI
+
+Prerequisiti
+
+• Conoscere i fenomeni elettrostatici fondamentali
+
+Obiettivi specifici
+
+• Conoscere la struttura fondamentale della materia
+
+• Conoscere il concetto di carica elettrica
+
+1.1
+
+Cos’é l’elettricità ?
+
+Cos’é l’elettricità ? L’elettricità è una forma di energia invisibile i cui effetti vengono percepiti
+
+durante la sua utilizzazione quotidiana. Ricordiamo che l’energia è la capacità che ha un corpo di
+
+compiere un lavoro. Ad esempio un’auto in corsa è dotata di una certa energia (l’energia cinetica)
+
+e se investe un muro può essere in grado di deformarlo; ha compiuto un lavoro. In natura vi
+
+sono diverse forme di energia e l’elettricità, o meglio energia elettrica, è una di queste. L’energia
+
+elettrica è una forma di energia facilmente trasportabile, disponibile e controllabile. Proprio per
+
+questo motivo dal XIX secolo in poi essa si è affermata, insieme all’energia chimica, come una
+
+delle forme di energia maggiormente utilizzate per lo svolgimento delle attività umane.
+
+1.2
+
+Fenomeni elettrostatici
+
+L’uomo fin dall’antichità ha fatto esperienza quasi quotidiana dell’elettricità attraverso fenomeni
+
+di tipo elettrostatico quali, ad esempio, l’elettrizzazione per strofinio e le scariche atmosferiche.
+
+Il termine elettrico deriva dalla parola greca elektron che significa ambra1. L’ambra è un
+
+materiale resinoso di origine fossile che, se è opportunamente strofinato, presenta delle interessanti
+
+proprietà elettriche.
+
+Bisogna attendere il XIX secolo perché l’uomo inizi a dare una spiegazione scientifica compiuta
+
+ai fenomeni elettrostatici.
+
+Oggi sappiamo che le forze elettriche condizionano fortemente le proprietà fisiche e chimiche
+
+di tutta la materia ma un tempo, ad eccezione del grandioso spettacolo del fulmine, le normali
+
+manifestazioni della natura, dall’acqua che gela alla pianta che cresce, non sembravano avere alcun
+
+legame col curioso comportamento degli oggetti elettrizzati.
+
+1 Esso fu introdotto dall’inglese William Gilbert (1540 -1603), famoso anche per i suoi studi sui fenomeni magnetici 7
+
+8
+
+1.3. STRUTTURA DELLA MATERIA
+
+Esperienze elettrostatiche fondamentali
+
+Dopo aver seguito un corso di fisica tutti avranno
+
+sentito parlare delle seguenti esperienze.
+
+Bacchetta di vetro + bacchetta di plastica. Prendiamo due bacchette, una di vetro ed
+
+una di plastica, le strofiniamo entrambe con un panno di lana, le appendiamo con filo in modo che
+
+stiano orizzontali e sufficientemente libere di muoversi. Se avviciniamo le due bacchette notiamo
+
+che esse tendono ad attrarsi.
+
+Bacchetta di vetro + bacchetta di vetro. Non contenti, ripetiamo l’esperimento con due
+
+bacchette dello stesso materiale, ad esempio il vetro. Si può osservare che le bacchette in questo
+
+caso tendono a respingersi.
+
+Da queste due esperienze si possono trarre le seguenti deduzioni:
+
+• strofinando tra loro due corpi, questi si elettrizzano;
+
+• la carica elettrica acquisita può provocare due comportamenti opposti (la bacchetta di vetro
+
+è attirata dalla bacchetta di plastica ed è respinta da un’altra bacchetta di vetro elettrizzata).
+
+Per distinguere questi due comportamenti è necessario ipotizzare che la carica elettriche ac-
+
+quisite per strofinio siano di due tipi diversi. E’ ragionevole ipotizzare che due bacchette dello
+
+stesso materiale, in questo caso vetro o plastica, strofinate allo stesso modo si elettrizzino nello
+
+stesso modo. Queste due varietà di cariche elettriche ormai da diverso tempo sono state chiamate
+
+positiva e negativa
+
+In sintesi si può affermare che:
+
+• Esistono due tipi di cariche elettriche denominate positiva e negativa.
+
+• Corpi elettricamente carichi dello stesso segno si respingono e corpi elettricamente carichi di
+
+segno opposto si respingono.
+
+Inoltre, poiché un corpo non elettrizzato non ha la proprietà di esercitare forze elettriche sui
+
+corpi circostanti si deduce che esso contiene cariche elettriche positive e negative in ugual numero;
+
+in pratica esso è elettricamente neutro.
+
+I fisici tendono a considerare le cariche positive e negative fondamentalmente come manifesta-
+
+zioni opposte di una certa qualità, cos`ı come destra e sinistra sono due manifestazioni opposte
+
+dell’attributo verso [1]. Ciò che noi chiamiamo carica negativa potrebbe essere chiamata tran-
+
+quillamente positiva, e viceversa. Infatti la carica di un elettrone non ha nulla di intrinsecamente
+
+negativo; un numero intero negativo differisce sostanzialmente da un intero positivo per il fatto
+
+che il suo quadrato è un numero intero di segno opposto, ma il prodotto di due cariche non è una
+
+carica e pertanto non vi è alcuna corrispondenza tra il significato di positivo e negativo dato ai
+
+numeri interi e quello dato alle cariche elettriche.
+
+Per nota di cronaca, il vetro acquista carica positiva mentre la plastica acquista carica negativa.
+
+1.3
+
+Struttura della materia
+
+Nel 1803 lo scienziato inglese John Dalton (1766 - 1844), sulla base di una analisi attenta e
+
+ragionata delle leggi di Lavoisier e di Proust, arrivò alla conclusione che la materia è costituita
+
+da particelle piccolissime ed indivisibili a cui venne dato il nome di atomi. Inoltre egli pensava
+
+che i composti fossero costituiti da piccole particelle, denominate molecole, contenenti un piccolo
+
+numero di atomi.
+
+Alla luce della teoria atomica di Dalton si inizia a fare una distinzione chiara all’interno delle
+
+sostanze semplici 2 tra elementi chimici e composti chimici.
+
+Anche se nei primi anni del XIX secolo era già chiara l’esistenza di cariche elettriche positive e
+
+negative bisogna attendere il 1897 perché si inizi a chiarire il legame esistente tra cariche elettriche
+
+e struttura atomica. In quell’anno l’inglese Joseph John Thomson (1856 - 1940) scopre che in tutti
+
+gli atomi sono presenti particelle di carica negativa, a cui egli diede il nome di elettroni.
+
+2 La chimica distingue nella materia, dal punto di vista della composizione, le sostanze semplici, o pure, dalle sostanze composte, o miscele
+
+(v. 0.0)
+
+CAPITOLO 1. STRUTTURA DELLA MATERIA E FENOMENI ELETTRICI
+
+9
+
+1.3.1
+
+Le particelle fondamentali
+
+Nel corso dei primi trenta anni del XX secolo furono fatte in rapida successione numerose esperienze
+
+che hanno permesso di chiarire la struttura interna degli atomi. In particolare si scopr`ı che gli
+
+atomi non erano indivisibili ma anzi, che erano formati da tre particelle fondamentali: l’elettrone,
+
+il protone ed il neutrone.
+
+Nel 1909 l’americano Robert Millikan (1868-1953) scoperse mediante il famoso esperimento Esperimento
+
+dell gocce d’olio la natura discreta della carica elettrica. In un secondo tempo egli riuscìı anche di Millikan a misurare la minima quantità di carica presente in natura, ovvero la carica dell’elettrone. Dal
+
+seguente brano autografo traspare la trepidazione con cui Millikan descrive il proprio esperimento,
+
+con un senso di stupore e quasi di gratitudine.
+
+“ Dal 1909, quando costrùı il mio primo apparecchio con la goccia d’olio, fino all’estate del
+
+1912, impiegai praticamente tutto il tempo che ebbi a disposizione, tolto quello destinato alle
+
+lezioni e all’assistenza alle ricerche degli studenti laureati, nel lavoro intorno alle goccie d’olio.
+
+Era affascinante vedere con quanta certezza si potesse contare l’esatto numero degli elettroni che
+
+si installavano su una data goccia, tanto se si trattava di un solo elettrone che se erano cento;
+
+infatti bisognava soltanto far viaggiare la gocciolina su e giù, misurando ogni volta accuratamente
+
+il tempo e poi calcolando il minimo comune multiplo di una serie abbastanza lunga di velocità
+
+conferite dal campo alla goccia, seconda che si aggiungevano o si sottraevano gli elettroni portati
+
+dalla gocciolina. Questa serie di velocità mutava sempre secondo una serie di passi unitari ”.
+
+L’elettrone è dotato di una carica elettrica negativa pari a −1, 6 · 10−17coulomb. Si potrebbe
+
+pensare che tutti gli elettroni siano caricati negativamente. In realtà in natura è possibile osservare,
+
+in particolari condizioni, la presenza di elettroni positivi, denominati positroni.
+
+Una scatola a pareti sottili sotto vuoto, sottoposta a radiazioni gamma, può diventare la scena
+
+di una creazione di coppie, cioè di un evento in cui un fotone ad alta energia termina la propria
+
+esistenza dando luogo alla creazione di un elettrone negativo e di un elettrone positivo (positrone).
+
+Queste due particelle hanno l’esatta quantità di massa e l’esatta quantità di carica, ma di qualità
+
+opposta, ovvero esse sono legate dalla relazione di particella ed antiparticella.
+
+Il protone, è dotato dello stesso tipo e della stessa quantità di carica del positrone, ma a
+
+differenza di esso, e quindi anche dell’elettrone, è dotato di una massa molto più grande.
+
+Il neutrone è cos`ı chiamato perché non manifesta proprietà elettriche. Esso è dotato di una
+
+massa appena più grande del protone.
+
+L’elettrone ed il protone sono due particelle stabili, mentre il neutrone è una particella abba-
+
+stanza stabile. Infatti, se è lasciato da solo, dopo circa mezz’ora si disintegra in un protone, un
+
+elettrone ed un neutrino, una particella neutra di massa molto piccola.
+
+Il protone ed il neutrone formano insieme il nucleo atomico, il punto centrale dell’atomo dove
+
+risiede la stragrande maggioranza della sua massa.
+
+Nel 1911, il fisico neozelandese Ernest Rutherford effettua, presso la Victoria University di
+
+Manchester, quello che viene ritenuto il primo esperimento di fisica nucleare. Egli diresse un fascio
+
+collimato di particelle α su una sottile lamina di oro. Scopo dell’esperimento era quello di capire se
+
+la struttura dell’atomo fosse quella supposta da Thomson, il padre dell’elettrone, ovvero un atomo
+
+senza nucleo, noto anche come atomo a panettone, oppure se l’atomo avvesse avuto al suo interno
+
+un nucleo separato dagli elettroni esterni. Il fisico neozelandese osservò che le particelle α, cariche
+
+positivamente e molto più pesanti di un elettrone subivano dei grandi angoli di deviazione(figura
+
+1.1).
+
+Dall’osservazione di questo tipo di urti, denominato scattering coulombiano 3, Rutherford ar-
+
+rivò alla conclusione sorprendente che il raggio del nucleo era di circa 10000 volte inferiore di quello
+
+dell’atomo.
+
+Quasi sempre una grande scoperta introduce nuovi problemi.
+
+Un primo problema era la stupefacente stabilità del nucleo resa ancora più curiosa dalla pic-
+
+colezza del suo raggio, del tutto incomprensibile solo in base alle forze elettromagnetiche e gra-
+
+vitazionali. Poiché i protoni hanno tutti carica positiva la forza di repulsione a cui sono soggetti
+
+3 scattering = dispersione, coulombiano perché l’interazione in gioco nell’urto è la forza di Coulomb
+
+(v. 0.0)
+
+
+
+10
+
+1.3. STRUTTURA DELLA MATERIA
+
+Figura 1.1: L’esperimento di Rutherford del 1991
+
+dovrebbe portare alla disintegrazione del nucleo. La forza di repulsione è solo in minima parte
+
+contrastata dalla forza di attrazione gravitazionale presente tra i protoni.
+
+Ma i conti non tornavano anche per le masse nucleari. Eccetto che per l’idrogeno ordinario,
+
+le masse dei nuclei risultavano tutte approssimativamente doppie rispetto al numero di protoni
+
+presenti nel nucleo. Si iniziò ad intravvedere una soluzione a questo secondo problema quando
+
+nel 1930, in Germania, i fisici W.Bothe e H.Becker notarono che bombardando con particelle α
+
+materiali leggeri come il berillio veniva prodotta una radiazione più penetrante dei raggi γ allora
+
+conosciuti. Nel 1932 il fisico inglese James Chadwick, in seguito ad una serie di esperimenti,
+
+ipotizzò che la nuova radiazione fosse composta da particelle elettricamente neutre aventi una
+
+massa approssimativamente pari a quella del protone, a cui fu dato il nome di neutroni.
+
+Nel 1934 il fisico giapponese H.Yukawa avanzò una ipotesi che offriva una spiegazione del-
+
+l’incomprensibile stabilità del nucleo atomico, che già si sapeva composto da protoni e neutroni.
+
+Yukawa, all’età di soli 27 anni, prendendo come modello le forze elettromagnetiche, ipotizzò che
+
+i nucleoni (protoni e neutroni) sono tenuti insieme da un campo di forze che svolge la sua azio-
+
+ne solo nelle immediate vicinanze dei nucleoni. Questo campo di forze, denominato interazione
+
+nucleare forte, analogamente alla natura corpuscolare del campo elettromagnetico che si esplica
+
+nella produzione dei fotoni, venne associato ad un nuovo tipo di particelle subatomiche, i mesoni.
+
+Come Yukawa stesso sugger`ı, lo studio dei raggi cosmici permise di determinare sperimentalmente
+
+nel 1937 l’esistenza di queste particelle, grazie al lavoro di diversi fisici americani. Ciò gli valse
+
+l’assegnazione nel 1949, a guerra ormai terminata, del premio Nobel per la fisica.
+
+In questa breve carrellata abbiamo accennato a tre diversi tipi di interazioni, o forze: forza
+
+gravitazionale, forza elettromagnetica e forza nucleare forte. I fisici hanno ipotizzato una quarto
+
+tipo di forza, l’interazione nucleare debole, responsabile del decadimento radioattivo dei nuclei
+
+atomici. Questi quattro tipi di forze sono alla base di tutti i fenomeni fisici attualmente conosciuti.
+
+1.3.2
+
+I modelli atomici
+
+L’atomo è la più piccola particella di materia che rimane inalterata in ogni passaggio o reazione
+
+chimica.
+
+L’attuale modello atomico, ormai generalmente accettato, è quello dovuto a Shröedinger. Esso
+
+costituisce l’ultima elaborazione rispetto ai modelli proposti inizialmente da Rutherford e suc-
+
+cessivamente da Bohr. Tuttavia, per semplicità di trattazione si tende fare spesso riferimento al
+
+modello di Bohr.
+
+Ciascun atomo, secondo il modello di Bohr può essere paragonato ad una sorta di sistema
+
+solare in miniatura, costituita da un nucleo centrale e dagli elettroni che ruotano attorno al nucleo
+
+su differenti orbite. Gli elettroni ruotano a velocità elevatissima variando continuamente il piano
+
+Livelli ener- della loro orbita, formando cos`ı una sorta di strati di nubi elettroniche, o livelli.
+
+getici
+
+(v. 0.0)
+
+
+
+CAPITOLO 1. STRUTTURA DELLA MATERIA E FENOMENI ELETTRICI
+
+11
+
+Figura 1.2: I modelli atomici
+
+Ciascuno di questi livelli, contraddistinto da un numero naturale n4, può contenere un ben
+
+preciso numero di elettroni. Gli elettroni presenti in ciascun livello sono in possesso di una energia
+
+potenziale tanto più grande quanto più il livello è distante dal nucleo. Per questo motivo questi
+
+strati di elettroni vengono denominati anche livelli energetici.
+
+n
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+numero massimo di elettroni
+
+2
+
+8
+
+18
+
+32
+
+50
+
+72
+
+98
+
+Tabella 1.1: I livelli energetici degli elettroni
+
+La maggior parte dei fenomeni fisici e chimici interessa solo il livello elettronico più esterno. Gli
+
+elettroni presenti in esso, data la loro importanza, vengono denominati anche elettroni di valenza.
+
+Elementi chimici diversi dotati dello stesso numero di elettroni di valenza hanno un comportamento
+
+chimico-fisico, e quindi anche elettrico, molto simile.
+
+Nel rame ventinove elettroni gravitano su differenti orbite attorno al nucleo. Secondo la tabella
+
+precedente nello strato più interno sono disposti due elettroni, nel successivo ce ne sono 8, nel terzo
+
+18 mentre nel quarto, che ne potrebbe contenere ben 32, ne è presente solo uno. L’elettrone isolato,
+
+presente dell’orbita più esterna, è detto elettrone di conduzione, perché può liberarsi con una
+
+certa facilità da quell’atomo e spostarsi nell’orbita di un altro partecipando quindi al fenomeno
+
+della conduzione elettrica.
+
+1.4
+
+Conduttori ed isolanti
+
+Il rame è un esempio di materiale in cui le cariche elettriche si possono muovere facilmente
+
+(conduttori). Esistono altri materiali in cui le cariche elettriche restano localizzate (isolanti).
+
+La teoria atomica fornisce una spiegazione del diverso comportamento di isolanti e conduttori.
+
+In genere, nello strato più esterno degli atomi dei conduttori ci sono pochi elettroni (da uno a tre)
+
+aventi un debole legame con il loro nucleo. Questi elettroni passano da un atomo all’altro molto
+
+facilmente, vagando in tutte le direzioni. Questi elettroni, se sottoposti ad una forza esterna, si
+
+mettono facilmente in moto ordinato lungo il conduttore; in questo caso il conduttore presenta
+
+una piccola resistenza a lasciarsi attraversare dal flusso di cariche.
+
+4 I livelli atomici vengono contraddistinti anche con le lettere K, L, M, N, O, P, Q.
+
+(v. 0.0)
+
+12
+
+1.5. LA LEGGE DI COULOMB
+
+Tra i conduttori vi sono: rame, alluminio, oro, argento, ferro, mercurio.
+
+Negli isolanti, invece, per diverse ragioni non sono praticamente presenti elettroni di condu-
+
+zione. Ecco alcuni esempi di isolanti: vetro, porcellana, aria secca, carta, gomma, mica, alcuni
+
+materiali sintetici come il PVC.
+
+Infine , alcuni materiali mettono a disposizione degli elettroni di conduzione solo in particolari
+
+condizioni di funzionamento, e quindi essi non sono né buoni conduttori né buoni isolanti. Vengono
+
+chiamati semiconduttori ed hanno una enorme importanza in elettronica per la costruzione dei
+
+circuiti integrati. I semiconduttori vengono prodotti utilizzando silicio, germanio ed arseniuro di
+
+gallio.
+
+1.5
+
+La legge di Coulomb
+
+Nel 1785 Charles Augustin de Coulomb (1736-1806) studiò quantitativamente l’interazione tra
+
+corpi puntiformi immobili5 carichi elettricamente.
+
+Due corpi puntiformi immobili dotati di carica Q1 e Q2, posti alla distanza r si attraggono o
+
+si respingono con una forza F proporzionale al prodotto fra le cariche e all’inverso del quadrato
+
+della loro distanza.
+
+La carica elettrica Q1 esercita una forza F12 sulla carica elettrica Q2 e la carica elettrica Q2
+
+esercita una forza F21 sulla carica elettrica Q1. In particolare le due forze hanno modulo uguale
+
+pari a:
+
+Q1 · Q2
+
+F = F12 = F21 = K ·
+
+(1.1)
+
+r2
+
+dove K è una costante di proporzionalità.
+
+La forza ha la stessa direzione della linea che congiunge le due cariche: essa è attrattiva se le
+
+cariche hanno segno opposto e repulsiva se sono dello stesso tipo.
+
+Questa forza è denominata forza elettrica. Tutta la materia è una miscela di protoni carichi
+
+positivamente ed elettroni carichi negativamente che si attirano e si respingono con grande forza.
+
+Comunque la compensazione è cos`ı perfetta che stando accanto ad un’altra persona non si sente
+
+alcuna forza. Eppure se ci fosse un piccolo diffetto nella compensazione ci si accorgerebbe subito.
+
+Se due persone si trovassero ad un metro di distanza ed avessero ciascuna un eccesso di elettroni
+
+pari all’1% del peso corporeo la forza di repulsione sarebbe abbastanza grande per sollevare un
+
+peso pari a quello del pianeta Terra. Questo esempio dà un’idea del fatto che le forze elettriche
+
+sono enormemente più grandi della forza gravitazionale.
+
+La formula (1.1) impone la necessità di definire l’unità di misura della carica elettrica.
+
+Nel Sistema Internazionale (SI) l’unità di misura della carica elettrica è il coulomb (simbolo C).
+
+Il coulomb non è però una unità fondamentale, ma è derivato dall’unità di misura della corrente
+
+elettrica, l’ampere.
+
+Per ora affermiamo che due corpi, carichi egualmente, hanno la carica di 1 coulomb se, posti
+
+nel vuoto alla distanza di 1 metro, interagiscono con una forza di 9 · 109N.
+
+In questo modo viene fissato il valore della costante K nel vuoto.
+
+K = 9 · 109 N · m2/C2
+
+(1.2)
+
+La forza che si esercita tra due cariche immerse in un mezzo è minore di quella che si esercita,
+
+a parità di condizioni geometriche, nel vuoto. Questo differenza di comportamento può essere
+
+quantificata mediante l’introduzione della costante dielettrica ǫ, di cui si vedrà più avanti.
+
+1.6
+
+Induzione elettrostatica
+
+Si è visto che bacchette di vetro e di plastica sottoposte a strofinio tendono ad attrarsi o a respin-
+
+gersi a causa delle cariche elettriche accumulatesi su ciascuna di esse. Ma, in realtà, si osserva
+
+5 La relazione di Coulomb non è esattamente verificata quando le cariche elettriche sono in movimento.
+
+(v. 0.0)
+
+CAPITOLO 1. STRUTTURA DELLA MATERIA E FENOMENI ELETTRICI
+
+13
+
+che una bacchetta di vetro elettricamente carica è in grado di attirare un pezzo di carta stagnola,
+
+presumibilmente neutro, posto nelle vicinanze.
+
+Questo fenomeno si spiega nel seguente modo. La carta stagnola è elettricamente neutra, ma
+
+contiene comunque cariche elettriche positive e negative in egual numero. La stagnola è anche un
+
+materiale conduttore e in essa sono presenti gli elettroni di conduzione. Quando la stagnola è vicino
+
+alla bacchetta alcuni degli elettroni di conduzione si sposta in modo da disporsi nella parte più
+
+vicina alla bacchetta. Gli atomi a cui risultano sottratti gli elettroni non sono più elettricamente
+
+neutri ma sono carichi positivamente.
+
+Tra i due corpi, a causa della presenza dell’aria, un mezzo isolante, non avviene spostamento
+
+di cariche, ma viene indotto nella stagnola un accumulo di cariche negative da un lato e di cariche
+
+positive dall’altro lato. Questo fenomeno prende il nome di induzione elettrostatica.
+
+1.7
+
+Aspetti pratici dei fenomeni elettrostatici
+
+Capita spesso di ritrovarsi carichi elettrostaticamente a causa dello sfregamento dei propri vestiti
+
+in lana o fibre sintetiche durante il movimento, oppure camminando con delle scarpe con suole
+
+isolanti, o ancora lavorando a contatto con dispositivi carichi elettrostaticamente. Ci si accorge
+
+di questo fatto a causa delle scariche elettriche, a volte molto fastidiose, che si producono quando
+
+tocchiamo corpi metallici dopo esserci caricati elettrostaticamente. Le scariche si producono,
+
+nonostante le piccole quantità di energia in gioco, a causa delle elevate tensioni che si formano.
+
+Attività
+
+Umidità relativa 10 ÷ 20%
+
+Umidità relativa 60 ÷ 90%
+
+camminare sulla moquette
+
+35000
+
+1500
+
+camminare su PVC
+
+12000
+
+250
+
+manipolare un oggetto in plastica
+
+7000
+
+600
+
+Tabella 1.2: Valori di tensione prodotti sull’uomo dalle cariche elettrostatiche
+
+Le scariche elettrostatiche, oltre a procurare fastidio, possono essere all’origine di incendi ed
+
+esplosioni in ambienti di lavoro pericolosi oppure possono causare il danneggiamento permanente
+
+dei circuiti integrati durante la produzione di schede elettroniche.
+
+Per evitare tali rischi devono essere adottate alcune precauzioni:
+
+• eliminazione delle cariche elettriche mediante la messa a terra delle parti conduttrici di
+
+macchinari e dispositivi;
+
+• eliminazione delle cariche elettriche accumulate dalle persone mediante polsini e camici
+
+conduttivi che permette la scarica a terra delle cariche;
+
+• mantenimento dell’umidità intorno al 60 ÷ 70 % in modo che non sia troppo secca;
+
+• ionizzazione dell’aria.
+
+(v. 0.0)
+
+14
+
+1.8. DOMANDE
+
+1.8
+
+Domande
+
+1. Se due corpi, su cui è distribuita carica elettrica, si respingono la carica elettrica presente su
+
+di essi è ..............................................................
+
+2. La materia, dal punto di vista della composizione si divide in due categorie. Quali ?
+
+3. Le sostanze semplici si divdono in due categorie alla luce della teoria atomica. Quali ?
+
+4. Che cosa significa il termine atomo ?
+
+5. Disegna in modo schematico l’atomo di elio.
+
+6. Descrivi brevemente l’elettrone, il protone e il neutrone.
+
+7. Gli elettroni girano attorno al nucleo carico positivamente. Cosa impedisce che la mutua
+
+attrazione costringa gli elettroni ad implodere nel nucleo ?
+
+8. Nel nucleo dell’atomo sono presenti protoni. Cosa impedisce che la mutua repulsione li
+
+costringa a separarsi ?
+
+9. Cosa sono i livelli energetici?
+
+10. Perché gli elettroni di valenza sono importanti ?
+
+11. Cosa sono gli orbitali ?
+
+12. Quali sono gli elettroni meno legati al nucleo ?
+
+13. In che modo un atomo si trasforma in uno ione positivo ?
+
+14. Indica cosa rappresenta il simbolo ǫ nella legge di Coulomb.
+
+15. Cosa succede alla forza se raddoppia la distanza tra due cariche elettriche?
+
+16. Definisci che cosa si intende per isolante.
+
+17. Definisci cosa si intende per materiale conduttore.
+
+18. Spiega perché il rame è un materiale conduttore.
+
+19. Individua, tra le sostanze indicate tra parentesi (vetro, ferro, carta, plastica, porcellana,
+
+legno, alluminio), quelle isolanti e quelle conduttrici di elettricità.
+
+20. Cosa permette di determinare la legge di Coulomb ?
+
+21. Strofinando una biro su un maglione di lana, essa acquista la capacità di attrarre piccoli
+
+corpi come, per esempio, dei pezzetti carta. Quale fenomeno si verifica quando si avvicina
+
+la biro ai pezzetti di carta ?
+
+22. Cos’é l’elettricità ?
+
+(v. 0.0)
+
+CAPITOLO 1. STRUTTURA DELLA MATERIA E FENOMENI ELETTRICI
+
+15
+
+1.9
+
+Esercizi
+
+1. Si determini la forza di interazione elettrica tra due cariche puntiformi Q1 = 2mC e Q2 =
+
+500mC poste nel vuoto alla distanza di 1 cm.
+
+2. 2. Due cariche puntiformi uguali Q1 = Q2 = 20µC, poste nel vuoto, si respingono con una
+
+forza di 150 N. Determinare la distanza r tra le cariche.
+
+3. La carica di un elettrone è pari a −1.6 × 10−19C. Quanti elettroni in eccesso ha un corpo,
+
+con carica uguale a -1C ?
+
+4. Un corpo è caricato positivamente con 1014 protoni in eccesso. Qual’é la carica di questo
+
+corpo in Coulomb ?
+
+(v. 0.0)
+
+16
+
+1.9. ESERCIZI
+
+(v. 0.0)
+
+Capitolo 2
+
+GRANDEZZE ELETTRICHE
+
+FONDAMENTALI
+
+Prerequisiti
+
+• Conoscere i fenomeni elettrostatici fondamentali
+
+• Conoscere la struttura atomica della materia
+
+• Conoscere la legge di Coulomb
+
+• Conoscere le principali unità di misura
+
+• Conoscere i concetti di campo scalare e di campo vettoriale
+
+• Saper scrivere il valore di una grandezza fisica in notazione scientifica
+
+Obiettivi specifici
+
+• Conoscere le grandezze elettriche tensione e corrente
+
+2.1
+
+Campo elettrico
+
+La legge di Coulomb ci permette di calcolare la forza che si esercita tra due cariche elettriche
+
+puntiformi poste ad una distanza r tra di loro.
+
+Il fatto che una carica possa esercitare la propria azione su un’altra a distanza anche nel vuoto,
+
+ovvero in assenza di materia, ci induce a pensare che la carica produce una alterazione dello spazio
+
+intorno ad essa. Questa alterazione prende il nome di campo elettrico ~
+
+E. In questo caso si tratta
+
+di un campo vettoriale perché l’alterazione viene rilevata tramite una forza il cui valore dipende
+
+dalla posizione nello spazio1.
+
+Definiamo il campo elettrico presente in un certo punto dello spazio utilizzando un metodo
+
+operativo. Poniamo nel punto una carica elettrica q, immobile ed abbastanza piccola2. La carica
+
+q, che denominiamo anche carica di prova, sarà soggetta, a causa del campo elettrico, ad una forza
+
+F pari a3
+
+~
+
+F = q · ~
+
+E
+
+1 Per campo si intende generalmente una grandezza fisica di cui si può specificare un valore per ogni punto dello spazio. Se questo valore è un vettore si parla di campo vettoriale, se invece è semplicemente un numero si parla allora di campo scalare. La temperatura, per esempio, è un campo, in questo caso scalare.
+
+2 La carica deve essere immobile in modo da non rilevare fenomeni magnetici, e piccola in modo da trascurare la perturbazione del campo elettrico preesistente dovuto alla presenza della stessa carica q
+
+3 Se la carica è si muove con velocità ~v la forza elettrica, o meglio elettromagnetica, è ~
+
+F = q
+
+~
+
+~
+
+·
+
+E + ~
+
+v × B .
+
+17
+
+18
+
+2.1. CAMPO ELETTRICO
+
+Il campo elettrico E viene definito allora come
+
+~
+
+~
+
+F
+
+E =
+
+(2.1)
+
+q
+
+Quindi il campo elettrico è una grandezza vettoriale con direzione uguale a quello della forza
+
+elettrica e verso coincidente se la carica di prova q è positiva, opposto se q è negativa.
+
+Dalla definizione si deduce che l’unità di misura dell’intensità E del campo elettrico è il rapporto
+
+newton/coulomb4.
+
+Il campo elettrico, come d’altronde ogni campo di forze, può essere rappresentato graficamen-
+
+te mediante le linee di forza. Esse sono un espediente per aiutare la mente a visualizzare il
+
+comportamento dei campi5. Le linee di forza vengono tracciate seguendo queste regole:
+
+• la linea di forza in ogni punto ha come tangente la direzione del campo elettrico in quel
+
+punto;
+
+• le linee di forza sono linee orientate il cui verso coincide con quello del campo.
+
+Una proprietà caratteristica delle linee di forza è che esse si addensano dove maggiore è
+
+l’intensità del campo.
+
+E’ interessante osservare le distribuzioni di linee di forza dei campi elettrici generati da alcune
+
+classiche configurazioni di carica elettrica.
+
+Figura 2.1: Andamento delle linee di forza del campo E
+
+Le distribuzioni c e d di figura 2.1 sono state tracciate utilizzando una importante proprietà
+
+del campo elettrico. Si supponga che un certo numero di cariche produca un campo ~
+
+
+
+
+
+E1 e che un
+
+
+altro gruppo di cariche produca un campo ~
+
+E2, quando agiscono separatamente. Se i due sistemi
+
+4 In seguito si vedrà che un’altra unità di misura del campo elettrico, maggiormente utilizzata, è il volt/metro.
+
+5 Il metodo delle linee di forza, come modalità espressiva, presenta però alcuni inconvenienti; innanzittutto non aiuta a evidenziare le relazioni quantitative sottese al campo elettrico, in secondo luogo non evidenziano il principio di sovrapposizione delgi effetti e, inoltre, esse fanno riferimento a cariche elettriche in quiete.
+
+(v. 0.0)
+
+CAPITOLO 2. GRANDEZZE ELETTRICHE FONDAMENTALI
+
+19
+
+di cariche sono presenti nello stesso momento, conservando le stesse posizioni, allora il campo
+
+totale è semplicemente la somma dei due campi. Questa proprietà prende il nome di principio di
+
+sovrapposizione dei campi.
+
+Schierando uno di fronte all’altro due strati molto estesi di cariche elettriche di segno opposto,
+
+nella zona in mezzo alle due schiere si forma un campo elettrico dotato di una importante caratte-
+
+ristica , a cui si fa spesso riferimento: il vettore ~
+
+E presenta la stessa intensità, la stessa direzione
+
+e lo stesso verso in tutti i punti. Si è allora in presenza di un campo elettrico uniforme.
+
+Figura 2.2: Campo elettrico uniforme
+
+Esempio 2.1.1. Se si mette una carica q in un punto di un campo elettrico uniforme di intensità
+
+E, su di essa si esercita un forza elettrica ~
+
+F . Come si calcola questa forza ? Qual’é la direzione
+
+e il verso della forza ?
+
+Soluzione.
+
+2.2
+
+Tensione elettrica
+
+Quando una carica q è immersa in un campo elettrico generato da altre cariche essa è dotata di
+
+di una certa attitudine a compiere lavoro, per il solo fatto di essere immersa nel campo. A questa
+
+attitudine si dà il nome di energia potenziale.
+
+Se spostiamo la carica elettrica q da un punto A ad un altro punto B del campo elettrico ad
+
+essa può accadere una di queste tre cose:
+
+• cedere energia potenziale compiendo un lavoro;
+
+• acquisire energia potenziale richiedendo lavoro;
+
+• mantenere inalterata l’energia potenziale senza compiere nè richiedere lavoro.
+
+Si rammenta che le due grandezze fisiche lavoro ed energia sono espresse nella stessa unità
+
+di misura e che il lavoro corrisponde sempre ad una variazione di energia, come si desume dalla
+
+seguente equivalenza.
+
+LAB = ∆EAB = EA − EB
+
+(2.2)
+
+Nel caso di una carica q immersa nel campo elettrico le grandezze espresse nella (2.2) assumono
+
+il seguente significato:
+
+(v. 0.0)
+
+20
+
+2.2. TENSIONE ELETTRICA
+
+• LAB è il lavoro compiuto dalla carica q nel passare da A a B;
+
+• EA è l’energia potenziale elettrica posseduta dalla carica q nel punto A;
+
+• EB è l’energia potenziale elettrica posseduta dalla carica q nel punto B.
+
+Ad esempio, nel caso a) riportato in figura 2.3 la carica q positiva tende a passare spontanea-
+
+mente da A a B, attratta dal campo generato dalla carica Q negativa. In questo caso quando q si
+
+sposta da A a B, compie un lavoro (LAB è positivo) e perde energia (EA è maggiore di EB).
+
+Invece, nel caso b), che si differenzia dal precedente solo per il segno della carica Q che genera
+
+il campo, la carica q deve essere trascinata da A a B e pertanto occorre compiere un lavoro su di
+
+essa (LAB è negativo) facendole acquisire energia potenziale. Perciò la carica q quando si trova in
+
+A è dotata di energia potenziale inferiore rispetto a quando si trova in B.
+
+Figura 2.3: Variazione di energia potenziale elettrica
+
+Si nota che, dal punto di vista della carica positiva q, l’energia potenziale posseduta da essa
+
+è tanto più elevata quanto più è lontana da cariche negative oppure quanto più è vicina ad altre
+
+cariche positive, mentre è meno elevata vicino alle cariche negative o lontano dalle cariche positive.
+
+Si intuisce che la variazione di energia potenziale, in termini assoluti, in gioco nel passaggio
+
+da A a B è tanto maggiore quanto maggiore è il valore della carica q e che essa non dipende dal
+
+percorso seguito per realizzare lo spostamento6.
+
+In sintesi, l’energia potenziale posseduta dalla carica q dipende da:
+
+• il valore di q;
+
+• la posizione.
+
+La tensione elettrica è una grandezza fisica introdotta apposta per quantificare questo secondo
+
+aspetto. In sostanza la tensione elettrica tra due punti A e B rappresenta proprio la differenza di
+
+energia potenziale tra di essi al netto del valore della carica q di prova.
+
+si definisce differenza di potenziale elettrico ∆VAB = VA − VB tra due punti A e B di un
+
+campo elettrico il rapporto tra l’energia potenziale elettrica ∆EAB che una carica q qualsiasi cede
+
+passando da A a B ed il valore della carica q stessa.
+
+∆E
+
+∆V
+
+AB
+
+AB =
+
+(2.3)
+
+q
+
+La differenza di potenziale ∆VAB si indica per convenzione con una freccia diretta dal punto B
+
+al punto A. LA differenza di potenziale è comunemente denominata anche tensione oppure anche
+
+con la sigla d.d.p..
+
+6 L’indipendenza della variazione di energia potenziale dal percorso seguito è una proprietà del campo elettrico che per questo motivo è detto di tipo conservativo
+
+(v. 0.0)
+
+CAPITOLO 2. GRANDEZZE ELETTRICHE FONDAMENTALI
+
+21
+
+L’unità di misura della differenza di potenziale è il volt (simbolo V). Dalla definizione (2.3) si
+
+ha che
+
+
+
+
+
+1 joule
+
+
+1 volt = 1 coulomb
+
+Esempio 2.2.1. Una carica q = 5C spostandosi da un punto A ad un punto B cede una quantità
+
+di energia pari a 100 J. Si calcoli la differenza di potenziale ∆VAB tra i due punti.
+
+Soluzione.
+
+Esempio 2.2.2. Per spostare una carica Q pari a 10 C da un punto A ad un punto B distanti
+
+tra loro 5 m occorre compiere un lavoro di di 58 J. determinare la differenza di potenziale ∆VAB.
+
+Soluzione.
+
+Esempio 2.2.3. Un elettrone attraversa un conduttore da un punto A ad un punto B. Durante
+
+lo spostamento l’elettrone cede una quantità di energia pari a 0,0001 J. Determinare la differenza
+
+di potenziale ∆VAB esistente ai capi del conduttore.
+
+Soluzione.
+
+La tensione elettrica si misura con strumenti come il voltmetro, il multimetro nella configura-
+
+zione a voltmetro e l’oscilloscopio.
+
+2.2.1
+
+Relazione fra campo elettrico e tensione elettrica
+
+Per rilevare una tensione elettrica tra due punti è necessario che sia presente un campo elettrico.
+
+E’ quindi evidente che deve esistere una relazione tra campo elettrico e tensione.
+
+Per questioni di semplicità ci limitiamo a considerare il caso specifico di un campo elettrico
+
+uniforme. Si vuole determinare la differenza di potenziale ∆VAB fra due punti A e B posti su una
+
+retta avente la stessa direzione del campo ~
+
+E.
+
+Figura 2.4: Relazione tra tensione e campo in un campo elettrico uniforme.
+
+Tenendo conto delle (2.2) e (2.3) e della definizione del lavoro meccanico come prodotto tra
+
+forza e spostamento si ha
+
+E
+
+L
+
+F · s
+
+∆V
+
+AB
+
+AB
+
+AB =
+
+=
+
+=
+
+q
+
+q
+
+q
+
+(v. 0.0)
+
+22
+
+2.3. CORRENTE ELETTRICA
+
+dove con F si intende la forza elettrica agente sulla carica q e con s la distanza tra i due punti
+
+a e b. Poiché F = q · E, sostituendo e semplificando si ottiene:
+
+∆VAB = E · s
+
+(2.4)
+
+Questa relazione stabilisce un legame fra campo elettrico e d.d.p tra due punti del campo. Essa
+
+permette di ottenere il valore di un campo elettrico uniforme, nota la d.d.p. fra due punti. E’ una
+
+relazione utile per determinare il valore di un campo elettrico mediante una misura di tensione.
+
+Per questo motivo, inoltre, il campo elettrico si esprime solitamente in volt/metro. Se il campo
+
+non è uniforme la relazione (2.4) assume una forma matematica più complessa che fa uso di un
+
+operatore matematico denominato integrale.
+
+2.2.2
+
+Potenziale di massa e potenziale di terra
+
+In un sistema elettrico sono sempre presenti punti a potenziale elettrico differente. Per comodità
+
+quando si studia un sistema elettrico si considera un punto del sistema come riferimento, per lo
+
+stesso motivo per cui per misurare l’altitudine sulla crosta terrestre si considera il livello del mare
+
+come altitudine di riferimento. Questo particolare punto della rete elettrica è denominato massa
+
+ed il suo potenziale elettrico potenziale di massa. I potenziali di tutti gli altri punti della rete
+
+vengono valutati rispetto al potenziale di massa.
+
+Un altro punto di riferimento molto usato nel settore elettrico è la terra, a cui generalmente
+
+vengono connesse le parti metalliche delle apparecchiature elettriche al fine di proteggere gli utenti
+
+che operano con esse. Il potenziale elettrico a cui si trova la terra è per convenzione nullo. Pertanto
+
+la massa di un circuito elettrico può trovarsi ad un potenziale diverso da quello della terra, e quindi
+
+da zero.
+
+2.3
+
+Corrente elettrica
+
+La corrente elettrica è, essenzialmente, un movimento ordinato di cariche elettriche. Si ha un
+
+movimento ordinato quando vi è una prevalenza statistica di direzione e verso nel movimento
+
+delle cariche elettriche. Perché ci sia corrente elettrica è necessario avere a disposizione un mezzo
+
+conduttore; a seconda del tipo di conduzione tali cariche possono essere negative (elettroni, ioni
+
+negativi) o positive (ioni positivi). Solo in condizioni molto particolari si riscontrano correnti
+
+elettriche dovute a protoni.
+
+Se si prende in considerazione un pezzo di metallo non sottoposto ad alcun campo elettrico,
+
+al suo interno gli elettroni di conduzione si muovono in modo disordinato senza una direzione
+
+preferenziale. In questo caso, pur essendoci delle cariche elettriche in movimento, non si è in
+
+presenza di corrente elettrica.
+
+Prendiamo in considerazione un corpo conduttore sottoposto ad un movimento di cariche
+
+uniforme e continuo, ovvero ad una corrente continua.
+
+Figura 2.5: Intensità di corrente
+
+(v. 0.0)
+
+CAPITOLO 2. GRANDEZZE ELETTRICHE FONDAMENTALI
+
+23
+
+Si definisce intensità di corrente I il rapporto tra la quantità di carica Q che attraversa
+
+una sezione S del conduttore in un intervallo di tempo ∆t e l’intervallo di tempo stesso.
+
+Q
+
+I =
+
+(2.5)
+
+∆t
+
+L’unità di misura della corrente elettrica è l’ampere (simbolo A). Esso è un’unità di misu-
+
+ra fondamentale nel SI. Da essa si ricava l’unità di misura della carica elettrica. Infatti, dalla
+
+definizione di intensità di corrente si ottiene:
+
+Q = I · ∆t
+
+(2.6)
+
+Per cui
+
+1 C = 1 A · 1 s
+
+la definizione (2.5) si applica nel caso di correnti costanti nel tempo, ovvero correnti continue.
+
+Nel caso di correnti non continue l’espressione precedente fornisce il valor medio della corrente
+
+elettrica nel particolare intervallo di tempo ∆t considerato.
+
+La corrente elettrica si misura con uno strumento denominato amperometro.
+
+2.3.1
+
+La corrente convenzionale
+
+Nei metalli la corrente elettrica è un flusso ordinato di elettroni. Nello studio dei circuiti e delle
+
+reti elettriche, per ragioni storiche, si suppone che la corrente sia formata da cariche positive che
+
+si muovono all’interno di un circuito elettrico secondo un verso convenzionale, in realtà opposto a
+
+quello effettivo.
+
+Figura 2.6: La corrente convenzionale.
+
+2.4
+
+Fenomeno della conduzione elettrica
+
+Se si mette in comunicazione una regione negativa (con eccesso di elettroni) con una regione
+
+positiva (in cui vi è mancanza di elettroni) mediante un mezzo conduttore, gli elettroni sono
+
+dotati dell’energia di attrazione che li fa spostare dalla regione negativa alla regione positiva.
+
+Questo movimento ordinato di elettroni, a cui abbiamo già dato il nome di corrente elettrica, è un
+
+esempio di conduzione elettrica. Perché ci sia corrente elettrica attraverso un materiale occorre
+
+che:
+
+• ci siano cariche libere;
+
+• venga fornita energia alle cariche libere.
+
+(v. 0.0)
+
+24
+
+2.5. BIPOLI ELETTRICI
+
+Quanto detto prima può essere espresso in modo equivalente con termini più specifici. Perché
+
+ci sia corrente elettrica attraverso un materiale , occorre che il materiale:
+
+• sia conduttore;
+
+• sia sottoposto ad una differenza di potenziale.
+
+La differenza di potenziale ai capi del conduttore può essere ottenuta con un dispositivo che
+
+ad una delle sue estremità crea un eccesso di elettroni (polo negativo) mentre all’altra estremità
+
+una carenza di elettroni. Questo dispositivo è denominato generatore. Il ruolo del generatore è
+
+analogo a quello di una pompa idraulica: esso aspira gli elettroni esterni dal suo terminale positivo
+
+e li fa defluire internamente verso il terminale negativo. La pila è un esempio di generatore elettrico.
+
+Tra i due terminali del generatore si interpone normalmente non solo il conduttore ma anche un
+
+utilizzatore elettrico. Anche l’utilizzatore elettrico è un dispositivo dotato di due terminali; da
+
+un terminale entra la corrente elettrica e dall’altro essa esce. Un classico esempio di utilizzatore
+
+elettrico è la lampadina ad incandescenza. Ricorrendo ancora all’analogia idraulica, la pompa
+
+può essere collegata tramite delle condutture ad una ruota idraulica. La ruota idraulica acquista
+
+energia cinetica che a sua volta può essere utilizzata per compiere un lavoro.
+
+Figura 2.7: Analogia idraulica.
+
+2.5
+
+Bipoli elettrici
+
+Un sistema elettrico è sostanzialmente un insieme di componenti interconnessi tra loro mediante
+
+conduttori metallici. Molti di questi componenti, come mostra l’esperienza comune, sono dotati
+
+di due terminali, o morsetti (apparecchi illuminanti, elettrodomestici, motori, campanelli, ecc). In
+
+sintesi, si definisce come bipolo elettrico un componente, od un insieme di componenti riconducibili
+
+ad uno equivalente, che interagisce con il resto del sistema elettrico in due soli punti.
+
+Ad ogni bipolo elettrico sono associate due grandezze elettriche: la differenza di potenziale ∆V
+
+presente ai suoi capi e l’intensità di corrente I che lo attraversa.
+
+Si è visto che, in base alla funzione svolta dal punto di vista energetico, i bipoli si suddividono
+
+in due categorie: generatori ed utilizzatori.
+
+I generatori forniscono l’energia necessaria a far muovere le cariche elettriche all’interno del
+
+sistema elettrico. I due morsetti del bipolo elettrico generatore si distinguono in positivo e negativo.
+
+La corrente convenzionale fuoriesce dal morsetto positivo del generatore e vi rientra dal morsetto
+
+negativo dopo aver percorso il sistema elettrico.
+
+Gli utilizzatori ricevono la corrente proveniente del generatore e, attraverso di essa, l’energia.
+
+Negli utilizzatori la corrente convenzionale entra dal morsetto collegato alla tensione più elevata
+
+(positiva) ed esce dal morsetto collegato alla tensione inferiore (negativa).
+
+(v. 0.0)
+
+CAPITOLO 2. GRANDEZZE ELETTRICHE FONDAMENTALI
+
+25
+
+Figura 2.8: I bipoli elettrici generatore ed utilizzatore.
+
+Le due convenzioni di segno trovano giustificazione nel seguente fatto: un generatore fornisce
+
+energia alle cariche elettriche positive della corrente convenzionale, pompandole dal morsetto ne-
+
+gativo ed emettendole dal morsetto positivo. L’utilizzatore, invece, assorbe energia elettrica dal
+
+sistema elettrico comportandosi nel modo opposto.
+
+A questo punto occorre fare una precisazione. La corrente che fuoriesce da un bipolo elettrico è
+
+in ogni istante pari alla corrente che entra nel bipolo. Ciò equivale a dire che la quantità di carica
+
+totale presente all’interno di un qualsiasi bipolo rimane costante. Questa ipotesi fondamentale è
+
+conosciuta con il nome di principio di stazionarietà della carica elettrica.
+
+2.6
+
+Energia e potenza elettrica assorbita da un bipolo uti-
+
+lizzatore
+
+Quando un bipolo elettrico è attraversato da una corrente elettrica I, causata da una d.d.p. ∆V
+
+applicata ai suoi capi, esso diviene sede di una trasformazione di energia. Per esempio, nel caso
+
+della lampadina si assiste ad una trasformazione dell’energia elettrica, fornita dal generatore, in
+
+parte in energia luminosa e in parte in calore; questo è solo uno dei tanti esempi delle continue
+
+trasformazioni di energia che avvengono nella realtà.
+
+La definizione classica di energia afferma che l’energia di un corpo è l’attitudine del corpo a
+
+compiere un lavoro. Il concetto di lavoro richiama una azione meccanica, ma non tutta l’energia
+
+si trasforma in lavoro meccanico. Anzi, tendenzialmente tutte le forme di energia tendono, pri-
+
+ma o poi, a trasformarsi in calore. E il calore rappresenta la forma di energia più deteriorata,
+
+difficilmente immagazzinabile e gestibile.7.
+
+L’energia posseduta da un corpo viene solitamente indicata con la lettera E e si misura in joule.
+
+Quando avviene una trasformazione di energia accade che in un intervallo d tempo ∆t = t2 − t1
+
+l’energia E posseduta da un corpo subisce una variazione ∆E pari a:
+
+∆E = E1 − E2
+
+dove E1 è l’energia posseduta dal corpo nell’istante di tempo iniziale t1 e E2 quella posseduta
+
+nell’istante di tempo successivo t2.
+
+Nell’intervallo di tempo ∆t attraverso il bipolo utilizzatore passa la carica Q pari a:
+
+Q = I · ∆t
+
+7 In realtà il calore posseduto da un corpo ha a che fare con la somma delle energie cinetiche possedute dalle
+
+singole molecole compongono il corpo. Tanto più grande è l’agitazione molecolare e tanto più elevata è la quantità di calore. Si intuisce che è praticamente impossibile gestire in modo ordinato le energie cinetiche possedute dalle singole molecole.
+
+(v. 0.0)
+
+26
+
+2.6. ENERGIA E POTENZA ELETTRICA ASSORBITA DA UN BIPOLO UTILIZZATORE
+
+Ricordando che dalla definizione di d.d.p. si ha
+
+∆E = ∆V · Q
+
+Pertanto l’energia elettrica assorbita da un bipolo elettrico nell’intervallo di tempo ∆t
+
+è
+
+∆E = ∆V · I · ∆t
+
+(2.7)
+
+Se accendiamo una lampadina in una stanza avviene una trasformazione costante di energia
+
+da elettrica a calore ed energia luminosa. Più tempo passa e maggiore è l’energia trasformata.
+
+La dipendenza dell’energia trasformata dal tempo trascorso si più rappresentare con la seguente
+
+relazione:
+
+∆E = P · ∆t
+
+dove ∆t è il tempo trascorso e P è una grandezza che fornisce una indicazione della velocità
+
+con cui avviene la trasformazione di energia. Tale grandezza prende il nome di potenza P. Nel
+
+caso del bipolo elettrico si ottiene:
+
+∆E
+
+P =
+
+= ∆V · I
+
+(2.8)
+
+∆t
+
+Quindi, la potenza elettrica assorbita da un bipolo elettrico è pari al prodotto tra la
+
+tensione applicata ai suoi capi e la corrente che la attraversa.
+
+E’ importante tener presente che le relazioni (2.7) e (2.8) sono state ottenute per un generico
+
+bipolo elettrico, senza fare ipotesi particolari sulle modalità con cui avviene al suo interno la
+
+trasformazione di energia. Si rammenta che la potenza, e quindi anche la potenza elettrica, si
+
+misura in watt (simbolo W).
+
+Esempio 2.6.1. Un motore elettrico sottoposto alla tensione di 220V assorbe una corrente pari
+
+a 2,5 A. Si determini la sua potenza e l’energia assorbita in 10 s.
+
+Soluzione.
+
+P = ∆V · I = 220 · 2, 5 = 550 W
+
+∆E = P · ∆t = 550 · 10 = 5500 J
+
+Esempio 2.6.2. Un utilizzatore elettrico è sottoposto ad una d.d.p. costante di 10 V, mentre la
+
+corrente che lo attraversa sale linearmente da 0 a 4 A in 10 s. Determinare la potenza elettrica e
+
+calcolare l’energia fornita all’utilizzatore in questo intervallo di tempo.
+
+Soluzione.
+
+Suggerimento: l’area sottesa alla curva della potenza rappresenta l’energia assorbita dall’uti-
+
+lizzatore.
+
+2.6.1
+
+Unità di misura dell’energia elettrica
+
+L’energia elettrica è una particolare forma di energia e, in quanto tale, in base al SI essa si misura
+
+in Joule. Per motivi storici e tecnici nei vari ambiti tecnologici, e in particolare anche nel settore
+
+elettrico, si sono affermate anche altre unità di misura dell’energia. Si elencano qui di seguito le
+
+unità di misura dell’energia più utilizzate:
+
+(v. 0.0)
+
+CAPITOLO 2. GRANDEZZE ELETTRICHE FONDAMENTALI
+
+27
+
+Caloria
+
+1 cal = 4.1866 J
+
+Kilocaloria
+
+1 kcal = 1000 cal = 4186.6 J
+
+Wattora
+
+1Wh = 1 W × 3600 s =3600 J
+
+Kilowattora
+
+1kWh = 1000 Wh = 3.6 × 106J
+
+Tabella 2.1: Unità di misura dell’energia
+
+Esempio 2.6.3. Determinare il corrispettivo in Joule ∆EJ di una trasformazione di energia
+
+elettrica in calore ∆EkW h pari a 115,2 kWh.
+
+Soluzione.
+
+∆EJ = 3, 6 · 106 · ∆EkWh = 3, 6 · 106 · 115, 2 = 4, 1472 · 108J
+
+Esempio 2.6.4. Una stufa elettrica da 1000 W viene mantenuta in funzione per un’ora. Deter-
+
+minare la quantità di calore ∆EkCal , espressa in kilocalorie prodotta dalla stufa elettrica.
+
+Soluzione.
+
+∆EJ = P · ∆t = 1000 · 3600 = 3, 6 · 106J
+
+∆EJ = 4186, 6 · ∆EkCal
+
+Perciò,
+
+1
+
+1
+
+∆EkCal =
+
+· ∆E
+
+· 3, 6 · 106 ∼
+
+= 859, 89 kCal
+
+4186, 6
+
+J = 4186, 6
+
+2.7
+
+Resistenza di un conduttore
+
+2.7.1
+
+Prima legge di Ohm
+
+Si è visto in precedenza (2.4)che in un conduttore si ha passaggio di corrente elettrica solo se ai suoi
+
+capi si applica una differenza di potenziale. Ciò significa che tensione e corrente sono in rapporto
+
+di causa ed effetto. Se la tensione ai capi del conduttore aumenta allora si può ragionevolmente
+
+ipotizzare che aumenti anche l’intensità della corrente che attraversa il conduttore.
+
+Figura 2.9: conduttore sottoposto ad una d.d.p..
+
+In particolare, si può osservare sperimentalmente che in in un conduttore esiste una relazione
+
+di proporzionalità diretta tra la tensione V ai suoi capi e la corrente I che lo attraversa. La
+
+(v. 0.0)
+
+28
+
+2.7. RESISTENZA DI UN CONDUTTORE
+
+propozionalità tra tensione e corrente implica, da un punto di vista matematico, che il loro rapporto
+
+rimanga costante.
+
+∆V = R
+
+(2.9)
+
+I
+
+resistenza
+
+La costante R è un parametro che indica il grado di difficoltà che le cariche libere incontrano
+
+per muoversi all’interno di un conduttore. Esso prende il nome di resistenza elettrica R del
+
+conduttore. La relazione (2.9) è denominata prima legge di Ohm ed è stata scoperta in modo
+
+sperimentale nel 1827 dal fisico tedesco George Simon Ohm (1789 - 1854).
+
+La resistenza si misura in ohm (simbolo Ω). Un conduttore presenta una resistenza di 1 ohm
+
+quando, sottoposto ad una d.d.p di 1 volt, è attraversato da una corrente di intensità pari a 1
+
+ampere.
+
+
+
+
+
+1 V
+
+
+1 Ω = 1 A
+
+conduttanza
+
+Spesso è comodo utilizzare la grandezza fisica inversa della resistenza, ovvero la conduttanza
+
+G.
+
+I
+
+1
+
+G =
+
+=
+
+(2.10)
+
+∆V
+
+R
+
+La conduttanza si misura in siemens (simbolo S) in onore di Werner Von Siemens (1816-1892)
+
+tecnico ed industriale tedesco, fondatore insieme ai fratelli della casa elettrotecnica Siemens. Un
+
+elevato valore di G è indice di un piccolo valore di R.
+
+Esempio 2.7.1. Un conduttore, a causa di una differenza di potenziale ∆V pari a 15 mV, a
+
+cui è sottoposto, viene attraversato da una intensità di corrente pari a 220 mA. Si determini la
+
+resistenza e la conduttanza del conduttore.
+
+Soluzione.
+
+∆V
+
+15 · 10−3
+
+R =
+
+=
+
+∼
+
+= 68 mΩ
+
+I
+
+220 · 10−3
+
+I
+
+220 · 10−3
+
+G =
+
+=
+
+∼
+
+= 15 S
+
+∆V
+
+15 · 10−3
+
+Nel caso dei conduttori per cui è valida la legge di Ohm, rappresentando graficamente su
+
+un diagramma cartesiano la corrente in funzione della tensione applicata si ottiene una curva,
+
+denominata caratteristica, che assume la forma di una retta.
+
+2.7.2
+
+Seconda legge di Ohm
+
+La resistenza di un conduttore dipende da diversi fattori che possono essere riassunti nel seguente
+
+elenco:
+
+• caratteristiche fisiche;
+
+• caratteristiche geometriche;
+
+• condizioni ambientali.
+
+In particolare, supposte costanti le condizioni ambientali (in pratica la temperatura), la resi-
+
+stenza di un conduttore di lunghezza l e sezione S è espressa dalla seguente formula:
+
+l
+
+R = ρ ·
+
+(2.11)
+
+S
+
+(v. 0.0)
+
+CAPITOLO 2. GRANDEZZE ELETTRICHE FONDAMENTALI
+
+29
+
+La dipendenza dalle caratteristiche fisiche, in altre parole dal materiale, è espressa attraverso
+
+il parametro ρ, denominato resistività.
+
+Dalla formula (2.11) si determina la seguente espressione inversa:
+
+S
+
+ρ = R · l
+
+Da essa si deduce che l’unità di misura della resistività è Ω · m.
+
+Esempio 2.7.2. Determinare la resistenza di una matassa di filo di rame crudo di lunghezza
+
+l=100m e sezione S = 1.5mm2 tenendo conto che la resistività del rame crudo, alla temperatura
+
+di 20◦C, è pari a 1.78 × 10−8Ω · m.
+
+Soluzione.
+
+l
+
+100
+
+R = ρ ·
+
+= 1, 78 · 10−8 ·
+
+∼
+
+= 1, 2 Ω
+
+S
+
+1, 5 · 10−6
+
+In realtà, in ambito elettrico, poiché le sezioni dei conduttori sono espresse normalmente in
+
+mm2, la resistività dei materiali utilizzati viene espressa in Ω·mm2 .
+
+m
+
+Materiale
+
+Resistività
+
+h
+
+i
+
+Ω · mm2
+
+m
+
+Rame crudo
+
+0,0178
+
+Rame ricotto
+
+0,0175
+
+Alluminio
+
+0,0284
+
+Aldrey
+
+0,032
+
+Costantana
+
+0,5
+
+Tabella 2.2: Resistività di alcuni materiali conduttori alla temperatura di 20 ◦C
+
+2.7.3
+
+Dipendenza dalla temperatura
+
+La resistività dei conduttori varia con la temperatura in modo diverso a seconda del tipo di
+
+materiale.
+
+Per la maggior parte dei conduttori (rame, alluminio, ferro, manganina, ecc.) la resistività
+
+aumenta con l’aumentare della temperatura.
+
+Ciò trova spiegazione, a livello atomico, nel fatto che aumentando la temperatura di un con-
+
+duttore aumenta l’agitazione termica degli atomi del reticolo cristallino. Essi tendono, allora, a
+
+subire un maggior numero di urti con gli elettroni di conduzione e ciò si traduce in una riduzione
+
+del moto direzionale degli elettroni.
+
+Per altri materiali, come la grafite ed il carbone amorfo, la resistività diminuisce all’aumentare
+
+della temperatura. Tale comportamento può essere spiegato con il fatto che il carbone è normal-
+
+mente un cattivo conduttore a causa della scarsità di elettroni di conduzione (il carbone, avendo
+
+quattro elettroni di valenza, tende a formare strutture cristalline compatte) e, con l’aumentare del-
+
+la temperatura, tende ad aumentare il numero di elettroni che si liberano dalla struttura cristallina
+
+e vanno ad ingrossare le fila degli elettroni di conduzione.
+
+Alla temperatura dello zero assoluto8 la resistività dovrebbe essere nulla, essendo cessata del
+
+tutto l’agitazione termica degli atomi; in realtà, a causa di altri fattori associati alla meccanica
+
+quantistica, ai difetti reticolari e la presenza di impurità, è presente ancora una resistività residua
+
+ρr.
+
+L’andamento della resistività con la temperatura in un metallo assume pertanto l’andamento
+
+riportato in figura 2.10 .
+
+8 0 gradi Kelvin, pari a -273,15 ◦C.
+
+(v. 0.0)
+
+30
+
+2.7. RESISTENZA DI UN CONDUTTORE
+
+Figura 2.10: Dipendenza della resistività dalla temperatura.
+
+Normalmente tra i -100◦C ed i 150◦C, la resistività varia in modo quasi lineare con il variare
+
+della temperatura. Quindi, dentro questo intervallo, la dipendenza della resistività di un materiale
+
+conduttore dalla temperatura si può esprimere mediante la seguente relazione empirica:
+
+ρ(T ) = ρ(T0) · [1 + α · (T − T0)]
+
+(2.12)
+
+dove:
+
+• T0 è la temperatura di riferimento (tipicamente 20 ◦C);
+
+• ρ(T0) è la resistività del materiale alla temperatura T0;
+
+• α è il coefficiente di temperatura del materiale.
+
+Si può intuire che un coefficiente di temperatura positivo indica che la resistività del materiale
+
+aumenta con la temperatura mentre un coefficiente di temperatura negativo implica che la resi-
+
+stività diminuisce all’aumentare della temperatura. Moltiplicando ambo i membri della relazione
+
+precedente per il rapporto l/S si ottiene:
+
+R(T ) = R(T0) · [1 + α · (T − T0)]
+
+(2.13)
+
+ovvero la legge di dipendenza della resistenza R di un conduttore dalla temperatura.
+
+Esempio 2.7.3. un conduttore di rame crudo presenta una resistenza R a 20 ◦C di 0,56 Ω. Si
+
+determini la variazione della resistenza quando la temperatura raggiunge i 75◦C, tenendo conto che
+
+il coefficiente di temperatura del rame crudo alla temperatura di 20 ◦C è pari a 3, 81 · 10−3 ◦C−1.
+
+Soluzione. L’intervallo di variazione della temperatura è interno a quello per cui è valida la
+
+relazione (2.13), dalla quale si può ottenere l’espressione della variazione di resistenza.
+
+∆R = R (T ) − R (T0) = R (T0) · α · (T − T0)
+
+Sostituendo i valori numerici, si ottiene
+
+∆R = 0, 56 · 3, 81 · 10−3 · (75 − 20) = 0, 12 Ω
+
+In diverse applicazioni è necessario disporre di materiali conduttori dotati di un valore di
+
+resistenza preciso e molto stabile al variare della temperatura. Uno di essi è la costantana , una
+
+lega composta di rame (60%) e nichel (40%).
+
+(v. 0.0)
+
+CAPITOLO 2. GRANDEZZE ELETTRICHE FONDAMENTALI
+
+31
+
+Materiale
+
+Coefficiente di temperatura
+
+◦C−1
+
+Rame crudo
+
+3, 81 · 10−3
+
+Rame ricotto
+
+3, 93 · 10−3
+
+Alluminio
+
+4 · 10−3
+
+Aldrey
+
+3, 6 · 10−3
+
+Costantana
+
+0, 002 · 10−3
+
+Tabella 2.3: Coefficiente di temperatura di alcuni materiali conduttori alla temperatura di 20 ◦C
+
+2.8
+
+La legge di Joule
+
+Un conduttore attraversato da corrente elettrica si riscalda. In altre parole in esso avviene una
+
+trasformazione di energia elettrica in calore. Quanto sopra si può spiegare tenendo conto del
+
+concetto di resistenza elettrica: il mezzo conduttore entro cui avviene il passaggio di corrente
+
+elettrica si oppone alla circolazione della corrente , richiedendo un dispendio di energia perché
+
+tale circolazione avvenga. Gli elettroni passando da un potenziale inferiore ad un potenziale
+
+superiore, cedono energia potenziale elettrica; questa viene dissipata in calore attraverso l’aumento
+
+dell’agitazione molecolare dovuto agli urti tra gli elettroni e gli atomidel reticolo cristallino.
+
+Questo processo di trasformazione di energia elettrica in energia termica è stato studiato da
+
+James Prescott Joule (1818-1889) ed è noto come effetto Joule.
+
+La legge di Joule afferma che un conduttore di resistenza R, attraversato da una corrente
+
+continua I, trasforma in calore in un intervallo di tempo ∆t la seguente quantità di energia DeltaE:
+
+∆E = R · I2 · ∆t
+
+(2.14)
+
+La legge precedente si dimostra facilmente tenedo conto che:
+
+∆E = ∆V · I · ∆t = (R · I) · I · ∆t
+
+Esempio 2.8.1. Si determini il calore, in kilocalorie, generato da un resistore di resistenza R =
+
+470 W attraversato da una corrente di 200 mA per un intervallo di tempo ∆t = 12 min.
+
+Soluzione.
+
+Esempio 2.8.2. Una stufa elettrica di resistenza R assorbe una corrente di 1,2 A e viene fatta
+
+funzionare per due ore. Si determini la resistenza R supponendo che nell’intervallo considerato
+
+l’energia dissipata si aggiri sulle 30 kcal.
+
+Soluzione.
+
+In termini di potenza si osserva che la potenza elettrica dissipata in calore da un conduttore è:
+
+∆E
+
+R · I2 · ∆t
+
+P =
+
+=
+
+= R · I2
+
+(2.15)
+
+∆t
+
+∆t
+
+Applicando la legge di Ohm si ottiene un’altra espressione equivalente:
+
+∆V 2
+
+P =
+
+(2.16)
+
+R
+
+(v. 0.0)
+
+32
+
+2.8. LA LEGGE DI JOULE
+
+2.8.1
+
+Problematiche tecniche dell’effetto Joule
+
+L’effetto Joule è particolarmente importante ai fini della costruzione e del funzionamento delle
+
+apparecchiature elettriche.
+
+Il fenomeno del riscaldamento dei conduttori al passaggio della corrente elettrica è quasi sempre
+
+dannoso, a meno che esso non sia appositamente ricercato, come nel caso della stufa elettrica.
+
+Quando un conduttore elettrico è attraversato da una corrente elettrica eccessiva, in termini
+
+tecnici sovracorrente, esso può essere soggetto a danni irreversibili a causa dell’eccessivo riscal-
+
+damento. E’ dimostrato che la maggiore causa di incendi nelle abitazioni civili è dovuta all’effetto
+
+delle sovracorrenti negli impianti elettrici.
+
+Esistono due tipi di sovracorrenti:
+
+• le correnti di sovraccarico;
+
+• le correnti di cortocircuito.
+
+I conduttori elettrici presenti negli impianti elettrici vengono protetti dala presenza di even-
+
+tuali sovracorrenti mediante l’utilizzazione di apparecchiature di protezione quali i fusibili e gli
+
+interruttori magnetotermici.
+
+Il fusibile è il più semplice tra i dispositivi di protezione e viene utilizzato generalmente per
+
+proteggere una linea dalle correnti di cortocircuito. Esso viene posto in serie alla linea che si vuole
+
+proteggere ed interviene interrompendo la linea quando il valore della corrente che lo attraversa è
+
+tale da provocare la fusione di un suo elemento fusibile, da cui il nome di fusibile.
+
+Gli interruttori automatici megnetotermici sono dispositivi meccanici di interruzione della cor-
+
+rente. essi sono dotati di un apposito dispositivo di sgancio che provoca l’apertura automatica dei
+
+contatti quando la corrente che lo attraversa supera un determinato valore per un certo tempo. Il
+
+tempo di intervento dipende dal valore della corrente di guasto.
+
+Esempio 2.8.3. Dato un scaldabagno elettrico di 1000W contenente 50Kg di acqua ed alimentato
+
+dalla tensione di rete si determini:
+
+1. la corrente assorbita dal resistore di riscaldamento;
+
+2. la resistenza del resistore di riscaldamento;
+
+3. ’energia elettrica assorbita in 30 minuti;
+
+4. il calore fornito dal resistore di riscaldamento alla massa d’acqua in 30 minuti.
+
+Soluzione.
+
+(v. 0.0)
+
+CAPITOLO 2. GRANDEZZE ELETTRICHE FONDAMENTALI
+
+33
+
+2.9
+
+Domande
+
+2.9.1
+
+Conoscenze
+
+1. Il campo elettrico creato da una carica Q è il rapporto tra la forza ~
+
+F che Q esercita su una
+
+carica q e la carica q stessa. Il valore di ~
+
+E dipende dal valore di q ? Perché ?
+
+2. Quando possiamo affermare che una regione dello spazio è sede di un campo elettrico ?
+
+3. Rappresenta mediante linee di forza il campo elettrico generato da una carica puntiforme
+
+negativa.
+
+4. La tensione elettrica fornisce una misura quantitativa del lavoro necessario per portare una
+
+carica elettrica unitaria da un punto A ad un punto B ? Perché ?
+
+5. Completa la seguente frase scegliendo i termini opportuni fra quelli sottoelencati.
+
+L’unità di misura della tensione elettrica è ..................... e uno degli strumenti adatti a
+
+misurarla è ...........................
+
+(Joule; multimetro; coulomb; elettroscopio; volt; N/C; joule/coulomb; cinescopio).
+
+6. Completa la seguente frase scegliendo i termini opportuni fra quelli sottoelencati.
+
+L’intensità della corrente elettrica è .......................... che attraversa .............................
+
+di un conduttore in ............................., la sua unità di misura è .............................. e si misura con strumenti come ..............................
+
+(Tempo t; coulomb; oscilloscopio, ampere, unità di carica Q; volt; volume; voltmetro; sezione;
+
+un secondo; carica Q; amperometro.)
+
+7. Spiegare brevemente cosa sono il potenziale di massa ed il potenziale di terra.
+
+8. Affinché in un conduttore circoli corrente occorre connettere ai suoi capi un’apparecchiatura
+
+in grado di mantenere una differenza di potenziale ? Perché ?
+
+9. Il rapporto tra la tensione applicata ad un conduttore e la corrente che circola in esso è:
+
+(a) variabile;
+
+(b) costante;
+
+(c) dipende dalla corrente che circola in esso;
+
+(d) dipende dal valore della tensione applicata.
+
+10. Scrivere le diverse forme con cui è possibile esprimere la prima legge di Ohm
+
+11. Scrivi la seconda legge di Ohm ed esplicita il significato dei termini presenti in essa.
+
+12. Perché per la maggior parte dei conduttori ad un aumento della temperatura corrisponde
+
+un aumento della resistività ?
+
+13. Per la maggior parte dei conduttori un aumento di temperatura determina un aumento della
+
+corrente che in essi può circolare a parità di tensione applicata? Perché?
+
+14. Due delle leggi enunciate in questo modulo sono state scoperte dal fisico tedesco George
+
+Simon Ohm (1787-1854). Elencare le grandezze fisiche sin qui introdotte ed effettuare una
+
+ricerca sui personaggi che hanno dato il nome alle unità di misura di tali grandezze.
+
+15. Il kWh è l’unità di misura della ...............................
+
+16. Esprimere una definizione di energia.
+
+17. Esprimere una definizione di potenza.
+
+(v. 0.0)
+
+34
+
+2.9. DOMANDE
+
+18. A parità di tensione la potenza assorbita da una apparecchiatura è tanto più ...................
+
+quanto più ................... è la corrente che essa assorbe.
+
+19. A parità di tempo l’energia consumata da una apparecchiatura è .................. se è ..................
+
+è la potenza dell’apparecchiatura stessa.
+
+20. Se si applica ad un wattorametro un carico resistivo variabile e si diminuisce la resistenza
+
+del carico il disco del wattorametro gira più lentamente o più velocemente ? Perché?
+
+21. Che cosa si intende con il termine effetto Joule ?
+
+22. Per diminuire il calore prodotto in un conduttore di resistenza R ed alimentato da una
+
+tensione costante V occorre:
+
+(a) Aumentare la corrente che lo attraversa.
+
+(b) Dimezzare la sua resistenza.
+
+(c) Aumentare il tempo di funzionamento.
+
+(d) Raddoppiare la sua resistenza.
+
+(e) Diminuire l’energia elettrica assorbita.
+
+(v. 0.0)
+
+CAPITOLO 2. GRANDEZZE ELETTRICHE FONDAMENTALI
+
+35
+
+2.10
+
+Esercizi
+
+1. Su una carica q = 2 · 107C, posta in un punto P di un campo elettrico, si esercita una forza
+
+di 0,01 N diretta verso destra.
+
+(a) Quanto vale l’intensità del campo ~
+
+E nel punto P ?
+
+(b) Disegna direzione e verso del campo ~
+
+E nel punto P.
+
+(c) Di quanto varia l’intensità del campo ~
+
+E se la carica q raddoppia ?
+
+2. Una carica q = 2C spostandosi da un punto A ad un punto B cede una energia ∆EAB = 50J.
+
+Si calcoli la differenza di potenziale tra i due punti.
+
+3. Per spostare una carica Q pari a 18 C da un punto A ad un punto B distanti tra loro 5 m
+
+occorre compiere un lavoro di di 20J. determinare la differenza di potenziale VAB.
+
+4. Dato il seguente circuito elettrico (E= 5V, R= 100W) determinare l’energia ceduta dalla
+
+batteria ad una quantità di carica elettrica Q=2,2C per spostarla dal punto A al punto B.
+
+5. Un conduttore viene attraversato da una corrente continua di 20 mA. Determinare la quantità
+
+di carica che attraversa una sezione del conduttore in 5 ms.
+
+6. Un conduttore, a causa di una differenza di potenziale E pari a 12V, a cui è sottoposto,
+
+viene attraversato da una corrente elettrica di 20 mA. Si determinino la sua resistenza e la
+
+sua conduttanza.
+
+7. Determinare la resistenza di una matassa di filo di rame di lunghezza l=200m e sezione S
+
+=2.5 mm2 tenendo conto che la resistività del rame, alla temperatura di 20◦C, è pari a
+
+1.78 × 10−8Ω · m.
+
+8. Dato un cavo commerciale di rame (ρ = 0, 0178 × ω × mm2/m) della lunghezza di 200 m ed
+
+avente resistenza inferiore a 2 Ω alla temperatura di 80 ◦C. Determinare:
+
+(a) la sua sezione commerciale;
+
+(b) la caduta di tensione ai suoi capi, qualora esso sia attraversato da una densità di corrente
+
+di 5,2 A/mm2;
+
+(c) la sezione teorica di un cavo in alluminio avente la stessa lunghezza e la stessa resistenza
+
+ed operante alla stessa temperatura.
+
+9. Un conduttore di tungsteno (α = 4.5 × 10−3◦C−1) presenta una resistenza a ◦C di 0.7 W.
+
+Determinare la resistenza dello stesso conduttore alla temperatura di -15 ◦C.
+
+10. Si ha a disposizione un resistore da 120 W con tolleranza 5% da 1/2W. Si determini:
+
+(a) il codice colori;
+
+(b) il valore minimo e massimo di resistenza che possono essere assunti dal resistore.
+
+11. Una apparecchiatura assorbe una energia pari a 20000 J in 30 s. Si determini:
+
+(a) la sua potenza;
+
+(b) la potenza dell’apparecchiatura nell’ipotesi che assorba la stessa energia in 5 minuti.
+
+12. Un motore elettrico sottoposto alla tensione di 220V assorbe una corrente pari a 2,5 A. Si
+
+determini la sua potenza.
+
+13. Un motore elettrico da 2 kW viene fatto funzionare secondo il seguente ciclo (30s ON - 10s
+
+OFF) per un tempo pari ad otto ore. Si determini la quantità di energia in Joule assorbita
+
+dal motore.
+
+(v. 0.0)
+
+36
+
+2.10. ESERCIZI
+
+14. Una lampada alogena da 300W viene lasciata accesa per 12 ore al giorno . Si determini il
+
+costo di esercizio giornaliero considerando il costo di un kWh pari a 0,13 euro.
+
+15. Con un contatore elettrico è stata misurata l’energia consumata da una lavatrice da 1200W.
+
+Il valore letto sul contatore è di 1, 5 kWh. Si determini per quanto tempo la lavatrice è
+
+rimasta in funzione.
+
+16. Si ha a disposizione un resistore da 120 W con tolleranza 5% da 1/2W. Si determini:
+
+(a) il codice colori;
+
+(b) il valore minimo e massimo di resistenza che possono essere assunti dal resistore;
+
+(c) la corrente massima che può circolare attraverso di esso;
+
+(d) la massima tensione di lavoro a cui può operare.
+
+17. Una stufa elettrica sottoposta alla tensione di rete assorbe una intensità di corrente di 1,2
+
+A. Si determini:
+
+(a) la resistenza R della stufa elettrica;
+
+(b) la potenza P assorbita;
+
+(c) l’energia elettrica, espressa in Joule, dissipata dalla stufa elettrica in due ore e mezza;
+
+(d) il calore, espresso in kilocalorie, prodotto dalla stufa elettrica nello stesso intervallo di
+
+tempo.
+
+18. Si devono portare 5 kg di acqua dalla temperatura di 25◦C a 100◦C utilizzando un ebollitore
+
+elettrico perfettamente isolato e alimentato dalla rete, avente una resistenza di 10W. Si
+
+determini:
+
+(a) l’energia necessaria, espressa in Wh;
+
+(b) il tempo impiegato.
+
+19. Disegnare lo schema di inserzione di un wattmetro
+
+(v. 0.0)
+
+Capitolo 3
+
+BIPOLI ELETTRICI
+
+3.1
+
+Caratteristica esterna dei bipoli elettrici
+
+La tensione e la corrente di un bipolo elettrico sono legate da una relazione biunivoca che può
+
+essere espressa in forma analitica mediante le seguenti relazioni:
+
+∆V = f (I)
+
+(3.1)
+
+I = g (∆V )
+
+(3.2)
+
+La curva che esprime graficamente sul piano cartesiano la relazione tensione-corrente prende
+
+il nome di caratteristica esterna. In figura 3.1 è riportato un generico bipolo elettrico e la sua
+
+caratteristica esterna.
+
+Figura 3.1: Caratteristica esterna di un bipolo elettrico.
+
+Sull’asse delle ascisse è stata posta la corrente e sull’asse delle ordinate la tensione. In questo
+
+modo si è implicitamente optato di rappresentare la relazione ∆V = f (I). Nulla vieta di porre
+
+sull’ascissa la tensione e in ordinata la corrente in modo da rappresentare graficamente la relazione
+
+I = g (∆V ).
+
+L’aggettivo esterna indica che il grafico descrive il comportamento del bipolo elettrico dal punto
+
+di vista esterno, ossia del circuito elettrico a cui è collegato, senza tener conto dei fenomeni che
+
+avvengono all’interno del bipolo. La caratteristica esterna può essere ottenuta sperimentalmente
+
+imponendo al bipolo una serie di valori di corrente, o di tensione, e misurando per ciascuno di essi
+
+la tensione e la corrente, che interessa il bipolo. Le coppie di valori (V,I) ottenuti vengono poi
+
+riportate su un diagramma.
+
+37
+
+
+
+38
+
+3.2. TENSIONE A VUOTO E CORRENTE DI CORTOCIRCUITO
+
+La forma della caratteristica esterna permette di distinguere i bipoli elettrici in:
+
+• bipoli lineari;
+
+• bipoli non lineari.
+
+La caratteristica dei bipoli lineari è una retta, mentre la caratteristica dei bipoli non lineari è
+
+una curva.
+
+Un tipico esempio di bipolo non lineare è il diodo (Figura 3.2), un dispositivo elettronico
+
+realizzato con materiali semiconduttori.
+
+Figura 3.2: Caratteristica esterna di un diodo.
+
+3.2
+
+Tensione a vuoto e corrente di cortocircuito
+
+Esaminando la caratteristica esterna di un bipolo elettrico è possibile definire le due seguenti
+
+grandezze:
+
+Tensione a vuoto V0. E’ la tensione che si ha ai morsetti del bipolo quando è nulla la corrente
+
+che vi circola, ovvero quando i due morsetti del bipolo sono sconnessi dal sistema elettrico. Il suo
+
+valore è dato dalla tensione nel punto di intersezione della caratteristica esterna con l’asse delle
+
+tensioni (I = 0).
+
+Corrente di cortocircuito Icc. E’ la corrente che si manifesta nel bipolo elettrico quando è
+
+nulla la tensione ai morsetti, ovvero quando i due morsetti del bipolo sono connessi direttamente
+
+tra di loro. Il suo valore è dato dalla corrente nel punto di intersezione della caratteristica esterna
+
+con l’asse delle correnti (∆V = 0).
+
+In base ai valori assunti da V0 e Icc i bipoli elettrici si suddividono in:
+
+• bipoli passivi, quando sia la tensione a vuoto che la corrente di cortocircuito sono entrambe
+
+e, di conseguenza, la caratteristica voltamperometrica passa per l’origine degli assi.
+
+• bipoli attivi, quando sia la tensione a vuoto che la corrente di cortocircuito sono entrambe
+
+diverse da 0 e, di conseguenza, la caratteristica non passa per l’origine degli assi.
+
+Esempi di bipolo passivo sono:
+
+• il resistore: in esso avviene la trasformazione di energia elettrica in calore.
+
+(v. 0.0)
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+39
+
+Figura 3.3: Tensione a vuoto e corrente di cortocircuito.
+
+• il condensatore: in esso avviene la trasformazione di energia elettrica in energia potenziale
+
+elettrostatica.
+
+• l’induttore: in esso avviene la trasformazione di energia elettrica in energia potenziale
+
+magnetica.
+
+Esempi di bipolo attivo sono:
+
+• il generatore a corrente continua1; in esso avviene la trasformazione di energia meccanica in
+
+energia elettrica.
+
+• il motore a corrente continua: in esso avviene normalmente la trasformazione di energia
+
+elettrica in energia meccanica.
+
+• La pila: essa trasforma energia chimica in energia elettrica.
+
+Occorre tenere presente che sia il generatore che il motore a corrente continua sono due esempi
+
+di macchine elettriche, e come tali godono della proprietà di reversibilità. Ad esempio, se si impone
+
+la rotazione dell’albero di un motore a corrente continua ai capi dei due morsetti di alimentazione
+
+si rileva la presenza di una tensione; ciò significa che sta funzionando come un generatore. Se
+
+invece applichiamo una tensione ai capi di un generatore a corrente continua si nota che il suo
+
+albero inizia a muoversi, ovvero esso sta funzionando come motore.
+
+Le pile generalmente non godono della proprietà di reversibilità, anche se nel caso delle pile
+
+ricaricabili si cerca di ottenere qualcosa di simile.
+
+Da questa carrellata si può intuire che i bipoli attivi sono bipoli elettrici che sono in grado
+
+di funzionare sia da generatori che da utilizzatori, mentre i bipoli passivi possono funzionare
+
+solo da utilizzatori; infatti, quando vengono isolati dal resto del sistema elettrico attraverso un
+
+cortocircuito o aprendo il circuito (funzionamento a vuoto) non sono in grado nè di erogare corrente
+
+nè di mantenere autonomamente una tensione ai loro capi.
+
+Nei bipoli attivi, a differenza dei passivi, i due morsetti sono dotati di segno, o polarità.
+
+In particolare, quando essi funzionano da generatori il morsetto da cui fuoriesce la corrente è
+
+denominato morsetto positivo, mentre quando funzionano da utilizzatori il morsetto positivo è il
+
+morsetto da cui entra la corrente.
+
+Riassumendo nei bipoli passivi avviene la trasformazione di energia elettrica in calore od in
+
+energia ancora di tipo elettrico, mentre nei bipoli attivi avviene la trasformazione di altra energia
+
+in energia elettrica oppure di energia elettrica in energia diversa dall’energia termica e dall’energia
+
+elettrica.
+
+
+
+
+
+1 Denominato comunemente dinamo
+
+
+(v. 0.0)
+
+40
+
+3.3. BIPOLI IDEALI
+
+La determinazione sperimentale della caratteristica esterna di un bipolo attivo funzionante
+
+come generatore può essere effettuata con l’ausilio di un reostato R (figura 3.4), ovvero un bipolo
+
+passivo dotato di una resistenza variabile in funzione della posizione di una presa intermedia
+
+mobile, denominata cursore.
+
+Figura 3.4: Determinazione sperimentale della caratteristica esterna di un bipolo attivo.
+
+Variando la posizione del cursore si ottengono diverse coppie di valori di tensione e corrente
+
+rilevati rispettivamente dall’amperometro A e dal voltmetro V. Se il bipolo attivo si comporta in
+
+modo lineare tutti i punti individuati dalle le coppie di valori (V,I) devono appartenere alla stessa
+
+retta.
+
+Da un punto di vista pratico il funzionamento in cortocircuito è di difficile rilevazione perché
+
+ad esso dovrebbe corrispondere una corrente enorme, la quale, a causa dell’effetto Joule, può
+
+portare ad un eccessivo riscaldamento dei componenti del circuito di misura. Il funzionamento a
+
+circuito aperto, invece, non presenta i pericoli del funzionamento in cortocircuito. Esso si ottiene
+
+disinserendo il reostato.
+
+3.3
+
+Bipoli ideali
+
+Lo studio dei sistemi elettrici impone la modellizzazione di alcuni componenti elettrici reali come
+
+il generatore elettrico, i carichi resistivi, i conduttori di collegamento, ecc., mediante degli elementi
+
+aventi dei comportamenti ben definiti e soggetti a determinate ipotesi semplificative. Per questo
+
+motivo vengono introdotti i bipoli elettrici ideali, i quali sono dei bipoli lineari astratti dalla cui
+
+composizione possiamo ottenere la modellizzazione di sistemi elettrici anche complessi.
+
+3.3.1
+
+Generatore ideale di tensione
+
+E’ un bipolo attivo che mantiene ai suoi morsetti una tensione costante per qualunque corrente ero-
+
+gata. La tensione si indica con E ed è denominata forza elettromotrice o tensione impressa.
+
+La sua equazione caratteristica è:
+
+∆V = E
+
+Il simbolo del bipolo e la sua caratteristica esterna sono rappresentati in figura 3.5.
+
+3.3.2
+
+Generatore ideale di corrente
+
+E’ un bipolo attivo che eroga dai suoi morsetti una corrente costante a qualunque tensione. La
+
+corrente si indica con I0 ed è denominata corrente impressa. La sua equazione caratteristica è:
+
+(v. 0.0)
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+41
+
+Figura 3.5: Generatore ideale di tensione.
+
+I = I0
+
+Il simbolo del bipolo e la sua caratteristica esterna sono rappresentati in figura 3.6.
+
+Figura 3.6: Generatore ideale di corrente.
+
+3.3.3
+
+Resistore ideale
+
+E’ un bipolo passivo che mantiene un valore di resistenza costante qualunque siano i valori della
+
+tensione e della corrente. La sua equazione caratteristica deriva dalla legge di Ohm:
+
+∆VAB = R · I
+
+I = G · ∆VAB
+
+La caratteristica esterna è una retta passante per l’origine, in conformità al fatto che è un
+
+bipolo passivo, avente inclinazione dipendente dal valore di R o di G.
+
+Questo bipolo approssima il comportamento dei resistori reali, nei quali il valore della resistenza
+
+dipèende dalla temperatura e da altre cause. Esistono diverse tipologie di resistori, anche molto
+
+diverse tra loro, che si differenziano principalmente per la potenza elettrica che sono in grado di
+
+dissipare senza subire danni.
+
+3.3.4
+
+Cortocircuito ideale
+
+E’ un bipolo passivo che mantiene ai suoi morsetti una tensione nulla per qualunque valore della
+
+corrente che lo attraversa. Pertanto la sua equazione è semplicemente:
+
+∆VAB = 0
+
+(v. 0.0)
+
+42
+
+3.3. BIPOLI IDEALI
+
+Figura 3.7: Resistore ideale.
+
+Il cortocircuito si rappresenta con una linea. In sostanza possono essere assimilati a cortocircuiti
+
+tutti i conduttori di collegamento tra un bipolo e l’altro. Il cortocircuito ideale è assimilabile a un
+
+resistore ideale di resistenza nulla per il quale si ha sempre:
+
+∆VAB = 0 · I = 0
+
+Figura 3.8: Cortocircuito ideale.
+
+3.3.5
+
+Circuito aperto ideale
+
+E’ un bipolo passivo interessato da corrente nulla per qualunque valore di tensione posto ai suoi
+
+capi. La sua equazione consiste semplicemente in:
+
+I = 0
+
+Questo bipolo approssima un qualsiasi circuito aperto, come ad esempio un interruttore aperto.
+
+Gli interruttori, in realtà, quando sono sottoposti a d.d.p. molto elevate possono essere interes-
+
+sati dal fenomeno dell’arco elettrico. Il circuito aperto ideale può essere considerato anche una
+
+resistenza di valore infinito.
+
+Esercizio proposto 3.3.1. Per ciascuna delle seguenti caratteristiche esterne, espresse in forma
+
+analitica, disegnare la loro rappresentazione grafica ed indicare a quale tipo di bipolo appartengono.
+
+1. ∆V = 12 · I.
+
+2. I = 10A.
+
+(v. 0.0)
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+43
+
+Figura 3.9: Circuito aperto ideale.
+
+3. ∆V = 5V.
+
+4. I = 0A.
+
+3.4
+
+Bipoli collegati in serie e in parallelo.
+
+Si considerino due bipoli elettrici collegati come in figura 3.10.
+
+Figura 3.10: Due bipoli in serie.
+
+Il collegamento dei due bipoli della figura è denominato collegamento in serie. Esso è tale per
+
+cui la corrente che interessa il bipolo con d.d.p VAB è la stessa che interessa il bipolo con d.d.p.
+
+VBC. In generale due o più bipoli elettrici sono collegati in serie quando sono soggetti
+
+alla stessa corrente.
+
+Nella figura 3.11 i bipoli elettrici sono collegati in parallelo. In questo caso ciò che li caratterizza
+
+è l’essere sottoposti alla stessa differenza di potenziale.
+
+Figura 3.11: Due bipoli in parallelo.
+
+In generale due o più bipoli elettrici sono collegati in parallelo quando sono sottoposti
+
+alla stessa differenza di potenziale.
+
+(v. 0.0)
+
+
+
+44
+
+3.5. CONVENZIONI E PROPRIET À DELLE DIFFERENZE DI POTENZIALE
+
+3.5
+
+Convenzioni e proprietà delle differenze di potenziale
+
+La differenza di potenziale esistente tra due punti A ed B di un sistema elettrico si può rappre-
+
+sentare con il simbolo VAB, omettendo il simbolo ∆, dove gli indici inferiori (A ed B) indicano tra
+
+quali punti del sistema si intende riferita la d.d.p..
+
+VAB = VA − VB
+
+Si rammenta che:
+
+• se VA > VB
+
+⇒
+
+VAB > 0;
+
+• se VB > VA
+
+⇒
+
+VAB < 0.
+
+Occorre prendere bene confidenza con le convenzioni e le proprietà delle d.d.p. per poter
+
+risolvere in seguito abbastanza agevolmente sistemi elettrici anche complessi.
+
+Si prendono in considerazione i quattro casi elementari riportati in figura 3.12. Per ciascuno
+
+di essi si è indicata la d.d.p. tenendo conto di quanto esposto nel paragrafo 3.3.
+
+Figura 3.12: d.d.p. in quattro casi elementari.
+
+I casi del generatore ideale di corrente e del circuito aperto non sono stati presi in considerazione
+
+perché la d.d.p. ai loro capi dipende dai vincoli imposti dal sistema elettrico in cui essi vengono
+
+inseriti.
+
+Esempio 3.5.1. si determinino le seguenti differenze di potenziale
+
+Soluzione.
+
+Le d.d.p. calcolate prima sono relative a casi elementari; in generale, però, i punti A e B
+
+comprendono più bipoli elettrici. In tale caso è utile ricordare la proprietà fondamentale delle
+
+differenze di potenziale: il principio di addittività delle d.d.p.
+
+(v. 0.0)
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+45
+
+3.6
+
+Principio di additività delle d.d.p.
+
+Si riprendano in considerazione i due bipoli elettrici collegati in serie della figura 3.10. La differenza
+
+di potenziale tra i due estremi A e C si ottiene facendo la somma delle differenze di potenziale ai
+
+capi di ciascun bipolo.
+
+Infatti si ha che:
+
+VAC = VA − VC = VA − VB + VB − VC = VAB + VBC
+
+Le cose non cambiano se si è in presenza di tre o più bipoli collegati in serie (figura 3.13). In
+
+generale vale il seguente principio: la differenza di potenziale ai capi di n bipoli collegati in
+
+serie è pari alla sooma delle differenze di potenziale ai capi di ciascun bipolo elettrico.
+
+VT = V1 + V2 + . . . + Vn
+
+(3.3)
+
+Figura 3.13: d.d.p. per n bipoli in serie.
+
+Esso è conosciuto con il nome di principio di additività delle differenze di potenziale.
+
+Esempio 3.6.1. Determinare le differenze di potenziale indicate nei seguenti casi.
+
+Soluzione.
+
+Caso a)
+
+VAC = VAB + VBC = E + R · I = 12 + 8 · 0, 2 = 13, 6 V
+
+Caso b)
+
+VOM = VON + VNM = (−R · I) + (−E) = −8 · 0, 2 − 12 = −13, 6 V
+
+3.7
+
+Reti elettriche
+
+Per rete elettrica si intende un sistema elettrico comunque complesso, realizzato utilizzando com-
+
+ponenti elettrici, in cui circolano una o più correnti elettriche.
+
+Il sistema elettrico completo ed autonomo più semplice possibile è il circuito elettrico. L’esem-
+
+pio più elementare di circuito elettrico è già stato visto in precedenza quando sono stati introdotti
+
+i concetti di generatore ed utilizzatore.
+
+(v. 0.0)
+
+46
+
+3.7. RETI ELETTRICHE
+
+In figura 3.14 è riportato un circuito elettrico composto solo da un generatore di tensione
+
+collegato ad un bipolo resistivo.
+
+Figura 3.14: Circuito elettrico elementare.
+
+Il circuito è attraversato da una corrente I il cui valore si può determinare agevolmente poiché
+
+si sa che la tensione VAB ai capi del bipolo resistivo è pari alla f.e.m. E del generatore ideale di
+
+tensione.
+
+Applicando la prima legge di Ohm si ottiene:
+
+V
+
+E
+
+I = AB =
+
+R
+
+R
+
+I circuiti elettrici possono avere una complessità maggiore, come ad esempio quello riportato
+
+in figura 3.15.
+
+Figura 3.15: Circuito elettrico complesso.
+
+Per quanto possa essere complesso un circuito elettrico, si intuisce che tutti gli elementi che lo
+
+compongono sono attraversati dalla stessa corrente elettrica.
+
+Un ulteriore elemento di complicazione è la presenza di eventuali biforcazioni (figura 3.16). In
+
+questo caso non si parla non più di circuiti elettrici ma, più propriamente di reti elettriche.
+
+Figura 3.16: Esempio di rete elettrica
+
+(v. 0.0)
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+47
+
+Nella rete di figura 3.16 si possono individuare diversi elementi topologici 2.
+
+Una rete elettrica è costituita dalla composizione dei seguenti tipi di elementi topologici:
+
+• maglia: un possibile percorso chiuso della rete elettrica
+
+• ramo: un tronco della rete elettrica, compreso tra due nodi, percorso da una sola corrente.
+
+• nodo: punto di confluenza tra tre o più rami.
+
+Ad esempio nella rete di figura 3.16 sono presenti rispettivamente 3 maglie, 2 nodi e 3 rami.
+
+Figura 3.17: Maglie, nodi e rami in una rete elettrica.
+
+Esercizio proposto 3.7.1. Disegnare una o più reti elettriche e determinare il numero n di nodi,
+
+il numero m di maglie ed il numero r di rami presenti in esse.
+
+3.8
+
+Principi di Kirchhoff
+
+Nello studio delle reti elettriche capita di dover determinare alcune grandezze elettriche incognite
+
+(effetti) in base al valore assunto da altre grandezze elettriche note (cause). Per risolvere questo
+
+problema è necessario disporre di equazioni che mettano in relazione le cause con gli effetti. Lo
+
+scienziato tedesco Gustav Robert Kirchhoff (1824-1887) ricavò i due principi fondamentali per lo
+
+studio delle reti elettriche che permettono di scrivere tali equazioni. Egli dedusse i suoi principi
+
+da due leggi fisiche generali che non riguardano solo le reti elettriche.
+
+3.8.1
+
+Primo principio di Kirchhoff
+
+Si consideri il nodo riportato in figura 3.18 appartenente ad una generica rete elettrica. In esso
+
+convergono diversi rami, ognuno percorso da una corrente elettrica avente il verso convenzionale
+
+è indicato in figura.
+
+Si può ragionevolmente ritenere che la corrente totale che esce dal nodo sia uguale alla corrente
+
+totale che entra in esso. D’altronde se ciò non accadesse si avrebbe un accumulo od una rarefazione
+
+progressiva di cariche elettriche a seconda del termine che risulta maggiore. In pratica si ritiene
+
+costante la carica totale presente in ciascuna parte di una rete elettrica ovvero si ritiene valido il
+
+principio di stazionarietà della carica elettrica.
+
+In regime stazionario la carica elettrica presente nel nodo deve rimanere costante e quindi,
+
+in uno stesso intervallo di tempo, alla carica che entra nel nodo deve corrispondere una uguale
+
+quantità di carica in uscita da esso.
+
+Quanto appena affermato costituisce il primo principio di Kirchhoff .
+
+2 Il termine topologico deriva dal greco topòs che significa luogo.
+
+(v. 0.0)
+
+48
+
+3.8. PRINCIPI DI KIRCHHOFF
+
+Figura 3.18: Primo principio di Kirchhoff
+
+In un nodo la somma delle correnti entranti è uguale alla somma delle correnti
+
+uscenti.
+
+X
+
+X
+
+Ientranti =
+
+Iuscenti
+
+(3.4)
+
+Considerando positive le correnti entranti e negative le correnti uscenti il primo principio di
+
+Kirchhoff può essere espresso nel seguente modo:
+
+In un nodo la somma algebrica delle correnti è nulla.
+
+X ±I = 0
+
+(3.5)
+
+Applicando il primo principio di Kirchhoff a ciascun nodo di una rete elettrica si ottiene un
+
+numero di equazioni lineari pari al numero n di nodi. Queste equazioni sono denominate equazioni
+
+di nodo.
+
+Esempio 3.8.1. Determinare la corrente I2 entrante nel nodo di figura sapendo che I1 = 2, 2A,
+
+I3 = 0, 1A e I4 = 470mA.
+
+Soluzione. Dal primo principio di Kirchhoff si ha:
+
+I1 + I2 = I3 + I4
+
+Per cui:
+
+I2 = I3 + I4 − I1 = 0, 1 + 0, 47 − 2, 2 = −1, 63 A
+
+Il segno negativo indica che il verso effettivo della corrente I2 è opposto a quello riportato in figura,
+
+per cui in realtà I2 è una corrente uscente.
+
+3.8.2
+
+Secondo principio di Kirchhoff
+
+Il campo elettrico, cos`ı come quello gravitazionale è di tipo conservativo. Ciò implica che la
+
+variazione di energia potenziale subita da una carica di prova q per passare da un punto a un altro
+
+della rete non dipende dal percorso seguito. Vediamo cosa comporta questo aspetto.
+
+Si consideri una maglia presente all’interno di una generica rete elettrica (Figura 3.19).
+
+Vogliamo determinare la differenza di potenziale VAE. Applicando il principio di addittività
+
+delle d.d.p. possiamo però affermare che:
+
+VAE = VAB + VBC + VCD + VDE
+
+oppure, in modo equivalente, scegliendo l’altro percorso
+
+VAE = VAG + VGF + VF E
+
+(v. 0.0)
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+49
+
+Figura 3.19: Secondo principio di Kirchhoff
+
+Essendo il campo elettrico conservativo è evidente che la differenza di potenziale VAE calcolata
+
+nel primo modo è uguale alla differenza di potenziale calcolata nel secondo modo. Mettendo
+
+insieme le due relazioni si ottiene
+
+VAB + VBC + VCD + VDE = VAG + VGF + VF E
+
+Da cui, dopo semplici passaggi:
+
+VAB + VBC + VCD + VDE + VEF + VF G + VGA = 0
+
+Si intuisce che tensioni precedentemente elencate non possono assumere tutte solo un valore
+
+positivo o solo negativo, ma, in base al regime di funzionamento della rete, alcune di esse saran-
+
+no positive, altre saranno positive. Pertanto la somma toria precedente non è una soomatoria
+
+aritmetica ma algebrica.
+
+Possiamo affermare in termini generali il secondo principio di Kirchhoff nel seguente modo:
+
+In una maglia la somma algebrica delle tensioni è uguale a zero.
+
+La precedente affermazione può essere espressa con un linguaggio matematico mediante la
+
+seguente espressione analitica:
+
+X ±Vi = 0
+
+Per ogni maglia presente in una rete elettrica il secondo principio di Kirchhoff permette di
+
+determinare una equazione, denominata (equazione di maglia).
+
+Per scrivere correttamente le equazioni di maglia possono essere di aiuto le seguenti regole
+
+pratiche:
+
+• fissare un verso di percorrenza
+
+• considerare positive le f.e.m. che hanno il verso concorde con il verso di percorrenza e
+
+negative le f.e.m. che hanno il verso discorde con il verso di percorrenza
+
+• considerare positive le cadute di tensione date da correnti concordi con il verso di percor-
+
+renza e negative le cadute di tensione date da correnti con il verso concorde con il verso di
+
+percorrenza.
+
+Esempio 3.8.2. Scrivere l’equazione di maglia relativa alla maglia di figura 3.19.
+
+Soluzione. Utilizzando le regole pratiche appena esposte e fissando il verso di percorrenza orario
+
+si ottiene la seguente equazione:
+
+E1 − R1 · I1 + E3 − R3 · I3 + R4 · I2 − E2 + R2 · I2 = 0
+
+(v. 0.0)
+
+50
+
+3.9. RISOLUZIONE DI CIRCUITI CHIUSI
+
+Rimaneggiando l’equazione dell’esempio 3.8.2 si ottiene la seguente espressione:
+
+E1 − E2 + E3 = R1 · I1 − R2 · I2 + R3 · I3 − R4 · I2
+
+Questa espressione suggerisce il seguente modo di enunciare il secondo principio di Kirchhoff.
+
+In una maglia, la somma algebrica delle forze elettromotrici uguaglia la somma
+
+algebrica delle cadute di potenziale.
+
+All’enuciato precedente corrisponde la seguente espressione analitica:
+
+X
+
+X
+
+±E =
+
+±R · I
+
+(3.6)
+
+Esercizio proposto 3.8.1. Determinare tutte le equazioni di maglia relative alla rete elettrica di
+
+figura 3.20.
+
+Figura 3.20: Esercizio proposto 3.8.1.
+
+Esercizio proposto 3.8.2. Per la rete di figura determinare la tensione VAB, la tensione VAD,
+
+la tensione VAC, la corrente I2, le equazioni ai nodi e le equazioni di maglia.
+
+Figura 3.21: Esercizio proposto 3.8.2.
+
+3.9
+
+Risoluzione di circuiti chiusi
+
+I circuiti elettrici sono reti elettriche composte da una sola maglia. In essi non sono presenti nodi,
+
+pertanto vi circola una sola corrente I e i bipoli sono connessi in serie.
+
+Iniziamo da un esempio. Si consideri il circuito elettrico riportato in figura 3.22. Per l’azione
+
+del generatore di tensione scorre una corrente I che provoca due cadute di tensione su R1 e su R2.
+
+(v. 0.0)
+
+
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+51
+
+Figura 3.22: Soluzione di un circuito elettrico
+
+Risolvere questo circuito elettrico equivale a determinare il valore della corrente I che circola
+
+in esso. Il verso della corrente è stato fissato tenendo conto che in un generatore la corrente esce
+
+dal morsetto positivo.
+
+Applichiamo il secondo principio di Kirchhoff scegliendo il verso orario e partendo dal punto
+
+VAB + VBC + VCD = 0
+
+Sostituendo, si ha:
+
+R1 · I + R2 · I + (−E) = 0
+
+E = (R1 + R2) · I
+
+Da cui si ottiene:
+
+E
+
+12
+
+I =
+
+=
+
+∼
+
+= 0, 109A
+
+R1 + R2
+
+10 + 100
+
+Analizziamo ora un caso più complesso.
+
+Esempio 3.9.1. Determinare la corrente I che circola attraverso il seguente circuito.
+
+Figura 3.23: Esempio 3.9.1
+
+Soluzione. Applicando Kirchhoff si ottiene:
+
+E1 − E2
+
+12 − 60
+
+I =
+
+=
+
+= −2, 4A
+
+R1 + R2 + R3
+
+0, 2 + 0, 3 + 19, 5
+
+Il segno negativo indica che la corrente scorre effettivamente nel verso opposto. Questo aspetto
+
+poteva essere intuito subito considerando che la f.e.m. E2 prevale sulla f.e.m. E1 e quindi è essa
+
+che impone il verso alla corrente.
+
+(v. 0.0)
+
+52
+
+3.10. BIPOLI EQUIVALENTI
+
+Osservando le espressioni trovate per la corrente I negli esempi precedenti possiamo enunciare
+
+quella che è comunemente conosciuta come legge di Ohm per un circuito chiuso.
+
+La corrente circolante in un circuito chiuso è data dal rapporto tra la somma
+
+algebrica delle f.e.m. del generatore e la resistenza totale del circuito
+
+Esercizio proposto 3.9.1. Nell’esempio 3.9.1 il verso della corrente I è stato fissato tenendo
+
+conto della polarità del generatore di tensione E1. Cosa sarebbe successo se avessimo scelto il
+
+verso opposto ?
+
+Esercizio proposto 3.9.2. Determinare la d.d.p. VEC dell’esempio 3.9.1.
+
+3.10
+
+Bipoli equivalenti
+
+Un bipolo si dice equivalente ad una rete elettrica, vista da due punti A e B, quando applicando
+
+al bipolo equivalente la stessa differenza di potenziale VAB applicata alla rete si ottiene la stessa
+
+corrente I.
+
+In pratica se si sostituisce la porzione di rete designata con il suo bipolo equivalente la rete
+
+elettrica esterna alla rete designata non modifica il suo comportamento.
+
+Una prima applicazione del concetto di bipolo equivalente si rende disponibile con le reti di
+
+Definizione
+
+resistori, ovvero reti elettriche in cui sono presenti solo resistori.
+
+di resistenza
+
+Una resistenza si dice equivalente di una rete di resistori vista da due punti A e B quando
+
+equivalente
+
+applicando alla resistenza la stessa differenza di potenziale VAB applicata alla rete si ottiene la
+
+stessa corrente I.
+
+La seguente figura mostra una rete di resistori e la sua resistenza equivalente rispetto ai punti
+
+A e B.
+
+Figura 3.24: Resistenza equivalente di una rete di resistori
+
+La resistenza equivalente si può ottenere operativamente calcolando la corrente I che attra-
+
+versa la rete elettrica in funzione della d.d.p. VAB ed effettuando poi il rapporto tra VAB e
+
+l’espressione I. Si noterebbe che, immancabilmente, la tensione VAB presente sia al numeratore
+
+che al denominatore si semplifica ottenendo cos`ı un’espressione dipendente dai soli valori delle
+
+resistenze.
+
+In realtà, per ottenere la resistenza equivalente di una rete di resistori si segue un algoritmo in
+
+cui è di grande aiuto considerare la rete elettrica come una composizione di resistori in serie e in
+
+parallelo.
+
+(v. 0.0)
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+53
+
+3.10.1
+
+Resistori in serie
+
+Vogliamo determinare la resistenza equivalente di n resistori collegati in serie. Consideriamo, a
+
+tale scopo, gli n resistori della figura , a cui è applicata la tensione VAB ed attraversati dalla
+
+corrente I.
+
+Applichiamo il secondo principio di Khirchhoff al circuito di figura:
+
+Sapendo che la resistenza equivalente di ottiene facendo il rapporto tra VAB ed I
+
+otteniamo che:
+
+Nel caso di tre resistori in serie, utilizzando lo stesso procedimento otteniamo:
+
+Generalizzando ad n resistori in serie si ha:
+
+Osservazioni
+
+Le formule precedenti ci permettono di fare le seguenti osservazioni:
+
+• La resistenza equivalente di più resistori in serie è sempre più grande della più grande delle
+
+resistenze.
+
+• La serie di due resistenze uguali è pari al doppio del valore della singola resistenza
+
+3.10.2
+
+Resistori in parallelo
+
+Due o più dipoli sono in parallelo quando sono connessi tra loro in modo tale da essere sottoposti
+
+alla stessa differenza di potenziale. Vogliamo determinare la resistenza equivalente di due resistori
+
+in parallelo.
+
+Applichiamo il primo principio di Khirchhoff al nodo A della rete di figura:
+
+T RIALREST RICT ION
+
+TRIAL RESTRICTION Applicando la legge di Ohm ai resistori R1 e R2 si ha:
+
+T RIALREST RICT ION
+
+T RIALREST RICT ION
+
+Sostituendo nell’espressione di I si ottiene:
+
+da cui, sapendo che la resistenza equivalente di ottiene facendo il rapporto tra VAB ed I:
+
+Nel caso di tre resistori in parallelo, utilizzando lo stesso procedimento otteniamo:
+
+Generalizzando ad n resistori in parallelo si ha:
+
+3.10.3
+
+Resistori in serie-parallelo
+
+3.10.4
+
+Resistori collegati a stella e a triangolo
+
+3.11
+
+Partitori di tensione e corrente
+
+3.11.1
+
+Partitori di tensione
+
+Il partitore di tensione è una rete elettrica, composta da due resistori in serie e da una forza
+
+elettromotrice, schematizzabile nella sua forma più semplice come in figura.
+
+Scopo del partitore di tensione è ottenere una tensione di uscita V O di valore inferiore
+
+della tensione di alimentazione V IN del partitore stesso.
+
+Si possono distinguere due situazioni
+
+Partitore ohmico a vuoto (IO = 0)
+
+Partitore ohmico sotto carico (IO 6= 0)
+
+3.11.2
+
+Partitori di corrente
+
+Il partitore di corrente è una rete elettrica, composta da due resistori in parallelo, schematizzabile
+
+nella sua forma più semplice come in figura.
+
+Scopo del partitore di corrente è di erogare al carico una corrente I RL di valore inferiore
+
+alla corrente di alimentazione I del partitore stesso.
+
+(v. 0.0)
+
+54
+
+3.12. BILANCIO ENERGETICO IN UN CIRCUITO ELETTRICO
+
+3.12
+
+Bilancio energetico in un circuito elettrico
+
+3.13
+
+Generatore reale di tensione
+
+3.14
+
+Generatore reale di corrente
+
+3.14.1
+
+Equivalenza tra il generatore reale di tensione ed il generatore
+
+reale di corrente
+
+Il generatore reale di tensione ed il generatore reale di corrente sono due modelli dello stesso
+
+sistema elettrico, il generatore elettrico.
+
+Le condizioni di equivalenza tra il generatore reale di tensione e il generatore reale di corrente
+
+si determinano sottoponendo entrambi i gneratori allo stesso carico e imponendo che la corrente
+
+IC e la tensione VC presenti sul carico siano uguali.
+
+(v. 0.0)
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+55
+
+3.15
+
+Domande
+
+1. Esprimere la definizione di circuito elettrico.
+
+2. Che cosa è la forza elettromotrice ?
+
+3. Che differenza c’è tra generatore elettrico e una f.e.m. ?
+
+4. Perché il motore elettrico viene considerato un bipolo attivo alla stregua di un generatore di
+
+tensione ?
+
+5. Disegnare e spiegare la caratteristica esterna del generatore reale di tensione.
+
+6. Che cos’é la tensione a vuoto di un bipolo ?
+
+7. Scrivere le espressioni delle potenze e del rendimento del generatore reale di tensione.
+
+8. Definire cosa si intende per nodo, ramo e maglia di una rete elettrica.
+
+9. Cosa si intende per bipoli attivi e passivi ?
+
+10. Quando due o più resistori sono collegati in parallelo ?
+
+11. Quando due o più resistori sono collegati in serie ?
+
+12. Quando due reti di resistori sono equivalenti ?
+
+13. Dimostrare che, collegando in serie due resistori R1 e R2 aventi rispettivamente resistenza
+
+R e 2R, le tensioni sui due bipoli sono rispettivamente sono 1/3 e 2/3 di quella totale.
+
+(v. 0.0)
+
+
+
+56
+
+3.16. ESERCIZI
+
+3.16
+
+Esercizi
+
+1. Date le seguenti reti elettriche determinare per ciascuna di esse il numero n di nodi, il numero
+
+r di rami e ed il numero m di maglie, avendo cura anche di identificare ogni nodo, ramo e
+
+maglia in modo univoco.
+
+2. Dato il seguente circuito elettrico, dopo aver assegnato una lettera ad ogni net equipotenziale
+
+e aver assegnato il verso convenzionale della corrente elettrica, determinare:
+
+(a) L’equazione di maglia
+
+(b) L’espressione algebrica della corrente elettrica I che lo attraversa.
+
+(c) Il valore numerico della corrente elettrica
+
+3. . Dato il circuito di figura determinare:
+
+(a) L’espressione algebrica ed il valore numerico della corrente I che lo attraversa.
+
+(b) Le differenze di potenziale VF B e VAD
+
+(c) La potenza totale dissipata da tutti i resistori.
+
+(d) La potenza totale erogata da tutti i generatori di tensione.
+
+4. Determinare l’espressione della resistenza equivalente tra i punti A e B nel caso delle seguenti
+
+reti di resistori.
+
+5. Calcolare per il circuito di figura la corrente in intensità e verso.
+
+6. Data la seguente rete elettrica di figura:
+
+(a) Determinare la resistenza equivalente vista dal generatore di tensione.
+
+(b) Determinare la corrente Ig uscente dal generatore di tensione.
+
+(c) Determinare le equazioni di maglia e di nodo necessarie per determinare le correnti
+
+incognite di ramo
+
+(d) Risolvere il sistema di equazioni ottenuto al punto c.
+
+7. Dato il partitore ohmico di figura determinare:
+
+(a) La tensione a vuoto ai capi dei morsetti 1 e 2
+
+(b) La tensione sotto carico ai capi dei morsetti 1 e 2 qualora si applichi una resistenza Rc
+
+pari a 2.2 kΩ.
+
+8. Per il circuito di figura, costituito da un generatore di tensione (pila) che alimenta una rete
+
+da resistori da 1/4W si determini:
+
+(a) La corrente erogata dalla batteria
+
+(v. 0.0)
+
+
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+57
+
+(b) La potenza fornita dalla batteria al carico
+
+9. Per la rete elettrica di figura 9 si determini:
+
+(a) Dopo aver indicato i versi, le correnti e le tensioni di ognuno dei bipoli resistivi.
+
+(b) La tensione VAE
+
+(c) La potenza generata, la potenza persa e la potenza utile.
+
+(d) Il rendimento del generatore
+
+(e) La resistenza di carico vista dal generatore reale.
+
+(f) Una coppia di valori R2 e R6 per cui il rendimento percentuale assume un valore pari
+
+al 500/0
+
+(g) La resistenza di carico vista dal generatore reale qualora si sostituisca il cortocircuito
+
+tra i punti A e B con bipolo resistivo da 100 Ω
+
+10. Per la rete elettrica di figura 10 si determini:
+
+(a) La conduttanza di carico vista dal generatore reale.
+
+(b) Dopo aver indicato i versi, le correnti e le tensioni di ognuno dei bipoli resistivi.
+
+(c) La tensione VAE
+
+(d) La potenza generata, la potenza persa e la potenza utile.
+
+(e) Il rendimento del generatore
+
+(f) Le equazioni di nodo.
+
+(g) Una coppia di valori R2 e R6 per cui il rendimento percentuale assume un valore pari
+
+al 50.
+
+(h) La resistenza di carico vista dal generatore reale qualora si sostituisca il cortocircuito
+
+tra i punti B e D con un bipolo resistivo da 100Ω.
+
+11. Per la rete elettrica di figura 11 si determini:
+
+(a) La conduttanza di carico vista dal generatore reale.
+
+(b) La tensione VC e la corrente IC applicate al carico.
+
+(c) Le correnti e le tensioni applicate ad ognuno dei bipoli resistivi.
+
+(d) La tensione VAD
+
+(e) La potenza generata, la potenza persa e la potenza utile.
+
+(f) Il rendimento del generatore
+
+(g) Le equazioni di nodo.
+
+(v. 0.0)
+
+
+
+
+
+58
+
+3.16. ESERCIZI
+
+(h) Una coppia di valori R1 e R6 per cui il rendimento percentuale assume un valore pari
+
+al 50.
+
+(i) La resistenza di carico vista dal generatore reale qualora si sostituisca il cortocircuito
+
+tra i punti B e D con un bipolo resistivo da 100Ω.
+
+(v. 0.0)
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+59
+
+3.17
+
+Laboratorio
+
+3.17.1
+
+Esercitazione sulle tensioni e sui resistori.
+
+Schema elettrico :
+
+TRIAL RESTRICTION
+
+Componenti
+
+n˚ 2 resistori
+
+Strumenti ed attrezzatura
+
+n˚1 voltmetro analogico
+
+n˚1 alimentatore da banco 30Vcc/5A
+
+Procedimento
+
+Si prenda in considerazione il seguente circuito elettrico. Si devono misurare le tensioni VAB,
+
+VBC e VAC.
+
+• Disegnare sul quaderno di pratica per ciascuna delle misure da effettuare il circuito di misura
+
+evidenziando con un + il morsetto positivo del voltmetro analogico.
+
+• Riportare a lato di ciascuno disegno la misura effettuata.
+
+• Alla fine riportare le proprie conclusioni.
+
+(v. 0.0)
+
+60
+
+3.17. LABORATORIO
+
+3.17.2
+
+Esercitazione sulle correnti e sui resistori
+
+(v. 0.0)
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+61
+
+Verifica del principio di additività delle d.d.p..
+
+Obiettivi didattici:
+
+• Conoscere il principio di additività delle differenze di potenziale
+
+• Saper applicare la legge di Ohm per un circuito chiuso
+
+Schema elettrico:
+
+TRIAL RESTRICTION
+
+Procedimento
+
+1. Montare lo schema di figura un alimentatore duale per generare le f.e.m. E1 ed E2.
+
+2. Misurare con l’ausilio di un multimetro e riportare su una apposita tabella le differenze
+
+di potenziale VAB, VBC, VCD, ., ecc., ponendo particolare attenzione alla polarità del
+
+voltmetro.
+
+3. Misurare la corrente I che attraversa il circuito.
+
+4. Verificare il principio di additività delle d.d.p.
+
+5. Verificare la legge di Ohm per un circuito chiuso.
+
+6. Ripetere i punti 2, 3, 4 e 5 dopo aver invertito la polarità del generatore E2.
+
+7. Stendere la relazione di laboratorio secondo lo schema usuale.
+
+Domande
+
+- Qual’è l’effetto dell’inversione di polarità del generatore E2 sulla corrente elettrica ? Perché?
+
+(v. 0.0)
+
+62
+
+3.17. LABORATORIO
+
+3.17.3
+
+Verifica sperimentale del primo e del secondo principio di Kirch-
+
+hoff
+
+Obiettivi didattici:
+
+• Conoscere il primo ed il secondo principio di Kirchhoff
+
+• Saper determinare la resistenza equivalente di una rete di resistori
+
+Schema elettrico:
+
+Procedimento:
+
+1. Determinare la resistenza equivalente vista dal generatore di tensione E
+
+2. In base al valore della resistenza equivalente appena determinata calcolare la corrente I
+
+emessa dal generatore.
+
+3. Dopo aver realizzato la rete elettrica misurare le correnti I1, I2, I3 e le d.d.p. VAC, VAB,
+
+VBC.
+
+4. Determinare, in base alle misure effettuate, la relazione esistente tra le correnti I1, I2, ed I3
+
+5. Determinare, in base alle misure effettuate, la relazione esistente tra le tensioni VAC, VAB,
+
+VBC
+
+(v. 0.0)
+
+CAPITOLO 3. BIPOLI ELETTRICI
+
+63
+
+Misura di resistenza con il metodo voltamperometrico (con confronto inserzioni a
+
+monte e a valle)
+
+Schemi elettrici
+
+Strumentazione ed attrezzatura
+
+N˚ 1 Alimentatore variabile 30Vcc/0÷5A
+
+N˚ 2 tester analogici
+
+Cavetti per il collegamento
+
+Procedimento
+
+Predisporre lo schema a monte, verificare le connessioni e le portate degli strumenti
+
+Dare alimentazione in modo graduale
+
+Effettuare le misure di ∆A e di ∆V e determinare subito direttamente I,V e indirettamente Rx
+
+Ripetere il punto 3 per valori crescenti di E (quattro o cinque)
+
+Predisporre lo schema a valle e ripetere i punti 1,2,3,4
+
+Tracciare il diagramma V-I e determinare il valor medio di Rx per entrambe le inserzioni
+
+Confrontare i risultati ed esprimere le conclusioni.
+
+Domande
+
+I valori di Rx misurati sono uguali ? Perché?
+
+Che differenza passa tra una misura diretta ed una misura indiretta ?
+
+(v. 0.0)
+
+64
+
+3.17. LABORATORIO
+
+(v. 0.0)
+
+Capitolo 4
+
+RETI ELETTRICHE IN
+
+CORRENTE CONTINUA
+
+4.0.4
+
+Approfondimenti sulla misura di resistenza con il metodo voltam-
+
+perometrico
+
+Il valore di una resistenza può essere misurato indirettamente mediante la misura della tensione a
+
+cui è sottoposta e della corrente che la attraversa. Si possono utilizzare due modalità di inserzione
+
+degli strumenti: voltmetro a valle dell’amperometro e voltmetro a monte dell’amperometro.
+
+Voltmetro a valle
+
+Questa inserzione è preferibile per misure di piccole resistenze, perché la resistenza interna del
+
+voltmetro RV è allora molto più grande della resistenza incognita RX.
+
+Voltmetro a monte
+
+Questa inserzione è preferibile per misure di grandi resistenze, perché la resistenza interna
+
+dell’amperometro RA è allora molto più piccola della resistenza incognita RX.
+
+65
+
+
+
+66
+
+4.1. RISOLUZIONE DELLE RETI ELETTRICHE LINEARI
+
+4.1
+
+Risoluzione delle reti elettriche lineari
+
+La risoluzione di una rete elettrica dotata di r rami consiste nella determinazione delle correnti
+
+circolanti in ciascun ramo della rete elettrica.
+
+Dal valore assunto da ciascuna corrente di ramo si risale facilmente alle tensioni applicate a
+
+ciascun bipolo applicando le equazioni caratteristiche di ciascuno di essi.
+
+In realtà non sempre è richiesta la soluzione completa della rete elettrica, a volte è richiesta
+
+la determinazione della corrente in un solo ramo o della tensione ai capi di un certo bipolo. Si
+
+possono pertanto distinguere due categorie di problemi:
+
+• Risoluzione completa della rete elettrica.
+
+• Risoluzione parziale della rete elettrica.
+
+Una rete elettrica è lineare quando tutti i bipoli elettrici che la compongono sono lineari.
+
+L’ipotesi di linearità permette di applicare per la soluzione completa o parziale di una rete elettrica
+
+una serie di metodi e di teoremi che facilitano notevolmente il compito. Nei seguenti paragrafi
+
+vengono esposti tali strumenti.
+
+4.2
+
+Risoluzione completa di una rete elettrica con il metodo
+
+di Kirchhoff
+
+Il seguente problema è un tipico esempio della prima categoria di problemi. Ad esso possiamo
+
+ottenere una soluzione applicando gli strumenti di soluzione finora visti.
+
+Esempio 4.2.1. Si determinino le correnti circolanti nei rami e le tensioni ai capi di ciascun
+
+bipolo passivo della rete elettrica di figura 4.1 (R1 = R2 = 10Ω, R3 = 15Ω, E1 = 60V )
+
+Figura 4.1:
+
+Soluzione. Si determina innanzitutto la resistenza totale Req vista dalla f.e.m. E1.
+
+R2 · R3
+
+Req = R1 +
+
+= 70Ω
+
+R2 + R3
+
+Quindi si determina I1
+
+E
+
+I
+
+∼
+
+1 =
+
+= 0.857A
+
+Req
+
+e poi I2 e I3, applicando la regola del partitore di corrente:
+
+R3
+
+I
+
+∼
+
+2 =
+
+· I1 = 0.6 · 0.857 = 0.514A
+
+R2 + R3
+
+R2
+
+I
+
+∼
+
+3 =
+
+· I1 = 0.4 · 0.857 = 0.343A
+
+R2 + R3
+
+(v. 0.0)
+
+
+
+CAPITOLO 4. RETI ELETTRICHE IN CORRENTE CONTINUA
+
+67
+
+L’utilizzazione empirica dei principi e delle regole viste finora risulta agevole finché si opera in
+
+condizioni relativamente semplici. Infatti, nell’esempio precedente basta che in serie al resistore
+
+R1 vi sia un generatore ideale di tensione perché esso non possa essere risolto applicando lo stesso
+
+metodo.
+
+Per risolvere tale problema ci vengono in aiuto i principi di Kirchhoff. Data una rete elettrica
+
+generica composta da n nodi, r rami ed m maglie, per risoluzione della stessa si intende il calcolo
+
+delle correnti convenzionali di ciascun ramo in valore e verso.
+
+Poiché le incognite sono in numero di r, occorre disporre di un sistema di r equazioni indi-
+
+pendenti. Queste possono essere determinate con l’ausilio del primo e del secondo principio di
+
+Kirchhoff mediante l’applicazione del seguente metodo.
+
+1. Assegnazione dei versi alle correnti di ciascun ramo.
+
+2. Scrittura di n - 1 equazioni di nodo.
+
+3. Scelta di r - (n - 1) maglie indipendenti e del loro verso di percorrenza.
+
+4. Scrittura di r - (n - 1).
+
+5. Risoluzione del sistema di r equazioni.
+
+6. Interpretazione dei segni delle correnti convenzionali ottenute per stabilire il verso effettivo
+
+delle correnti.
+
+Una maglia è indipendente quando non risulta da nessuna composizione delle maglie indipendenti
+
+già scelte.
+
+Esempio 4.2.2. Si determinino le correnti circolanti nei rami e le tensioni ai capi di ciascun
+
+bipolo passivo della rete elettrica di figura 4.2 (R1 = R2 = 10Ω, R3 = 15Ω, E1 = 60V, E2 = 40V )
+
+Figura 4.2:
+
+Soluzione.
+
+Osservazione
+
+Questo metodo, soprattutto se il numero di correnti da determinare è elevato, è piuttosto
+
+pesante da un punto di vista computazionale. Pertanto, prima di risolvere una rete elettrica con
+
+il metodo di Kirchhoff è opportuno chiedersi se questa può essere risolta con un altro metodo, o
+
+almeno ridotta ad una forma più semplice.
+
+Vediamo una serie di accorgimenti:
+
+• Togliere un ramo (attivo o passivo) quando non è percorso da corrente
+
+(v. 0.0)
+
+68
+
+4.3. BILANCIO DELLE POTENZE IN UNA RETE ELETTRICA
+
+• Togliere un ramo passivo quando è in parallelo ad un cortocircuito.
+
+• In presenza di un generatore di corrente si toglie una delle equazioni alle maglie con l’avver-
+
+tenza di non scegliere come maglie quelle che includono i generatori di corrente.
+
+4.3
+
+Bilancio delle potenze in una rete elettrica
+
+4.4
+
+Metodo delle correnti di maglia
+
+4.5
+
+Metodo dei potenziali ai nodi
+
+(v. 0.0)
+
+CAPITOLO 4. RETI ELETTRICHE IN CORRENTE CONTINUA
+
+69
+
+4.6
+
+Domande
+
+1. Enunciare il teorema di Millman, disegnare una rete di almeno quattro lati e due bipoli attivi
+
+e applicare ad essa il teorema.
+
+2. Spiegare perché il principio di sovrapposizione degli effetti non è applicabile a reti elettriche
+
+non lineari.
+
+(v. 0.0)
+
+70
+
+4.7. ESERCIZI
+
+4.7
+
+Esercizi
+
+1. Data la rete elettrica lineare di figura 1:
+
+(a) Determinare le correnti di ramo utilizzando il metodo delle correnti di maglia.
+
+(b) Determinare le correnti di ramo utilizzando il metodo dei potenziali ai nodi.
+
+(c) Eseguire il bilancio delle potenze
+
+2. Data la rete elettrica lineare di figura 2, applicando uno o più dei seguenti metodi di soluzione
+
+parziale:
+
+(a) teorema di Millman.
+
+(b) principio di sovrapposizione degli effetti.
+
+(c) generatore equivalente di Thevenin
+
+(d) generatore equivalente di Norton
+
+determinare:
+
+(a) la corrente I3.
+
+(b) la tensione VAC.
+
+(c) la potenza erogata dal generatore E1 − R1
+
+(v. 0.0)
+
+Capitolo 5
+
+CONDENSATORI
+
+Si considerino due piastre di materiale conduttore (per esempio un metallo) affacciate tra di esse e
+
+separate da uno strato isolante (per esempio aria). Tale struttura prende il nome di condensatore
+
+elettrico.
+
+Le due piastre sono denominate armature, lo strato isolante è denominato dielettrico.
+
+Se si collegano le due armature ai poli di un generatore elettrico di tensione continua si vengono
+
+a dislocare sulle due armature delle cariche elettriche di segno opposto.
+
+71
+
+72
+
+5.1. DOMANDE
+
+5.1
+
+Domande
+
+1. Definire la capacità di un condensatore elettrico.
+
+2. Spiegare perché due condensatori in serie, anche se di capacità diverse, hanno la stessa carica
+
+elettrica.
+
+3. Nel caso di un resistore la corrente i e la tensione v sono tra loro proporzionali mentre nel
+
+caso di un condensatore la tensione v è proporzionale alla .......................... e la corrente i è
+
+proporzionale alla ..........................
+
+4. Collegando più condensatori piani in parallelo la superficie delle armature del condensatore
+
+aumenta. Oltre alla superficie quali altre grandezze fisiche aumentano nel condensatore
+
+equivalente ?
+
+5. Dimostra che un condensatore inizialmente scarico, dopo un intervallo di tempo τ , ha
+
+raggiunto il 63% della tensione finale Vf .
+
+
+
+
+
+6. Scrivi le seguenti relazioni funzionali:
+
+
+(a) La legge di variazione della tensione di un condensatore inizialmente carico.
+
+(b) La legge di variazione della corrente di un condensatore inizialmente carico.
+
+7. Sia dato un condensatore di capacità C = 1µF inizialmente carico alla tensione V0 = 4V .
+
+Esso viene collegato all’istante di tempo t0 = 0s ad un generatore reale di f.e.m. E = 12V e
+
+resistenza interna R = 1kΩ.
+
+(a) Determinare la tensione vC ai suoi capi negli istanti di tempo t1 = 0, 5 · τ, t2 = τ,
+
+t3 = 1, 5 · τ, t4 = 2 · τ e t5 = 2, 5 · τ.
+
+(b) Tracciare su un diagrammma cartesiano l’andamento temporale della tensione interpo-
+
+lando i punti determinati al punto precedente.
+
+8. Le leggi di variazione della tensione e della corrente appena scritte sono valide:
+
+(a) Per la fase di carica
+
+(b) Per la fase di scarica
+
+(c) Sia per la fase di carica che per la fase di scarica
+
+(d) Per nessuna delle due
+
+Perché?
+
+(v. 0.0)
+
+CAPITOLO 5. CONDENSATORI
+
+73
+
+5.2
+
+Esercizi
+
+1. Data la rete elettrica di figura 1, calcolare in condizioni di regime :
+
+(a) La tensione VBC.
+
+(b) L’energia elettrostatica totale accumulata nei condensatori.
+
+(c) La tensione di uscita VU
+
+(d) La tensione di uscita VU se si mette in parallelo al condensatore C4 una resistenza R4
+
+da 10K.
+
+2. Un condensatore inizialmente scarico, di capacità C = 1µF , viene caricato mediante un
+
+generatore di tensione avente una f.e.m. E = 15V. Misurando la tensione all’istante t1 = 0, 1s
+
+si trova il valore v(t1) = 10V . Determinare la costante di tempo e la resistenza del circuito
+
+di carica.
+
+(v. 0.0)
+
+74
+
+5.2. ESERCIZI
+
+(v. 0.0)
+
+Capitolo 6
+
+FENOMENI E COMPONENTI
+
+ELETTROMAGNETICI
+
+6.1
+
+Fenomeni magnetici elementari
+
+Nella realtà possiamo osservare i seguenti fenomeni magnetici elementari.
+
+• Esistenza dei magneti naturali. Alcuni minerali, come la magnetite, hanno la capacità di
+
+attrarre a sé corpi ferrosi ed altri pezzi di magnetite.
+
+• Esistenza di due poli. Poli dello stesso tipo si respingono, poli di tipo opposto si attraggono.
+
+• Indivisibilità dei due poli.
+
+• Il magnetismo terrestre.
+
+• Mutua azione tra due aghi magnetici
+
+I fenomeni appena elencati erano conosciuti già dall’antichità. Pare che il il fenomeno dei ma-
+
+gneti naturali fosse noto ancora prima della proprietà dell’ambra di attrarre, se strofinata, corpi
+
+leggeri. Bisogna però aspettare fino ai primi anni dell’ottocento perché si possa intravvedere una
+
+spiegazione scientifica del magnetismo naturale, attraverso il riconoscimento del legame profondo
+
+esistente tra i due mondi dell’elettricità e del magnetismo.
+
+6.2
+
+Campo magnetico prodotto da un conduttore rettilineo
+
+Un conduttore rettilineo, percorso da una corrente I, genera nello spazio che lo circonda un campo
+
+magnetico. Le linee di forza del campo magnetico sono delle circonferenze aventi il centro nel
+
+punto di intersezione tra il conduttore e i piani ortogonali ad esso su cui giacciono le circonferenze.
+
+Il verso è individuato dalla ‘regola della mano destra’, con il palmo che indica il campo e il pollice
+
+che indica la direzione e il verso della corrente.
+
+L’intensità del campo dipende da vari fattori, precisamente:
+
+• L’intensità della corrente elettrica
+
+• La distanza del punto considerato dal conduttore
+
+• Il mezzo
+
+Questo fenomeno dimostra che cariche elettriche in movimento producono un campo
+
+magnetico, ovvero producono lo stesso effetto di un magnete. Questa scoperta avvenne per
+
+75
+
+76
+
+6.3. IL VETTORE INDUZIONE MAGNETICA.
+
+merito del fisico danese Oersted. Il seguente brano evidenzia come l’anello di congiunzione tra
+
+elettricità e magnetismo sia stato scoperto praticamente per caso.
+
+‘Provate ad immaginare una lezione di chimica in Danimarca nel 1819. Hans Christian Oersted
+
+sta spiegando ad una classe l’elettricità ed il magnetismo. Sul tavolo degli esperimenti sono disposti
+
+disordinatamente fili, bussole, pile e magneti. Per puro caso, Oersted si accorge che una corrente
+
+elettrica fa girare l’ago di una bussola che si trovà l`ı vicina. A questa osservazione casuale segue
+
+una serie di accurati esperimenti. Quello in cui Oersted si è imbattuto casualmente è il primo
+
+legame diretto tra elettricità e magnetismo.’ 1
+
+Oersted , tuttavia, non riusc`ı a fornire una spiegazione della correlazione tra il magnetismo
+
+prodottto da un magnete e quello prodotto da un filo percorso da corrente. In questo senso furono
+
+utili gli studi e le esperienze di altri studiosi, tra questi il fisico francese Ampère, al quale è dovuta
+
+la spiegazione elegante ed ingegnosa per quei tempi di come un magnete generi il proprio campo
+
+magnetico. Egli assistette l’anno successivo (1820) ad una ripetizione dell’esperienza di Oersted
+
+all’Accademia delle Scienze di Parigi, e, in appena una settimana formulò la teoria dell’equivalenza
+
+tra magneti e circuiti elettrici.
+
+Dieci anni più tardi Faraday si chiederà, dato che l’elettricità produce effetti magnetici, come
+
+si possa produrre elettricità dal magnetismo.
+
+6.3
+
+Il vettore induzione magnetica.
+
+Abbiamo visto che corpi magnetizzati e fili percorsi da correnti si attragono anche se posti ad una
+
+certa distanza e nel vuoto. Per spiegare come possa avvenire questa azione a distanza, possiamo
+
+pensare che la presenza di una sorgente magnetica naturale (magnete) o di una sorgente magnetica
+
+artificiale (filo percorso da corrente) modifica le caratteristiche delllo spazio circostante ovvero
+
+genera un campo magnetico, detto anche più precisamente campo di induzione magnetica.
+
+Il campo di induzione magnetica,come ogni campo di forze, è caratterizzato da una direzione,
+
+un verso ed una intensità. Pertanto esso ha le caratteristiche di un campo vettoriale. Il vettore
+
+che identifica il campo di induzione magnetica è denominato vettore di induzione magnetica e si
+
+indica con −
+
+→
+
+B .
+
+Anche per il campo di induzione magnetica si può utilizzare il concetto di linea di forza, come
+
+nel caso del campo elettrico −
+
+→
+
+E , per dare una rappresentazione grafica del suo andamento.
+
+Nel caso del campo magnetico prodotto da un conduttore rettilineo l’intensità B del campo è
+
+definita dalla seguente legge.
+
+µI
+
+B =
+
+(6.1)
+
+2πr
+
+6.3.1
+
+Esperienza di Faraday
+
+La misura del campo di induzione magnetica può essere effettuata mediante l’esperienza di Faraday.
+
+Un filo conduttore percorso da corrente elettrica e immerso in un campo magnetico è soggetto ad
+
+una forza che agisce in direzione perpendicolare sia al verso del campo che al verso della corrente.
+
+Il verso della forza è individuato dalla cosiddetta regola di Fleming, conosciuta comunemente
+
+come regola della ‘mano sinistra’.
+
+Ripetendo l’esperimento con vari valori della corrente e della lunghezza del tratto di filo in-
+
+teressato dal campo si nota che il rapporto tra la forza e il prodotto corrente-lunghezza rimane
+
+costante. Tale rapporto è pari proprio all’intensità del campo.
+
+F
+
+B =
+
+(6.2)
+
+I · L
+
+Una volta che si è stati in grado di misurare il campo di induzione magnetica si è potuto allora
+
+introdurre la sua unità di misura, il tesla (simbolo T ).
+
+
+
+
+
+1 N
+
+
+1 T = 1 A · 1 m
+
+1 Sheldon Lee Glashow, Le virtù della ricerca guidata dalla curiosità, in KOS, n.151, p. 53.
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+77
+
+L’esperienza di Faraday dimostra che se delle cariche elettriche si muovono in un campo ma-
+
+gnetico esse sono sottoposte ad una forza che dipende dalla corrente elettrica generata dalle cariche
+
+stesse e dal campo di induzione magnetica.
+
+6.4
+
+Campo magnetico prodotto da una spira circolare
+
+Se un conduttore rettilineo viene avvolto in modo da formare una circonferenza di raggio r si
+
+ottiene una spira circolare. Le linee di forza del campo magnetico si dispongono su piani sempre
+
+ortogonali al conduttore, posti su direzioni radiali convergenti nel centro della spira. Il valore
+
+maggiore del campo magnetico si ottiene al centro della spira, poiché è il punto che più risente
+
+dell’azione combinata di tutte le linee di forza.
+
+In tale punto l’intensità B del campo di induzione magnetica è pari a:
+
+µI
+
+B =
+
+(6.3)
+
+2r
+
+Si può notare come le linee di forza del campo magnetico siano sempre concatenate con il
+
+circuito che le genera. Questa è una proprietà generale del campo di induzione magnetica.
+
+6.5
+
+Campo magnetico prodotto da un solenoide
+
+6.5.1
+
+Solenoide rettilineo
+
+Il campo −
+
+→
+
+B all’interno del solenoide ha un andamento uniforme, analogamente a quanto accade
+
+per il campo −
+
+→
+
+E tra le armature del condensatore piano.
+
+µN I
+
+B =
+
+(6.4)
+
+l
+
+E’ interessante notare la dipendenza del campo B dalla sola lunghezza del solenoide e non dal
+
+suo diametro. In realtà ciò accade in termini approssimativi quando la lunghezza del solenoide
+
+supera almeno di 5 volte il valore del diametro.
+
+6.5.2
+
+Solenoide toroidale
+
+Se le spire vengono avvolte attorno su un supporto di forma circolare si ottiene il solenoide
+
+toroidale.
+
+µN I
+
+B =
+
+(6.5)
+
+2πl
+
+6.6
+
+Forza magnetomotrice e campo H
+
+Si prende in considerazione il caso specifico del solenoide rettilineo in cui l’intensità del campo è
+
+data dalla formula (6.5).
+
+Analizzando la formula e il fenomeno fisico da essa rappresentato si intravvede un legame
+
+causale di tipo proporzionale tra il campo B e la causa generante il campo, ovvero il prodotto
+
+N · I.
+
+Tale prodotto prende il nome di forza magnetomotrice, denominata in breve f.m.m.. Il nome
+
+evidenzia l’analogia esistente tra circuiti elettrici, in cui vi è una forza elettromotrice e il fenomeno
+
+della magnetizzazione dei circuiti magnetici. Tale analogia sarà più chiara in seguito.
+
+Se si prende in considerazione il valore della f.m.m. per unità di lunghezza della linea di forza
+
+si ricava un altra grandezza, denominata forza magnetizzante o campo H.
+
+(v. 0.0)
+
+
+
+78
+
+6.7. PROPRIET À MAGNETICHE DEI MATERIALI
+
+Figura 6.1: Solenoide toroidale utilizzato da Faraday
+
+Sostituendo nella formula (6.5) otteniamo la seguente relazione:
+
+B = µ · H
+
+(6.6)
+
+Se consideriamo H come l’intensità di un ipotetico campo −
+
+→
+
+H la precedente relazione si estende
+
+alla seguente relazione vettoriale:
+
+−
+
+→
+
+B = µ −
+
+→
+
+· H
+
+(6.7)
+
+Il campo −
+
+→
+
+H viene denominato campo magnetico o campo di eccitazione magnetica, per distinguerlo
+
+da −
+
+→
+
+B , il campo di induzione magnetica. Esso è il vettore che descrive il campo magnetico generato
+
+da una ‘fonte’ elettrica, indipendentemente dal mezzo in cui essa esercita la sua influenza. In questo
+
+senso il campo B descrive lo stato di magnetizzazione della materia.
+
+Il campo H si misura in Asp .
+
+m
+
+La relazione di dipendenza del campo B dal campo H, per il tramite del parametro µ, è valida
+
+solo nell’ipotesi di materiali omogenei. Qui si apre una nuova problematica: cosa si deve intendere
+
+per materiale omogeneo dal punto di vista magnetico.
+
+Sempre nel caso di un mezzo omogeneo le linee di forza del campo −
+
+→
+
+H coincidono con le linee
+
+di forza del campo −
+
+→
+
+B .
+
+6.7
+
+Proprietà magnetiche dei materiali
+
+Quando un corpo di ferro o di acciaio si trova in prossimità di una calamita esso diviene a sua
+
+volta sede di un campo magnetico indotto dal campo magnetico della calamita stessa, e concorde
+
+con esso.
+
+Questo è il comportamento dei materiali ferrosi. Materiali con caratteristiche fisiche diverse si
+
+comportano in modo diverso quando sono sottoposti ad un campo magnetico.
+
+Il fenomeno di magnetizzazione indotta di un materiale può essere compreso se si pensa che
+
+ogni atomo può essere visto come una piccola spira percorsa da corrente. L’effetto di un campo
+
+magnetico esterno al corpo può essere quello di orientare le spire a livello atomico in modo tale da
+
+ottenere da esse un campo magnetico complessivo diverso da zero.
+
+Si è già visto che il parametro che identifica il comportamento magnetico di un materiale è la
+
+permeabilità magnetica µ. Riferendo la permeabilità magnetica di un materiale a quella del vuoto
+
+si ottiene la permeabilità magnetica relativa, definita dal seguente rapporto:
+
+µ
+
+µr =
+
+(6.8)
+
+µ0
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+79
+
+I materiali, in base al comportamento magnetico, si suddividono in tre categorie:
+
+• Materiali diamagnetici. Non si magnetizzano o si oppongono debolmente al campo
+
+magnetico. Esempi: rame, argento, oro, legno, materie plastiche.
+
+• Materiali paramagnetici. Si magnetizzano molto leggermente e temporaneamente. Esem-
+
+pi: alluminio, platino, manganese.
+
+• Materiali ferromagnetici. Si magnetizzano fortemente e in parte permanentemente.
+
+Esempi: ferro, leghe del ferro.
+
+A queste categorie di materiali corrispondono anche diversi valori di µr.
+
+materiale
+
+µ
+
+µr
+
+esempi
+
+diamagnetico
+
+µ . µ0
+
+µr . 1
+
+µrrame = 0.99999
+
+paramagnetico
+
+µ & µ0
+
+µr & 1
+
+µralluminio = 1.000023
+
+ferromagnetico
+
+µ ≫ µ0
+
+µr ≫ 1
+
+100 ÷ 10000
+
+Nel caso delle sostanze ferromagnetiche, a causa del loro comportamento non lineare, la per-
+
+meabilità magnetica relativa dipende anche dall’intensità del campo H e, pertanto, non si può
+
+determinare un valore univoco.
+
+6.8
+
+Materiali ferromagnetici e caratteristica di magnetizza-
+
+zione
+
+Per studiare il comportamento magnetico di un materiale lo si deve sottoporre a diversi valori
+
+dell’eccitazione magnetica H e per ciascuno di essi si deve misurare il valore del campo B ottenuto.
+
+Si consideri un nucleo di materiale ferromagnetico su cui è avvolta una bobina composta da
+
+N spire, percorsa da una corrente I. Sul nucleo magnetico agisce una f.m.m. che dà luogo ad un
+
+campo H = Fm/l, dove per l si intende la lunghezza della linea di forza media concatenata con la
+
+bobina. All’interno del nucleo si viene a formare un campo B = µ · H, dipendente dal valore della
+
+permeabilità magnetica.
+
+Se si varia la corrente I, la forza megnetomotrice Fm e il campo H seguono fedelmente l’anda-
+
+mento di I. La variazione di B, invece, sarà legata anche ai valori assunti da µ per ogni valore di
+
+H.
+
+In questo modo si riesce ad ottenere l’andamento riportato in figura 6.2.
+
+Figura 6.2: Caratteristica di prima magnetizzazione
+
+(v. 0.0)
+
+80
+
+6.9. FLUSSO DI INDUZIONE MAGNETICA
+
+Analizzando la curva ottenuta si può notare che in essa si possono distinguere tre parti,
+
+corrispondenti a tre fasi diverse del processo di magnetizzazione del materiale ferromagnetico.
+
+Figura 6.3: Caratteristica di magnetizzazione
+
+6.9
+
+Flusso di induzione magnetica
+
+Il flusso di una grandezza vettoriale attraverso una superficie è un concetto di portata generale in
+
+fisica.
+
+Si consideri un campo di induzione magnetica B costante, con le linee di forza rettilinee e
+
+parallele a si supponga di disporre, perpendicolarmente al campo stesso, una superficie di area S
+
+che viene attraversata dalle linee di forza del campo.
+
+Figura 6.4: Flusso magnetico nel caso di superficie ortogonale al campo.
+
+Si definisice flusso Φ di induzione magnetica attraverso la superficie S, il prodotto tra il valore
+
+di B ed il valore di S.
+
+Φ = B · S
+
+(6.9)
+
+L’unità di misura del flusso è il weber (simbolo Wb). Dalla definzione si ha che
+
+1 W b = 1 T · 1 m2
+
+Spesso si usa esprimere il campo di induzione magnetica in W b/m2
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+81
+
+6.10
+
+Circuiti magnetici e legge di Hopkinson
+
+(v. 0.0)
+
+82
+
+6.11. LEGGE DELLA CIRCUITAZIONE MAGNETICA
+
+6.11
+
+Legge della circuitazione magnetica
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+83
+
+6.12
+
+Induttanza
+
+Si è visto che il campo B presente all’interno di un solenoide è direttamente proporzionale alla
+
+corrente I che attraversa il solenoide (par. 6.5). Ne consegue che se si prende una bobina di N
+
+spire e si inietta in essa una corrente I, essa sarà interessata dal flusso magnetico φ dovuto al
+
+campo magnetico autoprodotto.
+
+Il flusso φ si concatena con tutte le N spire della bobina per cui si prende in considerazione il
+
+flusso concatenato φc dato dal prodotto tra il flusso magnetico e il numero N di spire.
+
+φc = N · φ
+
+(6.10)
+
+Si dimostra sperimentalmente che il flusso concatenato è direttamente proporzionale alla cor-
+
+rente I. Ciò equivale ad affermare che il rapporto flusso concatenato / corrente è costante; esso è
+
+denominato induttanza.
+
+Φ
+
+L =
+
+c
+
+(6.11)
+
+I
+
+Si deduce che l’induttanza di una bobina è pari al flusso magnetico concatenato prodotto da
+
+una corrente di 1 A.
+
+Applicando la legge di Hopkinson si ottiene che
+
+L = N 2 · ℘
+
+(6.12)
+
+Poiché N 2 è un valore adimensionato si osserva che l’unità di misura dell’induttanza è la
+
+stessa della permeanza magnetica, l’henry. Dalla formula (6.12), sostituendo alla permeanza la
+
+sua espressione nel caso di un solenoide, si ottiene l’espressione che lega l’induttanza alle sue
+
+caratteristiche geometriche e fisiche.
+
+N 2µS
+
+L =
+
+(6.13)
+
+l
+
+La (6.13) mostra che l’induttanza dipende in modo direttamente proporzionale dalla permea-
+
+bilità magnetica del nucleo.
+
+Solitamente gli induttori vengono costruiti avvolgendo un conduttore attorno ad un nucleo
+
+ferromagnetico, che ha la proprietà di aumentare considerevolmente il valore di L. Il nucleo fer-
+
+romagnetico presenta però l’inconveniente di rendere il valore di L dipendente dal valore della
+
+corrente rendendo non lineare il legame tra flusso e corrente.
+
+Insieme al resistore e al condensatore, l’induttore è uno dei tre bipoli passivi fondamentali della
+
+teoria dell’elettromagnetismo. Gli induttori vengono costruiti appositamente con opportuni valori
+
+di induttanza per essere utilizzati in svariate applicazioni elettriche ed elettroniche.
+
+Da un punto di vista energetico, l’induttore è in grado di accumulare energia nel campo ma-
+
+gnetico che si sviluppa al suo interno e in parte fuori di esso. In questo senso si comporta in modo
+
+similare al condensatore che accumula energia nel campo elettrico presente tra le sue armature.
+
+Il comportamento del resistore è invece completamente differente: esso dissipa in calore l’energia
+
+ricevuta dal generatore.
+
+(v. 0.0)
+
+84
+
+6.13. ENERGIA DEL CAMPO MAGNETICO
+
+6.13
+
+Energia del campo magnetico
+
+Questa energia potenziale magnetica può essere utilizzata per compiere un lavoro, come nel caso
+
+di un elettromagnete che attira un componente in materiale ferromagnetico denominato ancora.
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+85
+
+6.14
+
+Forza agente su un conduttore elettrico
+
+(v. 0.0)
+
+86
+
+6.15. COPPIA AGENTE SU UNA SPIRA
+
+6.15
+
+Coppia agente su una spira
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+87
+
+6.16
+
+Induzione elettromagnetica
+
+∆Φ
+
+E = −
+
+(6.14)
+
+∆t
+
+Fu una scoperta di Faraday, ottenuta dall’esperienza, il fatto che la legge di induzione è valida
+
+qualunque sia la ragione del cambiamento del flusso.
+
+(v. 0.0)
+
+6.17. TENSIONE INDOTTA IN UN CONDUTTORE IN MOTO RELATIVO RISPETTO AL
+
+88
+
+CAMPO MAGNETICO
+
+6.17
+
+Tensione indotta in un conduttore in moto relativo
+
+rispetto al campo magnetico
+
+6.17.1
+
+Comportamento da generatore elettrico
+
+6.17.2
+
+Comportamento da motore elettrico
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+89
+
+6.18
+
+Tensione indotta in una spira rotante in un campo
+
+magnetico
+
+(v. 0.0)
+
+90
+
+6.19. AUTOINDUZIONE
+
+6.19
+
+Autoinduzione
+
+Inseriamo un induttore in un circuito in cui è possibile variare la corrente circolante I, agendo su
+
+un resistore variabile.
+
+Figura 6.5: Circuito per la verifica dell’autoinduzione.
+
+Sottoponiamo l’induttore ad una variazione di corrente ∆I = I2 − I1 in un intervallo di tempo
+
+∆t = t2 − t1. Di conseguenza si ottiene una corrispondente variazione ∆φc del flusso magnetico
+
+concatenato, il cui valore è prporzionale alla variazione di corrente da cui è originato:
+
+∆Φc = L · ∆I
+
+A causa di questa variazione di flusso si forma ai capi dell’induttanza, per la legge di Faraday,
+
+una tensione indotta anzi, più precisamente, autoindotta pari a
+
+∆Φ
+
+E = −
+
+c
+
+∆t
+
+Da cui si ricava
+
+∆I
+
+E = −L
+
+(6.15)
+
+∆t
+
+Nella formula (6.15) compare il rapporto incrementale δI/∆t che rappresenta la velocità di
+
+variazione della corrente nel tempo. La formula (6.15) esprime la relazione esistente tra la tensione
+
+ai capi di un induttore e la corrente che lo attraversa. Essa è analoga alla relazione tensione-
+
+corrente vista nel caso del condensatore. L’induttanza rappresenta il coefficiente di proporzionalità
+
+tra tensione autoindotta e velocità di variazione ed èper questo motivo che essa viene anche
+
+denominata anche coefficiente di autoinduzione.
+
+Occorre a questo punto chiarire qualcosa sui segni. La tensione indotta, per la legge di Lenz,
+
+tende ad opporsi alla causa che l’ha generata, per cui:
+
+• se la corrente aumenta essa deve essere positiva in 1 (figura 6.6a);
+
+• se la corrente diminuisce essa deve essere positiva 2 (figura 6.6b).
+
+In entrambi i casi la tensione E, in conformità al segno negativo presente nella (6.15), risulta
+
+diretta da 1 a 2. Ciò concorda con il fatto che l’induttore si comporta come generatore di una
+
+forza elettromotrice.
+
+Poiché nelle reti elettriche gli induttori sono considerati degli utilizzatori, nulla vieta di consi-
+
+derare la tensione E diretta da 2 a 1 e quindi di modificare la relazione (6.15) togliendo il segno
+
+meno.
+
+∆I
+
+E = L
+
+(6.16)
+
+∆t
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+91
+
+Figura 6.6: Polarità della tensione di autoinduzione.
+
+Esempio 6.19.1. La corrente in una bobina di induttanza pari a 22mH aumenta linearmente da
+
+0 a 5A in 10ms, rimane costante per altri 10 ms e ritorna a 0 in 20ms. Tracciare l’andamento
+
+della corrente e della tensione ai capi dell’induttore.
+
+Soluzione.
+
+6.20
+
+Mutua induzione
+
+Si considerino due induttori avvolti entrambi su uno stesso nucleo magnetico. Si può notare che la
+
+circolazione di corrente in uno dei due induttori produce un flusso magnetico che va ad interessare,
+
+tutto o in parte, anche l’altro induttore. In questo caso si dice che i due induttori sono accoppiati
+
+magneticamente.
+
+Figura 6.7: Induttori mutuamente accoppiati.
+
+Il fenomeno della mutua induzione è la base del funzionamento dei trasformatori. Essi sono delle
+
+macchine elettriche che permettono di trasferire energia elettrica, trasformandone le caratteristiche
+
+elettriche di tensione e corrente, tra due circuiti elettricamente separati.
+
+6.20.1
+
+Coefficiente di mutua induzione
+
+Si consideri il caso in cui l’induttore L1 è interessato da una corrente I1 mentre l’induttore L2 è
+
+lasciato aperto (figura 6.8a). L’induttore produce allora un flusso magnetico totale φ1 dato dalla
+
+somma del flusso utile φ21, che interessa anche il secondo induttore, e del flusso disperso φd1, che
+
+non si richiude con alcuna spira di L2.
+
+Si definisce coefficiente di mutua induzione M21 il rapporto tra il flusso concatenato con
+
+l’induttore L2 prodotto dall’induttore L1 e la corrente I1.
+
+(v. 0.0)
+
+92
+
+6.20. MUTUA INDUZIONE
+
+Figura 6.8: Flusso utile e flusso disperso.
+
+Φ
+
+M
+
+c21
+
+21 =
+
+I1
+
+Analogamente, quando l’induttore L2 è attraversato da una corrente I2, mentre l’induttore L1
+
+è lasciato aperto (figura 6.8b), il flusso magnetico totale φ2, prodotto da I2, è dato dalla somma
+
+del flusso utile φ12, che interessa il primo induttore, e del flusso disperso φd2, che non si richiude
+
+con alcuna spira di L1.
+
+Si definisce allora coefficiente di mutua induzione M12 il rapporto tra il flusso concatenato con
+
+l’induttore L1, prodotto dall’induttore L2, e la corrente I2.
+
+Φ
+
+M
+
+c12
+
+12 =
+
+I2
+
+Si intuisce, per ragioni di simmetria, che i due coefficienti di mutua induzione devono esse-
+
+re uguali tra loro. Essi sono normalmente indicati con il simbolo M senza indici, denominato
+
+semplicemente mutua induttanza.
+
+M = M21 = M12
+
+(6.17)
+
+L’unità di misura del coefficiente di mutua induzione è la stessa del coefficiente di autoinduzione,
+
+l’henry (simbolo H), essendo anch’esso definito allo stesso modo.
+
+Si tratta ora di determinare il legame esistente tra il coefficiente di mutua induzione M e i due
+
+coefficienti di autinduzione L1 e L2. Cominciamo determinando il coefficiente M21. Innanzitutto,
+
+dalla definizione di flusso concatenato
+
+Φc21 = N2 · Φ21
+
+Φ21 è una porzione di Φ1. Si introduce, a questo punto, il coefficiente adimensionato α1 = Φ21
+
+Φ1
+
+variabile tra 0, corrispondente a un flusso utile nullo (accoppiamento nullo), e 1 , corrispondente
+
+a un flusso disperso nullo (accoppiamento massimo). A questo punto
+
+Φc21 = N2 · α1 · Φ1
+
+Tenendo conto della (6.12) si ha
+
+L1
+
+Φ1 = ℘1 · Fm1 =
+
+· I1
+
+N1
+
+Da cui, sostituendo, si ottiene l’espressione del coefficiente di autoinduzione M21 in funzione del-
+
+le caratteristiche geometriche e fisiche del circuito di accoppiamento magnetico e dell’avvolgimento
+
+
+
+
+
+L1.
+
+
+α1L1N2
+
+M21 =
+
+(6.18)
+
+N1
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+93
+
+Ripetendo lo stesso raggionamento per il coefficiente M12 si ottiene
+
+α2L2N1
+
+M12 =
+
+(6.19)
+
+N2
+
+Ora, tenendo conto della (6.17), si ottiene
+
+M 2 = M21 · M12 = α1α2L1L2
+
+√
+
+Indicando con k =
+
+α1α2 il fattore di accoppiamento tra le due induttanze, si ottiene
+
+infine
+
+M = k p
+
+·
+
+L1L2
+
+(6.20)
+
+La relazione (6.17) evidenzia il legame esistente tra il coefficiente di mutua induzione M e i
+
+coefficienti di autoinduzione L1 e L2. In gergo elettrotecnico si dice che l’accoppiamento è tanto
+
+più stretto quanto più k si avvicina a 1, e tanto più lasco quanto più k è prossimo a 0.
+
+6.20.2
+
+Tensione indotta per mutua induzione
+
+Se nel sistema elettrico di figura 6.8a la corrente I1 varia nel tempo, concordemente al principio
+
+di induzione elettromagnetica, si riscontrano due distinte tensioni indotte:
+
+• una tensione di autoinduzione ai capi dell’induttore L1;
+
+• una tensione di mutua induzione ai capi dell’induttore L2.
+
+Supponendo che il coefficiente M sia costante si ha che la variazione del flusso concatenato con
+
+l’induttore L2 è pari a
+
+∆Φc2 = M · ∆I1
+
+Seguendo lo stesso ragionamento visto nel paragrafo 6.19, la tensione E2 indotta ai capi di L2
+
+è pari a
+
+∆I1
+
+E2 = M ·
+
+(6.21)
+
+∆t
+
+Per quanto riguarda il segno bisogna tener conto della legge di Lenz e del verso di avvolgimento
+
+delle due bobine.
+
+In particolare, per evitare confusioni i circuiti mutuamente accoppiati vengono rappresentati
+
+con un simbolo in cui oltre ai segni grafici delle due induttanze sono riportati due pallini neri a
+
+cui è associata la seguente convenzione: quando la corrente entrante nel morsetto di un avvol-
+
+gimento segnato con il pallino aumenta, la tensione mutuamente indotta nell’altra è positiva sul
+
+corrispondente morsetto segnato dall’altro pallino.
+
+Nella figura seguente è riportato lo schema di principio di due circuiti mutuamente accoppiati,
+
+entrambi avvolti in senso antiorario, e il corrispondente simbolo elettrico.
+
+Figura 6.9: Simbolo dei circuiti mutuamente accoppiati.
+
+(v. 0.0)
+
+94
+
+6.20. MUTUA INDUZIONE
+
+Se I1 aumenta, la tensione indotta E2 è positiva nel senso indicato in figura. Infatti, se il
+
+circuito 2 fosse chiuso su un carico resistivo la corrente I2 deve imporre una f.m.m di reazione
+
+N2 · I2, denominata anche f.m.m smagnetizzante, che si oppone all’aumento della f.m.m. di azione
+
+N1 · I1, denominata f.m.m. magnetizzante.
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+95
+
+6.21
+
+Transitori di magnetizzazione e smagnetizzazione di
+
+un induttore
+
+Lo studio dei transitori di magnetizzazione e di smagnetizzazione di un induttore si conduce in
+
+maniera analoga a quanto fatto nel caso dei transitori di carica e scarica di un condensatore.
+
+Ad esempio, infatti, durante un processo di carica, il condensatore, e durante il transitorio di
+
+magnetizzazione, l’induttore, immagazzinano entrambi energia in un campo sottostando a vincoli
+
+analoghi tra loro.
+
+(v. 0.0)
+
+96
+
+6.22. DOMANDE
+
+6.22
+
+Domande
+
+1. Cosa scoperse il fisico danese Oersted ? Cosa aggiunse il fisico francese Ampere alla scoperta
+
+di Oersted ?
+
+2. L’intensità del campo di induzione magnetica può essere definito come un rapporto. Spiega
+
+in quale modo.
+
+3. Come si può determinare sperimentalmente il verso e la direzione del campo di induzione
+
+magnetica.
+
+4. Descrivere sia verbalmente che graficamente le linee di forza del campo magnetico prodotto
+
+da un conduttore rettilineo.
+
+5. L’intensità del campo magnetico attorno ad un filo rettilineo percorso da corrente dipende
+
+da diversi fattori. Quali ?
+
+6. Spiegare la differenza tra forza magnetizzante e forza magnetomotrice
+
+7. Disegnare la caratteristica di magnetizzazione di un materiale diamagnetico.
+
+8. Spiegare il fenomeno della saturazione magnetica e la sua influenza sulla permeabilità ma-
+
+gnetica.
+
+9. Come si classificano i materiali in base al loro comportamento magnetico.
+
+10. Cosa si intende per induzione residua e per forza coercitiva ?
+
+11. Indicare il significato del termine isteresi e perché esso viene utilizzato per indicare il ciclo
+
+di magnetizzazione e smagnetizzazione di un nucleo ferromagnetico.
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+97
+
+6.23
+
+Esercizi
+
+1. Un solenoide avente 20 spire per centimetro di lunghezza è percorso da una corrente di 10A.
+
+Il nucleo del solenoide è di ferro dolce. Calcolare il valore della permeabilità magnetica
+
+relativa del ferro. sapendo che in esso il campo magnetico è di 1,25 T.
+
+2. In figura è illustrato un circuito magnetico con lamierini di ferro-silicio e con un tratto in
+
+aria (L1 = 2, 5 cm, L2 = 10 cm, L3 = 7 cm, L4 = 2 cm, N = 1000 spire, S = 8 cm2
+
+Si determini:
+
+(a) Il termine tecnico con cui è indicato il tratto in aria.
+
+(b) Il valore della riluttanza dei vari tratti.
+
+(c) L’intensità della corrente necessaria per produrre nel tratto in aria un flusso di induzione
+
+magnetica pari a Φ = 5, 66 · 10−4 W b.
+
+3. Disegnare il simbolo elettrico di un relè elettromeccanico
+
+4. Disegnare lo schema costruttivo di principio di un relè elettromeccanico.
+
+5. Si determini l’espressione algebrica e si calcoli il valore numerico della tensione media auto
+
+indotta che si produce ai capi di una bobina di L = 100 mH quando la corrente passa dal
+
+valore di Ii = 0 a If = 100mA in un tempo di 0.1 ms
+
+6. Una bobina in aria è costituita da 20 spire avvolte strettamente su un telaio rettangolare di
+
+6x10 cm ed è imperniata in modo tale da ruotare attorno al proprio asse verticale. Trovare:
+
+[a] l’espressione della coppia che agisce su di essa per effetto del campo magnetico terrestre
+
+(Ht = 18 A/m). [b] Il valore di tale coppia sapendo che la bobina è attraversata da una
+
+corrente di 50mA e che l’ortogonale al piano della bobina forma un angolo di 30 gradi con
+
+la direttrice nord-sud.
+
+Figura 6.10: Circuito magnetico a mantello
+
+7. Il nucleo magnetico di profondità a, realizzato con lamiere al silicio, la cui forma e dimensioni
+
+sono riportate nella seguente figura,presenta tre traferri di spessore d in corrispondenza della
+
+congiunzione tra il giogo e le tre colonne . Nei traferri il campo di induzione magnetica è pari
+
+a 1 T, mentre nella colonna centrale è presente un avvolgimento di N spire. Determinare:
+
+(a) Il circuito elettrico equivalente.
+
+(b) La riluttanza magnetica di ciascuno dei tratti in aria.
+
+(c) La corrente I.
+
+(d) La forza magnetizzante nel ferro e nel traferro
+
+(e) L’energia magnetica accumulata
+
+(v. 0.0)
+
+98
+
+6.23. ESERCIZI
+
+(a = 10 mm, b = 20 mm, c = 30 mm, d = 0,5 mm, N = 1000)
+
+
+
+
+
+8. Nuovo
+
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+99
+
+6.24
+
+Maxwell e le leggi dell’elettromagnetismo
+
+6.24.1
+
+Cenni biografici
+
+James Clerk Maxwell nacque il 13 giugno 1831 a Edinburgo, in Scozia.
+
+Nel 1846 Maxwell scrisse un articolo sugli ovali, nel quale egli generalizzava la definizione di
+
+elisse come il luogo dei punti per cui la somma di m volte la distanza da un punto con n volte la
+
+distanza da un altro punto è costante. Nel caso di m = n = 1 si ottiene l’elisse come è generalmente
+
+conosciuta. In realtà queste idee non erano del tutto nuove ma è degno di nota che questi studi
+
+fossero stati sviluppati da un ragazzo di 14 anni.
+
+Le quattro equazioni dell’elettromagnetismo furono presentate per la prima volta nella loro
+
+forma finale nel 1873.
+
+Maxwell muore il 5 novembre 1879 a Cambridge, in Inghilterra.
+
+6.24.2
+
+Le leggi dell’elettromagnetismo
+
+Per comprendere le leggi dell’elettromagnetismo occorre avere una certa dimistichezza con i campi
+
+scalari e vettoriali e con il calcolo differenziale applicato ad essi.
+
+Per i campi vettoriali si possono definire due entità fondamentali: il flusso e la circolazione di
+
+cui ora si offre una definizione sommaria ed intuitiva. I campi scalari, invece, devono accontentarsi
+
+del potenziale.
+
+Il flusso attraverso una superficie chiusa è il prodotto tra la componente normale media del
+
+campo e l’area della superficie.
+
+La circolazione lungo una curva chiusa è il prodotto tra la componente tangenziale media e
+
+la lunghezza della curva chiusa.
+
+Il flusso e la circolazione si traducono, in termini di calcolo differenziale, rispettivamente negli
+
+operatori divergenza e rotore.
+
+L’operatore divergenza e l’operatore rotore si applicano entrambi ai campi vettoriali. In par-
+
+ticolare l’operatore divergenza produce uno scalare mentre l’operatore rotore produce un vettore.
+
+Vi è un altro operatore, il gradiente, che invece applicato ad un campo scalare produce un campo
+
+vettoriale.
+
+Tutti questi tre operatori possono essere ottenuti come combinazioni tra un operatore vettoriale
+
+primitivo e le operazioni di prodotto, prodotto scalare e prodotto vettoriale definite per i vettori.
+
+Questo operatore primitivo vettoriale è l’operatore ∇ ed è il responsabile dell’introduzione del
+
+calcolo differenziale2.
+
+∂
+
+∂
+
+∂
+
+∇ =
+
+,
+
+,
+
+∂x ∂y ∂z
+
+Combinando l’operatore ∇ con le tre operazioni vettoriali si ottengono i tre operatori gradiente,
+
+divergenza e rotore.
+
+∇T
+
+= grad T
+
+(6.22)
+
+∇ · ~v = div ~v
+
+(6.23)
+
+∇ × ~v = rot ~v
+
+(6.24)
+
+Il gradiente è il vettore che indica la direzione di massima variazione di un campo scalare e il
+
+cui modulo è pari alla quantità di variazione per unità di spostamento.
+
+La divergenza di un campo vettoriale in un dato punto è il flusso uscente del campo per unità
+
+di volume nell’intorno del punto.
+
+A questo punto, utilizzando l’operatore differenziale ∇, si scrivono le equazioni generali dell’e-
+
+lettromagnetismo, meglio conosciute come equazioni di Maxwell.
+
+
+
+
+
+2 Si pronuncia nabla
+
+
+(v. 0.0)
+
+100
+
+6.24. MAXWELL E LE LEGGI DELL’ELETTROMAGNETISMO
+
+−
+
+→
+
+ρ
+
+∇ · E
+
+=
+
+(6.25)
+
+ε0
+
+−
+
+→
+
+d−
+
+→
+
+B
+
+∇ × E
+
+= −
+
+(6.26)
+
+dt
+
+−
+
+→
+
+∇ · B
+
+=
+
+0
+
+(6.27)
+
+d−
+
+→
+
+E
+
+−
+
+→
+
+J
+
+c2
+
+−
+
+→
+
+· ∇ × B
+
+=
+
++
+
+(6.28)
+
+dt
+
+ε0
+
+Non ci si deve stupire dell’assenza di µ0 o della presenza di c, la velocità della luce, perché
+
+1
+
+µ0 = ε0c2
+
+L’equazione (6.25) è alla base della legge di Coulomb.
+
+L’equazione (6.26), conosciuta anche come legge dell’induzione elettromagnetica, è alla base
+
+delle macchine elettriche.
+
+L’equazione (6.27) afferma che non esistono poli magnetici isolati.
+
+L’equazione (6.28) afferma che il campo viene prodotto da correnti elettriche, il secondo termine
+
+del secondo membro, e da campi elettrici variabili, ovvero il primo termine del secondo membro. il
+
+−
+
+→
+
+contributo d E fu introdotto espressamente da Maxwell. La necessità della sua presenza si intuisce
+
+dt
+
+anche per motivi di simmetria.
+
+La presenza della velocità della luce è dovuta a considerazioni relativistiche3.
+
+La combinazione delle equazioni (6.27) e (6.28) è alla base dell’irradiazione elettromagnetica.
+
+L’interfaccia dell’elettromagnetismo con la dinamica è data dalla legge dell’elettrodinamica.
+
+La forza agente su una carica q immersa in un campo elettromagnetico ( ~
+
+E, ~
+
+B) e dotata di una
+
+velocità ~v è pari a:
+
+~
+
+
+
+
+
+F = q · ~
+
+E + ~v × ~
+
+B
+
+(6.29)
+
+Le equazioni di Maxwell sono scritte in forma differenziale. Di esse si può enunciare una
+
+versione in forma integrale. Bisogna dapprima enunciare tre teoremi fondamentali del calcolo
+
+integrale vettoriale: il teorema dei campi conservativi (6.30), il teorema di Gauss (6.31) e il
+
+teorema di Stokes (6.32).
+
+2
+
+Z
+
+ψ2 − ψ1 =
+
+∇ψ · d~l
+
+(6.30)
+
+1
+
+La differenza dei valori, ovvero la differenza di potenziale di un campo scalare in due punti è
+
+uguale all’integrale di linea della componente tangenziale del gradiente di quello scalare lungo una
+
+qualsiasi curva che va dal primo al secondo punto.
+
+Z
+
+Z
+
+~
+
+C · ~nds =
+
+∇ · ~
+
+C dv
+
+(6.31)
+
+S
+
+V
+
+L’integrale di superficie della componente normale, ovvero il flusso di un campo vettoriale
+
+sopra una superficie chiusa è uguale all’integrale della divergenza del campo nel volume interno
+
+alla superficie.
+
+I
+
+Z
+
+~ −
+
+→
+
+−
+
+→
+
+C · dl =
+
+∇ × ~
+
+C · ds
+
+(6.32)
+
+Γ
+
+S
+
+3 D’altronde il magnetismo viene considerato un effetto relativistico dell’elettricità.
+
+(v. 0.0)
+
+CAPITOLO 6. FENOMENI E COMPONENTI ELETTROMAGNETICI
+
+101
+
+L’integrale di linea della componente tangenziale, ovvero la circolazione di un campo vettoriale
+
+intorno a un cammino chiuso è uguale all’integrale di superficie della componente normale del
+
+rotore del campo sopra una qualunque superficie che ha il cammino dato come contorno.
+
+Un esempio applicativo del teorema di Stokes è la nota legge di Faraday. Essa è l’espressione
+
+integrale di una delle leggi di Maxwell;
+
+−
+
+→
+
+d−
+
+→
+
+B
+
+∇ × E = −
+
+(6.33)
+
+dt
+
+Utilizzando il teorema di Stokes si riesce a risalire dalla formulazione differenziale (6.33) alla
+
+formulazione integrale (6.14).
+
+(v. 0.0)
+
+102
+
+6.24. MAXWELL E LE LEGGI DELL’ELETTROMAGNETISMO
+
+(v. 0.0)
+
+Capitolo 7
+
+RETI ELETTRICHE IN
+
+REGIME SINUSOIDALE
+
+7.1
+
+Grandezze sinusoidali
+
+Le reti elettriche in cui tensioni e correnti rimangono costanti nel tempo sono solo un caso parti-
+
+colare dell’elettrotecnica e dell’elettronica. In particolare nelle reti elettriche utilizzate in ambito
+
+civile ed industriale le tensioni e le correnti assumono tutte un andamento sinusoidale alternato.
+
+Le grandezze sinusoidali sono un caso particolarmente importante di grandezze periodiche.
+
+Una grandezza sinusoidale alternata y varia nel tempo secondo la seguente legge:
+
+y = YM · sen (ωt + ϕ)
+
+(7.1)
+
+La figura riporta la rappresentazione grafica di y.
+
+La grandezza sinusoidale altrnata y è univocamente determinata quando sono noti la pulsazione
+
+ω, l’ampiezza YM e la fase ϕ.
+
+7.1.1
+
+Grandezze sinusoidali e moto circolare uniforme
+
+Si è già visto che una tensione sinusoidale alternata può essere indotta ai capi di una spira in
+
+rotazione all’interno di un campo elettrico. Più in generale, il segnale sinusoidale è strettamente
+
+connesso al moto circolare uniforme.
+
+103
+
+104
+
+7.1. GRANDEZZE SINUSOIDALI
+
+7.1.2
+
+Periodo, frequenza e velocità angolare
+
+(v. 0.0)
+
+CAPITOLO 7. RETI ELETTRICHE IN REGIME SINUSOIDALE
+
+105
+
+7.1.3
+
+Valore massimo e valore efficace
+
+(v. 0.0)
+
+106
+
+7.2. IL METODO SIMBOLICO
+
+7.2
+
+Il metodo simbolico
+
+Quando si opera con tensioni e correnti sinusoidali alternate è di grande utilità applicare il me-
+
+todo simbolico. Esso consiste, sostanzialmente, nella rappresentazione delle tensioni e correnti
+
+presenti in una rete elettrica lineare in regime sinusoidale mediante numeri complessi, attraverso
+
+l’introduzioni di particolari vettori denominati fasori.
+
+Per comprendere da dove nasce tale esigenza si propone un problema concreto.
+
+Tuttavia in una rete elettrica lineare, quando si applica una eccitazione sinusoidale dotata di
+
+una frequenza f, tutte le differenze di tensione e le correnti, dopo una fase transitoria più o meno
+
+lunga, assumono a regime un andamento sinusoidale di frequenza f. Questa situazione prende il
+
+nome di regime sinusoidale.
+
+Un comune impianto elettrico alimentato dalla tensione di rete si trova normalmente in condi-
+
+zioni di regime sinusoidale.
+
+(v. 0.0)
+
+CAPITOLO 7. RETI ELETTRICHE IN REGIME SINUSOIDALE
+
+107
+
+7.3
+
+Bipoli passivi in regime sinusoidale
+
+Si prendono ora in considerazione i tre bipoli elettrici elementari resistore, condensatore ed indut-
+
+tore e si analizza il loro comportamento in regime sinusoidale.
+
+7.3.1
+
+Resistore
+
+Se si sottopone un resistore alla seguente tensione sinusoidale
+
+v (t) = VM · sen (ω · t)
+
+l’andamento della corrente si può ricavare istante per istante, dalla legge di Ohm.
+
+v (t)
+
+V
+
+V
+
+i (t) =
+
+= M · sen (ω · t) = M · sen (ω · t) = I
+
+R
+
+R
+
+R
+
+M · sen (ω · t)
+
+Il seguente diagramma temporale esprime graficamente i precedenti passaggi.
+
+Osservando le precedenti formule e l’andamento temporale della tensione e della corrente si
+
+notano alcune cose:
+
+• l’ampiezza IM della corrente sinusoidale è data dalla formula IM = VM , che richiama la
+
+R
+
+legge di Ohm;
+
+• la corrente e la tensione sono in fase tra loro.
+
+In particolare, dalla espressione della IM si ottiene dopo alcuni passaggi matematici la seguente
+
+espressione:
+
+V = R
+
+I
+
+dove con V ed I si intendono rispettivamente i valori efficaci della tensione sinusoidale e della
+
+corrente sinusoidale.
+
+7.4
+
+Rifasamento
+
+(v. 0.0)
+
+108
+
+7.5. DOMANDE
+
+7.5
+
+Domande
+
+(v. 0.0)
+
+CAPITOLO 7. RETI ELETTRICHE IN REGIME SINUSOIDALE
+
+109
+
+7.6
+
+Esercizi
+
+1. Date le seguenti tensioni espresse in forma sinusoidale:
+
+√
+
+
+
+π
+
+v1 (t) =
+
+2 · 230 · sen 100 · π · t − 2
+
+
+
+π
+
+v2 (t) = 325, 27 · sen 100 · π · t + 2
+
+e la tensione somma
+
+v (t) = v1 (t) + v2 (t)
+
+(a) Disegnare l’andamento temporale di v1 (t), v2 (t) e v (t).
+
+(b) Determinare, utilizzando il metodo simbolico, il valore efficace e la fase della tensione
+
+alternata v (t).
+
+2. Un bipolo R-L serie, con R = 50Ω e L = 200mH, è sottoposto ad una corrente sinusoidale
+
+alternata di frequenza f = 50 Hz e valore efficace I = 0,5 A. Determinare:
+
+(a) le tensioni ~
+
+VR e ~
+
+VC in forma cartesiana e polare;
+
+(b) la tensione totale ~
+
+V ai capi del bipolo in forma cartesiana e polare;
+
+(c) l’impedenza totale ~
+
+Z in forma cartesiana e polare;
+
+(d) la potenza attiva P dissipata dall’elemento resistivo e la potenza Q scambiata dall’ele-
+
+mento induttivo. Inoltre, disegnare:
+
+(e) il diagramma vettoriale delle tensioni ~
+
+VR, ~
+
+VC e ~
+
+V utilizzando la stessa scala per l’asse
+
+reale e l’asse immaginario;
+
+(f) l’andamento temporale di vR (t), vL (t) e v (t).
+
+3. Un bipolo R-C serie, avente C = 50 µF , assorbe la potenza attiva P = 100 W e la corrente
+
+I = 2A alla frequenza di 50 Hz. Considerando nulla la fase della corrente, determinare:
+
+(a) la resistenza R e la reattanza XC;
+
+(b) l’impedenza ~
+
+Z in forma cartesiana e polare;
+
+(c) le tensioni ~
+
+VR e ~
+
+VC in forma cartesiana e polare;
+
+(d) la tensione totale ~
+
+V ai capi del bipolo in forma cartesiana e polare;
+
+(e) disegnare il diagramma vettoriale;
+
+(f) determinare Q;
+
+(g) disegnare il triangolo delle potenze.
+
+4. Il bipolo R-L serie di figura, con T aperto, assorbe la potenza P = 3kW con fattore di
+
+potenza cosϕ0 = 0,65, quando è alimentato con tensione V = 230V e frequenza f = 50 Hz.
+
+Calcolare:
+
+(a) la potenza reattiva Q0 scambiata dal bipolo;
+
+(b) la corrente I;
+
+Supponendo di chiudere T su un condensatore C di 134 µF determinare per il nuovo
+
+bipolo:
+
+(c) la corrente Ir totale;
+
+(d) il fattore di potenza totale cos fr
+
+(e) la potenza reattiva totale Qr ;
+
+(v. 0.0)
+
+110
+
+7.6. ESERCIZI
+
+(v. 0.0)
+
+Capitolo 8
+
+SISTEMI TRIFASI
+
+I generatori e gli utilizzatori elettrici visti finora nell’ambito delle reti elettriche in regime sinusoi-
+
+dale presentavano due morsetti (sistema elettrico monofase).
+
+Nella produzione, trasformazione e trasmissione di energia elettrica vengono utilizzati genera-
+
+tori, trasformatori, utilizzatori che presentano normalmente più di due morsetti (sistema elettrico
+
+polifase).
+
+Ciò è dovuto al fatto che i sistemi polifasi, e in particolare i sistemi trifasi, presentano diversi
+
+vantaggi rispetto ai sistemi monofasi, riassunti nel seguente elenco:
+
+• migliore utilizzazione delle macchine elettriche e degli impianti connessi ad esse;
+
+• trasporto più facile dell’energia elettrica;
+
+• conversione più facile della corrente da alternata a continua;
+
+• impiego di una importante categoria di motori elettrici1.
+
+8.1
+
+Definizione di sistema trifase
+
+Si definisce sistema trifase il sistema elettrico costituito da tre circuiti monofasi le cui
+
+f.e.m. sono perfettamente isofrequenziali.
+
+La figura 8.1 riporta un esempio di sistema trifase. L’individuazione dei tre circuiti trifasi in
+
+questo caso è molto semplice perché essi sono tra di essi isolati ed indipendenti.
+
+Figura 8.1: Sistema trifase con fasi isolate e indipendenti
+
+1 i m.a.t.
+
+111
+
+112
+
+8.1. DEFINIZIONE DI SISTEMA TRIFASE
+
+La figura 8.2 evidenzia un sistema trifase in cui il conduttore di ritorno di ciascuna linea è
+
+messo in comune. Tale conduttore prende il nome di neutro e in esso circola una corrente pari
+
+alla somma delle tre correnti di fase. In questo caso le tre fasi non sono più isolate tra loro anche
+
+se continuano ad essere indipendenti2.
+
+Figura 8.2: Sistema trifase con fasi non isolate e indipendenti
+
+Molte volte, però, il neutro può essere assente (figura 8.3). In questo caso le tre fasi, oltre
+
+a non essere isolate, non sono più indipendenti tra loro. In questo caso siamo in presenza di un
+
+sistema trifase composto.
+
+Figura 8.3: Sistema trifase composto (fasi non isolate e non indipendenti)
+
+Il caso di figura 8.1 è puramente didattico ed è stato introdotto con lo solo scopo di far
+
+comprendere i sistemi trifase con e senza neutro.
+
+Nelle precedenti figure sia i generatori che i carichi sono collegati mediante una connessione
+
+a stella (simbolo Y). Nel caso in cui è assente il conduttore di neutro, è possibile connettere i
+
+generatori o i carichi tra essi mediante una connessione a triangolo (simbolo ∆).
+
+Normalmente le tre tensioni eA, eB e EC, oltre ad essere perfettamente isofrequenziali, hanno
+
+la stessa ampiezza e sono tra loro ugualmente sfasate di 120◦. Un sistema di tensioni di questo tipo
+
+si dice sistema di tensioni simmetrico; esso viene generato da una macchina elettrica rotante
+
+denominata alternatore trifase in grado di trasformare energia meccanica in energia elettrica.
+
+Della terna di tensioni simmetriche si può dare la seguente rappresentazione analitica, in cui
+
+E rappresenta il valore efficace della tensione, comune a tutti e tre i generatori:
+
+√
+
+eA (t) =
+
+2 · E · sen (ωt)
+
+(8.1)
+
+2 L’indipendenza tra le tre fasi è valida se neutro è realizzato con un conduttore di resistenza perfettamente nulla (v. 0.0)
+
+CAPITOLO 8. SISTEMI TRIFASI
+
+113
+
+Figura 8.4: Generatori e carichi connessi a triangolo
+
+Figura 8.5: Andamento temporale di una terna simmetrica di tensioni
+
+(v. 0.0)
+
+114
+
+8.2. GENERATORE TRIFASE SIMMETRICO
+
+√
+
+eB (t) =
+
+2 · E · sen (ωt − 120◦)
+
+(8.2)
+
+√
+
+eC (t) =
+
+2 · E · sen (ωt − 240◦)
+
+(8.3)
+
+oppure la seguente rappresentazione vettoriale.
+
+Figura 8.6: Rappresentazione vettoriale di una terna simmetrica
+
+8.2
+
+Generatore trifase simmetrico
+
+8.2.1
+
+Generatore connesso a stella
+
+Si consideri lo schema elettrico di un generatore trifase collegato a stella riportato in figura 8.7. E’
+
+possibile individuare due sistemi di tensioni: le tensioni di fase o stellate e le tensioni di linea
+
+o concatenate. Il punto O, corrispondente al nodo di collegamento dei tre generatori è denominato
+
+centro stella del sistema di tensioni e può essere o non essere reso disponibile all’esterno, a
+
+seconda dei casi.
+
+Figura 8.7: Tensioni di fase (stellate) e di linea (concatenate).
+
+Dallo schema elettrico si nota che le tensioni di linea si possono ottenere dalle tensioni di fase,
+
+applicando il principio di additività delle d.d.p., mediante le seguenti relazioni:
+
+V 12
+
+= E1 − E2
+
+(8.4)
+
+V 23
+
+= E2 − E3
+
+(8.5)
+
+V 31
+
+= E3 − E1
+
+(8.6)
+
+Applicando sempre il principio di addittività delle d.d.p. si può notare che:
+
+V 12 + V 23 + V 31 = 0
+
+(8.7)
+
+Questa è la proprietà delle terne di tensioni concatenate, ovvero che la somma vettoriale delle
+
+tensioni concatenate è sempre nulla.
+
+(v. 0.0)
+
+CAPITOLO 8. SISTEMI TRIFASI
+
+115
+
+Se si riportano su uno stesso diagramma le tensioni di fase e le tensioni di linea si ottiene il
+
+diagramma di figura 8.8 dal quale si può notare che:
+
+• il sistema di tensioni di linea V12, V23, V31 è un sistema trifase simmetrico;
+
+• il valore efficace delle tensioni di linea si ottiene dal valore efficace delle tensioni di fase
+
+√
+
+mediante la seguente relazione: V =
+
+3 · E
+
+Figura 8.8: Diagramma vettoriale delle tensioni stellate e concatenate
+
+Ad esempio, da un sistema di tensioni di fase di valore efficace pari a 220 V si ottiene un
+
+√
+
+sistema di tensioni di linea di valore efficace pari a
+
+3 · 220 V ∼
+
+= 381 V .
+
+8.2.2
+
+Generatore connesso a triangolo
+
+In questo caso il centro stella non è mai disponibile e le tensioni di fase coincidono con le tensioni
+
+di linea. La relazione (8.7) è, ovviamente, sempre valida.
+
+Figura 8.9: Generatore connesso a triangolo
+
+8.3
+
+Carico trifase equilibrato
+
+Un carico trifase si dice equilibrato quando esso è costituito da tre impedenze uguali tra loro sia
+
+in modulo che in fase. Ogni impedenza costituisce una fase del carico. A seconda del tipo di
+
+connessione tra le fasi si distinguono il collegamento a stella e il collegamento a triangolo.
+
+(v. 0.0)
+
+116
+
+8.4. METODO DEL CIRCUITO EQUIVALENTE MONOFASE
+
+8.3.1
+
+Carico connesso a stella
+
+8.3.2
+
+Carico connesso a triangolo
+
+8.4
+
+Metodo del circuito equivalente monofase
+
+8.5
+
+Potenze nei sistemi trifasi simmetrici e equilibrati
+
+8.5.1
+
+Carico connesso a stella
+
+8.5.2
+
+Carico connesso a triangolo
+
+8.6
+
+Linee trifasi
+
+Prendiamo in considerazione il caso di linee trifasi che soddisfano le seguenti condizioni particolari:
+
+• sono alimentate da terne simmetriche di tensioni;
+
+• alimentano carichi equilibrati a tre fili;
+
+• i parametri traversali sono trascurabili.
+
+8.7
+
+Rifasamento trifase
+
+8.8
+
+Sistemi trifasi simmetrici e squilibrati
+
+8.8.1
+
+Sistema trifase a stella con neutro
+
+Potenze
+
+8.8.2
+
+Sistema trifase a stella senza neutro
+
+Potenze
+
+8.8.3
+
+Sistema trifase a triangolo
+
+Potenze
+
+8.9
+
+Misure di potenza
+
+8.9.1
+
+Misure di potenza in un sistema trifase a tre fili mediante l’inser-
+
+zione Aron
+
+(v. 0.0)
+
+CAPITOLO 8. SISTEMI TRIFASI
+
+117
+
+8.10
+
+Domande
+
+1. Perché per la generazione, il trasporto e l’utilizzazione industriale dell’energia elettrica si
+
+utilizzano sistemi trifasi ?
+
+2. Che cosa si intende per terna simmetrica di tensioni ?
+
+3. Che cosa si intende per terna equilibrata di correnti ?
+
+4. Definire cosa si intende per tensioni di fase e tensioni di linea e ricavare le relazioni che le
+
+legano nel caso di un generatore trifase simmetrico a stella.
+
+5. Definire cosa si intende per correnti di fase e correnti di linea e ricavare le relazioni che le
+
+legano nel caso di un carico trifase equilibrato a triangolo.
+
+6. Per un sistema trifase simmetrico ed equilibrato, comunque collegato, scrivere le espressioni
+
+delle potenze P, Q ed S in funzione della tensione concatenata e della corrente di linea.
+
+7. Spiegare come si calcolano le correnti per un sistema trifase simmetrico e squilibrato, con il
+
+carico collegato a stella senza neutro.
+
+8. Per un sistema trifase simmetrico e squilibrato, comunque collegato, scrivere le espressioni
+
+delle potenze P e Q in funzione delle tensioni delle correnti e dei f.d.p. nei seguenti tre casi:
+
+(a) carico collegato a stella con neutro;
+
+(b) carico collegato a stella senza neutro;
+
+(c) carico collegato a triangolo.
+
+9. Spiegare perché è preferibile utilizzare condensatori collegati a triangolo per rifasare un
+
+impianto trifase funzionante in bassa tensione.
+
+10. Si consideri una misura di potenza mediante inserzione Aron con le amperometriche dei
+
+wattmetri inserite nelle fasi 1 e 3, quali conclusioni si possono trarre in ciascuno dei seguenti
+
+casi ?
+
+(a) le indicazioni dei due wattmetri sono uguali di valore e di segno opposto;
+
+(b) le indicazioni dei due wattmetri sono entrambe positive e di uguale valore;
+
+(c) P32 < P12.
+
+(v. 0.0)
+
+118
+
+8.11. ESERCIZI
+
+8.11
+
+Esercizi
+
+1. Un carico trifase equilibrato presenta un collegamento interno a triangolo ed è alimentato con
+
+un sistema simmetrico a tre conduttori. Le caratteristiche del carico sono ohmico-induttive,
+
+con ϕ = 60◦, la corrente di linea misurata da un amperometro su uno dei conduttori è di 10
+
+A e la tensione concatenata V è di 400V.
+
+(a) Calcolare le correnti di linea e di fase in forma polare.
+
+(b) Disegnare su carta millimetrata, in opportuna scala, il diagramma vettoriale dell’im-
+
+pianto con i vettori delle tensioni concatenate, delle correnti di linea e delle correnti di
+
+fase.
+
+(c) Dimostrare il legame esistente, in termini polari, tra le correnti di linea e le correnti di
+
+fase (utilizzare il primo principio di Kirchhoff e le proprietà trigonometriche).
+
+(d) Disegnare il diagramma vettoriale nell’ipotesi che il carico sia collegato a stella.
+
+2. Un carico A trifase equilibrato assorbe una potenza attiva pari a PA = 19, 5kW con un
+
+fattore di potenza cosϕA = 0, 75, quando è alimentato con una terna simmetrica di tensioni
+
+concatenate di tensione nominale pari a 400 V con frequenza f = 50 Hz.
+
+Ad esso viene collegato in parallelo un carico B trifase equilibrato connesso a triangolo,
+
+avente una impedenza di fase −
+
+→
+
+Z B = (18 + j · 27) Ω. Determinare, quando sono entrambi
+
+alimentati con la precedente tensione, i seguenti valori:
+
+(a) la corrente di linea IAL assorbita dal carico A;
+
+(b) le correnti di linea IBL e IBF assorbite dal carico B.
+
+(c) la corrente di linea totale IL.
+
+I due carichi vengono sottoposti a rifasamento in modo da ottenere un cos ϕR = 0, 95,
+
+utilizzando la connessione più opportuna in base alla tensione di alimentazione. Determinare:
+
+(d) la capacità dei condensatori utilizzati per il rifasamento;
+
+(e) la corrente di linea ILR dopo il rifasamento.
+
+In un secondo tempo i carichi vengono alimentati con una linea trifase caratterizzata dai
+
+parametri longitudinali RL = 0, 9Ω e XL = 0, 2Ω, alimentata a sua volta con la tensione di
+
+inizio linea V1 = 400V . Determinare:
+
+(f) la tensione di linea V2 ai capi dei carichi e il rendimento della linea ηin assenza di
+
+rifasamento;
+
+(g) la tensione di linea V2R ai capi dei carichi e il rendimento della linea ηR in presenza di
+
+rifasamento.
+
+[Risultati: IAL = 37, 53A, IBL = 21, 35A, IBF = 12, 3A, IL = 58, 5A, C = 135µF , ILR =
+
+42, 1A, V2 = 333V , η = 0, 75, V2R = 343V , ηR = 0, 85,]
+
+3. Una linea trifase senza neutro presenta una resistenza di linea RL = 0, 7Ω e una reattanza
+
+di linea XL = 0, 5Ω. La linea è alimentata all’origine da un sistema trifase simmetrico con
+
+tensione concatenata V1 = 400V e frequenza f = 50 Hz. Alla linea è allacciato un motore
+
+asincrono trifase che assorbe una potenza P = 6700 W in tali condizioni di alimentazione,
+
+con fattore di potenza cosϕ = 0, 75.
+
+(a) Calcolare la tensione V2 concatenata ai capi del motore asincrono e la corrente I di
+
+linea.
+
+(b) Nell’ipotesi che le tre fasi del motore asincrono siano connesse a stella, determinare la
+
+resistenza e la reattanza di ogni fase.
+
+(v. 0.0)
+
+CAPITOLO 8. SISTEMI TRIFASI
+
+119
+
+(c) Dimensionare la batteria di condensatori in modo tale da rifasare il motore a un cosϕR =
+
+0.9
+
+(d) Ricalcolare la tensione V2 concatenata ai capi del motore asincrono, la corrente I di
+
+linea e la potenza P assorbita dal carico dopo il rifasamento.
+
+(v. 0.0)
+
+120
+
+8.11. ESERCIZI
+
+8.11.1
+
+Esercizi di riepilogo
+
+I seguenti esercizi sono tratti dal testo della prima prova proposta durante la Gara Nazionale di
+
+Elettrotecnica svoltasi a Pordenone il 23 e 24 novembre 2005.
+
+1. Una linea trifase in cavo ad impedenza costante, omogenea relativamente al tipo di cavo e di
+
+posa e sottoposta alle medesime condizioni ambientali per tutto il suo sviluppo, è alimentata
+
+all’origine con una terna simmetrica di tensioni di valore efficace VA = 400 V e frequenza
+
+f = 50Hz.
+
+All’inizio della linea sono collegati due wattmetri in inserzione Aron con le amperometriche
+
+sulle fasi 1 e 2.
+
+All’arrivo della linea (C) viene inserito un primo utilizzatore trifase equilibrato(U1) caratte-
+
+rizzato dai seguenti dati di targa:
+
+Vn1 = 380V , f = 50Hz, Pn1 = 25kW , cosϕ1 = 0, 6RL.
+
+Figura 8.10: Prima condizione di funzionamento
+
+Le potenze ottenute dalla lettura dei due wattmetri in Aron, trascurando gli errori di
+
+autoconsumo, sono:
+
+P13 = 23, 75kW , P23 = 4, 180kW .
+
+Determinare:
+
+(a) il valore efficace I1 della corrente assorbita dall’utilizzatore;
+
+(b) il valore efficace VC della tensione di alimentazione dell’utilizzatore;
+
+(c) i valori RL e XL della resistenza e della reattanza di linea.
+
+[Risultati: I1 = 63, 40A, VC = 380, 5V , RL = 0, 237Ω, XL = 0, 039Ω.]
+
+2. Lungo la linea di figura 8.10, in un punto per cui il rapporto tra la lunghezza LAB del primo
+
+tratto e la lunghezza LBC del secondo tratto risulta pari a 5 , viene inserito un secondo
+
+8
+
+utilizzatore trifase equilibrato (U2). In tali condizioni di funzionamento le potenze rilevate
+
+dalla lettura dei due wattmetri in inserzione Aron sono:
+
+P ′ = 35, 64kW , P ′ = 4, 180kW .
+
+13
+
+23
+
+Figura 8.11: Seconda condizione di funzionamento.
+
+Determinare:
+
+(a) il valore efficace VB della tensione di alimentazione del secondo utilizzatore;
+
+(b) il valore efficace I1 della corrente assorbita dal primo utilizzatore;
+
+(c) il valore efficace VC della tensione di alimentazione del primo utilizzatore;
+
+(v. 0.0)
+
+CAPITOLO 8. SISTEMI TRIFASI
+
+121
+
+(d) il valore della potenza attiva P2 assorbita dal secondo utilizzatore;
+
+(e) il valore efficace I2 della corrente assorbita dal secondo utilizzatore.
+
+[Risultati: VB = 388, 3V , I1 = 62, 74A, VC = 376, 6V , P2 = 15, 65kW , I2 = 30, 60A.]
+
+3. Con riferimento alla condizione di funzionamento a cui si riferisce la figura 8.11, all’inizio
+
+della linea e immediatamente a valle dell’inserzione Aron viene collegato tra le fasi 1 e 2 un
+
+carico monofase (figura 8.12).
+
+Figura 8.12: Terza condizione di funzionamento
+
+Dopo l’inserzione del carico monofase le potenze rilevate dalla lettura dei due wattmetri in
+
+inserzione Aron sono:
+
+P ′′ = 40, 59kW , P ′′ = 9, 680kW .
+
+13
+
+23
+
+Determinare:
+
+(a) la potenza attiva P3 assorbita dal carico monofase;
+
+(b) il valore efficace I3 della corrente assorbita dal carico monofase;
+
+[Risultati: P3 = 6, 00kW , I3 = A.]
+
+(v. 0.0)
+
+122
+
+8.11. ESERCIZI
+
+(v. 0.0)
+
+Bibliografia
+
+[1] Edward M. Purcell, La fisica di Berkeley. Elettricita e magnetismo Zanichelli (1971)
+
+[2] G.Conte, Macchine elettriche, Hoepli Milano (2001)
+
+[3] L.Olivieri, E.Ravelli Elettrotecnica per Elettrotecnica ed Automazione, Vol.2, CEDAM Padova
+
+(1996)
+
+[4] F.Ciampolini, Elettrotecnica generale, Pitagora Editrice Bologna (1971)
+
+[5] G.Petrecca, E.Bassi, F.Benzi, La teoria unificata delle macchine elettriche rotanti, CLUP
+
+Milano (1983)
+
+[6] M.Pezzi, Macchine elettriche - Seconda edizione, Zanichelli Editore Bologna (1990)
+
+[7] E.Rezzaghi, Appunti di Elettrotecnica, http://www.galileimirandola.it (2004)
+
+[8] Z.Martini, ElectroPortal: Domande & Risposte, http://www.electroportal.net (2003)
+
+123
+
+Indice analitico
+
+costantana, 30
+
+elettrone, 9
+
+124
+
+
+
+
+

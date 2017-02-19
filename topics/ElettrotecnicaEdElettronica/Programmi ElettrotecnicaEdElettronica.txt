@@ -1,0 +1,588 @@
+﻿Leonardo ZANIN 3a
+
+Grandezze elettriche fondamentali (V, I, P, E,..)
+Reti elettriche in corrente continua
+Il campo elettrico
+Il campo magnetico
+Elettronica digitale (diodo, BJT, C.I.)
+Circuiti logici combinatori
+Circuiti logici sequenziali
+Reti elettriche in corrente alternata monofase
+
+1. Grandezze elettriche fondamentali (V, I, P, E,..)
+
+Corrente I
+Densità di corrente
+Tensione V o U
+Resistenza R
+Conduttanza G
+Resistività
+Conduttività
+Potenza elettrica P, Q, S
+Energia elettrica
+Materiali conduttori
+Materiali isolanti
+Materiali semiconduttori
+Unità di misura del Sistema Internazionale delle grandezze studiate
+Rappresentare componenti circuitali, reti e apparati negli schemi funzionali.
+Descrivere i principi di funzionamento e le caratteristiche di impiego della strumentazione di settore.
+Consultare i manuali di istruzione.
+Utilizzare consapevolmente gli strumenti scegliendo adeguati metodi di misura e collaudo.
+Valutare la precisione delle misure
+Effettuare misure nel rispetto delle procedure previste dalle norme
+Rappresentare ed elaborare i risultati utilizzando anche strumenti informatici.
+Interpretare i risultati delle misure.
+Organizzare e condurre misure strumentali su sistemi e dispositivi elettrici ed elettronici
+Verificare e collaudare sistemi e dispositivi elettrici ed elettronici
+Redigere relazioni tecniche
+Applicare i principi generali di fisica nello studio di componenti, circuiti e dispositivi elettrici ed elettronici
+Identificare le tipologie di bipoli elettrici definendo le grandezze caratteristiche ed i loro legami
+Analizzare e dimensionare circuiti e reti elettriche comprendenti componenti lineari e  sollecitati in continua
+Definire la sicurezza e l’affidabilità 
+Individuare e definire il rischio nei vari ambiti di lavoro 
+Valutare ed analizzare i rischi degli ambienti di lavoro e delle attività del settore 
+Conoscere e valutare i rischi dell’utilizzo dell’energia elettrica in diverse condizioni di lavoro e anche in relazione alle diverse frequenze di impiego 
+Descrivere e spiegare le caratteristiche elettriche e tecnologiche delle apparecchiature elettriche ed elettroniche.
+Descrivere e spiegare i principi di funzionamento dei componenti circuitali di tipo discreto
+Descrivere e spiegare le procedure ed i risultati ottenuti nella conduzione di misure strumentali e di collaudo di dispositivi ed apparecchiature elettroniche
+
+
+2. Reti elettriche in corrente continua
+
+Semplificazione di reti resistive
+Legge di Ohm
+Partitori di corrente e di tensione
+Generatori di tensione e di corrente
+Legge di Ohm generalizzata
+Soluzione di reti con i principi di Kirchoff
+Principio di sovrapposizione degli effetti
+Teorema di Millman
+Teorema di Thevenin
+Teorema di Norton
+Resistenza di un conduttore cilindrico e resistività
+Potenza e bilanci energetici
+Legge di Joule
+Unità di misura
+Rappresentare componenti circuitali, reti e apparati negli schemi funzionali.
+Descrivere i principi di funzionamento e le caratteristiche di impiego della strumentazione di settore.
+Utilizzare consapevolmente gli strumenti scegliendo adeguati metodi di misura e collaudo.
+Valutare la precisione delle misure
+Effettuare misure nel rispetto delle procedure previste dalle norme
+Rappresentare ed elaborare i risultati utilizzando anche strumenti informatici.
+Interpretare i risultati delle misure.
+Organizzare e condurre misure strumentali su sistemi e dispositivi elettrici ed elettronici
+Verificare e collaudare sistemi e dispositivi elettrici ed elettronici
+Adottare eventuali procedure normalizzate 
+Applicare i principi generali di fisica nello studio di componenti, circuiti e dispositivi elettrici ed elettronici, lineari e non lineari
+Identificare le tipologie di bipoli elettrici definendo le grandezze caratteristiche ed i loro legami
+Applicare la teoria dei circuiti alle reti sollecitate in continua
+Analizzare e dimensionare circuiti e reti elettriche comprendenti componenti lineari  sollecitate in continua
+Definire la sicurezza e l’affidabilità 
+Conoscere e valutare i rischi dell’utilizzo dell’energia elettrica in diverse condizioni di lavoro e anche in relazione alle diverse frequenze di impiego 
+Descrivere e spiegare le caratteristiche elettriche e tecnologiche delle apparecchiature elettriche ed elettroniche.
+Descrivere e spiegare i principi di funzionamento dei componenti circuitali di tipo discreto
+Descrivere e spiegare le procedure ed i risultati ottenuti nella conduzione di misure strumentali e di collaudo di dispositivi ed apparecchiature elettroniche
+Descrivere e spiegare le procedure ed i risultati ottenuti nella conduzione di misure strumentali e di collaudo di dispositivi ed apparecchiature elettriche
+Usare software dedicati alla stesura di documentazione tecnica.
+
+
+3. Il campo elettrico
+Legge di Coulomb
+Intensità del campo elettrico e linee di forza
+Configurazione di particolari campi elettrostatici
+Condensatori e capacità
+Capacità di un condensatore piano
+Collegamenti serie e parallelo
+Partitore di tensione
+Partitore di carica
+Reti di capacità
+Materiali isolanti
+Energia elettrostatica
+Carica e scarica a tensione costante di un condensatore
+Unità di misura
+Rappresentare componenti circuitali, reti e apparati negli schemi funzionali.
+Descrivere i principi di funzionamento e le caratteristiche di impiego della strumentazione di settore.
+Utilizzare consapevolmente gli strumenti scegliendo adeguati metodi di misura e collaudo.
+Valutare la precisione delle misure
+Effettuare misure nel rispetto delle procedure previste dalle norme
+Rappresentare ed elaborare i risultati utilizzando anche strumenti informatici.
+Interpretare i risultati delle misure.
+Organizzare e condurre misure strumentali su sistemi e dispositivi elettrici ed elettronici
+Verificare e collaudare sistemi e dispositivi elettrici ed elettronici
+Adottare eventuali procedure normalizzate 
+Redigere relazioni tecniche
+Applicare i principi generali di fisica nello studio di componenti, circuiti e dispositivi elettrici ed elettronici, lineari e non lineari
+Identificare le tipologie di bipoli elettrici definendo le grandezze caratteristiche ed i loro legami
+Applicare la teoria dei circuiti alle reti sollecitate in continua
+Analizzare e dimensionare circuiti e reti elettriche comprendenti componenti lineari e  non lineari, sollecitati in continua
+Operare con le grandezze di riferimento del campo elettrico
+Operare con condensatori 
+Descrivere e spiegare i principi di funzionamento dei componenti circuitali di tipo discreto.
+Definire la sicurezza e l’affidabilità 
+Individuare e definire il rischio nei vari ambiti di lavoro 
+Valutare ed analizzare i rischi degli ambienti di lavoro e delle attività del settore 
+Conoscere e valutare i rischi dell’utilizzo dell’energia elettrica in diverse condizioni di lavoro e anche in relazione alle diverse frequenze di impiego 
+Descrivere e spiegare le caratteristiche elettriche e tecnologiche delle apparecchiature elettriche ed elettroniche.
+Descrivere e spiegare i principi di funzionamento dei componenti circuitali di tipo discreto
+Descrivere e spiegare le procedure ed i risultati ottenuti nella conduzione di misure strumentali e di collaudo di dispositivi ed apparecchiature elettroniche
+Descrivere e spiegare le procedure ed i risultati ottenuti nella conduzione di misure strumentali e di collaudo di dispositivi ed apparecchiature elettriche
+Usare software dedicati alla stesura di documentazione tecnica.
+
+
+4. Il campo magnetico
+Sorgenti del campo magnetico
+Induzione magnetica
+Campi magnetici dovuti a correnti elettriche
+Intensità del campo magnetico
+Forza magnetomotrice
+Flusso magnetico
+Proprietà magnetiche della materia
+Circuiti magnetici
+Legge di Hopkinson
+Forze tra cariche elettriche in movimento
+Induzione elettromagnetica
+Principio di funzionamento di generatori e motori
+Autoinduzione ed induttanza
+Energia magnetica
+Transitorio nel circuito RL serie
+Unità di misura
+Rappresentare componenti circuitali, reti e apparati negli schemi funzionali.
+Descrivere i principi di funzionamento e le caratteristiche di impiego della strumentazione di settore.
+Consultare i manuali di istruzione.
+Utilizzare consapevolmente gli strumenti scegliendo adeguati metodi di misura e collaudo.
+Valutare la precisione delle misure
+Effettuare misure nel rispetto delle procedure previste dalle norme
+Rappresentare ed elaborare i risultati utilizzando anche strumenti informatici.
+Interpretare i risultati delle misure.
+Organizzare e condurre misure strumentali su sistemi e dispositivi elettrici ed elettronici
+Verificare e collaudare sistemi e dispositivi elettrici ed elettronici
+Adottare eventuali procedure normalizzate
+Redigere relazioni tecniche
+Applicare i principi generali di fisica nello studio di componenti, circuiti e dispositivi elettrici ed elettronici lineari
+Identificare le tipologie di bipoli elettrici definendo le grandezze caratteristiche ed i loro legami
+Applicare la teoria dei circuiti alle reti sollecitate in continua
+Analizzare e dimensionare circuiti e reti elettriche comprendenti componenti lineari e  non lineari, sollecitati in continua
+Operare con le grandezze di riferimento del campo magnetico 
+Operare con induttori
+Descrivere il principio di funzionamento di generatori e motori
+Descrivere e spiegare i principi di funzionamento dei componenti circuitali di tipo discreto.
+Identificare le tipologie di bipoli elettrici definendo le grandezze caratteristiche ed i loro legami
+Operare con le grandezze di riferimento del campo magnetico 
+Definire la sicurezza e l’affidabilità 
+Individuare e definire il rischio nei vari ambiti di lavoro 
+Valutare ed analizzare i rischi degli ambienti di lavoro e delle attività del settore 
+Conoscere e valutare i rischi dell’utilizzo dell’energia elettrica in diverse condizioni di lavoro e anche in relazione alle diverse frequenze di impiego 
+Descrivere e spiegare le procedure ed i risultati ottenuti nella conduzione di misure strumentali e di collaudo di dispositivi ed apparecchiature elettroniche
+Descrivere e spiegare le procedure ed i risultati ottenuti nella conduzione di misure strumentali e di collaudo di dispositivi ed apparecchiature elettriche
+Utilizzare il lessico e la terminologia tecnica di settore. 
+Usare software dedicati alla stesura di documentazione tecnica.
+
+
+5. Elettronica digitale (diodo, BJT, C.I.) CI
+Giunzione p-n
+Funzionamento dei dispositivi a semiconduttore
+Diodo on – off
+Transistor on – off
+Mosfet
+Elettronica digitale ed analogica
+Operatori logici not, and, or
+Circuiti logici integrati
+Famiglie logiche TTL e CMOS
+Uscite totem pole
+Uscite open collector
+Uscita 3 - state
+Sistemi di numerazione
+Codici
+
+
+6. Circuiti logici combinatori
+Porte not, and, or, nand, nor
+Teoremi dell’algebra di Boole
+Sintesi di forme algebriche minime per le funzioni booleane
+Mappe di Karnaugh
+Multiplexer
+Decoder demultiplexer
+Decoder driver per display con 7 segmenti
+Comparatori
+Sommatori
+
+
+7. Circuiti logici sequenziali
+Circuiti sequenziali
+Latch
+Flip – flop
+Circuiti generatori di segnali impulsivi
+Contatori
+Shift register
+Contatori integrati
+Shift register integrati
+
+
+8. Reti elettriche in corrente alternata monofase
+Sicurezza elettrica
+Identificazione del concetto di rischio e di dispositivo di protezione 
+Individuazione dei rischi presenti nei luoghi di lavoro, con particolare riferimento al settore elettrico ed elettronico
+R, L, C in regime sinusoidale
+Legge di Ohm per i bipoli passivi
+Collegamenti serie e parallelo
+Impedenza
+Triangoli delle correnti, delle tensioni e dell’impedenza
+Rappresentazioni grafiche vettoriali e con numeri complessi delle grandezze definite
+Leggi di Kirchoff
+Potenze attiva, reattiva ed apparente
+Triangolo delle potenze
+Tecniche di soluzione di reti elettriche lineari in corrente alternata
+Unità di misura
+
+
+Leonardo ZANIN 4a sez. A
+
+Circuiti c.a. monofase
+Studio delle principali tecniche risolutive dei circuiti in corrente alternata monofase con i metodi basati sull’uso dei numeri complessi e delle potenze. Applicazione del teorema di composizione delle potenze. Analisi del rifasamento.
+Grandezze periodiche ed alternate
+grandezze sinusoidali
+pulsazione, periodo, freuenza, valore massimo, valore efficace, valore picco-picco
+numeri complessi e piano di Gauss
+trasformazioni polare-cartesiano e cartesiano-polare
+somma, differenza, prodotto e rapporto tra numeri complessi
+corrispondenza tra sinusoidi, fasori e numeri complessi
+legge di Ohm in corrente alternata
+circuiti in corrente alternata monofase
+puramente ohmici
+puramente induttivi
+puramente capacitivi
+reattanza ed impedenza
+circuiti serie e parallelo, impedenza equivalente
+metodi di risoluzione delle reti in corrente alternata
+principi di Kirchoff in corrente alternata
+potenze attiva, reattiva ed apparente
+teorema di Boucherot
+triangolo delle potenze
+fattore di potenza
+rifasamento
+
+Circuiti c.a. trifase
+Studio delle principali tecniche risolutive dei circuiti in corrente alternata trifase con i metodi basati sull’uso dei numeri complessi e delle potenze. Calcoli sul rifasamento degli impianti industriale.
+Generatore trifase simmetrico
+carico trifase equilibrato a stella o a triangolo
+calcolo correnti di linea e di fase
+potenze attiva, reattiva ed apparente nei sistemi trifase
+teorema di Boucherot
+triangolo delle potenze e fattore di potenza
+rifasamento
+
+Trasformatori
+Analisi del funzionamento e dei settori applicativi dei trasformatori. Determinazione dei parametri e calcolo delle grandezze elettriche significative dei trasformatori utilizzando circuiti equivalenti, Determinazione ed analisi delle modalità operative di funzionamento a vuoto, a carico ed in corto circuito dei trasformatori
+Principio di funzionamento del trasformatore
+Trasformatore monofase
+caratteristiche costruttive, nucleo magnetico, avvolgimenti e sistemi di raffreddamento
+circuito equivalente del trasformatore monofase
+funzionamento a vuoto
+funzionamento a carico
+funzionamento in corto circuito
+variazione di tensione da vuoto a carico
+perdite e rendimento
+dati di targa
+Trasformatore trifase
+caratteristiche costruttive, nucleo magnetico, avvolgimenti e sistemi di raffreddamento
+tipi di collegamento
+circuito equivalente del trasformatore trifase
+funzionamento a vuoto
+funzionamento a carico
+funzionamento in corto circuito
+variazione di tensione da vuoto a carico
+perdite e rendimento
+dati di targa
+
+Applicazioni del diodo
+Studio e dimensionamento di circuiti a diodi, determinazione delle grandezze elettriche di riferimento.
+Modelli del diodo
+retta di carico
+circuiti limitatori
+raddrizzatori
+filtraggio
+
+Amplificatori a BJT
+Analisi e dimensionamento delle reti di polarizzazione, progettazione di amplificatori a BJT, determinazione del guadagno e dei parametri di riferimento.
+Circuiti di polarizzazione
+amplificazione nei circuiti a BJT
+modelli del BJT
+amplificatore ad emettitore comune
+
+Transistor ad effetto di campo
+Analisi e dimensionamento delle reti di polarizzazione, progettazione di amplificatori a FET, determinazione del guadagno e dei parametri di riferimento.
+MOSFET
+curve caratteristiche del MOSFET
+polarizzazione dei MOSFET
+MOSFET on e off
+Amplificatore a FET
+
+Filtri
+Individuazione delle principali tecniche di filtraggio, determinazione della risposta del filtro e calcolo dei suoi parametri principali.
+Filtro passivo passa basso
+filtro passivo passa alto
+filtro passivo passa banda
+filtro passivo arresta banda
+
+Amplificatore operazionale
+Conoscenza ed analisi delle principali configurazioni dell’amplificatore operazionale. Dimensionamento e calcolo dei parametri elettrici delle varie configurazioni di operazionali
+Amplificatore operazionale ideale e reale
+amplificatore non invertente
+inseguitore di tensione
+amplificatore invertente
+amplificatore sommatore
+amplificatore differenziale
+integratore
+derivatore
+convertitore corrente tensione
+convertitore tensione corrente
+amplificatore di corrente
+comparatori
+trigger di Schmitt
+
+Dispositivi per la regolazione di potenza
+Analisi dei dispositivi elettronici di potenza. Analisi e dimensionamento di alcune tecniche circuitali per la regolazione di potenza.
+La regolazione della potenza
+il transistor come interruttore di potenza
+SCR
+TRIAC, DIAC e GTO
+regolazione in corrente alternata
+PWM
+
+
+Leonardo ZANIN 5a sez. A
+Amplificatore operazionale
+Amplificatore operazionale ideale
+Modello equivalente
+Caratteristica di trasferimento
+Ipotesi alla base del modello di AO ideale
+Conseguenze delle ipotesi di base
+Amplificatore operazionale non ideale
+Amplificazione non infinita
+Impedenza di ingresso non infinita
+Impedenza di uscita diversa da zero
+Correnti di polarizzazione e di offset
+Tensione di offset
+Risposta nel dominio della frequenza di un AO non ideale, frequenza di transizione, GBP
+Compensazione in frequenza
+Risposta nel dominio del tempo di un AO non ideale, tempo di salita e slew rate
+
+Applicazioni lineari dell’amplificatore operazionale
+Amplificatore non invertente
+Inseguitore di tensione
+Amplificatore invertente
+Reti di retroazione a T
+Amplificatore sommatore
+Amplificatore differenziale
+Circuito integratore
+Circuito derivatore 
+Convertitore corrente-tensione
+Convertitore tensione-corrente
+
+Applicazioni non lineari dell’amplificatore operazionale
+Comparatori
+Trigger di Schmitt invertente
+Trigger di Schmitt non invertente
+Traslazione della tensione di soglia
+Comparatori a finestra
+Limitatori
+Raddrizzatori di precisione
+Rivelatori di picco e di inviluppo
+
+Motori elettrici per azionamenti
+Principio di funzionamento del motore asincrono trifase
+Circuito equivalente
+Funzionamento a carico, a vuoto ed all’avviamento
+Perdite e rendimento
+Caratteristiche meccanica ed elettromeccaniche
+Coppia nominale, massima e di spunto
+Principio di funzionamento del motore a corrente continua
+Eccitazione indipendente, serie, derivata e composta
+Circuiti equivalenti
+Caratteristiche meccanica ed elettromeccaniche
+Perdite e rendimento
+Motori a passo
+Motori brushless
+
+Generatori di forme d’onda
+Multivibratori astabili ad operazionale
+Multivibratori monostabili ad operazionali
+Generatore di onde triangolari e rettangolari ad operazionali
+Timer 555
+  - astabile, 
+  - monostabile
+  - generatore di rampa
+Utilizzo della retroazione per realizzare oscillatori
+Condizione di Barkhausen
+Oscillatori per basse frequenze
+Oscillatori per frequenze elevate
+Oscillatori a cristallo
+
+Filtri attivi
+Filtri a reazione semplice
+Filtri a reazione multipla
+Filtri passa basso
+Filtri passa alto
+Filtri passa banda
+Filtri elimina banda
+
+Elettronica di potenza
+Componenti elettronici di potenza
+SCR
+Triac
+GTO
+IGBT
+Convertitori statici di potenza
+Raddrizzatori monofase e trifase
+Raddrizzatori con controllo di fase
+Ponti a tiristori
+Chopper 
+Inverter
+Regolazione della tensione e della frequenza negli inverter
+
+Azionamenti
+Azionamenti con motori in corrente alternata
+Azionamenti con motori in corrente continua
+Azionamenti con motori a passo
+Azionamenti con motori brushless
+
+Conversioni e convertitori
+Teorema del campionamento
+Quantizzazione dei segnali
+Codifica dei segnali
+Convertitori D/A
+Convertitori A/D
+
+Sistemi di acquisizione e distribuzione dati
+Sistemi di acquisizione dei dati
+La multiplazione
+Temporizzazione di un sistema di acquisizione dei dati
+
+
+Utilizzare strumenti di misura virtuali.
+Operare con segnali analogici e digitali.
+Analizzare dispositivi per l’acquisizione dati
+Analizzare le principali tecniche di conversione analogico-digitale e digitale-analogico
+
+
+Alessandro PUZZI 5a sez. ET
+
+Trasformatori monofase  e trifase
+Analisi delle caratteristiche tecnologiche e funzionali dei trasformatori; determinazione di parametri e valori rilevanti  per la progettazione di sistemi elettrici di particolare rilievo nell’odierno panorama impiantistico. Descrizione delle principali prove di collaudo e verifica funzionali.
+Sistemi trifase e metodi risolutivi di carichi connessi a stella o a triangolo (ripasso)
+teorema di Boucherot (ripasso)
+rifasamento (ripasso)
+calcolo caduta di tensione in linea monofase e trifase (ripasso)
+richiami e ripasso sul trasformatore monofase
+Trasformatori trifase
+caratteristiche costruttive
+principio di funzionamento 
+caratteristiche dei vari tipi di collegamento
+equazioni fondamentali
+funzionamento a vuoto e a carico
+rapporto di trasformazione
+calcolo parametri circuito equivalente
+diagrammi vettoriali di tensioni e correnti al primario e al secondario
+prove a vuoto ed in c.c.
+reti equivalenti
+caduta di tensione, perdite e rendimento
+parallelo di trasformatori
+soluzione di esercizi con presenza di trasformatore, linea, carico con metodo basato sull’analisi delle potenze in gioco o con metodo utilizzante i numeri complessi
+misure di laboratorio inerenti gli argomenti trattati
+Calcolare i principali parametri dei trasformatori.
+Verificare impianti  che comprendono trasformatori,  linee ed utilizzatori elettrici.
+Effettuare le prove a vuoto ed in c.c. su un trasformatore.
+Relazionare sulle misure di collaudo.
+
+Macchine asincrone
+Studio delle caratteristiche di funzionamento dei motori asincroni; modelli e schemi rappresentativi del funzionamento di tale macchina elettrica. Calcolo e determinazione di parametri e valori propedeutici alla definizione di alcuni semplici dimensionamenti o alla conduzione delle misure di collaudo.
+Caratteristiche costruttive
+m.a.t. a gabbia di scoiattolo ed a rotore avvolto
+statore e rotore
+principio di funzionamento
+tensioni indotte statoriche e rotoriche
+velocità di sincronismo e scorrimento
+analogia m.a.t. trasformatore
+equazioni fondamentali
+reti equivalenti
+funzionamento a vuoto ed a carico
+analisi delle potenze in gioco
+perdite e rendimento
+prove a vuoto e di corto circuito
+diagramma circolare (solo elementi fondamentali)
+caratteristica meccanica
+coppia massima e di spunto
+sistemi di avviamento
+regolazione della velocità
+misure di laboratorio inerenti gli argomenti trattati
+Calcolare i principali parametri dei motori asincroni
+Verificare impianti   che comprendono motori asincroni,  linee ed utilizzatori elettrici 
+Effettuare misure strumentali di collaudo sui motori asincroni
+Relazionare sulle misure di collaudo
+Redigere documentazione tecnica
+Produrre schemi e ed elaborati grafici con WORD ed EXCEL
+Descrivere i principi di funzionamento e le caratteristiche di impiego della strumentazione di settore.
+Utilizzare consapevolmente gli strumenti scegliendo adeguati metodi di misura e collaudo.
+Rappresentare ed elaborare i risultati utilizzando anche strumenti informatici.
+Interpretare i risultati delle misure.
+Individuare e valutare le cause di rischio negli ambienti di lavoro con particolare riferimento al settore elettrico ed ai contesti tecnici studiati durante il corso. 
+
+Macchine a collettore in corrente continua
+Studio del principio di funzionamento delle dinamo e dei motori in corrente continua. Definizione degli schemi e delle relazioni matematiche che caratterizzano i vari tipi di macchine in corrente continua. Calcolo dei parametri elettrici funzionali alla progettazione di sistemi elettrici utilizzanti tale tipologia di macchine con riferimento alle odierne applicazioni tecniche.
+Dinamo
+particolarità costruttive (induttore, indotto, sistema di eccitazione)
+principio di funzionamento della dinamo
+funzionamento a vuoto
+il sistema collettore-spazzole
+reazione di indotto e commutazione
+avvolgimenti compensatori e poli ausiliari (cenni)
+perdite e rendimento
+equazioni caratteristiche e diagrammi V-I delle dinamo con eccitazione indipendente
+dinamo con eccitazione serie
+dinamo con eccitazione derivata
+Il motore in corrente continua
+caratteristiche costruttive
+principio di funzionamento
+il sistema collettore-spazzole
+avviamento
+la forza controelettromotrice
+reazione d’indotto e commutazione
+poli ausiliari e avvolgimenti compensatori
+espressione della velocità di rotazione a vuoto
+coppia motrice
+cenni alla variazione di velocità tramite V e ɸ
+caratteristiche meccaniche, equazioni interne ed esterne dei motori ad eccitazione:
+indipendente
+serie
+derivata		
+avviamento di un motore in c.c. cc CC
+perdite e rendimento di un motore in corrente continua
+misure di laboratorio inerenti gli argomenti trattati
+Calcolare i principali parametri dei motori in corrente continua e delle dinamo
+Verificare impianti che comprendono motori in corrente continua o dinamo, linee ed utilizzatori elettrici
+Effettuare misure strumentali di collaudo sui motori in c.c. e sulle dinamo
+Relazionare sulle misure di collaudo
+Redigere documentazione tecnica
+Produrre schemi e ed elaborati grafici con WORD ed EXCEL
+Descrivere i principi di funzionamento e le caratteristiche di impiego della strumentazione di settore.
+Utilizzare consapevolmente gli strumenti scegliendo adeguati metodi di misura e collaudo.
+Rappresentare ed elaborare i risultati utilizzando anche strumenti informatici.
+Interpretare i risultati delle misure.
+Individuare e valutare le cause di rischio negli ambienti di lavoro con particolare riferimento al settore elettrico ed ai contesti tecnici studiati durante il corso. 
+
+Macchine sincrone
+Analisi del principio di funzionamento e delle condizioni di funzionamento degli alternatori; definizione dei parametri e delle caratteristiche elettriche di funzionamento.
+Cenni costruttivi
+principio di funzionamento di una macchina sincrona
+	Alternatori
+funzionamento a vuoto
+espressione della f.e.m. generata a vuoto
+caratteristica di magnetizzazione
+funzionamento sotto carico, reazione d’indotto
+modalità di studio della macchina sincrona: diagramma di Behn Eschenburg 
+impedenza sincrona
+variazione di tensione e curve caratteristiche
+bilancio di potenze e rendimento
+potenza e coppia
+Calcolare i principali parametri delle macchine sincrone (alternatori)
+Individuare e valutare le cause di rischio negli ambienti di lavoro con particolare riferimento al settore elettrico ed ai contesti tecnici studiati durante il corso

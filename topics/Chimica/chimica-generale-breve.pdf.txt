@@ -1,0 +1,1598 @@
+La Chimica generale in breve
+
+La chimica è quella parte della scienza che studia la struttura, le proprietà e le trasformazioni della materia, intendendo con questo termine tutto ciò che occupa uno spazio e possiede una certa massa, quindi tutti i corpi, minerali, animali o vegetali.
+
+La materia è costituita da un piccolo numero di sostanze fondamentali chiamate “elementi”, ciascuna con proprietà sue particolari. Nella materia gli elementi possono essere presenti in forma pura, oppure combinati tra loro, nel qual caso si parla di “composti”.
+
+Gli elementi sono costituiti da “atomi”. Col termine “atomo” si indica la particella più piccola in cui si può suddividere un elemento, senza che esso perda le sue proprietà caratteristiche. In ultima analisi quindi si può affermare che la materia è comunque costituita da atomi.
+
+La materia si trasforma continuamente attraverso reazioni chimiche. Esse sono alla base di qualsiasi attività biologica e possiamo dire che noi stessi siamo materia che si trasforma. La materia si presenta in vari stati di aggregazione: solido, vetroso, liquido, gassoso, di soluzione, disperso, colloidale.
+
+Un utile strumento per cominciare a capire come è composta la materia può essere la seguente mappa concettuale.
+
+simboli
+
+molecole
+
+(es. H = idrogeno Fe = ferro)
+
+
+
+
+
+volume
+
+
+madre
+
+
+rappresentati da
+
+riuniti in
+
+quindi ha un
+
+sono
+
+atomi
+
+che significa
+
+se
+
+spazio
+
+occupa
+
+uno
+
+latino mater
+
+particelle
+
+uguali
+
+diversi
+
+peso
+
+formano
+
+formano
+
+ha un
+
+deriva dal
+
+è fatta di
+
+sostanze pure
+
+composti
+
+(es. ferro)
+
+(es. anidride carbonica)
+
+massa
+
+ha una
+
+Materia
+
+formano
+
+miscele
+
+si presenta in diversi
+
+possono essere
+
+stati di aggregazione
+
+omogenee
+
+eterogenee
+
+(es. acqua e vino)
+
+(es. sabbia)
+
+solido
+
+liquido
+
+aeriforme
+
+soluzione
+
+1
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+
+
+L’atomo
+
+Con il termine atomo si indica la particella più piccola in cui si può suddividere un elemento, senza che esso perda le sue proprietà caratteristiche.
+
+L’atomo è ulteriormente divisibile in particelle subatomiche più piccole. Esse possono essere immagi-nate un po’ come i “mattoni” con i quali sono costruiti tutti gli atomi, nel senso che sono uguali per forma e struttura nei diversi elementi.
+
+Nell’atomo si distinguono due regioni: una centrale detta nucleo costituita da due tipi di particelle, i protoni, con carica elettrica positiva, e i neutroni senza carica elettrica, e una parte esterna periferi-ca nella quale si trovano gli elettroni, aventi carica negativa.
+
+In un atomo, gli elettroni caricati
+
+negativamente ruotano intorno a un
+
+centro (nucleo) formato da particelle
+
+–
+
+caricate positivamente (protoni) e
+
++
+
+particelle neutre (neutroni).
+
++
+
+–
+
+Il numero di massa e il numero atomico
+
+Gli atomi sono così piccoli che la misura del loro raggio si esprime in una particolare unità di lunghezza, l’Ångstrom, corrispondente a 10-8 cm, cioè 0,00000001 cm. Il raggio di un atomo è di circa 1 Ångstrom e, nonostante questa misura sia piccolissima, è molto maggiore di quella del nucleo, mediamente 50.000 volte più piccolo dell’atomo.
+
+Nel nucleo, tuttavia, è concentrata la massa atomica. La massa di un protone viene presa come unità di misura della massa degli atomi e viene chiamata dalton (1 dalton = 1,660565 × 10-24 grammi). L’elettrone è ben 1830 volte più leggero del protone e la sua massa viene perciò trascurata. Il neutrone ha in pratica la stessa massa del protone e pesa circa 1 dalton.
+
+Il numero di massa (A), o peso atomico (M), corrisponde alla somma del numero dei protoni e dei neutroni. Il solo numero dei protoni viene detto invece numero atomico.
+
+Dato che l’atomo è elettricamente neutro, risulta che in ogni atomo il numero degli elettroni è uguale a quello dei protoni presenti nel nucleo. Si può perciò dire che il numero atomico (Z) coincide con il numero di elettroni presenti in un atomo.
+
+Massa molecolare e massa molare
+
+Considerando che gli atomi si possono legare tra loro formando delle molecole più o meno complesse, sommando i pesi atomici (M) degli atomi che compongono una molecola si ottiene il suo valore di massa molecolare che si esprime in dalton.
+
+Il concetto di massa molecolare viene spesso confuso con quello di massa molare. Per chiarire, biso-gna tener presente che la massa molecolare si riferisce a una sola molecola, mentre la massa molare si riferisce al peso di una mole di sostanza.
+
+Si definisce mole di un composto la quantità di sostanza pari al numero degli atomi presenti in 12
+
+grammi di carbonio-12, che equivale a 6,02214179 × 1023 (noto come “Numero di Avogadro”).
+
+2
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+
+
+
+
+Una mole è quindi associata a un numero enorme di entità o particelle (più di seicentomila miliardi di miliardi).
+
+Il numero di Avogadro (N ) corrisponde al numero di atomi di carbonio-12 presenti in 12 g di tale A
+
+sostanza. In pratica è il numero di particelle (atomi, molecole o ioni) contenute in una mole, ossia 6,022
+
+× 1023.
+
+Gli ioni
+
+Quando un atomo reagisce con un altro atomo può succedere che avvenga un passaggio di uno o più elettroni da un elemento all’altro. In questo caso il numero di protoni di ciascun atomo rimane costante, ma cambia invece il rispettivo numero di elettroni. Il primo possiederà elettroni in più (assumendo carica negativa), mentre il secondo presenterà carica positiva, avendo perso lo stesso numero di elettroni. In pratica, i due atomi si troveranno caricati sotto il profilo elettronico, o positivamente o negativamente. Un atomo che presenta carica elettrica si definisce ione.
+
+Se durante una reazione tra due elementi chimici neutri, un elettrone si trasferisce da un atomo all’altro, si generano due ioni, ossia due atomi carichi, uno positivamente (catione) e l’altro negativamente (anione).
+
+– anione
+
+e–
+
++ catione
+
+formazione di ioni
+
+atomi neutri
+
+trasferimento di e– con
+
+intervento di energia
+
+Le molecole e il legame chimico
+
+In genere nella materia gli atomi sono presenti legati tra loro mediante legame chimico. L’unione di due o più atomi è detta “molecola”. Così, per esempio, quando si legano due atomi di idrogeno con uno di ossigeno essi formano una molecola di acqua. Ogni tipo di molecola differisce da un altro per il numero e il tipo di atomi che la compongono e per l’ordine con cui essi sono legati tra loro. Una molecola può essere formata da atomi uguali (molecole delle sostanze elementari: H , O ecc.) o diversi (molecole 2
+
+2
+
+di sostanze composte: HCl, H O, H SO ecc.).
+
+2
+
+2
+
+4
+
+Perché due atomi si leghino tra loro devono entrare in contatto; questo contatto coinvolge la superficie esterna dell’atomo e quindi solo gli elettroni che occupano gli orbitali più esterni possono essere uti-lizzati per la formazione del legame chimico. Il tipo e il numero dei legami formati sono quindi funzione del numero e della distribuzione degli elettroni negli orbitali più esterni. Ogni elemento tende a stabilizzarsi e per fare ciò reagisce con altri elementi acquistando, cedendo o mettendo in comune i suoi elettroni più esterni. Lo spostamento di elettroni da un elemento a un altro dipende dalla diversa energia con cui essi sono trattenuti dal nucleo. Gli elettroni di legame sono gli elettroni che partecipano al legame tra due atomi e sono quindi interessati alle attrazioni esercitate dai rispettivi nuclei in base alla loro elettronegatività.
+
+3
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+Legami chimici ed elettronegatività
+
+Nella formazione di un legame chimico gli elettroni di legame sono sottoposti contemporaneamente alla forza di attrazione esercitata da entrambi i nuclei degli atomi coinvolti. Se questi atomi sono diversi sarà diversa la forza con cui ciascun nucleo tende ad attirare a sé gli elettroni di legame. Questa forza si definisce elettronegatività e la differenza di elettronegatività tra gli atomi caratterizza il tipo di legame che si forma.
+
+La valenza e lo stato di ossidazione
+
+Gli atomi formano legami utilizzando gli elettroni esterni: condividendoli, cedendoli o catturandoli dagli atomi vicini. Da qui deriva il concetto di valenza e più recentemente quello di stato di ossidazione.
+
+Per valenza si indica la capacità degli atomi di combinarsi con altri elementi ed esprime il numero di elettroni che un atomo guadagna, perde o mette in comune quando forma legami con altri atomi.
+
+Il termine “valenza” è tuttora usato per indicare la carica di uno ione o il numero di elettroni che mette in compartecipazione o comunque impegna per formare legami (elettrone di valenza).
+
+Il numero o stato di ossidazione di un elemento chimico identifica il numero di elettroni ceduti o acquisiti virtualmente durante la formazione di un composto.
+
+Quando due atomi vengono uniti da un legame, gli elettroni si considerano virtualmente acquisiti da quello a maggiore elettronegatività. Conoscere i numeri di ossidazione degli elementi dei composti coinvolti in una reazione consente di distinguere le reazioni di ossido-riduzione dalle normali reazioni di scambio: nelle prime i numeri di ossidazione degli elementi cambiano, nelle seconde no.
+
+I vari tipi di legami
+
+Esistono diversi tipi di legame chimico. Quelli intramolecolari che formano la molecola e quelli intermolecolari, tra diverse molecole vicine tra loro.
+
+Sono legami intramolecolari il legame ionico, il legame covalente (puro, polare e dativo), il legame metallico. Sono legami intermolecolari il legame a idrogeno, il legame dipolo-dipolo, il legame io-ne-dipolo e i legami di Van der Waals.
+
+Il legame ionico
+
+Il legame ionico (o salino) si realizza tra elementi che presentano una grande differenza di elettronegatività. Nel legame ionico un atomo cattura completamente l’elettrone o gli elettroni cedutigli da un altro. Si ha così formazione di ioni, positivi (cationi) e negativi (anioni), da cui il nome del legame.
+
+Il normale sale da cucina costituisce un ottimo esempio di questo tipo di legame. Il cloruro di sodio (NaCl) è formato dall’unione di un atomo di sodio Na, poco elettronegativo, con un atomo di cloro Cl, molto elettronegativo. La grande differenza di elettronegatività tra i due elementi fa sì che il sodio ceda completamente un elettrone, trasformandosi in ione Na+, e il cloro lo acquisti diventando Cl–. I due ioni, avendo cariche opposte, sono soggetti a una reciproca attrazione elettrostatica che determina il legame chimico.
+
+e–
+
+Quando un atomo di sodio (Na) si trova nelle vicinanze di
+
+un atomo di cloro (Cl) avviene una cessione dell’elettro-
+
+ne più esterno da parte del sodio al cloro. Così facendo,
+
+entrambi gli atomi raggiungono una struttura elettronica
+
+più stabile, uguale a quella del gas nobile più vicino (il
+
+neon per sodio e l’argo per il cloro).
+
+Na
+
+Cl
+
+4
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+
+
+Il legame covalente
+
+Quando due atomi hanno all’incirca la stessa affinità per gli elettroni, li mettono in compartecipazione, anziché cederli o acquistarli completamente come succede nel legame ionico. In pratica, si ha so-vrapposizione degli orbitali esterni dei due atomi e condivisione del loro spazio da parte degli elettroni che si distribuiscono in modo da formare un unico orbitale molecolare attorno ai due nuclei.
+
+Se il legame covalente avviene tra due atomi uguali, si parla di legame covalente puro (per esempio: H ), se invece avviene tra due atomi diversi, e quindi con un certa differenza di elettronegatività, si 2
+
+parla di legame covalente polare. In questo secondo caso infatti gli elettroni di legame saranno un po’ spostati verso il nucleo dell’atomo più elettronegativo creando un polo negativo (δ–) e si distanzie-ranno invece dal nucleo dell’atomo meno elettronegativo, dando origine a un polo positivo (δ+).
+
+atomo più elettronegativo
+
+δ-
+
+δ+
+
+H
+
+H
+
+H
+
+H
+
+Nella molecola di idrogeno (legame covalente puro) gli elettroni
+
+Il legame che si forma tra due atomi aventi diversa elettro-
+
+di legame ruotano in modo uguale intorno ai due nuclei di idroge-
+
+negatività determina una disomogenea distribuzione degli
+
+no mantenendo la stessa densità elettronica in tutta la molecola.
+
+elettroni di legame che genera la formazione di un dipolo
+
+(legame covalente polare).
+
+Il legame a idrogeno
+
+Nel caso l’idrogeno si leghi in modo covalente con elementi molto più elettronegativi, come succede nell’acqua con l’ossigeno, la formazione di una molecola polare determina l’instaurarsi di altre particolari forme di legame, i legami a idrogeno, molto più deboli dei legami covalenti, ma estremamente importanti.
+
+Rimanendo sull’esempio dell’acqua, l’atomo di ossigeno, fortemente elettronegativo, attira verso di sé gli elettroni di legame assumendo una parziale carica negativa, viceversa gli atomi di idrogeno assu-mono una parziale carica positiva per l’allontanarsi degli elettroni di legame dal nucleo. I due legami H-O nell’acqua formano tra loro un angolo di circa 100°. Ne risulta che la molecola d’acqua può essere considerata come un piccolo dipolo, quasi un piccolo magnete.
+
+La parziale carica positiva presente sugli atomi di idrogeno, date le dimensioni esigue di questi atomi, conferisce loro un’alta densità di carica e quindi un’alta energia. Per stabilizzarsi, gli atomi di idrogeno tenderanno a legarsi con atomi che abbiano una parziale carica negativa, quelli di ossigeno delle altre molecole, nel caso dell’acqua.
+
+Si realizza così una struttura di legame complessa nella quale l’idrogeno fa in pratica da ponte tra le diverse molecole.
+
+δ–
+
+δ+
+
+Le coppie elettroniche non di legame non
+
+partecipano alla formazione dei legami
+
+della molecola
+
+Gli elettroni di legame sono condivisi in modo
+
+ineguale e sono concentrati maggiormente verso
+
+l’atomo di ossigeno (più elettronegativo): tra O e
+
+H si ha un legame covalente
+
+δ+
+
+La polarità della molecola di acqua.
+
+5
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+
+
+
+
+Altri legami chimici
+
+Il legame metallico. La struttura dei metalli è molto particolare data la loro scarsa tendenza a tenere legati gli elettroni esterni, che sono quindi liberi di passare continuamente da un atomo all’altro. Si può immaginare la struttura metallica come un’intelaiatura di ioni positivi immersi in una nube elettronica che li tiene legati.
+
+Elettroni mobili
+
+Ioni positivi
+
+Esempio di legame metallico.
+
+Il legame dativo. È una particolare forma di legame covalente in cui gli elettroni di legame provengono entrambi dallo stesso atomo. Il legame dativo viene indicato con una freccetta (rivolta dall’atomo datore a quello accettore) nelle formule di struttura.
+
+O
+
+N
+
+OH
+
+N OH
+
+Esempio di legame dativo. Nell’acido nitroso l’azoto
+
+O
+
+impegna solo i 3 elettroni di legame; nell’acido nitrico,
+
+O
+
+oltre ai 3 elettroni di legame, l’azoto dona altri due
+
+elettroni all’ossigeno.
+
+Acido nitroso
+
+Acido nitrico
+
+Il legame ione-dipolo. È il legame di tipo elettrostatico che si forma tra una molecola polare e uno ione. È alla base per esempio della solubilità dei sali in acqua; infatti mettendo in acqua un composto ionico quale l’NaCl, costituito da ioni Na+ e Cl–, si osserva che gli ioni positivi formano legami con le molecole d’acqua orientandone verso di sé la parte negativa (localizzata sull’ossigeno) mentre gli ioni negativi si legano alla parte positiva (localizzata sugli atomi di idrogeno).
+
+Cl–
+
+Gli ioni negativi del cloruro (Cl–) vengono avvolti dai poli
+
+Sale
+
+positivi degli idrogeni dell’acqua. Al contrario i cationi
+
+(Na+) sono circondati dal polo negativo dell’acqua (l’os-
+
+Acqua
+
+sigeno).
+
+Na+
+
+I legami di Van der Waals.
+
+dipolo
+
+Sono legami deboli che si formano
+
+elettrico
+
+tra molecole elettricamente neutre, ma con caratteristiche
+
++
+
+–
+
++
+
+–
+
+polari proprie o indotte. Sono dovuti all’attrazione
+
+reciproca che si realizza tra due molecole polari (dipolo-
+
+A
+
+B
+
+A
+
+B
+
+dipolo permanenti), tra due molecole apolari (con due poli
+
+interazione dipolo-dipolo
+
+(Van der Waals)
+
+indotti e non permanenti) oppure tra una molecola polare e
+
+un’altra apolare (con la presenza di un dipolo permanente e
+
+uno temporaneo).
+
+6
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+Le soluzioni
+
+Una soluzione può essere definita come una miscela omogenea di due o più composti, cioè un sistema omogeneo, che presenta in ogni sua parte la medesima concentrazione dei costituenti e le stesse caratteristiche fisiche e chimiche.
+
+In una soluzione si chiama solvente il componente quantitativamente più abbondante e soluto (o soluti se più di uno) il componente presente in minor quantità. La quantità massima di soluto che può sciogliersi in un dato solvente è la solubilità ed è funzione della struttura chimica dei due composti e della temperatura.
+
+L’acqua è il solvente più comune in natura e anche nel settore alimentare vengono molto sfruttate le sue proprietà solventi. In essa possono essere sciolti dei gas (si pensi all’acqua minerale o allo spuman-te), dei liquidi (come avviene nell’aceto, nel vino e nei liquori), oppure dei solidi (es. soluzioni saline o sciroppi zuccherini).
+
+Fattori che influenzano la solubilità
+
+I fattori che influenzano la solubilità di una sostanza in un liquido sono essenzialmente:
+
+• la natura chimica del soluto e del solvente, per cui una sostanza è tanto più solubile quanto maggiore è la sua somiglianza col solvente, ossia mostrano legami simili tra loro;
+
+• la temperatura, dove alzando la temperatura, aumenta la solubilità dei composti in un solvente;
+
+• la pressione, secondo cui la solubilità di un gas in un liquido è infatti proporzionale alla pressione parziale del gas sopra la soluzione (legge di Henry).
+
+Legge di Henry. Formulata da William Henry nel 1803, questa legge regola la solubilità dei gas in un liquido. In particolare essa sostiene che: un gas che esercita una pressione sulla superficie di un liquido, vi entra in soluzione finché avrà raggiunto in quel liquido la stessa pressione che esercita sopra di esso.
+
+I vari tipi di soluzioni
+
+A seconda dello stato di aggregazione (solido, liquido o gassoso) del soluto e del solvente, possiamo avere diverse tipologie di soluzioni. Vediamo di seguito le principali soluzioni di tipo acquoso che più interessano gli organismi viventi.
+
+Soluzioni acquose di gas. La quantità massima di gas che può essere sciolta in un certo volume d’acqua dipende dalla:
+
+• natura chimica del gas che può reagire o meno con l’acqua;
+
+• temperatura, in quanto la solubilità dei gas in acqua diminuisce con l’aumentare della temperatura;
+
+• pressione, secondo cui un aumento di questa, a parità di temperatura, fa crescere la solubilità dei gas in acqua.
+
+Soluzioni acquose di solidi. Perché un solido si sciolga nell’acqua, devono essere rotti i legami che ten-gono unite le particelle solide. Si distinguono le soluzioni acquose di solidi ionici (per esempio, il sale da cucina NaCl) da quelle di solidi molecolari, come il saccarosio.
+
+Le soluzioni sature. Più precisamente la solubilità è la quantità massima di soluto che può sciogliersi in un dato solvente.
+
+Una soluzione è detta satura quando contiene la massima quantità di soluto che il solvente è in grado di sciogliere a quella temperatura; aggiungendo a una soluzione satura ulteriore soluto, questo non si scioglie, ma si separa dalla soluzione, precipitando come corpo di fondo (se è un solido), formando una nuova fase (se è un liquido) o gorgogliando (se è un gas).
+
+7
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+Una soluzione è detta insatura quando contiene una quantità di soluto inferiore a quella massima che il solvente è in grado di sciogliere a quella temperatura.
+
+In condizioni particolari, è possibile ottenere soluzioni soprasature, ovvero soluzioni che conten-gono più soluto di quanto il solvente sia normalmente in grado di sciogliere a quella temperatura; tali soluzioni sono sistemi instabili che in seguito a perturbazioni meccaniche (agitazione, scuotimento, aggiunta di corpi estranei) liberano l’eccesso di soluto trasformandosi in soluzioni sature.
+
+Le soluzioni di un liquido in un liquido. Due liquidi sono detti miscibili, quando mescolandoli uno nell’altro in qualsiasi proporzione si ottiene sempre una soluzione omogenea. L’acqua e l’alcol etilico, entrambi solventi polari in grado di dare legami a idrogeno, sono perfettamente miscibili tra loro.
+
+Due liquidi si dicono invece immiscibili se non sono solubili l’uno nell’altro. Si ha allora la formazione di due strati di liquido ben distinti, come avviene, per esempio, tentando di sciogliere l’olio nell’acqua.
+
+Metodi per esprimere la concentrazione delle soluzioni
+
+La concentrazione di una soluzione è una misura della maggiore o minore quantità di soluto che contiene. Essa può essere espressa in diversi modi:
+
+• la composizione percentuale in peso indica quanti grammi di soluto sono sciolti in 100 grammi di soluzione;
+
+• la composizione percentuale in volume indica quanti grammi di soluto sono disciolti in 100
+
+ml di soluzione;
+
+• volume di soluto (in litri) in un litro di soluzione. Questo metodo si usa per esempio per esprimere la gradazione alcolica della birra.
+
+Altri modi per esprimere la concentrazione delle soluzioni sono molarità, molalità e normalità.
+
+• La molarità (simbolo M) è definita come le moli di soluto presenti in un litro di soluzione (concentrazione molare). L’unità di misura è mol/l (moli per litro). Una soluzione 1 M di soluto è definita perciò come una soluzione contenente esattamente una mole di soluto per litro di soluzione: moli soluto
+
+M =
+
+litri di soluzione
+
+• La molalità (simbolo m) è definita come il rapporto tra le moli di soluto presenti e la massa in kg di solvente, quindi possiamo scrivere:
+
+n moli soluto
+
+m =
+
+kg di solvente
+
+La molalità si esprime, quindi, in mol/kg.
+
+• La normalità (N) in chimica indica il numero di equivalenti di un soluto disciolti in un litro di soluzione. Si calcola con la formula:
+
+neq
+
+N =
+
+V
+
+dove n è il numero di equivalenti e V è il volume.
+
+eq
+
+Il termine molarità è stato oggi sostituito dalla concentrazione molare di sostanza B (simbolo C ) B
+
+misurata in mol/m3. La molarità è quindi il rapporto tra le moli di soluto presenti (n ) e il volume della B
+
+soluzione (V) espresso in volume o litri; in formula:
+
+moli soluto
+
+C =
+
+volume (o litri) di soluzione
+
+8
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+
+
+Le proprietà col igative delle soluzioni
+
+Si tratta di proprietà specifiche delle soluzioni che dipendono solo dal numero di particelle distinte che compongono la soluzione e non dalla natura delle particelle stesse. Quando si aggiunge un soluto non volatile a un solvente che può evaporare (come l’acqua), le proprietà fisiche e chimiche della soluzione che si forma sono diverse da quelle del solvente puro.
+
+Alcune di queste, per esempio la densità (equivalente in genere al peso specifico) e il pH, dipendono non solo dalla concentrazione delle particelle di soluto, ma anche dalla natura dei componenti della soluzione.
+
+Le proprietà colligative invece dipendono esclusivamente dalla concentrazione, ovvero dal numero di particelle di soluto in soluzione (molecole o ioni) e non dalla loro natura. Le principali proprietà colligative sono:
+
+• l’innalzamento ebullioscopico (l’aggiunta di un soluto a un solvente determina un innalzamento del suo punto di ebollizione);
+
+• l’abbassamento crioscopico (l’aggiunta di un soluto abbassa la temperatura alla quale l’acqua si trasforma in ghiaccio);
+
+• la pressione osmotica.
+
+Gradiente di concentrazione e osmosi
+
+Il gradiente di concentrazione è una differenza di concentrazione di una stessa sostanza in due volumi adiacenti, che si può esercitare nel punto di contatto, per esempio sulle superfici di una membrana semipermeabile.
+
+Si tratta di un processo fisico spontaneo che tende a diluire la soluzione più concentrata, e a ridurre la differenza di concentrazione e arrivare all’equilibrio osmotico.
+
+L’osmosi indica la diffusione di un solvente attraverso una membrana semipermeabile dalla parte a minore concentrazione di soluto (con più solvente) verso la parte a maggior concentrazione di soluto (con meno solvente), quindi una diffusione secondo il gradiente di concentrazione.
+
+La pressione osmotica rappresenta la pressione esercitata dalle molecole di soluto che colpiscono la membrana semipermeabile e che non sono in grado di attraversarla. Questa differente concentrazione di soluto determina il passaggio di solvente dalla parte più diluita verso quella più concentrata in modo da diminuirne la pressione (il fenomeno dell’osmosi).
+
+soluzione
+
+soluzione
+
+diluita
+
+concentrata
+
+membrana
+
+semipermeabile
+
+FLUSSO DELL’ACQUA
+
+EQUILIBRIO
+
+Durante il fenomeno dell’osmosi il solvente attraversa la membrana semipermeabile passando dalla parte più diluita verso quella più concentrata allo scopo di equilibrare le due concentrazioni.
+
+9
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+
+
+
+
+Un altro modo per definire la pressione osmotica è la pressione che occorre applicare sulla soluzione più concentrata per riportarla al livello di quella più diluita.
+
+solvente (A)
+
+Pressione
+
+osmotica z
+
+soluto (B)
+
+membrana selettivamente permeabile
+
+Per uguagliare la concentrazione delle due parti della soluzione (a e b) è necessario applicare una pressione z sulla superficie della parte a (meno concentrata). z è uguale alla pressione osmotica.
+
+Se la pressione applicata supera la pressione osmotica, si parla di osmosi inversa.
+
+pressione
+
+membrana
+
+Z > z
+
+semipermeabile
+
+equilibrio osmotico
+
+osmosi inversa
+
+Nel primo disegno vediamo una soluzione inizialmente a diversa concentrazione (a e b) che ha raggiunto l’equilibrio osmotico.
+
+Applicando una pressione maggiore della pressione osmotica sulla parte b (più concentrata) avviene il passaggio del solvente nella parte meno concentrata (a).
+
+Dispersioni, col oidi ed emulsioni
+
+Quando, in una soluzione, un soluto è presente con atomi, ioni o molecole di dimensioni particolarmente contenute (inferiori a 1 nm), invisibili anche con l’ausilio del microscopio, si parla di soluzione vera. Altrimenti, quando le dimensioni delle particelle del soluto risultano comprese tra 1 e 1000 nm, si parla di soluzione falsa, o dispersione colloidale.
+
+In una soluzione vera il soluto è disperso nel solvente a livello di singole molecole o ioni, ciascuno di essi circondato da molecole di solvente (si parla più precisamente di solvatazione).
+
+Una dispersione è un sistema (stabile o instabile) costituito da più fasi (di solito due) in cui la preva-lente è detta disperdente e le altre fasi disperse. Caratteristica delle dispersioni è che le varie fasi sono eterogenee e che le fasi disperse hanno dimensioni superiori alle grandezze di 1 micrometro (un milionesimo di metro).
+
+Se la fase disperdente è liquida si possono avere:
+
+• schiume quando la fase dispersa è gassosa;
+
+• emulsioni quando è liquida;
+
+• sospensioni quando è solida.
+
+Se la fase disperdente è gassosa, si parla di nebbia quando la fase dispersa è liquida e di fumo se è solida.
+
+10
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+
+
+
+
+I colloidi
+
+Un colloide è una sostanza che si trova in uno stato finemente disperso, intermedio sotto il profilo dimensionale tra la soluzione e la dispersione.
+
+Questo stato colloidale consiste quindi di due fasi: una sostanza di dimensioni microscopiche (diame-tro da 10-9 m a 1 micrometro = 10-6 m) dispersa in una fase continua (fase disperdente).
+
+Dimensione particella
+
+minore di 10–9 m
+
+da 10–9 a 10–6 m
+
+maggiore di 10–6 m
+
+Soluzione omogenea
+
+Colloide
+
+Dispersione eterogenea
+
+La differenza dei colloidi rispetto alle soluzioni sta nel fatto che queste ultime sono sistemi omoge-nei contenenti ioni o molecole di soluto disperse in un solvente, libere di muoversi le une rispetto alle altre. Inoltre, le soluzioni risultano limpide e presentano le tipiche proprietà colligative (variazione ebullioscopica e crioscopica, e pressione osmotica regolare).
+
+I sistemi colloidali, invece, sono sistemi eterogenei, considerabili alla stregua di dispersioni finissi-me. Si presentano torbidi, non seguono le precedenti leggi e presentano tensioni di vapore e pressione osmotica non regolari.
+
+A seconda della somiglianza delle particelle disperse nella fase disperdente i sistemi colloidali possono essere distinti in:
+
+• colloidi liofobi, caratterizzati da scarsa affinità tra la fase dispersa e quella disperdente, per cui risultano instabili e tendono a separarsi nel tempo (colloidi irreversibili);
+
+• colloidi liofili, che mostrano un’elevata affinità tra fase dispersa e fase disperdente. Messi in soluzione acquosa si rivestono di uno strato di molecole di solvente (solvatazione) e diventano così
+
+“pseudo-solubili”, ovvero sembrano solubili (per esempio, amido, latte e sangue).
+
+Proprietà dei colloidi. Una delle proprietà caratteristiche che serve a distinguere i sistemi colloidali dalle soluzioni vere è l’effetto Tyndall per cui quando un raggio di luce attraversa un liquido puro o una soluzione vera il suo percorso rimane praticamente invariato perché le particelle in soluzione sono troppo piccole per diffondere la luce (appare quindi trasparente).
+
+Nei sistemi colloidali invece le dimensioni delle particelle sono in grado di diffondere la luce per cui il percorso luminoso risulta modificato.
+
+Un’altra caratteristica dei sistemi colloidali è che spesso la fase dispersa assume strutture di organizza-zione di tipo micellare, ossia si formano aggregati di molecole particolari (con parti polari o ioniche e parti non polari) che si dispongono lasciando le parti polari verso l’esterno, mentre le parti non polari sono lasciate all’interno.
+
+Parte polare della micella
+
+Molecole polari di acqua
+
+idrogeno
+
+ossigeno
+
+11
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+In pratica, la parte interna di una micella, formata da lunghe catene non polari, è rappresentata dalla goccia di acidi grassi dispersa nell’acqua.
+
+Nel caso in cui la fase disperdente sia apolare e la fase dispersa di tipo acquoso, le micelle che si formano sono di tipo inverso, perché la situazione è capovolta rispetto alla precedente (è il caso dell’acqua dispersa nella massa grassa del burro).
+
+La lunghezza della coda apolare, la natura e la dimensione della testa polare o ionica, l’acidità della soluzione, la temperatura e la presenza di sali aggiunti sono i fattori più importanti che determinano il tipo di aggregato che si forma. Se si variano questi parametri, è possibile variare la forma e le dimensioni delle micelle ottenute.
+
+Le emulsioni
+
+Le emulsioni sono dispersioni, più o meno stabili, di minutissime goccioline o bollicine (fase dispersa) in un altro fluido non miscibile (fase disperdente o veicolo). In altre parole, il risultato di due o più liquidi che “sbattuti” fra loro non si amalgamano.
+
+La sua stabilità dipende dalla densità delle due fasi, dalla temperatura, dalla presenza di sali sciolti e dalla presenza di sostanze emulsionanti (chiamate tensioattive).
+
+Tipiche emulsioni sono i sistemi acqua in olio (A/O, dove l’acqua è dispersa in olio), oppure olio in acqua (O/A, dove è l’olio a essere disperso in acqua, come per esempio nella maionese).
+
+L’emulsionante può già essere contenuto nella sostanza da emulsionare (emulsioni naturali) o viene aggiunto con il veicolo (emulsioni artificiali).
+
+Sono emulsioni naturali, stabilizzate da proteine, il latte e il burro. Le emulsioni artificiali sono utiliz-zate in farmacia (olio di fegato di merluzzo emulsionato), in cosmesi (creme), nell’industria dei detersi-vi, dei lubrificanti, delle vernici, degli insetticidi.
+
+Le reazioni chimiche
+
+Si definisce reazione chimica il processo con il quale alcune sostanze, dette reagenti, si trasformano in altre sostanze, dette prodotti di reazione, aventi proprietà diverse.
+
+Affinché delle sostanze reagiscano tra loro è necessario che le loro molecole si urtino e che gli urti siano efficaci cioè che possano originare nuovi legami. Ogni reazione chimica implica la formazione o la rottura di legami chimici e si rappresenta come un’equazione chimica.
+
+A + B
+
+C + D
+
+reagenti
+
+prodotti di reazione
+
+Una reazione non può avere luogo, o viene rallentata fino a fermarsi o addirittura a regredire, se non è soddisfatta una serie di condizioni, come la presenza dei reagenti in misura adeguata e le condizioni di temperatura, pressione e luce adatte alla specifica reazione.
+
+Tipi di reazioni chimiche
+
+Esistono diversi tipi di reazioni chimiche:
+
+• reazioni di sintesi (quando si ha l’unione di diverse sostanze più semplici a formare una di struttura più complessa): A + B
+
+AB
+
+• reazioni di scissione (quando una sostanza complessa si scinde nei suoi costituenti più semplici): AB
+
+A + B
+
+• reazioni di scambio semplice o sostituzione (quando in una molecola uno o più atomi vengono sostituiti da atomi diversi): A + BC
+
+AC + B
+
+• reazioni di doppio scambio (quando alcuni atomi di una molecola sono trasferiti a un’altra molecola e viceversa: AB + CD
+
+AD + CB
+
+12
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+Se una reazione avviene con produzione di calore, si chiama esotermica; se invece implica un consu-mo di calore si dice endotermica.
+
+Alcune reazioni possono avvenire sia in un senso che nell’altro; sono dette allora reversibili e vengono indicate con una doppia freccetta: A + B
+
+C + D
+
+Reazioni di ossido-riduzione
+
+Il numero di elettroni che un elemento cede, acquista o mette in comune quando reagisce con un altro elemento si definisce valenza.
+
+Dire che l’idrogeno ha valenza 1 significa quindi che l’atomo di idrogeno reagisce mettendo in gioco un elettrone. Una reazione viene detta di ossido-riduzione (o redox) se durante il suo svolgimento alcuni elementi chimici modificano il proprio numero di ossidazione.
+
+Per esempio, nella reazione
+
+CH + 2O
+
+CO + 2H O
+
+4
+
+2
+
+2
+
+2
+
+metano
+
+anidride
+
+carbonica
+
+quando il carbonio si trova legato con gli idrogeni (metano) ha un numero di ossidazione pari a –4, mentre legato all’ossigeno (CO ) passa a uno stato di ossidazione pari a +4, ossidandosi. L’ossigeno si 2
+
+riduce passando da 0 e –2.
+
+Reazioni acido-base
+
+Le reazioni che non sono di ossido-riduzione sono reazioni acido-base (ovvero i reagenti di tali reazioni sono un acido e una base). È il caso dell’acido cloridrico (HCl) a contatto con l’idrossido di sodio (NaOH). Nella reazione:
+
+HCl + NaOH
+
+NaCl + H O
+
+2
+
+lo stato di ossidazione di ogni specie chimica è lo stesso sia nei reagenti che nei prodotti (cloro = –1, sodio = +1, idrogeno = +1 e ossigeno = –2).
+
+Bilanciamento delle reazioni
+
+Ogni reazione chimica viene rappresentata da un’equazione chimica in cui compaiono le specie chimiche che intervengono e le rispettive quantità. Proprio la presenza delle quantità impone la necessità di “bilanciare” queste equazioni, in quanto in natura “nulla si crea e nulla si distrugge, ma tutto si trasforma” (Antoine-Laurent de Lavoisier).
+
+A ogni formula chimica corrisponde un certo peso in grammi. Viene definita grammoatomo di un elemento la quantità in grammi corrispondente al suo peso atomico (per esempio un grammoatomo di carbonio = 12 grammi, perché il carbonio ha peso atomico 12).
+
+Si definisce invece grammomolecola o semplicemente mole di un composto la quantità in grammi corrispondente al peso molecolare del composto (nel caso della molecola d’acqua, costituita da due atomi di idrogeno, con peso atomico = 1, e un atomo di ossigeno, con peso atomico = 16, il peso molecolare sarà = 18 e, di conseguenza, 18 grammi sarà anche la quantità corrispondente a una mole d’acqua).
+
+Gli scambi quantitativi associati a una reazione obbediscono alla legge di Lavoisier di conservazione della massa secondo la quale in natura “nulla si crea e nulla si distrugge”, o meglio: in una reazione chimica, la somma dei pesi dei reagenti è uguale alla somma dei pesi dei prodotti di reazione.
+
+13
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+Nella scrittura di una reazione chimica i numeri posti davanti alle formule dei reagenti e dei prodotti di reazione sono detti coefficienti di reazione e indicano quante moli o grammoatomi di ogni singola specie chimica reagiscono e vengono prodotti nella reazione.
+
+Gli atomi non possono essere né creati né distrutti, perciò in una reazione il numero di atomi di ciascun elemento deve essere lo stesso nei reagenti e nei prodotti di reazione. Quando una reazione è scritta con i giusti coefficienti si dice che è bilanciata.
+
+2H + O
+
+2H O
+
+2
+
+2
+
+2
+
+Bilanciamento delle cariche di una reazione chimica
+
+Oltre al bilanciamento delle masse, nelle equazioni chimiche deve essere soddisfatto il bilanciamento delle cariche. Le reazioni chimiche, infatti, possono avvenire anche tra specie chimiche cariche elettricamente (gli ioni).
+
+Un esempio di reazione chimica in cui sono coinvolti ioni è la reazione di scissione della molecola di cloruro di sodio (il sale da cucina) nell’acqua:
+
+NaCl
+
+Na+ + Cl–
+
+In questo caso si ha una carica positiva sul catione Na+ e una carica negativa sull’anione Cl–, mentre al primo membro compare il sale neutro (avente carica nulla). Considerando i coefficienti stechiometrici, il bilancio delle cariche in questo caso può essere scritto come:
+
+0 = (+1) + (–1) ovvero: 0 = 0
+
+Come si può vedere la somma delle cariche dei reagenti è uguale alla somma di quelle dei prodotti.
+
+La velocità di reazione e i catalizzatori
+
+La velocità di reazione indica la velocità con cui i reagenti si trasformano nei prodotti di reazione. In natura alcune reazioni avvengono ad altissima velocità (per esempio le esplosioni) mentre altre sono molto lente (per esempio l’arrugginirsi del ferro). Questo dipende dal numero di collisioni efficaci che avvengono tra i reagenti, ossia la quantità di “scontri” che siano in grado di far interagire tra loro i composti di partenza.
+
+La velocità di una reazione chimica varia sulla base di una serie di parametri che si modificano col passare del tempo (cinetica chimica). Nella norma, cioè, la concentrazione dei reagenti (A e B) diminuisce sensibilmente all’inizio della reazione per poi tendere a zero (o al valore di equilibrio). In modo simile, i prodotti (C e D) si producono in maniera più copiosa all’inizio per poi tendere per tempi (re-lativi) più lunghi alla concentrazione finale.
+
+I fattori che influenzano la velocità di reazione
+
+La velocità di una reazione è influenzata da alcuni fattori:
+
+• la concentrazione dei reagenti: maggiore è la concentrazione dei reagenti, più alta è la probabilità che le molecole si urtino e quindi maggiore è la velocità di reazione;
+
+• la temperatura: col crescere della temperatura, aumentano la velocità e l’energia delle molecole.
+
+Ne consegue che aumenta la probabilità di urti e quindi anche la velocità di reazione;
+
+• lo stato fisico dei reagenti: se un reagente è in polvere o in soluzione, offrirà una superficie maggiore al contatto con l’altro reagente e di conseguenza aumenterà la velocità di reazione;
+
+• la presenza di catalizzatori: i catalizzatori sono sostanze che accelerano le reazioni senza pren-dervi parte (cioè alla fine della reazione rimangono inalterati) e rendono più rapida la formazione dei prodotti.
+
+14
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+Per spiegare meglio la dinamica di questo processo si ricorre alla teoria delle collisioni, secondo la quale affinché due specie chimiche possano reagire fra loro devono prima di tutto venire in contatto tra loro, cioè devono urtarsi. Gli urti devono avvenire con una certa energia (urto efficace), cioè devono essere in grado di rompere i legami esistenti.
+
+L’efficacia degli urti dipende da due fattori:
+
+• l’energia delle singole particelle che si scontrano;
+
+• la geometria della collisione, ossia il verso e la disposizione delle molecole durante l’urto.
+
+L’energia di attivazione
+
+Perché una reazione avvenga è in genere necessario fornire inizialmente una certa quantità di energia ai reagenti. Essa serve a rompere i legami chimici nelle molecole, liberando atomi e ioni che si possono legare per dare prodotti di reazione con livello energetico inferiore ai reagenti di partenza (nelle reazioni esotermiche). La minima quantità di energia che è necessario fornire perché si inneschi la reazione si chiama energia di attivazione. Questa energia può essere fornita sotto forma di calore (il fuoco del fiammifero può dare l’energia necessaria a innescare la reazione di combustione), oppure sotto altre forme, per esempio come energia luminosa (la fotosintesi clorofilliana nelle piante).
+
+I catalizzatori
+
+Alcune sostanze hanno la capacità di favorire lo sviluppo di una reazione abbassandone l’energia di attivazione. Queste sostanze si chiamano catalizzatori. Esse non partecipano direttamente alla reazione, nel senso che non le ritroviamo poi nei prodotti di reazione (e quindi non si consumano), ma rendono molto più veloce l’andamento della reazione stessa.
+
+Ci sono sostanze che invece di aumentare la velocità di reazione, la diminuiscono. Questi composti vengono definiti catalizzatori negativi o inibitori.
+
+Un catalizzatore, in generale, modifica il meccanismo della reazione a cui partecipa tramite un percorso, per così dire, “facilitato” per il quale è necessaria una minore energia di attivazione.
+
+L’equilibrio chimico
+
+Una volta iniziate, alcune reazioni chimiche cominciano a procedere al contrario, ossia i reagenti che erano diventati prodotti reagiscono a loro volta tra loro tornando a formare i reagenti iniziali. In queste reazioni, che si definiscono “di equilibrio”, i prodotti e i reagenti tendono a uniformare le loro concentrazioni, rendendole costanti durante un arco di tempo indefinito.
+
+Le reazioni che possono procedere nei due sensi, dai reagenti ai prodotti di reazione e viceversa, sono dette reazioni reversibili (la maggior parte delle reazioni).
+
+Consideriamo la generica reazione:
+
+A + B
+
+C + D
+
+All’inizio i reagenti A e B saranno alla massima concentrazione quindi con la massima velocità di reazione; col procedere della reazione, la quantità di A e B diminuirà e, per ciò che si è detto sull’influenza della concentrazione dei reagenti sulla velocità di reazione, anche quest’ultima tenderà a diminuire. Per contro sarà cresciuta la quantità dei prodotti C e D che tenderanno perciò a reagire tra loro in senso inverso:
+
+C + D
+
+A + B
+
+con velocità sempre maggiore al crescere della loro concentrazione. Si arriverà a un punto in cui la velocità di reazione in un senso sarà pari alla velocità nel senso opposto. Questo punto è detto punto di equilibrio della reazione. Al punto di equilibrio le reazioni continuano ad avvenire ma, dal momento che hanno la stessa velocità, non si ha più variazione quantitativa nella concentrazione dei reagenti.
+
+Anziché scrivere separatamente le due reazioni si potrà scrivere:
+
+A + B
+
+C + D
+
+15
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+con la doppia freccia per indicare che la reazione può andare nei due sensi. Se consideriamo le concentrazioni, al punto di equilibrio la concentrazione dei reagenti che reagiscono è uguale a quella dei prodotti che si formano e il loro rapporto è costante (Keq = costante di equilibrio). In pratica:
+
+[A][B]
+
+Keq =
+
+[C][D]
+
+Gli spostamenti dell’equilibrio chimico
+
+In una reazione chimica si raggiunge un equilibrio stabile a condizione che non vi siano fattori che possono spostare o comunque influenzarne la stabilità. Questo fenomeno è enunciato dal principio di Le Châtelier che dice: quando un sistema che si trova in equilibrio viene perturbato, esso tende a contrastare e a ridurre gli effetti della perturbazione creando nuove condizioni di equilibrio.
+
+Se per esempio si disturba una situazione di equilibrio facendo evaporare l’acqua di una soluzione satura di cloruro di sodio (NaCl), il sale sciolto che si trova in maggiore concentrazione si depositerà sul fondo.
+
+Aumento o diminuzione di reagenti o di prodotti. Quando in un sistema chimico all’equilibrio si aumenta (o diminuisce) uno dei reagenti, l’equilibrio si sposta a destra (o a sinistra). Il nuovo equilibrio quindi è caratterizzato da una maggiore (o minore) concentrazione dei prodotti.
+
+AA A
+
+A
+
+A + B
+
+C + D
+
+
+
+Aumenta la concentrazione
+
+A + B
+
+C + D
+
+Diminuisce la concentrazione
+
+B
+
+di un reagente: l’equilibrio
+
+di un reagente: l’equilibrio si
+
+B B
+
+si sposta a destra.
+
+sposta a sinistra.
+
+B
+
+DD D
+
+D
+
+A + B
+
+C + D
+
+Diminuisce la concentrazione
+
+A + B
+
+C + D Aumenta la concentrazione
+
+C
+
+di un prodotto: l’equilibrio si
+
+di un prodotto: l’equilibrio
+
+C C
+
+sposta a destra.
+
+si sposta a sinistra.
+
+C
+
+Cambiamento del a temperatura. In un sistema chimico all’equilibrio, quando si aumenta la temperatura l’equilibrio si sposta nella direzione della reazione che necessita di energia per avvenire (reazione endotermica). Se invece si abbassa la temperatura il sistema fa ripartire la reazione che libera energia (reazione esotermica).
+
+Reazione endotermica
+
+> T °C
+
+A + B + calore
+
+C + D
+
+
+
+Una diminuzione
+
+A + B + calore
+
+C + D Un aumento della
+
+della temperatura
+
+temperatura sposta
+
+< T °C
+
+sposta l’equilibrio
+
+l’equilibrio verso i
+
+verso i reagenti e la
+
+prodotti e la reazione
+
+velocità della reazione
+
+aumenta di velocità.
+
+diminuisce.
+
+Reazione esotermica
+
+> T °C
+
+A + B
+
+C + D + calore
+
+
+
+
+
+Una diminuzione della
+
+A + B
+
+C + D + calore Un aumento della
+
+temperatura sposta
+
+temperatura sposta
+
+< T °C
+
+l’equilibrio verso i
+
+l’equilibrio verso i
+
+reagenti e innesta la
+
+prodotti e facilita la
+
+reazione esotermica per
+
+reazione (per esempio
+
+riportare l’equilibrio.
+
+la combustione).
+
+16
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+
+
+
+
+Cambiamento del a pressione. In un sistema chimico all’equilibrio dove è presente una fase gassosa, quando un aumento di pressione determina una diminuzione del volume, l’equilibrio si modifica spo-standosi nella direzione che porta a una diminuzione del numero totale di molecole di sostanze allo stato gassoso.
+
+Se prendiamo in considerazione una reazione tra due reagenti gassosi (una mole di A e una di B) che danno luogo a 4 moli di prodotti (due di C e due di D), osserviamo che, all’aumentare della pressione l’equilibrio della reazione si sposta verso sinistra, poiché è maggiore la probabilità che le molecole di C e D collidano per ritornare nella forma di reagenti A e B.
+
+Reagenti in fase
+
+Prodotti in fase gassosa
+
+gassosa
+
+P
+
+Aumento della pressione P
+
+Il comportamento chimico del ’acqua
+
+Il comportamento chimico della molecola dell’acqua è molto importante per capire il concetto di acidità e basicità di una soluzione. Tutto parte dal fatto che, seppur in modo minimo, anche l’acqua pura ha una sua attività rappresentata da una piccolissima ma continua dissociazione nei suoi componenti basilari, l’idrogenione (H+) e lo ione ossidrile (OH–).
+
+I sali, come il cloruro di sodio (NaCl), in acqua si scindono liberando ioni. Gli ioni positivi si chiamano cationi, quelli negativi anioni. I composti chimici che in acqua si scindono in ioni si definiscono elettroliti, per la capacità che hanno gli ioni di trasportare l’elettricità.
+
+Un catione particolare è il catione H+, l’idrogenione. Dal momento che l’atomo di idrogeno possiede un solo elettrone, quando lo perde si trasforma praticamente in un protone.
+
+L’idrogeno è l’atomo più piccolo, per cui la carica positiva dell’idrogenione è estremamente concentrata sulla massa dell’atomo. Si dice allora che l’idrogenione ha un’elevatissima densità di carica e questo comporta che esso sia dotato di un’altissima energia, tanto alta che, di fatto, non può esistere da solo, ma ha bisogno di legarsi sempre a un’altra molecola sulla quale disperdere in parte la propria carica elettrica.
+
+Nell’acqua questo ione si trova nella forma H O+ derivata direttamente dalla formazione di un legame 3
+
+covalente fra un protone (o ione H+) e una molecola di H O.
+
+2
+
+17
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+La dissociazione dell’acqua
+
+Se esaminata con una strumentazione molto sensibile anche l’acqua distillata (priva di sali sciolti) mostra una leggerissima conduttività elettrica. Ciò significa che l’acqua non è una semplice miscela di molecole H O, ma contiene degli elettroliti capaci di condurre elettricità.
+
+2
+
+Questi elettroliti derivano dalla dissociazione seppur minima della molecola d’acqua nei due componenti ionici:
+
+H O
+
+H+ + OH–
+
+2
+
+L’idrogenione formatosi, che come abbiamo detto non può esistere da solo, si lega subito a una seconda molecola d’acqua:
+
+H+ + H O
+
+H O+
+
+2
+
+3
+
+originando uno ione H O+, lo ione ossonio. Poiché queste reazioni avvengono contemporaneamente si 3
+
+può scrivere:
+
+2H O
+
+H O+ + OH–
+
+2
+
+3
+
+In realtà sono pochissime (2 su un miliardo) le molecole di acqua che si dissociano e, per semplicità, conviene rappresentare la dissociazione dell’acqua scrivendo solo:
+
+H O
+
+H+ + OH–
+
+2
+
+pur tenendo presente che lo ione H+ in realtà è idratato. Si può quindi dire che dalla dissociazione di una molecola d’acqua si ottiene un protone H+ e uno ione OH– chiamato comunemente gruppo ossi-drilico o ossidrile.
+
+Se ne ricava che nell’acqua pura questi ioni sono presenti nella stessa quantità e quindi hanno uguale concentrazione.
+
+Tale concentrazione è molto bassa e ha il valore di 10–7, cioè in un litro d’acqua vi sono 10–7 grammoio-ni (o moli) di H+ e altrettanti di OH–. La concentrazione di una specie ionica si indica scrivendo il simbolo della specie tra parentesi quadre. Il prodotto della concentrazione degli ioni H+ e OH– chiamato prodotto ionico dell’acqua è sempre costante e vale 10-14:
+
+[H+] × [OH–] = 10–7 × 10–7 = 10–14
+
+Il fatto che il prodotto ionico dell’acqua sia costante significa che, aumentando la quantità di ioni H+
+
+presenti, dovrà diminuire in proporzione la quantità degli ioni OH– e viceversa.
+
+18
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+
+
+Acidità e pH
+
+Quando una soluzione contiene lo stesso numero di ioni H+ e OH– si dice neutra. In altri termini, per quanto detto precedentemente, una soluzione è neutra quando la concentrazione degli ioni H+ è uguale a 10-7.
+
+Se una soluzione contiene più idrogenioni (H+) che gruppi ossidrilici (OH–), si dice acida, viceversa se contiene meno idrogenioni che gruppi ossidrilici si chiama alcalina o basica.
+
+In sintesi si ha che:
+
+• soluzione acida [H+] > [OH–] da cui [H+] > 10–7
+
+• soluzione neutra [H+] = [OH–] da cui [H+] = 10–7
+
+• soluzione basica [H+] < [OH–] da cui [H+] < 10–7
+
+L’acidità di una soluzione è tanto maggiore quanto più elevata è [H+].
+
+Per esprimere in modo immediato il grado di acidità di una soluzione, ci si serve di un’espressione matematica denominata pH. Essa corrisponde al logaritmo in base 10 dell’inverso della concentrazione idrogenionica. Più semplicemente diciamo che il pH di una soluzione corrisponde al valore cambiato di segno dell’esponente della concentrazione idrogenionica.
+
+Per chiarire meglio: se [H+] = 10–5 allora il pH della soluzione è 5, se [H+] = 10–8, il pH è 8 e così via.
+
+acido della batteria
+
+succhi gastrici
+
+soluzioni
+
+succo di limone
+
+acide
+
+aceto
+
+pH < 7
+
+succo d’arancia
+
+vino
+
+succo di pomodoro
+
+acidità
+
+birra
+
+crescente
+
+caffè
+
+burro
+
+soluzioni
+
+neutralità
+
+latte
+
+neutre
+
+acqua
+
+sangue
+
+pH = 7
+
+basicità
+
+bicarbonato di sodio
+
+crescente
+
+albume
+
+detersivo
+
+latte di magnesia
+
+soluzioni
+
+basiche
+
+candeggina
+
+ammoniaca
+
+pH > 7
+
+soda caustica
+
+19
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+
+
+Carattere acido o basico di un composto
+
+Si definisce acido un composto che è capace di cedere un idrogenione e basico un composto che è in grado di accettare un idrogenione. Per ciò che si è detto a proposito dell’impossibilità dell’idrogenione di esistere da solo, un composto per comportarsi da acido, cedendo un idrogenione, deve trovarsi in presenza di una base che possa contemporaneamente accettare l’idrogenione. Per esempio, quando si mette acido cloridrico (HCl) in acqua, si ha la reazione:
+
+HCl + H O
+
+H O+ + Cl–
+
+2
+
+3
+
+in cui HCl funziona da acido cedendo un idrogenione all’acqua che invece funziona da base. Normalmente, per maggior semplicità e chiarezza, si scrive:
+
+HCl
+
+H+ + Cl–
+
+Per capire meglio cosa succede quando si mette dell’acido cloridrico in acqua possiamo vedere il disegno riportato di seguito.
+
+Lo ione Cl– è circondato dalle mole-
+
+cole polari dell’acqua e l’idrogenio-
+
+ne si lega a una molecola di acqua
+
+assumendone una carica positiva
+
+(H+).
+
+Se, invece, mettiamo in acqua il composto chiamato idrossido di sodio (NaOH) si ha la sua dissociazione in:
+
+NaOH
+
+Na+ + OH–
+
+In questo caso, aumentando la concentrazione dei gruppi ossidrilici (OH–) deve diminuire quella idrogenionica per mantenere il prodotto ionico dell’acqua costante. Di conseguenza immettendo idrossido di sodio in acqua la soluzione diventa basica.
+
+In generale si può dire quindi che anche tutti i composti capaci di rilasciare in soluzione ioni OH– sono delle basi.
+
+Anche le reazioni di dissociazione degli acidi e delle basi sono reazioni di equilibrio. Tornando alla già descritta reazione di dissociazione dell’HCl, sarebbe perciò corretto scrivere: HCl
+
+H+ + Cl–
+
+per indicare anche la reazione inversa alla dissociazione. In realtà nel caso dell’HCl quasi tutte le molecole sono in forma dissociata in soluzione.
+
+Quando un acido è molto dissociato, e quindi aumenta di molto la concentrazione idrogenionica della soluzione, si dice che è un acido forte.
+
+Se consideriamo invece l’acido ipocloroso (HClO) che si dissocia in:
+
+HClO
+
+H+ + ClO–
+
+le molecole dissociate sono poche in confronto a quelle che rimangono indissociate. Prevale cioè la reazione inversa a quella di dissociazione e in questo caso la concentrazione di H+ della soluzione aumenta di poco. Si dice allora che l’acido ipocloroso è un acido debole. In generale un acido debole è quello che in soluzione tende a dissociarsi poco. Un discorso simile può essere fatto per le basi.
+
+20
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+Le soluzioni tampone
+
+Si definiscono soluzioni tampone quelle soluzioni che si oppongono alla variazione del pH per piccole aggiunte di un acido o di una base forte. Un sistema tampone può essere costituito:
+
+• da un acido debole e da un suo sale con una base forte (tampone acido);
+
+• da una base debole e da un suo sale con un acido forte (tampone basico).
+
+Tampone acido
+
+Esaminiamo il meccanismo con cui agisce un tampone acido costituito dall’acido acetico e dall’acetato di sodio. L’acido acetico è un acido debole che si dissocia poco e quindi l’equilibrio della reazione di dissociazione è spostato a sinistra:
+
+CH COOH + H O
+
+CH COO– + H+
+
+3
+
+2
+
+3
+
+L’acetato di sodio è un sale elettrolita forte che si scioglie completamente e quindi l’equilibrio della reazione di dissociazione è spostato a destra:
+
+CH COONa
+
+CH COO– + Na+
+
+3
+
+3
+
+Ora, per il principio di Le Châtelier secondo cui ogni sistema tende a reagire a una modifica impostagli dall’esterno minimizzandone gli effetti:
+
+• aggiungendo alla soluzione un acido, gli ioni H+ che si formano e che dovrebbero abbassare il valore del pH sono neutralizzati dagli ioni CH COO– provenienti dal sale per formare acido acetico 3
+
+indissociato. Di conseguenza l’equilibrio della reazione si sposta a sinistra e il pH non varia;
+
+• aggiungendo alla soluzione una base (OH–), gli ioni OH– che dovrebbero alzare il valore del pH
+
+sono neutralizzati dagli ioni H+ provenienti dall’acido, formando acqua. Di conseguenza l’equilibrio della reazione si sposta a destra e il pH non varia.
+
+Tampone basico
+
+Esaminiamo il meccanismo con cui agisce un tampone basico costituito dall’ammoniaca (NH ) e dal 3
+
+cloruro di ammonio (NH Cl). L’ammoniaca è una base debole poco dissociata, quindi l’equilibrio della 4
+
+reazione di dissociazione è spostato a sinistra:
+
+NH + H O
+
+NH + O
+
++
+
+H–
+
+3
+
+2
+
+4
+
+Il cloruro di ammonio è un elettrolita forte completamente dissociato, quindi l’equilibrio della reazione di dissociazione è completamente spostato a destra:
+
+NH Cl
+
+NH+ + Cl–
+
+4
+
+4
+
+Ora, sempre per il principio di Le Châtelier:
+
+• aggiungendo alla soluzione un acido, gli ioni H+ che si formano e che dovrebbero abbassare il valore del pH sono neutralizzati dagli ioni OH– provenienti dall’ammoniaca, formando acqua. Di conseguenza l’equilibrio della reazione si sposta a destra e il pH non varia;
+
+• aggiungendo alla soluzione una base, gli ioni OH– che si formano e che dovrebbero alzare il valore del pH sono neutralizzati dagli ioni NH provenienti dal sale per formare ammoniaca e acqua. Di 4
+
+conseguenza l’equilibrio della reazione si sposta a sinistra e il pH non varia.
+
+Il valore del pH del tampone non dipende dai singoli valori delle concentrazioni delle due soluzioni ma dal rapporto tra la concentrazione dell’acido o della base e quella del sale.
+
+Nessun tampone ha un potere tamponante illimitato. La capacità di un tampone è riferita alla quantità di acido o di base che può sopportare prima che il pH della soluzione cambi di un’unità. La capacità di un tampone dipende dalle reali concentrazioni del suo acido e della sua base coniugata.
+
+21
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+I sali
+
+Dalla reazione di un acido con una base si ottiene acqua e un altro composto denominato sale:
+
+
+
+base + acido
+
+
+
+sale
+
++ acqua
+
+per esempio:
+
+
+
+NaOH + HCl
+
+
+
+NaCl + H O
+
+2
+
+
+
+idrossido di sodio
+
++ acido cloridrico
+
+cloruro di sodio +
+
+H O
+
+2
+
+Nella formazione dei sali l’idrogeno dell’acido viene sostituito dal metallo. Se si parte da un acido po-liprotico, si possono naturalmente ottenere sali diversi a seconda del numero di atomi di idrogeno che il metallo va a sostituire.
+
+L’idrolisi salina
+
+I sali si comportano da elettroliti: in acqua essi si scindono in ioni originando degli anioni e dei cationi. Normalmente la dissociazione di sali neutri è quasi totale e il punto di equilibrio della reazione di dissociazione è quasi completamente spostato a destra:
+
+Na SO
+
+2Na+ + SO– –
+
+2
+
+4
+
+4
+
+L’energia chimica e le reazioni di ossido-riduzione
+
+La capacità di compiere un lavoro viene definita energia e può manifestarsi sotto diverse forme: termica, elettrica, chimica, meccanica, luminosa, nucleare ecc. Tutte queste forme si possono inter-convertire l’una nell’altra. Per esempio, accendendo il ferro da stiro, si trasforma l’energia elettrica in energia termica. In questo caso la convertibilità delle diverse forme di energia dipende dal fatto che esse sono accomunate da un unico principio di fondo: implicano tutte uno spostamento di elettroni.
+
+Per comprendere i modi e i meccanismi con cui avvengono le trasformazioni di energia all’interno dell’organismo animale, è utile considerare in particolare l’energia di tipo chimico e la sua trasformazione in energia termica.
+
+Ossidazione e riduzione. La trasformazione di energia chimica in calore avviene per trasferimento di elettroni da una specie chimica (atomo, composto, ione) a un’altra.
+
+Alcuni elementi, quali i metalli alcalini, tendono a stabilizzarsi perdendo i loro elettroni esterni. Così, per esempio, il sodio (Na) tende a scindersi in questo modo:
+
+Na
+
+Na+ + e–
+
+dove e– indica l’elettrone.
+
+Il protone e l’elettrone non possono esistere da soli per la loro altissima densità di carica e, di conseguenza, la reazione di ionizzazione del sodio avviene solo se è presente, contemporaneamente, un altro elemento in grado di acquistare l’elettrone che il sodio mette in libertà. Il cloro, per esempio, va benissimo, in quanto tende a reagire secondo lo schema:
+
+Cl + e–
+
+Cl–
+
+In pratica le due reazioni avvengono contemporaneamente e si può scrivere: Na + Cl
+
+Na+ + Cl–
+
+In una reazione di questo tipo, si dice che la specie chimica che cede uno o più elettroni si ossida (reazione di ossidazione), mentre la specie che acquista uno o più elettroni si riduce (reazione di riduzione). Per questo motivo le reazioni che avvengono con passaggio di elettroni da una specie chimica a un’altra si chiamano reazioni di ossido-riduzione.
+
+22
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+Non è necessario che il passaggio di elettroni comporti la loro cessione totale dall’una all’altra delle specie, può trattarsi infatti anche di una cessione parziale degli elettroni di legame, come avviene per esempio nell’acqua, dove essi sono attirati dall’ossigeno che li acquista parzialmente, staccandoli (parzialmente) dagli atomi di idrogeno (legame covalente).
+
+È importante però sottolineare che, perché una sostanza si ossidi, cedendo totalmente o parzialmente elettroni, è indispensabile la presenza contemporanea di un’altra sostanza che si riduca, acquistando gli stessi elettroni.
+
+Le reazioni di combustione
+
+Le reazioni di combustione sono quelle in cui intervengono due reagenti fondamentali:
+
+• il combustibile, ossia la sostanza “carica” dal punto di vista energetico;
+
+• il comburente, la sostanza che si appropria parzialmente dell’energia del combustibile.
+
+In pratica, le reazioni di combustione sono reazioni di ossido-riduzione in cui il comburente è l’ossigeno. In queste reazioni l’ossigeno acquista elettroni e si riduce, mentre gli atomi che con esso reagiscono si ossidano perdendo elettroni.
+
+Sono reazioni molto comuni in natura che avvengono, per esempio, quando si brucia della legna o del gas metano e di conseguenza si sviluppa calore molto intenso. I prodotti finali di queste combustioni sono anidride carbonica e acqua.
+
+Caratteristica di tutte le reazioni di combustione è quella di accompagnarsi a sviluppo di calore, di essere cioè reazioni esotermiche.
+
+Durante le reazioni di combustione si libera energia perché l’ossigeno, essendo tra gli atomi più piccoli, è in grado di formare legami molto forti con gli altri elementi.
+
+2H + O
+
+H
+
+O
+
+oppure
+
+H
+
+O
+
+Nella formazione della molecola d’acqua l’ossigeno reagisce con l’idro-
+
+geno formando legami molto forti e stabili sotto il profilo energetico.
+
+H
+
+H
+
+Studiando come la materia si trasforma e interagisce è risaputo che in natura quasi tutti gli elementi chimici tendono a legarsi per stabilizzarsi e raggiungere uno stato di “tranquillità” energetica (i loro legami hanno un contenuto minimo di energia). I legami chimici più deboli, invece, sono quelli più instabili e mostrano un “contenuto energetico” più alto. Per questo motivo, è corretto affermare che una molecola nella quale gli atomi sono legati con legami forti ha minor energia ed è più stabile di una molecola i cui atomi sono legati con legami deboli.
+
+In una reazione di combustione si ha la rottura di legami più deboli ad alta energia per formare legami particolarmente forti, a bassa energia, con l’ossigeno.
+
+energia
+
+CH + O
+
+CO + H O
+
+4
+
+2
+
+2
+
+2
+
+metano
+
+ossigeno
+
+anidride carbonica acqua
+
+Le molecole prodotte hanno perciò un’energia minore di quelle di partenza, ed è questa differenza di energia a liberarsi sotto forma di calore. La quantità di calore che si sviluppa nel corso di una reazione chimica si chiama “calore di reazione” (calore di combustione nel caso, appunto la reazione sia una combustione) e si scrive a destra, a fianco dei prodotti di reazione.
+
+23
+
+© 2015 Franco Lucisano Editore • L’Industria agroalimentare
+
+
+
+
+

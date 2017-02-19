@@ -1,0 +1,106 @@
+Matematica - proff.ri Ennio Zucchiatti, Massimo Testa
+
+Aritmetica
+Classificazione numeri-naturali, interi relativi, razionali, reali
+Proprietà delle potenze - potenze esponente negativo
+Operazioni coi numeri relativi - Operazioni con i numeri razionali - minimo comune multiplo m.c.m, massimo comune divisore M.C.D.
+Espressioni numeriche
+Potenze con esponente fratto – Esercizi
+Potenze e radicali – definizione – semplificazione di radicali, operazioni coi radicali, Razionalizzazione
+Potenze ad esponente reale. 
+
+Insiemi 
+definizione, scrittura, simboli -Inclusione, sottoinsiemi - Operazioni: unione, intersezione, differenza
+
+Cenni di statistica
+moda, mediana, media, percentuale, deviazione standard
+Tabelle, Diagrammi a torta, istogrammi
+Popolazione e campione. 
+Statistiche, Distribuzioni campionarie e stimatori. 
+Distribuzione di Poisson.
+
+Geometria
+Punto, retta, piano, angoli
+Figure piane : triangolo, quadrato, rettangolo, rombo, parallelogramma, trapezio
+Concetti di congruenza, equivalenza e similitudine
+Problemi di calcolo di aree e superfici
+Teoremi di Pitagora
+Primo teorema di Euclide
+Secondo teorema di Euclide
+
+
+Geometria cartesiana
+Piano cartesiano – rappresentazione di punti-coordinate
+Formule principali – distanza tra due punti-punto medio – distanza punto, retta
+Rappresentazione di equazioni con tabella – retta – problemi
+Intersezione tra rette
+Sistemi di equazioni lineari
+Grafici e derivate
+grafico di una funzione razionale fratta
+teorema di De L’Hospital
+Grafico di funzioni algebriche
+Grafico di funzioni trascendenti
+Lettura del grafico di una funzione
+Proprietà che caratterizzano un grafico: dominio, intervallo di positività, intervallo di crescenza, intersezioni con assi, punti di massimo o minimo, punti di flesso, comportamenti all’infinito.
+
+Algebra
+Monomi, polinomi, grado - Operazioni coi monomi e polinomi- grado-
+Espressioni letterali
+Prodotti notevoli-somma per differenza, potenze di binomi e polinomi- triangolo di Tartaglia
+Scomposizione in fattori-differenza di quadrati, potenze di binomi, Ruffini
+Eguaglianze ed equazioni-grado-Pricipi di equivalenza- risoluzione di equazioni di primo grado
+Logaritmi in base “e”.
+
+Calcolo di integrali indefiniti
+Primitiva e integrale indefinito
+integrali immediati;
+integrali delle funzioni razionali fratte con denominatore un monomio;
+integrali della funzione esponenziale;
+integrali delle funzioni goniometriche;
+integrali delle funzioni inverse circolari;
+integrali la cui primitiva è una funzione composta;
+integrali per sostituzione
+integrali per parti;
+integrali delle funzioni razionali fratte con denominatore un polinomio con delta >=0
+Conoscere il concetto di integrale definito
+legame con l'integrale indefinito (teorema di Leibniz-Newton)
+la simbologia
+il significato di misura di un segmento, di una superficie, di un volume
+Cenno al calcolo della lunghezza di un arco di curva e dell'area della superficie laterale di un solido di rotazione
+rappresentare grafici di funzioni per punti come: retta, parabola iperbole, esponenziali e logaritmi, sinusoide.
+Area di una parte di piano compresa tra una funzione positiva e l’asse delle x, area di una parte di piano compresa tra una funzione negativa e l’asse delle x, area di una parte di piano compresa tra una funzione in parte positiva e in parte negativa e l’asse delle x.
+Area di una parte di piano compresa tra due funzioni.
+Volumi dei solidi di rotazione.
+Integrali impropri con funzione non continua in un estremo dell’intervallo di integrazione o con l’intervallo di integrazione illimitato.
+Equazioni differenziali e applicazioni del calcolo integrale
+Equazioni differenziali del primo ordine e problema di Cauchy.
+Equazioni differenziali elementari.
+Equazioni differenziali a variabili separabili.
+Equazioni differenziali lineari del I ordine del tipo y’+a(x)y=b(x) omogenee e non.
+Equazioni differenziali del secondo ordine a coefficienti costanti omogenee.
+Saper risolvere semplici equazioni differenziali dei tipi trattati
+Saper risolvere qualche semplice problema con condizioni iniziali assegnate (problema di Cauchy)
+Saper applicare le equazioni differenziali a qualche esempio di elettrotecnica
+ 
+Analisi di Fourier delle funzioni periodiche. 
+Numeri complessi. 
+Derivate parziali e differenziale totale. 
+
+
+
+
+
+
+
+
+
+
+
+
+Utilizzare le coordinate logaritmiche. 
+Utilizzare le coordinate polari nel piano e nello spazio. 
+Operare con i numeri complessi. 
+Analizzare una rappresentazione grafica nello spazio. 
+Trattare semplici problemi di campionamento e  stima  e verifica 
+di ipotesi. 
+Realizzare strumenti di controllo per la qualità.

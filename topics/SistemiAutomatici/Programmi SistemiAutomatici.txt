@@ -1,0 +1,331 @@
+﻿CRACHI Gastone 3a
+
+Sistemi: classificazione e rappresentazione
+Sensori e trasduttori.
+Teoria dei sistemi lineari e stazionari.
+Algebra degli schemi a blocchi.
+Classificazione dei sistemi.
+Semplici automatismi.
+Sistemi ad anello aperto e ad anello chiuso.
+Lessico e terminologia tecnica di settore anche in lingua inglese.
+Descrivere un segnale nel dominio del tempo e della frequenza.
+Definire, rilevare e rappresentare la funzione di trasferimento di un sistema lineare e stazionario.
+Analizzare le funzioni e i componenti fondamentali di semplici sistemi elettrici ed elettronici.
+Distinguere i sistemi digitali da quelli analogici.
+Classificare i sistemi a seconda dei tipi di grandezze in gioco.
+Modellizzare sistemi e apparati tecnici.
+Utilizzare il lessico e la terminologia tecnica di settore anche in lingua inglese    
+
+Sistemi di numerazione e segnali
+Sistemi di numerazione.
+Tipologie di segnali.
+Programmare e gestire componenti e sistemi programmabili in contesti specifici.
+Utilizzare il lessico e la terminologia tecnica di settore anche in lingua inglese.
+Distinguere i sistemi digitali da quelli analogici.
+Classificare i sistemi a seconda dei tipi di grandezze in gioco.
+Modellizzare sistemi e apparati tecnici.
+
+Sistemi di controllo
+Sensori e trasduttori.
+Tipologie di segnali.
+Teoria dei sistemi lineari e stazionari.
+Algebra degli schemi a blocchi.
+Esempi di sistemi cablati e programmabili estratti dalla vita quotidiana.
+Classificazione dei sistemi.
+Semplici automatismi.
+Sistemi ad anello aperto e ad anello chiuso.
+Sistemi di controllo a logica cablata e a logica programmabile.
+Interfacciamento delle grandezze nei sistemi di controllo.
+Caratteristiche dei componenti del controllo automatico.
+Riferimenti tecnici e normativi.
+Lessico e terminologia tecnica di settore anche in lingua inglese.
+Manuali di istruzione.
+Esempi di sistemi cablati e programmabili estratti dalla vita quotidiana.
+Classificazione dei sistemi.
+Manualistica d’uso e di riferimento riguardante il settore elettrico, elettronico, meccanico, dei trasduttori e dei controlli.
+Riferimenti tecnici e normativi.
+Analizzare le funzioni e i componenti fondamentali di semplici sistemi elettrici ed elettronici.
+Distinguere i sistemi digitali da quelli analogici.
+Riconoscere le differenze fra sistemi cablati e sistemi programmabili.
+Classificare i sistemi a seconda dei tipi di grandezze in gioco.
+Modellizzare sistemi ed apparati tecnici.
+Progettare semplici sistemi di controllo.
+Selezionare ed utilizzare componenti, sensori ed attuatori in base alle caratteristiche tecniche e all’ottimizzazione funzionale del sistema di controllo.
+Utilizzare il lessico e la terminologia tecnica di settore anche in lingua inglese.
+Consultare i manuali di istruzione della strumentazione.
+Rappresentare ed elaborare i risultati utilizzando anche strumenti informatici
+Progettare semplici sistemi di controllo.
+Selezionare ed utilizzare componenti, sensori ed attuatori in base alle caratteristiche tecniche e all’ottimizzazione funzionale del sistema di controllo.
+
+Programmazione PLC Siemens
+Sistemi di numerazione.
+Algoritmi.
+Elementi di programmazione di base e strutture di controllo.
+Diagrammi di flusso.
+Programmazione dei PLC Siemens (linguaggi KOP).
+Software di simulazione PLC Siemens.
+Manuali di istruzione.
+Esempi di sistemi cablati e programmabili estratti dalla vita quotidiana.
+Semplici automatismi.
+Sistemi di controllo a logica cablata e a logica programmabile.
+Lessico e terminologia tecnica di settore anche in lingua inglese.
+Teoria dei sistemi lineari e stazionari.
+Algebra degli schemi a blocchi.
+Esempi di sistemi cablati e programmabili estratti dalla vita quotidiana.
+Caratteristiche dei componenti del controllo automatico.
+Elementi di programmazione e linguaggi.
+Metodi di rappresentazione e di documentazione.
+Programmare e gestire componenti e sistemi programmabili in contesti specifici.
+Realizzare semplici programmi relativi alla gestione di sistemi automatici.
+Sviluppare software per controlli automatici.
+Utilizzare il lessico e la terminologia tecnica di settore anche in lingua inglese.
+Realizzare semplici programmi relativi alla gestione di sistemi automatici.
+Distinguere i sistemi digitali da quelli analogici.
+Riconoscere le differenze fra sistemi cablati e sistemi programmabili.
+Classificare i sistemi a seconda dei tipi di grandezze in gioco.
+Consultare i manuali di istruzione della strumentazione.
+Progettare semplici sistemi di controllo.
+Descrivere il funzionamento dei sistemi a microprocessore.
+
+
+ZANIN LEONARDO 4a
+
+Hardware e software dei microprocessori e dei microcontrollori.
+Flip flop JK e D
+Registri di memoria
+Generalità sulle memorie
+Struttura della memoria
+Indirizzi e dati
+Dispositivi buffer
+Memorie ROM
+Architettura di base di un microcontrollore e di un microcontrollore
+Logica cablata e logica programmabile
+Elementi di un microcontrollore e di un microcontrollore
+Descrizione dei BUS
+Collegamento a BUS
+Tipi di BUS
+Come lavorano i bus
+Abilitazione al colloquio
+Conflitto di BUS
+Abilitazione dispositivi
+Decodifica indirizzi
+IO mappata in memoria
+Linguaggio macchina ed assembler
+Formato delle istruzioni in assembler
+Listato di un programma
+Linguaggio di basso livello ed alto livello
+Polling
+Interrupt
+Architettura CPU
+Registri e dispositivi CPU
+Fasi di fetch e di execute
+Interfacciamento microprocessori
+Porta di input
+Porta di output
+Interfacciamento microcontrollori
+Consultare i manuali di istruzione della strumentazione.
+Analizzare le funzioni e i componenti fondamentali di semplici sistemi elettrici ed elettronici.
+Utilizzare il lessico e la terminologia tecnica di settore anche in lingua inglese.
+Distinguere i sistemi digitali da quelli analogici.
+Riconoscere le differenze fra sistemi cablati e sistemi programmabili.
+Descrivere la struttura di un sistema a microprocessore o a microcontrollore.
+Descrivere il funzionamento dei sistemi a microprocessore o a microprocessore.
+Descrivere i software di programmazione di microcontrollori e microprocessori
+
+Elementi di base della scheda Arduino
+La scheda Arduino
+Architettura hardware della scheda
+Porte di ingresso ed uscita
+Elementi di base del software di programmazione Wiring
+Istruzioni di base di Wiring
+Collegamento di dispositivi agli ingressi ed alle uscite
+Esempi pratici applicativi
+Consultare i manuali di istruzione della strumentazione.
+Realizzare semplici programmi relativi all’acquisizione ed elaborazione dati.
+Analizzare le funzioni e i componenti fondamentali di semplici sistemi elettrici ed elettronici.
+Modellizzare sistemi ed apparati tecnici.
+Descrivere le caratteristiche dei trasduttori e dei componenti dei sistemi automatici.
+Individuare il tipo di trasduttore idoneo all’applicazione da realizzare.
+Selezionare ed utilizzare componenti, sensori ed attuatori in base alle caratteristiche tecniche e all’ottimizzazione funzionale del sistema di controllo.
+Utilizzare il lessico e la terminologia tecnica di settore anche in lingua inglese.
+Identificare le tipologie dei sistemi di controllo.
+Rappresentare semplici sistemi di automazione applicati ai processi tecnologici, descrivendone gli elementi che li costituiscono, in relazione alle funzioni, alle caratteristiche e ai principi di funzionamento.
+Analizzare sistemi di trasmissione dei segnali.
+Programmare e gestire componenti e sistemi programmabili in contesti specifici.
+Realizzare semplici programmi relativi alla gestione di sistemi automatici.
+Progettare sistemi di controllo on- off.
+Progettare semplici sistemi di controllo.
+Sviluppare software per controlli automatici.
+Distinguere i sistemi digitali da quelli analogici.
+Riconoscere le differenze fra sistemi cablati e sistemi programmabili.
+Descrivere la struttura di un sistema a microprocessore o a microcontrollore
+
+Controllori logici programmabili (PLC), HMI, pannelli operatore
+Hardware del PLC S7 300
+Strutture software in Step 7
+Programmazine con ingressi digitali ed analogici
+Simulatore software in ambiente Step 7
+Hardware del PLC S 7 1200
+Piattaforma Tia Portal
+Progettazione di interfacce uomo macchina
+Winccflexible
+Pannelli operatore
+Protocolli di comunicazione
+Esempi ed applicazioni software di bassa media complessità tipiche del settore dell’automazione industriale
+Consultare i manuali di istruzione della strumentazione.
+Rappresentare ed elaborare i risultati utilizzando anche strumenti informatici.
+Interpretare i risultati delle simulazioni.
+Individuare i tipi di trasduttori e scegliere le apparecchiature per l’analisi e il controllo.
+Realizzare semplici programmi relativi all’acquisizione ed elaborazione dati.
+Analizzare le funzioni e i componenti fondamentali di semplici sistemi elettrici ed elettronici.
+Modellizzare sistemi ed apparati tecnici.
+Attivare simulazioni software dei programmi realizzati.
+Progettare elementari sistemi di interfaccia uomo macchina.
+Selezionare ed utilizzare componenti, sensori ed attuatori in base alle caratteristiche tecniche e all’ottimizzazione funzionale del sistema di controllo.
+Utilizzare il lessico e la terminologia tecnica di settore anche in lingua inglese.
+Identificare le tipologie dei sistemi di controllo.
+Rappresentare semplici sistemi di automazione applicati ai processi tecnologici, descrivendone gli elementi che li costituiscono, in relazione alle funzioni, alle caratteristiche e ai principi di funzionamento.
+Analizzare sistemi di trasmissione dei segnali.
+Illustrare gli aspetti funzionali delle reti per lo scambio di informazioni.
+Programmare e gestire componenti e sistemi programmabili in contesti specifici.
+Realizzare semplici programmi relativi alla gestione di sistemi automatici.
+Realizzare semplici programmi relativi all’acquisizione ed elaborazione dati.
+Analizzare le funzioni e i componenti fondamentali di semplici sistemi elettrici ed elettronici.
+Progettare sistemi di controllo on-off.
+Progettare semplici sistemi di controllo.
+Sviluppare software per controlli automatici.
+Programmare e gestire componenti e sistemi programmabili in contesti specifici.
+Riconoscere le differenze fra sistemi cablati e sistemi programmabili.
+Descrivere il funzionamento dei sistemi a microprocessore e a microcontrollore.
+
+Trasformata ed antitrasformata di Laplace
+Trasformata di Laplace
+Antitrasformata di Laplace
+Funzioni di trasferimento e risposte dei sistemi
+Sistemi del primo ordine
+Sistemi del secondo ordine
+Schemi a blocchi
+Analizzare le funzioni e i componenti fondamentali di semplici sistemi elettrici ed elettronici.
+Utilizzare il lessico e la terminologia tecnica di settore anche in lingua inglese.
+Identificare le tipologie dei sistemi di controllo.
+Rappresentare semplici sistemi di automazione applicati ai processi tecnologici, descrivendone gli elementi che li costituiscono, in relazione alle funzioni, alle caratteristiche e ai principi di funzionamento.
+Analizzare le funzioni e i componenti fondamentali di semplici sistemi elettrici ed elettronici.
+Progettare semplici sistemi di controllo.
+Identificare le tipologie dei sistemi di controllo.
+Descrivere un segnale nel dominio del tempo e della frequenza.
+Definire, rilevare e rappresentare la funzione di trasferimento di un sistema lineare e stazionario.
+Utilizzare modelli matematici per la rappresentazione della funzione di trasferimento.
+Distinguere i sistemi digitali da quelli analogici.
+Classificare i sistemi a seconda dei tipi di grandezze in gioco.
+Modellizzare sistemi ed apparati tecnici.
+
+Studio dei sistemi nel dominio della frequenza
+Funzione di trasferimento
+La risposta in frequenza 
+Calcolo della f.d.t.
+Calcolo della risposta in frequenza
+Diagrammi di Bode del modulo e della fase
+Analizzare le funzioni e i componenti fondamentali di semplici sistemi elettrici ed elettronici.
+Utilizzare il lessico e la terminologia tecnica di settore anche in lingua inglese.
+Identificare le tipologie dei sistemi di controllo.
+Rappresentare semplici sistemi di automazione applicati ai processi tecnologici, descrivendone gli elementi che li costituiscono, in relazione alle funzioni, alle caratteristiche e ai principi di funzionamento.
+Analizzare le funzioni e i componenti fondamentali di semplici sistemi elettrici ed elettronici.
+Progettare semplici sistemi di controllo.
+Identificare le tipologie dei sistemi di controllo.
+Descrivere un segnale nel dominio del tempo e della frequenza.
+Definire, rilevare e rappresentare la funzione di trasferimento di un sistema lineare e stazionario.
+Utilizzare modelli matematici per la rappresentazione della funzione di trasferimento.
+Distinguere i sistemi digitali da quelli analogici.
+Classificare i sistemi a seconda dei tipi di grandezze in gioco.
+Modellizzare sistemi ed apparati tecnici.
+
+Trasduttori e sensori
+Trasduttori di temperatura
+Sensori di pressione
+Celle di carico
+Accoppiatori ottici
+Trasduttori di posizione
+Trasduttori di velocità
+Consultare i manuali di istruzione della strumentazione.
+Individuare i tipi di trasduttori e scegliere le apparecchiature per l’analisi e il controllo.
+Descrivere le caratteristiche dei trasduttori e dei componenti dei sistemi automatici.
+Individuare il tipo di trasduttore idoneo all’applicazione da realizzare.
+Selezionare ed utilizzare componenti, sensori ed attuatori in base alle caratteristiche tecniche e all’ottimizzazione funzionale del sistema di controllo.
+Utilizzare il lessico e la terminologia tecnica di settore anche in lingua inglese.
+
+Robotica
+Caratteristiche tecnologiche e di funzionamento del robot antropomorfo Mitsubishi
+Software Melfa Basic IV
+Istruzioni di base di Melfa Basic IV
+Esempi di programmi per la movimentazione del braccio robotico
+Spostamento di oggetti tramite il braccio robotico
+Consultare i manuali di istruzione della strumentazione.
+Rappresentare ed elaborare i risultati utilizzando anche strumenti informatici.
+Interpretare i risultati delle simulazioni.
+Individuare i tipi di trasduttori e scegliere le apparecchiature per l’analisi e il controllo.
+Realizzare semplici programmi relativi all’acquisizione ed elaborazione dati.
+Analizzare le funzioni e i componenti fondamentali di semplici sistemi elettrici ed elettronici.
+Descrivere le caratteristiche dei trasduttori e dei componenti dei sistemi automatici.
+Utilizzare il lessico e la terminologia tecnica di settore anche in lingua inglese.
+Rappresentare semplici sistemi di automazione applicati ai processi tecnologici, descrivendone gli elementi che li costituiscono, in relazione alle funzioni, alle caratteristiche e ai principi di funzionamento.
+Analizzare sistemi di trasmissione dei segnali.
+Programmare e gestire il robot Mitsubishi.
+Realizzare semplici programmi relativi alla gestione di sistemi automatici con robot antropomorfo.
+Progettare semplici sistemi di controllo.
+Sviluppare software per controlli automatici.
+Realizzare semplici programmi relativi alla gestione di sistemi automatici.
+Distinguere i sistemi digitali da quelli analogici.
+Riconoscere le differenze fra sistemi cablati e sistemi programmabili.
+
+Paolo Alberto PICH 5a
+
+Analisi dei sistemi in regime transitorio
+Premesse matematiche
+La trasformata di Laplace
+Proprietà della L-trasformata
+Tecniche di antitrasformazione
+Uso della trasformata di Laplace nell’analisi dei circuiti elettrici
+Saper analizzare i circuiti in regime variabile
+adottare il metodo di risoluzione più opportuno
+
+Il Controllore logico programmabile (PLC)
+Programmazione dei PLC Siemens (linguaggi KOP e SCL).
+Programmazione e gestione dell’interfaccia uomo-macchina con software Siemens WINCC Flexible.
+Piattaforma software Siemens TIA Portal.
+Sistemi di controllo di velocità.
+Gestione di schede di acquisizione dati.
+Servomeccanismi e servomotori.
+Azionamenti industriali con inverter e PLC.
+Realizzare programmi per l’automazione di sistemi più o meno complessi
+Realizzare automazioni di semplici processi industriali partendo dall’analisi del problema e pervenendo alla soluzione finale
+
+La Funzione di Trasferimento
+Definizione e proprietà
+Metodi di rappresentazione: diagrammi di Bode
+Dall’analisi dei sistemi, saper determinare la relazione ingresso/uscita
+
+Sistemi del primo e secondo ordine
+Sistemi del primo ordine
+Sistemi del secondo ordine
+Esempio significativi di sistemi del primo e del secondo ordine
+Saper analizzare e risolvere semplici sistemi a uno o due poli, sia per quanto riguarda la loro
+funzione di trasferimento che la risposta temporale
+
+Sistemi di controllo analogici
+Comportamento a regime in risposta a segnali tipici
+Errori e disturbi
+Stabilità
+Metodi di compensazione
+Regolatori standard
+analizzare controlli analogici più o meno complessi
+saper progettare semplici sistemi di controllo analogici
+
+Sistemi di controllo digitale
+Processo di conversione A/D
+Campionamento
+Convertitori D/A
+Convertitori A/D
+Circuiti di sample-hold
+saper analizzare controlli digitali più o meno complessi
+saper progettare semplici controlli digitali
+

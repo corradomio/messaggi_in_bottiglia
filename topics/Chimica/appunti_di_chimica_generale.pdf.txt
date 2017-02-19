@@ -1,0 +1,1964 @@
+APPUNTI DI CHIMICA GENERALE
+
+
+
+
+
+La Chimica
+
+
+
+
+L’oggetto di studio della chimica è la materia (tutto ciò che ha una massa e occupa uno spazio).
+
+In particolare è una scienza che studia:
+
+• la struttura e la composizione della materia;
+
+• le trasformazioni che la materia subisce;
+
+• l’energia coinvolta in queste trasformazioni.
+
+
+
+La Chimica si divide in:
+
+• chimica generale: studia la struttura dell’atomo e del legame chimico;
+
+• chimica inorganica: studia sistematicamente tutti gli elementi chimici;
+
+• chimica organica: è la chimica dei derivati del carbonio;
+
+• chimica analitica: studia i metodi per individuare i singoli componenti di una miscela o di un composto e per determinarne le relative quantità;
+
+• chimica-fisica: studia da un punto di vista fisico alcuni aspetti della chimica generale quali la atomistica, termochimica, radioattività.
+
+
+
+
+
+La materia
+
+
+
+
+La materia: tutto ciò che ha massa e dimensioni.
+
+Stati della materia:
+
+GAS : riempie il recipiente nel quale si trova (è composto da particelle in moto veloce e disordinato con interazioni debolissime);
+
+LIQUIDO : possiede una superficie ben definita e (soggetto ad un campo gravitazionale) tende ad occupare la parte inferiore del recipiente (è composto da particelle a contatto, ma in grado di muoversi);
+
+SOLIDO : ha forma è propria (le particelle sono a contatto e oscillano intorno ad una posizione media; si hanno interazioni forti;
+
+PLASMA : è lo stato della materia più diffuso nell’universo (è composto da elettroni e nuclei).
+
+
+
+
+
+Sostanze pure e miscugli
+
+
+Per sostanza si indica un materiale puro e può essere un elemento o un composto. Se è un elemento, tutti i suoi atomi sono dello stesso tipo. Se è un composto è costituita dagli atomi degli elementi specifici legati tra loro in rapporti definiti. (come l'acqua, il cloruro di sodio, o il benzene - un composto di carbonio e idrogeno).
+
+Per eseguire una analisi chimica bisogna determinare se il campione in esame è una sostanza pura (un elemento o un composto) oppure è costituito da un miscuglio o (miscela): un insieme di differenti sostanze.
+
+Un miscuglio presenta una combinazione delle proprietà fisiche dei suoi componenti, mentre le proprietà di un composto sono nettamente differenti da quelle dei suoi elementi costitutivi. I componenti di un miscuglio possono essere separati in base alle loro differenti proprietà fisiche.
+
+
+
+
+
+sostanza pura: qualità di materia composta da molecole tutte uguali tra loro (es. H2O) elemento: sostanza pura composta da molecole contenenti atomi tutti uguali tra loro (es. O2); molecola: la più piccola parte di sostanza pura che conserva ancora tutte le proprietà chimiche della sostanza stessa;
+
+fase: porzione di materia con identiche proprietà chimiche e fisiche
+
+
+
+MATERIA
+
+Trasformazion
+
+m
+
+i
+
+i
+
+Sost
+
+Sos anza pura
+
+t
+
+fisiche
+
+fisich
+
+Misc
+
+
+
+
+
+Mis ela
+
+
+(1 fase)
+
+elemento
+
+composto
+
+omogenea
+
+omogene
+
+eterogenea
+
+(1 fase)
+
+(più f
+
+(p
+
+a
+
+iù f si)
+
+si
+
+Reazioni chim
+
+z
+
+iche
+
+Trasformaz
+
+m ioni
+
+
+
+
+
+fisiche
+
+
+Atomici: He, Fe, Na
+
+Molecolari: H2O, CH
+
+
+
+
+
+2
+
+
+4,
+
+
+
+
+
+4
+
+
+Molecolari: H2, Cl
+
+2, C 2
+
+l , P
+
+2
+
+
+
+
+
+4
+
+
+Ionici :
+
+
+N
+
+
+: aC
+
+
+a l, K
+
+l
+
+
+
+
+
+N
+
+
+, K O
+
+4
+
+3
+
+
+
+
+
+O
+
+
+La scelta del metodo per separare una miscela dipende dallo stato fisico dei componenti e dalle loro proprietà chimiche e fisiche.
+
+Filtrazione: separazione di una miscela eterogenea costituita da un liquido e un solido sfruttando la diversa dimensione delle particelle
+
+Centrifugazione: permette di separare i componenti di una miscela eterogenea sfruttando la diversa densità e la forza centrifuga
+
+Distillazione: sfrutta la diversa temperatura di ebollizione
+
+• semplice : quando si separa un liquido da un solido;
+
+• frazionata: quando si separa un liquido da una soluzione di due o più liquidi Estrazione con solventi: permette di separare i componenti di una miscela eterogenea sfruttando la diversa solubilità in un solvente.
+
+Cromatografia: permette di separare i componenti di una miscela eterogenea sfruttando la diversa velocità su un supporto sotto la spinta di un solvente.
+
+
+
+
+
+Teoria atomica di DALTON (1803)
+
+• la materia è costituita da atomi che sono indivisibili e indistruttibili;
+
+• tutti gli atomi di un elemento sono identici;
+
+• atomi di elementi differenti hanno pesi e proprietà differenti;
+
+• quando più atomi si combinano si formano composti;
+
+• in un dato composto il numero relativo degli elementi è costante.
+
+
+
+LEGGE di CONSERVAZIONE della MASSA - Lavoisier (1783)
+
+Durante una reazione chimica o una trasformazione fisica non si osserva nessuna variazione della quantità di materia.
+
+
+
+LEGGE delle PROPORZIONI DEFINITE - Proust (1799)
+
+Campioni diversi di qualsiasi composto puro contengono gli stessi elementi nelle identiche percentuali.
+
+
+
+Struttura dell’atomo.
+
+L’atomo è la più piccola particella di materia che si possa ottenere per mezzo di un processo chimico (chimicamente indivisibile). Le particelle che lo compongono, se isolate, non hanno la possibilità di esistenza indipendente.
+
+Al centro dell’atomo c’è il nucleo (circa 104 volte più piccolo del diametro dell’atomo). Il nucleo è formato da due tipi di particelle (nucleoni): i protoni (carica positiva) ed i neutroni (nessuna carica).
+
+Attorno al nucleo ruotano, a grandissima distanza e velocità (circa 1/100 della velocità della luce), gli elettroni: piccole particelle aventi carica negativa e massa circa 103 più piccola dei nucleoni. L’atomo è elettricamente neutro.
+
+
+
+Particella
+
+
+
+Massa
+
+
+
+Massa
+
+relativa
+
+Carica Carica
+
+relativa
+
+
+
+PROTONE
+
+1,67252 10-24 g 1
+
++ 1,602 10-19 Coulomb +1
+
+ELETTRONE
+
+9,1091 10-28 g 0
+
+- 1,602 10-19 Coulomb -1
+
+NEUTRONE
+
+1,66043 10-24g 1
+
+0 0
+
+
+
+La differenza tra atomi diversi sta nel diverso numero di protoni e di neutroni.
+
+
+
+Z = numero di protoni (e quindi di elettroni) NUMERO ATOMICO
+
+A = protoni + neutroni NUMERO DI MASSA
+
+A - Z = numero di neutroni
+
+A
+
+Un atomo individuato da queste due grandezze (A e Z) si chiama nuclide: ZX
+
+Le proprietà chimiche dell’atomo sono legate al numero Z. Ordinando gli elementi secondo Z
+
+crescente (sistema periodico degli elementi) si osserva una periodicità di alcune importanti caratteristiche chimico-fisiche. Le proprietà chimiche sono determinate dagli elettroni più esterni (elettroni di valenza).
+
+
+
+
+
+Isotopi
+
+
+Gli isotopi sono atomi che hanno lo stesso numero atomico Z (numero di protoni) ma masse atomiche (A) diverse. Un isotopo viene indicato: neon-20, neon-21 e neon-22: 20Ne, 21Ne e 22Ne.
+
+In natura un elemento può essere presente con isotopi in diverse percentuali (percentuali isotopiche).
+
+
+
+
+
+Sistema periodico degli elementi
+
+
+Se si ordinano gli elementi secondo Z (= n° protoni) crescente, si osserva una periodicità delle proprietà chimiche. Gli elementi di una riga orizzontale formano i periodi, quelli incolonnati verticalmente costituiscono i gruppi. I gas nobili (gruppo VIIIA) hanno una eccezionale stabilità e inerzia chimica. Essi segnano il confine tra un periodo e il successivo.
+
+In relazione alle loro proprietà chimiche, gli elementi sono genericamente classificati in:
+
+- gas nobili (He, Ne, Ar, Kr, Xe,
+
+Rn): massima inerzia chimica
+
+
+
+- non-metalli (C, N, O, F, P, S, Cl,
+
+Se, Br, I): I non-metalli sono non
+
+malleabili, non splendenti, cattivi
+
+conduttori, e formano molecole
+
+pluriatomiche (N2, O2, Cl2,S8,
+
+ecc.), fragili se solidi, ma spesso
+
+gassosi. Hanno una grande
+
+tendenza ad attirare gli elettroni di
+
+legame quando si legano con atomi
+
+di metalli. I non-metalli con
+
+l’ossigeno formano le anidridi (es.
+
+anidride carbonica CO2), che
+
+sciolte in acqua formano gli
+
+ossiacidi (es. acido carbonico
+
+H2CO3), liberando ioni H3O+.
+
+- semi-metalli o elementi di transizione (B, Si, Ge, As, Sb, Te, Po, At): proprietà intermedie tra metalli e non-metalli. I semi-metalli hanno caratteristiche intermedie tra metalli e non-metalli.
+
+- metalli (tutti gli altri elementi): tendono a perdere elettroni. I metalli hanno caratteristiche fisico-chimiche comuni: lucentezza, compattezza, elevata conducibilità elettrica e termica e malleabilità. Sono la maggioranza degli elementi. I metalli combinandosi con l’ossigeno formano gli ossidi (es. ossido di sodio Na2O), che sciolti in acqua danno gli idrossidi (o basi) (es. idrossido di sodio NaOH), liberando OH- . I metalli combinandosi con l’idrogeno danno gli idruri (es. idruro di litio LiH), mentre i non-metalli danno idracidi (es. acido cloridrico HCl) Idrossidi + acidi →sale + acqua.
+
+
+
+Unità di massa atomica e peso atomico.
+
+
+
+Le masse atomiche sono tutte comprese tra 10-24 e 10-22 g.
+
+Le masse atomiche sono espresse in “unità di massa atomica” o Dalton (u.m.a. o DALTON): Una unità di massa atomica è 1/12 della massa di un atomo di carbonio-12.
+
+
+
+un atomo 12C =12 uma Æ 1 uma = 1.66 x 10-24 g Esempi: idrogeno 1 uma; ossigeno 16 uma; sodio 23 uma; cloro 35 uma.
+
+
+
+La massa atomica (detta spesso impropriamente peso atomico) rappresenta la massa media delle specie atomiche degli atomi che costituiscono l’elemento stesso e che si trovano sempre presenti in determinate % nell’elemento presente in natura.
+
+
+
+Massa protone: 1.00757 uma (circa 1)
+
+Massa neutrone: 1.00893 uma (circa 1)
+
+Massa elettrone: 0.000548 uma (circa zero)
+
+
+
+La somma delle masse atomiche degli atomi che formano la molecola è la massa molecolare.
+
+Esempi: H2O 18 uma; NaCl 58 uma.
+
+
+
+Il grammo-atomo (mole) è il peso atomico espresso in g (12 g per il carbonio); la grammo-molecola (mole) è il peso molecolare espresso in g (18 g per l’acqua). In un grammo-atomo e in una grammo-molecola è contenuto lo stesso numero di atomi o di molecole cioè il numero di Avogadro NA(6.023x1023)
+
+
+
+1 particella (atomo/molecola) → peso in uma → stesso peso in g → NA particelle Mole = peso atomico o molecolare espresso in g; contiene 6.023x1023 atomi/molecole La spettrometria di massa. Le masse degli atomi vengono oggi misurate con lo spettrometro di massa. Nella camera di ionizzazione dello spettrometro vengono iniettati atomi o molecole dell'elemento vengono poi esposti ad un fascio di elettroni ad alta velocità. Quando uno di questi elettroni collide con un atomo, riesce ad estrarre uno o più elettrone dall'atomo, lasciandovi un eccesso di carica positiva e formando così uno “ione” positivo. I fasci di ioni ottenuti vengono selezionati da campi elettrici e magnetici; la misura della deviazione di tali fasci e della loro intensità permette la determinazione della massa atomica dell’elemento.
+
+
+
+Energia nucleare e difetto di massa nei nuclei
+
+
+
+La somma delle masse delle particelle che costituiscono un atomo è maggiore della effettiva massa dell’atomo stesso. Il difetto di massa rappresenta l’energia liberata nel processo di formazione dell’atomo dalle singole particelle.
+
+
+
+ΔE = Δmc2 dove c= 3 x108m/s (velocità della luce)
+
+
+
+Esempio : energia in un nucleo di elio: Δm = (1.0073+1.0087)x2 uma - 4.0026 uma
+
+= 0.029uma x 1.66054 x10-24 g = 4.88x10-25 g
+
+ΔE = Δm x (3 x108)2ms-1 ≈ 4.4 x10-12 J
+
+1 mole di nuclei di He : ΔE x NA ≈ 2.7 x 1012 J/mol
+
+dalla combustione di 1 mole di gas naturale ≈ 8 x 105 J/mol
+
+
+
+
+
+Ioni e composti
+
+
+
+
+Sciogliendo del sale nell'acqua, gli ioni di sodio e di cloro trasportano la corrente elettrica e la soluzione diviene un conduttore discretamente buono.
+
+Una soluzione di un composto ionico, come il cloruro di sodio, è un esempio di soluzione elettrolitica.
+
+Un catione è uno ione con carica positiva. Un anione è uno ione con carica negativa.
+
+
+
+
+
+Ioni poliatomici: un gruppo di atomi legati tra loro con una carica complessiva positiva o negativa. Un composto ionico è rappresentato da una formula chimica che indica il numero relativo di atomi di ciascun elemento nel composto.
+
+La formula di un composto ionico si può prevedere:
+
+• sapendo che è elettricamente neutro
+
+• conoscendo le cariche dei singoli ioni che lo compongono,
+
+Esempi : Na+ Cl- Æ NaCl, Na+ C0 2-
+
++
+
+2-
+
+3 Æ Na2C03, NH4 SO4 Æ (NH4)2S04.
+
+Un' unità formula è un gruppo di ioni che coincide con la formula del composto. Il peso formula (PF) di un composto ionico è la massa di una unità formula.
+
+
+
+FORMULA MINIMA: esprime la composizione di una sostanza pura.
+
+FORMULA MOLECOLARE:esprime quanti atomi di ciascun tipo sono presenti nella molecola.
+
+FORMULA di STRUTTURA : mostra come gli atomi sono legati fra loro nello spazio.
+
+
+
+
+
+NOMENCLATURA
+
+
+Allo scopo di dare una sequenza logica alla determinazione dei nomi dei composti inorganici consideriamo che formalmente tutti i composti possono essere fatti derivare dagli elementi per successive reazioni come indicato nello schema successivo che permette la realizzazione di un qualunque sale a partire dagli elementi.
+
+
+
+Metallo + Ossigeno → Ossido
+
+Non Metallo + Ossigeno → Anidride
+
+Ossido + Acqua → Idrossido
+
+Anidride + Acqua → Acido
+
+Idrossido + Acido → Sale+Acqua
+
+
+
+OSSIDI, PEROSSIDI e ANIDRIDI
+
+Gli elementi possono essere catalogati in quattro grandi categorie:
+
+1. Metalli
+
+2. Non metalli
+
+3. Elementi di transizione
+
+4. Gas nobili
+
+Ad esclusione dei gas nobili e del fluoro tutti gli elementi possono dare luogo a composti binari con l'ossigeno. Tuttavia i composti con l’ossigeno possono essere molto diversi dal punto di vista chimico a seconda che essi contengano un metallo o un non metallo. Prendono il nome di OSSIDI (ossidi basici) tutti i composti formati esclusivamente da un metallo con l'ossigeno. Il nome completo del composto si può formare in vari modi:
+
+1. Il metallo presenta un solo stato di ossidazione (una sola valenza possibile) il composto prende il nome di “OSSIDO DI” seguito dal nome del metallo ad esempio: Na2O Ossido di Sodio; CaO Ossido di Calcio; K2O Ossido di Potassio; MgO Ossido di Magnesio; Al2O3 Ossido di Alluminio; ZnO Ossido di Zinco
+
+2. Il metallo presenta due stati di ossidazione; in questo caso il nome del composto si ottiene posponendo alla parola ossido un aggettivo ottenuto dal nome dei metallo a cui è stata tolta la lettera finale o che viene sostituita con la desinenza -oso se ci si riferisce all'ossido con il metallo nello stato di ossidazione minore e -ico se ci si riferisce all'ossido con il metallo nello stato dì ossidazione più elevato.
+
+Ad esempio: Ferro: stati di ossidazione possibili +2 e +3
+
+FeO stato di ossidazione =+2 Ossido Ferroso
+
+Fe2O3 stato di ossidazione =+3 Ossido Ferrico
+
+Stagno stati di ossidazione possibili +2 e +4
+
+SnO stato di ossidazione =+2 Ossido Stannoso
+
+SnO2 stato di ossidazione =+4 Ossido Stannico
+
+
+
+Prendono il nome di PEROSSIDI tutti i composti in cui l'ossigeno si presenta con numero di ossidazione -1 (in tutti gli altri composti il numero di ossidazione dell’ossigeno è –2) legato ad un metallo o all'idrogeno; il nome di questi composti si ottiene facendo seguire al sostantivo perossido il nome del metallo con cui l'ossigeno è combinato.
+
+Esempi:
+
+Sodio: Na2O2 Perossido di Sodio
+
+Idrogeno: H2O2 Perossido di Idrogeno (acqua ossigenata)
+
+
+
+Prendono il nome di ANIDRIDI (ossidi acidi) tutti i composti che derivano formalmente dalla reazione tra un non metallo e l’ossigeno. Il nome di questi composti si forma come per gli ossidi dal nome del non metallo che li origina con qualche lieve differenza. Se il non metallo possiede un solo stato di valenza possibile il nome si ottiene posponendo alla parola anidride un aggettivo ottenuto togliendo l'ultima lettera dal nome del non metallo ed aggiungendo la desinenza -ico .
+
+Ad esempio:
+
+Boro:stato di ossidazione possibile +3
+
+B2O3 Anidride Borica
+
+Se il non metallo possiede due stati di ossidazione in corrispondenza dei quali da luogo alla formazione di anidridi il nome si ottiene con le stesse modalità viste per gli ossidi.
+
+Ad esempio:
+
+Zolfo : stati di ossidazione +4 e +6
+
+SO2 stato di ossidazione =+4 Anidride Solforosa
+
+SO3 stato di ossidazione =+6 Anidride Solforica
+
+Azoto : stati di ossidazione +3 e +5
+
+N2O3 stato di ossidazione =+3 Anidride Nitrosa
+
+N2O5 stato di ossidazione =+5 Anidride Nitrica
+
+Fosforo : stati di ossidazione possibili +3 e +5
+
+P2O3 stato di ossidazione =+3 Anidride Fosforosa
+
+P2O5 stato di ossidazione =+5 Anidride Fosforica
+
+
+
+Il non metallo possiede più stati di ossidazione in corrispondenza dei quali da luogo alla formazione di anidridi. E’ questo il caso più complesso per la formazione del nome del composto che si ottiene seguendo le seguenti regole:
+
+- il composto ottenuto facendo ricorso al più basso stato di ossidazione prende il nome di anidride seguito da un aggettivo formato a partire dal nome del non metallo preceduto dal prefisso ipo- e terminante con la desinenza -osa previa eliminazione dell'ultima o.
+
+- Il composto ottenuto facendo ricorso al primo stato di ossidazione intermedio prende il nome anidride seguito da un aggettivo formato sostituendo la lettera finale o del non metallo con la desinenza –osa
+
+- il composto ottenuto facendo ricorso al secondo stato di ossidazione intermedio prende il nome di anidride seguito da un aggettivo formato sostituendo la lettera finale o del nome del non metallo con la desinenza –ica
+
+- il composto ottenuto facendo ricorso al più elevato stato di ossidazione prende il nome di anidride seguito da un aggettivo formato a partire dal nome del non metallo preceduto dal prefisso per- e terminante con la desinenza -ica previa eliminazione dell'ultima o Ad esempio: cloro stati di ossidazione possibili +1,+3,+5,+7
+
+Cl2O stato di ossidazione =+1 Anidride Ipoclorosa
+
+CI2O3 stato di ossidazione =+3 Anidride Clorosa
+
+Cl2O5 stato di ossidazione =+5 Anidride Clorosa
+
+Cl2O7 stato di ossidazione =+7 Anidride Perclorica
+
+
+
+
+
+IDROSSIDI E ACIDI
+
+
+Prendono il nome di IDROSSIDI tutti quei prodotti chimici che si possono ottenere dalla reazione formale tra una molecola di ossido e una o più molecole d'acqua.
+
+La nomenclatura degli idrossidi (detti anche idrati) ricalca quella degli ossidi sostituendo il termine ossido con la parola idrossido.
+
+Esempi :
+
+Na2O+ H2O → 2NaOH Idrossido di Sodio
+
+K2O + H2O → 2 KOH Idrossido di Potassio
+
+Al2O3+ 3H2O → 2 Al(OH)3 Idrossido di Alluminio
+
+FeO + H2O → Fe(OH)2 Idrossido Ferroso
+
+Fe2O3+ 3H2O →2 Fe(OH)3 Idrossido Ferrico
+
+SnO + H2O → Sn(OH)2 Idrossido Stannoso
+
+SnO2+ 2H2O → Sn(OH)4 Idrossido Stannico
+
+
+
+Prendono il nome di OSSIACIDI tutti quei composti che formalmente possono essere derivati dalla reazione di una molecola di anidride e una molecola di acqua. La nomenclatura degli ossiacidi si ottiene da quella delle anidridi per sostituzione della parola anidride con la parola acido e conseguentemente cambiando genere all'aggettivo che segue. Esempi : SO2 + H2O → H2SO3 Acido Solforoso
+
+SO3 + H2O → H2SO4 Acido Solforico
+
+N2O3 + H2O → 2HNO2 Acido Nitroso
+
+N2O5 + H2O → 2HNO3 Acido Nitrico
+
+CI2O + H2O → 2HCIO Acido Ipocloroso
+
+Cl2O3 + H2O → 2HClO2 Acido Cloroso
+
+Cl2O5 + H2O → 2HClO3 Acido Clorico
+
+Cl2O7 + H2O → 2HClO4 Acido Perclorico
+
+Esistono alcune anidridi che è possibile far reagire con più di una molecola d'acqua ottenendo cosi' diversi acidi il cui nome deriva sempre dal nome dell’anidride a cui si mette il prefisso: META- se la reazione prevede una molecola di acqua per una di anidríde PIRO- se la reazione prevede due molecole di acqua per una di anidride ORTO- se la reazione prevede tre molecole di acqua per una di anidride Ad esempio:
+
+P2O5+1 H2O------>2HPO3 acido metafosforico
+
+P2O5+2 H2O------>H4P2O7 acido pirofosforico
+
+P2O5+3 H2O------>2H3PO4 acido ortofosforico
+
+
+
+Prendono il nome di IDRACIDI alcuni composti che si ottengono per reazione di alcuni non metalli con l’idrogeno; la loro nomenclatura deriva dal nome del non metallo a cui viene sostituita la lettera o finale con la desinenza -idrico.
+
+Ad esempio:
+
+HF Acido Fluoridrico
+
+HCI Acido Cloridrico
+
+HBr Acido Bromidrico
+
+HI Acido Iodidrico
+
+H2S Acido Solfidrico
+
+
+
+
+
+IONI DEGLI ACIDI
+
+
+Gli acidi possono dar luogo alla formazione di ioni (anioni) aventi una o più cariche negative.
+
+La nomenclatura di questi anioni si ottiene a partire dal nome dell’acido sostituendo la desinenza -oso con la desinenza -ito ,la desinenza -ico con la desinenza -ato e la desinenza
+
+idrico con la desinenza -uro.
+
+Esempi:
+
+HNO3 Acido Nitrico NO3- Ione Nitrato
+
+H
+
+2-
+
+2SO4 Acido Solforico SO4 Ione Solfato
+
+H
+
+2-
+
+2SO3 Acido Solforoso SO3 Ione Solfito
+
+HCI Acido Cloridrico Cl- Ione Cloruro
+
+HClO
+
+-
+
+4 Acido Perclorico ClO4 Ione Perclorato
+
+
+
+
+
+IONI DEI METALLI
+
+
+Anche i metalli possono dare luogo alla formazione di ioni in conseguenza della perdita di uno o più elettroni. In questo caso il nome del corrispondente ione (catione) si ottiene esattamente come nel caso degli ossidi.
+
+
+
+Esempi:
+
+Ca Calcio Ca2+ Ione Calcio Fe(II) Ferro Fe2+ Ione Ferroso Fe(III) Ferro Fe3+ Ione Ferrico Al Alluminio Al3+ Ione Alluminio Sn(II) Stagno Sn2+ Ione Stannoso Sn(IV) Stagno Sn4+ Ione Stannico
+
+
+
+
+
+SALI
+
+
+Formalmente tutti i sali si possono far derivare dalla reazione di un acido con un idrossido con la formazione di un sale e acqua. Sebbene questa reazione non sia sempre possibile tuttavia ci permette di ottenere facilmente la formula del sale e di formarne il nome con semplicità.
+
+Il nome di un sale si ottiene unendo il nome dello ione metallico con il nome dell'anione dell'acido che lo compongono.
+
+Esempi:
+
+Na2SO4 Solfato di Sodio
+
+NaCl Cloruro di Sodio
+
+FeSO4 Solfato Ferroso
+
+Fe2(SO4)3 Solfato Ferrico
+
+Al2(SO4)3 Solfato di Alluminio
+
+Mg(ClO4)2 Perclorato di magnesio
+
+Ca2P2O7 Pirofosfato di Calcio
+
+Na3PO4 Ortofosfato di Sodio
+
+
+
+
+
+SALI ACIDI E SALI BASICI
+
+
+
+
+Talvolta accade che non tutti gli atomi di idrogeno di un acido vengano completamente salificati nella formazione di un sale si dice allora che il sale è un SALE ACIDO. La nomenclatura di questi composti deve naturalmente indicare la natura del sale e il numero di idrogenioni che non sono stati sostituiti ; si procede come segue. Stabilito il nome del sale secondo le regole precedentemente descritte si interpone tra il termine derivante dall’acido e il termine derivante dall'idrossido una parola che indica il numero di idrogenioni non utilizzati secondo il seguente schema: Un idrogenione libero: Monoacido
+
+Due idrogenioni liberi: Biacido
+
+
+
+Tre idrogenioni liberi: Triacido
+
+
+
+Esempi :
+
+H2CO3 Acido Carbonico
+
+Na2CO3 Carbonato di Sodio
+
+NaHCO3 Carbonato Monoacido di Sodio (Bicarbonato di Sodio)
+
+H3PO4 Acido Ortofosforico
+
+Na3PO4 Ortofosfato di Sodio
+
+NaH2PO4 Ortofosfato Biacido di Sodio
+
+Na2HPO4 Ortofosfato Monoacido di Sodio
+
+H2SO4 Acido Solforico
+
+K2SO4 Solfato di Potassio
+
+KHSO4 Solfato Monoacido di Potassio (Bisolfato di Potassio)
+
+
+
+
+
+IDRURI
+
+
+Si definiscono IDRURI tutti i composti tra un metallo e l’idrogeno; la nomenclatura di tali composti si ottiene facendo seguire al nome idruro il nome del metallo da cui deriva.
+
+Esempi:
+
+Sodio: NaH Idruro di Sodio
+
+Litio LiH Idruro di Litio
+
+Alluminio e Litio : LiAlH4 Idruro di Litio e Alluminio
+
+
+
+
+
+Alcuni composti comuni
+
+
+
+
+
+Struttura elettronica: come sono disposti gli elettroni intorno al nucleo?
+
+
+
+Gli elettroni hanno si comportano come particelle e come onde. La loro energia quando sono legati ad un nucleo è quantizzata (discreta).
+
+La luce è formata da onde elettromagnetiche che possono essere descritte come un fascio di particelle, dette fotoni, di energia hν, dove h è la costante di Plank e ν è la frequenza dell’onda.
+
+
+
+
+
+MODELLO di BOHR (1913): l’energia dell’elettrone è proporzionale alla distanza dal nucleo; esistono solo alcune regioni (orbite stazionarie) in cui esso si può trovare
+
+=> l’energia è quantizzata.
+
+MODELLO ONDULATORIO DELL’ATOMO (1930): il movimento degli elettroni è rappresentato da una probabilità; le regioni dello spazio in cui è probabile trovare l’ elettrone si chiamano orbitali.
+
+Principio di indeterminazione di Heisenberg : è impossibile conoscere simultaneamente e con una precisione grande a piacere la posizione e la velocità di una particella.
+
+Si definisce ORBITALE la regione di spazio intorno al nucleo dove si ha una probabilità del 90% di trovare l’elettrone.
+
+
+
+Ogni orbitale è caratterizzato da 3 numeri che sono detti numeri quantici: numero quantico principale n : identifica il guscio n = 1,2,3, .........
+
+numero quantico azimutale l : identifica la forma l = 0, ... n-1
+
+numero quantico magnetico m : identifica l’orientazione m = - l ....., 0, .....+ l Quando un atomo viene eccitato, ad esempio con un fascio di luce, i suoi elettroni possono assorbire energia da un fotone e “saltare” su un orbitale più esterno. Quando l’elettrone torna nello stato fondamentale emette l’energia precedentemente acquisita sotto forma di radiazione elettromagnetica della stessa frequenza.
+
+
+
+E
+
+
+
+0
+
+e- a distanza ∞ dal nucleo
+
+
+
+fotone hν
+
+
+
+E2
+
+fotone hν
+
+
+
+
+
+E1
+
+
+
+ASSORBIMENTO EMISSIONE
+
+
+
+
+
+Transizioni dallo stato fondamentale E1 ad uno stato eccitato E2 Æ spettri di assorbimento.
+
+Transizioni dallo stato eccitato E2 allo stato fondamentale E1 Æ spettri di emissione.
+
+
+
+L’elettrone è caratterizzato dal numero quantico di spin ms, che può assumere solo due valori ms = + ½ o - ½
+
+
+
+Costruzione della Tabella Periodica (AUFBAU) :
+
+Regole:
+
+1. L'elettrone occupa l'orbitale a più bassa energia disponibile.
+
+2. Principio di Pauli: un orbitale può essere vuoto oppure occupato da un massimo di due elettroni. Due elettroni che occupano lo stesso orbitale hanno spin antiparallelo.
+
+3. Principio di Hund: il riempimento di un orbitale degenere si ha soltanto se gli altri orbitali degeneri sono già occupati da un elettrone.
+
+
+
+
+
+Gli elementi dello stesso gruppo hanno una configurazione elettronica dello stato fondamentale simile.
+
+
+
+Elettronegatività
+
+
+
+L’elettronegatività di un atomo misura la sua tendenza ad attrarre elettroni rispetto ad un altro atomo: quando atomi diversi si avvicinano quello a maggiore elettronegatività tende ad acquistare elettroni (uno o più), quello a minore elettronegatività tende invece a perderli.
+
+L’elettronegatività aumenta lungo i periodi della tavola periodica degli elementi da sinistra verso destra e diminuisce lungo i gruppi (dall’alto in basso).
+
+
+
+
+
+ELETTRONEGATIVITA’
+
+
+
+
+
+Numero di ossidazione
+
+
+Il numero di ossidazione è il numero di elettroni formalmente perduti (e allora sarà positivo) o acquistati (in questo caso sarà negativo) da un atomo nel o nei legami covalenti all’interno di una molecola. Quando in una reazione chimica un atomo aumenta il suo numero di ossidazione,
+
+“perdendo” elettroni (cioè si ossida) o abbia diminuito il suo numero di ossidazione,
+
+“acquistando” elettroni (cioè si sia ridotto).
+
+1) Il numero di ossidazione degli elementi nel loro stato elementare è 0.
+
+2) L’idrogeno, nei suoi composti ha N.O. + 1 ( tranne che negli idruri dei metalli con elettronegatività minore di 2,1).
+
+3) L’ossigeno nei suoi composti ha N.O. -2 (tranne che nei perossidi ove il N.O. è -1; i perossidi sono caratterizzati dal legame - O - O -).
+
+4) Il numero di ossidazione degli ioni monoatomici è pari al numero della loro carica con lo stesso segno.
+
+5) Le molecole neutre hanno la somma algebrica dei N.O. degli elementi costituenti pari a 0; per gli ioni la somma è invece pari al numero delle cariche con lo stesso segno.
+
+6) Nei composti covalenti, il N.O. degli elementi si calcola assegnando i doppietti elettronici di legame all’atomo più elettronegativo; le cariche che ne risultano sui diversi elementi rappresentano anche il N.O.
+
+
+
+
+
+Legame chimico
+
+
+
+
+Gli atomi interagiscono tra di loro e formano molecole, ad eccezione dei gas nobili che sono monoatomici.
+
+
+
+Teoria di Lewis:
+
+•
+
+Gli elettroni esterni, di valenza, sono implicati nel legame chimico
+
+•
+
+Se gli elettroni vengono trasferiti si ha legame ionico
+
+•
+
+Se gli elettroni sono in compartecipazione si ha legame covalente
+
+•
+
+Gli atomi tendono ad assumere la configurazione elettronica dei gas nobili, regola dell’ottetto.
+
+
+
+
+
+Simboli di Lewis Gli elettroni di valenza sono indicati con dei punti, come mostrato in figura.
+
+
+
+
+
+Regola dell’ottetto.
+
+La presenza di un ottetto di elettroni (ns2np6) nello strato più esterno conferisce particolare stabilità all’atomo (infatti è la struttura dei gas nobili): gli atomi tendono a conseguire una configurazione elettronica esterna a ottetto acquistando o cedendo elettroni realmente (ionizzazione) o formalmente (elettroni di valenza o di legame).
+
+Fanno eccezione idrogeno (H), litio (Li), berillio (Be) e boro (B) che completano la configurazione acquistando 1 elettrone (H e Li),2 elettroni (Be) o 3 (B).
+
+
+
+
+
+Legame ionico
+
+
+Il legame ionico è l'attrazione che si stabilisce tra le cariche opposte di cationi ed anioni.
+
+Quando atomi di K e atomi di Cl si avvicinano, K perde un elettrone (K+), mentre Cl acquista un elettrone (Cl- ). Gli ioni formano un solido ionico in cui ioni + si alternano a ioni -.
+
+
+
+
+
+Altri esempi di legame ionico:
+
+K+ + F- →KF (fluoruro di potassio)
+
+K+ + I- →KI (ioduro di potassio)
+
+Mg2+ + 2Cl- →MgCl2 (cloruro di magnesio)
+
+
+
+
+
+Legame covalente.
+
+
+Gli elettroni di legame sono condivisi dai due atomi
+
+
+
+
+
+Nel caso che i due atomi nel legame covalente siano uguali, gli elettroni sono equamente condivisi: questo legame si chiama covalente apolare o puro (esempi: H2, F2, O2).
+
+Nel caso in cui gli atomi siano diversi, gli elettroni di legame sono attirati dall’atomo più elettronegativo: il legame che si forma si chiama covalente polare: ad esempio nella molecola HCl, sul cloro si forma un “polo negativo” e sull’idrogeno un “polo positivo” dovuti alla
+
+
+
+
+
+presenza di cariche parziali. La polarità del legame è tanto maggiore quanto maggiore è la differenza di elettronegatività fra i due atomi.
+
+Nel legame tra l’ossigeno e ciascuno dei due idrogeni della molecola H2O ogni atomo mette in compartecipazione con l’altro 1 elettrone: poiché l’ossigeno è molto più elettronegativo dell’idrogeno, gli elettroni di legame sono più spostati sull’ossigeno. Quindi sull’ossigeno c’è una parziale carica negativa e sugli idrogeni c’è una parziale carica positiva: la molecola dell’acqua presenta quindi un dipolo elettrico.
+
+Il dipolo elettrico di una molecola è dato dalla somma dei dipoli di tutti i legami.
+
+
+
+
+
+Legami doppi o tripli
+
+
+In alcuni casi, non è sufficiente la condivisione di una coppia di elettroni per raggiungere l’”ottetto”. In questo caso possono essere condivise più coppie
+
+
+
+
+
+Nei legami doppi e tripli, la distanza di legame fra due atomi diminuisce e l’energia di legame aumenta.
+
+
+
+
+
+Legame covalente dativo
+
+
+Il legame covalente dativo si verifica quando la coppia di elettroni di legame viene fornita completamente da uno dei due atomi interessati
+
+(donatore). Per esempio, nello ione ammonio (NH +
+
+4 ) tre idrogeni sono
+
+legati all’azoto con legami covalenti comuni, mentre il quarto ione
+
+idrogeno (H+) è legato con un legame covalente dativo, dove gli
+
+elettroni del legame sono forniti dall’azoto.
+
+
+
+Riassumendo, i legami atomici (intramolecolari) sono:
+
+• legame ionico (es. NaCl)
+
+• legame covalente puro (es. H2)
+
+• legame covalente polare (es. H2O)
+
+• legame covalente dativo (es. NH +
+
+4 )
+
+
+
+
+
+Le molecole sono legate fra loro con legami intermolecolari che sono:
+
+• legame dipolare (attrazione elettrostatica tra dipoli permanenti)
+
+• legame (o ponte) idrogeno (attrazione tra l’idrogeno di una molecola e un atomo più elettronegativo (per es. O, N) in un’altra molecola.
+
+• interazioni idrofobiche: la tendenza a fuggire l’acqua porta molecole lipofile a contatto l’una con l’altra (come le goccioline d’olio nell’acqua tendono a
+
+fondersi tra loro).
+
+
+
+I legami idrogeno nell’acqua determinano le sue particolari proprietà fisiche:
+
+• elevata temperatura di ebollizione
+
+• densità del ghiaccio minore della densità dell’acqua liquida.
+
+
+
+I ponti idrogeno rivestono grande importanza in biochimica: sono i
+
+legami responsabili della struttura delle proteine e del DNA.
+
+
+
+
+
+Energia di legame
+
+
+All’atto della formazione di un legame chimico si libera energia (è proprio questo il motivo per cui si forma il legame: il contenuto energetico della molecola che ne risulta si abbassa, cioè la molecola prodotta è più stabile dei reagenti). Questa energia si chiama energia di legame, ed è la stessa quantità di energia che occorre somministrare per rompere lo stesso legame.
+
+Questa energia può essere misurata:
+
+C-C 83 kcal /mole di legami 1 mole sono 6.023 x 1023 legami C=C 83 + 65 = 148 kcal/mole
+
+Ponte idrogeno ≤1 kcal/mole (legame debole)
+
+
+
+Reazioni di ossido-riduzione (REDOX)
+
+Si ha un trasferimento di elettroni.
+
+Esempi : combustione : CH4(g) + 2O2(g)->2H2O(g) + CO2(g)
+
+fra magnesio e cloro :Mg(s) + Cl2 (g) -> MgCl2 (s)
+
+tra un metallo ed un acido : Zn(s) + 2HCl(aq) -> ZnCl2 (aq) + H2 (g) L’ossidazione è la perdita di elettroni, mentre la riduzione è l’acquisto di elettroni. Poiché gli elettroni quando vengono persi da un sistema devono rientrare in un altro si parla di sistema o reazione di ossido-riduzione.
+
+In una generica reazione di ossido-riduzione:
+
+Xox + Yrid →Xrid + Yox
+
+Si verifica cioè un passaggio di elettroni tra due composti. Il donatore di elettroni (Y) è il riducente e l’accettore di elettroni (X) è l’ossidante.
+
+Per sapere quale, tra due composti, si comporterà da riducente e quale da ossidante si guarda la loro elettronegatività.
+
+Esempio 1: Fe + O → FeO (ossido ferroso)
+
+Nella scala di elettronegatività il Fe ha valore 1.8 e l’ossigeno ha valore 3.5 (maggiore). Quindi l’ossigeno ha molta maggiore affinità per gli elettroni del ferro. In questa reazione il Fe perde 2
+
+
+
+elettroni e diventa Fe2+; contemporaneamente l’ossigeno (monoatomico, di solito O2) acquista 2
+
+elettroni e diventa O2-. Quindi in questa reazione il ferro si ossida e l’ossigeno si riduce.
+
+Esempio 2: Cu + 2Br → CuBr2 (bromuro rameico)
+
+Nella scala di elettronegatività il rame ha valore 1.9 mentre il bromo ha valore 2.8 (maggiore).
+
+Quindi il bromo ha maggiore affinità del rame per gli elettroni. In questa reazione il rame perde 2 elettroni e il bromo acquista 2 elettroni, quindi il rame si ossida e il bromo si riduce.
+
+Il rame può esistere in tre stati di ossidazione:
+
+
+
+Serie elettrochimica degli elementi.
+
+
+
+Serie elettrochimica le sostanze possono essere ordinate secondo il loro potere ossidante in un elenco detto serie elettrochimica. Un agente ossidante può ossidare un agente riducente che si trova sotto di lui nella serie elettrochimica,
+
+
+
+
+
+Reazioni di ossidoriduzione
+
+
+Ossidazione:una specie chimica (RIDUCENTE) si ossida quando cede elettroni ed aumenta il suo numero di ossidazione
+
+Riduzione: una specie chimica (OSSIDANTE) si riduce quando acquista elettroni e diminuisce il suo numero di ossidazione
+
+reazioni di ossidoriduzione: H2+ ½ O2 → H2O
+
+L’ossigeno (O2) si riduce (agente ossidante) ½ O2 +2e- → O2-
+
+L’idrogeno (H2) si ossida (agente riducente) H2 → 2H ++2e-
+
+
+
+Equivalente di ossido-riduzione: quantità in uma di una sostanza in grado di scambiare 1elettrone. Es. per Na+ 23 uma; per Cu2+ 63/2 uma
+
+Grammo-equivalente di ossido-riduzione: quantità in grammi di una sostanza che scambia 1
+
+mole di elettroni.
+
+
+
+SOLUZIONI
+
+
+
+Una soluzione è una miscela omogenea costituita da almeno due componenti (solvente =
+
+componente in quantità maggiore e soluto= componente in quantità minore) le cui quantità relative possono variare con continuità.
+
+Il processo di dispersione delle particelle del soluto prende il nome di dissoluzione o solvatazione. Quando il solvente è acqua, il processo prende il nome di idratazione.
+
+Una soluzione satura è una soluzione contenente la massima quantità di soluto. Se si aggiunge un’ulteriore quantità di soluto a una soluzione satura, il soluto aggiunto non si scioglie e precipita come corpo di fondo.
+
+Una soluzione contenente una concentrazione di soluto bassa è una soluzione diluita, se la quantità di soluto è alta si dice concentrata.
+
+La solubilità di un soluto è la quantità in grammi di soluto disciolta in 100 g di solvente a una data temperatura, nella soluzione satura.
+
+Fattori che influenzano la solubilità:
+
+• natura del solvente : il “simile scioglie il simile” (sostante polari sciolgono sostanze polari, sostanze non polari sciolgono sostanze non polari) Per sciogliersi in acqua, il soluto deve poter fare legami elettrostatici con le molecole d’acqua: quindi, sono solubili in acqua molecole cariche o polari (che possono fare legami idrogeno con le molecole d’acqua; es. zuccheri, amminoacidi). Non saranno solubili in acqua molecole apolari o prive di cariche elettriche (es. trigliceridi, colesterolo);
+
+• temperatura :in generale la solubilità aumenta aumentando la temperatura
+
+• pressione : la solubilità di un gas in un liquido è proporzionale alla pressione parziale del gas sopra la soluzione.
+
+
+
+Fattori che influenzano la velocità di dissoluzione:
+
+• agitazione
+
+• temperatura
+
+• grado di suddivisione del soluto.
+
+
+
+Ionizzazione e dissociazione ionica
+
+I soluti che sciolti in acqua libera ioni, rendendo conduttrice la soluzione, sono detti elettroliti e le soluzioni sono dette soluzioni elettrolitiche.
+
+Per dissociazione ionica (o elettrolitica) si intende il processo di separazione degli ioni positivi e negativi presenti in un composto ionico, provocato dall’acqua.
+
+Per ionizzazione si intende invece il processo di formazione di ioni oprato dall’acqua su un composto molecolare polare come HCl. La dissociazione può essere parziale o totale.
+
+Grado di dissociazione : α = n° di moli dissociate/n° moli totali Elettrolita forte : α = 1
+
+Elettrolita debole : α <1
+
+Esempio : soluzione di NaCl
+
+Lo ione Na+ sarà circondato dagli atomi di ossigeno delle molecole d’acqua di solvatazione (che hanno una parziale carica negativa), mentre lo ione Cl- sarà circondato dagli idrogeni delle molecole d’acqua di solvatazione (che hanno parziale carica positiva). In questo modo, l’acqua rompe il legame elettrostatico tra Na+ e Cl- e il sale “si scioglie” in acqua.
+
+
+
+
+
+Le misure di concentrazione più utilizzate sono le seguenti.
+
+Percentuale peso/peso (% p/p o Cm)
+
+Percentuale peso/volume (% p/v):
+
+Es. : una soluzione al 10% di NaCl in acqua contiene 10g di NaCl per 100 ml di soluzione (non di solvente!). Questa soluzione si fa pesando 10g di NaCl, mettendoli in un cilindro graduato e aggiungendo acqua fino a 100ml.
+
+Molarità (M): M = n(moli)/V(litri)
+
+Es. : una soluzione 0.3 M di NaCl in acqua contiene 0.3 moli di NaCl per litro di soluzione. La molalità sono le moli di soluto per Kg di solvente.
+
+Molalità : n(moli) /massa del solvnte (kg)
+
+Osmolarità (Osm):
+
+Es. : una soluzione 0.3 M di NaCl è 0.3 x 2 = 0.6 osm; una soluzione 0.3 M di glucosio (che non si dissocia) è 0.3 osm
+
+Frazione molare : χA = moli componente A/moli totali ( 0< χA <1) Esercizi sulle misure di concentrazione:
+
+1) Quanti g di NaCl (PM = 58) occorrono per fare 250 ml di una soluzione 0.15 M ?
+
+58 x 0.15 x 0.25g
+
+2) Quanti g di KCl (PM = 74) occorrono per fare 500 ml di una soluzione al 10% (p/v).
+
+Una soluzione al 10% p/v contiene 10g in 100 ml di soluzione. Quindi, per fare 500 ml ci vogliono 10/100 x 500 g
+
+3) Quanti g/l di NaCl (PM 58) contiene una soluzione fisiologica?
+
+Calcoliamo prima la molarità della soluzione. Sappiamo che la soluzione fisiologica è 0.3 osm: poiché NaCl si dissocia in 2 ioni (coefficiente di dissociazione = 2), la molarità sarà 0.3/2 = 0.15
+
+M (cioè 0.15 moli/litro). Una mole è il peso molecolare in g: 0.15 moli sono 0.15 x 58 = 8.7g.
+
+Un litro di soluzione fisiologica contiene quindi 8.7 (circa 9) g/l di NaCl.
+
+
+
+L’equivalente chimico e la massa equivalente
+
+
+
+
+
+L’equivalente chimico è un’unità di quantità di materia la cui definizione dipende dal tipo di sostanza considerata e dalla reazione in cui questa è coinvolta.
+
+Reazioni acido-base
+
+• Un equivalente acido : quantità in grammi cvhe cede una mole di ioni H+ dissociandosi
+
+• Un equivante di base . quantità in grammi che cede una mole di ioni OH-Reazioni REDOX
+
+• Un equivalente di ossidante : quantità in grammi che acquista una mole di elettroni
+
+• Un equivalente di riducente . quantità in grammi che cede una mole di elettroni .
+
+
+
+Un equivalente di una specie chimica reagisce sempre con un equivalente di un’altra, dando un equivalente di prodotto.
+
+
+
+Normalità della soluzione . numero di equivalenti di soluto/ volume in litri PROPRIETA’ COLLIGATIVE
+
+Le proprietà colligative sono proprietà che dipendono esclusivamente dal numero delle particelle di soluto in soluzione e NON dalla loro natura.Sono delle proprietà fisiche e sono quattro:
+
+1. Abbassamento della tensione di vapore
+
+2. Innalzamento ebullioscopio : ΔTeb = Keb molalità
+
+3. Abbassamento crioscopico : ΔTeb = Kcrb molalità
+
+4. Pressione osmotica
+
+
+
+La pressione osmotica è la pressione che
+
+occorre esercitare sulla soluzione più
+
+concentrata per riportarla al livello di quella
+
+più diluita.
+
+
+
+
+
+RES
+
+PRESSIONE OS
+
+NE OS OT A
+
+MOTICA π
+
+πV = nRT
+
+π =n/V RT = MRT
+
+Nel caso in cui il soluto si dissoci (elettrolita), è necessario considerare la molarità di tutte le particelle in soluzione, cioè la osmolarità. Quindi:
+
+
+
+osmolarità (osm/l) = molarità (moli/l) x coefficiente di dissociazione Dialisi
+
+Le proprietà della membrana semipermeabile sono sfruttate a fini terapeutici nella tecnica della dialisi: in questo caso, un tipo speciale di membrana semipermeabile funziona da setaccio molecolare lasciando passare molecole di soluto piccole, ma trattenendo quelle grandi.
+
+Scegliendo opportunamente la composizione ionica del liquido di dialisi, si può indurre l’uscita dal sacchetto di dialisi di soluti piccoli, conservando all’interno del sacchetto i soluti grandi.
+
+Una applicazione importante di questa tecnica è la dialisi del sangue, che consente la rimozione di molecole piccole (veleni, urea) senza privare il plasma dei suoi costituenti proteici.
+
+
+
+
+
+Emolisi
+
+
+Un’altra importante (questa volta pericolosa!) implicazione medica del principio della dialisi è l’emolisi. La membrana cellulare (di tutti i tipi cellulari) funziona un po’ come una membrana semipermeabile: lascia passare liberamente l’acqua, ma non i soluti. Quindi, se gli eritrociti (o qualunque altro tipo cellulare) vengono a contatto con una soluzione avente una osmolarità inferiore a quella della cellula, l’acqua tenderà a entrare dentro le cellule, facendo rigonfiare la membrana cellulare fino a romperla (emolisi ipotonica). Viceversa, se gli eritrociti vengono a contatto con una soluzione avente una osmolarità maggiore di quella della cellula, l’acqua tenderà a uscire dalle cellule (raggrinzimento ipertonico). In ogni caso, la cellula ne risulta gravemente danneggiata, fino alla morte.
+
+L’osmolarità intracellulare ha un valore noto: 0.3 osm (0.3 osmolare, cioè 0.3 osmoli/l). Quindi le soluzioni che vengono iniettate endovena devono avere la stessa osmolarità. Le due soluzioni più frequentemente usate per via endovenosa sono la soluzione salina di NaCl (detta
+
+“fisiologica”) e la soluzione glucosata. Entrambe hanno osmolarità di 0.3 osm. La molarità, però, è diversa. Infatti, mentre NaCl ha coefficiente di dissociazione 2, il glucosio, che non si dissocia, ha coefficiente 1.
+
+
+
+Soluzione salina: 0.3 osm = molarità x 2
+
+Soluzione glucosata: 0.3 osm = molarità x 1
+
+Quindi, una soluzione fisiologica (isotonica col sangue), si ottiene con NaCl 0.15 M o con glucosio 0.3 M.
+
+Una osmolarità corretta non è l’unico requisito per poter infondere una soluzione endovena: il pH deve essere neutro!
+
+
+
+
+
+EQUILIBRIO CHIMICO
+
+
+A + B C + D
+
+
+
+In alcune reazioni i prodotti aumentano fino ad un certo livello e poi raggiungono concentrazioni stabili. Analogamente un liquido in un recipiente chiuso evapora fino a raggiungere un equilibrio.
+
+L’equilibrio è dinamico: le reazioni continuano in entrambe le direzioni: tante molecole di A e B si trasformano in C e D quante molecole di C e D si trasformano in A e B. In altre parole: all’equilibrio, non cambiano più le quantità relative di reagenti e prodotti. A seconda delle reazioni, l’equilibrio può essere spostato maggiormente verso i reagenti o verso i prodotti.
+
+Se, una volta raggiunto l’equilibrio, si aggiungesse altro reagente o si sottraesse prodotto, la reazione riprenderebbe verso destra fino a un nuovo equilibrio.
+
+
+
+Legge di azione di massa (soluzioni omogenee a T cost).
+
+Legge di azione di massa
+
+
+
+aA + bB cC + dD
+
+
+
+
+
+Kc e’ la costante di equilibrio, le concentrazioni sono all’equilibrio Ogni reazione possiede una costante di equilibrio caratteristica il cui valore dipende solo dalla temperatura.
+
+
+
+dove Kc è la costante di equilibrio della reazione e le parentesi quadre intorno ai simboli di reagenti e prodotti indicano le loro concentrazioni molari (cioè moli/litro di soluzione).
+
+Se Keq > 1 l’equilibrio è spostato verso i prodotti; se Keq < 1 l’equilibrio è spostato verso i reagenti. L’equilibrio di reazione (ad una data concentrazione di reagenti e prodotti) dipende solo dalla natura chimica di reagenti e prodotti: la presenza di un catalizzatore accelera il raggiungimento dell’equilibrio, ma non lo sposta.
+
+
+
+
+
+Equilibri in soluzione
+
+
+Teoria di Arrhenius:
+
+
+– Gli acidi in acqua si dissociano e rilasciano H+(o meglio si dovrebbe indicare H3O+)
+
+– Le basi in acqua si dissociano e rilasciano OH-
+
+
+
+
+
+HCl è un acido forte perché in soluzione acquosa si dissocia completamente.
+
+CH3COOH e HCN sono deboli perché non si dissociano completamente quando vengono messi in soluzione.
+
+
+
+Teoria di Broensted-Lowry:
+
+– Gli acidi rilasciano H+(o meglio si dovrebbe indicare H3O+)
+
+– Le basi accettano H+(o meglio si dovrebbe indicare H3O+).
+
+Se AH ha ceduto un protone diventa A-, ed è in grado di acquisire un protone (base coniugata) Se B ha acquisito un protone diventa BH+, ed è in grado di cedere un protone (acido coniugato)
+
+
+
+acid
+
+aci o
+
+
+
+
+
+base coniugata
+
+
+H+
+
+acido
+
+H
+
+acido
+
+
+
+
+
+base
+
+
+AH + B → BH+ + A-
+
+
+
+
+
+base
+
+
+AH + B → BH+ + A
+
+base
+
+
+
+
+
+acido coniugato
+
+
+
+
+
+L’acqua cede un protone all’ammoniaca, trasformandosi nella base coniugata OH-.
+
+L’ammoniaca acquista il protone, trasformandosi nell’acido coniugato (ione ammonio).
+
+
+
+Autoionizzazione dell’acqua
+
+L’acqua è anfiprotica: può agire da acido e da base.
+
+L’acqua ionizza se stessa: Autoionizzazione
+
+H2O + H2O <=> H3O+ + OH-
+
+
+
+
+
+Qual è la concentrazione dell’acqua nell’acqua (cioè il termine [H2O] dell’equazione sopra)? In altre parole, quante moli d’acqua ci sono in 1 litro d’acqua? 1 l d’acqua pesa 1Kg (1000g); il peso molecolare dell’acqua è 18, quindi 18g d’acqua contengono 1 mole (6x1023) di molecole d’acqua: 1000g contengono 1000/18 moli d’acqua, 55.5 M. La concentrazione di acqua si può ritenere costante e può essere inglobata in una nuova costante Kw
+
+Kw = costante di ionizzazione dell’acqua, o prodotto ionico
+
+
+
+A 25°C, per ogni 109 molecole d’acqua se ne dissociano 2. Quindi l’equilibrio della reazione di dissociazione dell’acqua è molto spostato verso sinistra (Keq è molto piccola).
+
+
+
+
+
+Nell’acqua pura:
+
+[H3O+] = [OH-] = 10-7 moli/l
+
+Aggiungendo H3O+ all’acqua (cioè aggiungendo un acido), la dissociazione dell’acqua si modifica in modo che [H3O+] [OH-] sia sempre 10-14: quindi diminuisce [OH-]. Viceversa, aggiungendo OH- all’acqua (aggiungendo una base), diminuisce la [H3O+]. Si può quindi tracciare una scala di concentrazioni di H3O+ e OH- che, partendo dalla neutralità ([[H3O+]=
+
+[OH-] = 10-7 moli/l) va verso l’acidità (per aggiunta di H3O+) o verso la basicità (per aggiunta di OH-).
+
+
+
+
+
+Per semplificare i numeri della scala di acidità e basicità (che sono esponenziali e negativi) si è convenuto di :
+
+- eliminare la base 10 e considerare solo gli esponenti
+
+- cambiarne il segno da negativo a positivo
+
+La scala pertanto diventa la seguente:
+
+
+
+L’operazione matematica che è stata fatta si riassume nelle formule:
+
+pH = -log [H3O+]
+
+pOH = -log [OH-]
+
+la p minuscola significa che della concentrazione molare di H3O+ o di OH- si considera il logaritmo in base 10 (esponente), cambiato di segno.
+
+A 25ůna soluzione è neutra (uguale concentrazione di H3O+ e OH-) a pH 7: tra pH 7 e pH 0
+
+è acida e tra pH 7 e pH 14 è basica. Il prodotto ionico dell’acqua si può adesso riscrivere come:
+
+pH + pOH = 14
+
+Occorre ricordare che tra due unità di pH (per es. tra pH 7 e pH 6) c’è una differenza di [H3O+]
+
+di 10 volte!
+
+
+
+soluzioni acide pH < 7
+
+soluzioni neutre pH = 7
+
+soluzioni basiche pH > 7
+
+
+
+
+
+Acidi forti e basi forti si dissociano completamente in acqua.
+
+Esempi:
+
+acido cloridrico HCl + H2O→ H3O+ + Cl- ; idrossido di sodio N
+
+
+
+
+
+acido solforico H
+
+2-
+
+2SO4 +2H2O→ 2 H3O+ + SO4 ; idrossido di
+
+
+
+
+
+acido nitrico HNO3 →H+ + NO3.
+
+
+
+Il pH di una soluzione di un acido (o di una base) forte si calco
+
+
+
+
+
+molare (moli/l) moltiplicata per quanti H3O+ produce per mole
+
+
+
+
+
+Esempi di calcolo del pH per soluzioni di acidi e basi forti
+
+1) Calcolare il pH di una soluzione acquosa di HCl 0,1 M
+
+possiamo considerare che la dissociazione in acqua di HCl (acido forte) sia praticamente completa HCl → H++Cl- quindi
+
+[H+]=[HCl ]
+
+pH= -log[H+] che equivale a scrivere pH = -log[HCl]
+
+quindi pH = -log0,1 pH= -(-1) pH=1
+
+2) Calcolare il pH di una soluzione acquosa di H2SO4 0,1 M
+
+possiamo considerare che la dissociazione in acqua di H2SO4 (acido forte) sia praticamente completa H
+
+2-
+
+2SO4 → 2H+ + SO4
+
+quindi [H+]=2x[H2SO4]
+
+pH= -log[H+] che equivale a scrivere pH = -log 2x[H2SO4]
+
+quindi pH = -log0,2 pH= -(-0,69) pH=0,69
+
+3) Calcolare il pH di una soluzione acquosa di NaOH 0,1 M
+
+possiamo considerare che la dissociazione in acqua di NaOH (base forte) sia praticamente completa NaOH → Na++OH- quindi
+
+[OH-]=[NaOH]
+
+pOH= -log[OH-] che equivale a scrivere pOH = -log[NaOH]
+
+quindi pOH = -log0,1 pOH= -(-1) pOH=1
+
+dal momento che pH=14-pOH avremo che pH=14-1 pH=13
+
+
+
+Acidi deboli e basi deboli invece non si dissociano completamente in acqua.
+
+Esempi:
+
+acido carbonico H
+
+-
+
+2CO- + H2O↔ H3O+ + HCO3
+
+acido acetico CH3COOH + H2O ↔ H3O+ + CH3COO-
+
+
+
+Considerando che la concentrazione dell’acqua non varia,
+
+
+
+
+
+La misura del pH di una soluzione si può fare con gli indicatori di pH che cambiano colore al variare del pH (ad esempio le cartine al tornasole) oppure, in modo più preciso, con uno strumento che si chiama pHmetro. Il pHmetro è sonda che misura la differenza di potenziale che si crea tra una soluzione a pH noto, posta nell’elettrodo “di riferimento”, e la soluzione da misurare.
+
+
+
+Idrolisi
+
+Un sale formato dalla reazione tra un acido e una base forti (es. KCl) sciolto in acqua si dissocia completamente e gli ioni che si formano non mostrano alcuna tendenza a riformare acido e base di origine reagendo con H3O+ + OH- formati dalla dissociazione dell’acqua. Il pH della soluzione rimane invariato.
+
+KCl → K+ + Cl-
+
+2H2O ↔ H+ + OH-
+
+
+
+KCl + 2H2O → K+ + Cl- + H3O+ + OH-
+
+
+
+Invece, in un sale formato dalla reazione tra un acido debole e una base forte, la base coniugata dell’acido debole tende a reagire con H3O+ (prodotto dalla dissociazione dell’acqua) per formare l’acido debole di origine.
+
+Esempio:
+
+CH3COONa ↔ CH3COO- + Na+
+
+2H2O ↔ H3O+ + OH-
+
+
+
+CH3COONa + H2O ↔ CH3COOH + Na+ + OH-
+
+
+
+Si ha quindi un eccesso di OH- rispetto agli H3O+ e un aumento del pH della soluzione (che diventa alcalina).
+
+Analogamente, nel caso di un sale formato dalla reazione tra un acido forte e una base debole, la soluzione risulterà acida.
+
+
+
+
+
+Soluzioni tampone
+
+
+Il pH del sangue deve rimanere compreso entro limiti molto ristretti (può variare al massimo nella 2a cifra decimale, tra 7.38 - 7.35): un suo cambiamento verso l’acidità (acidosi) o la basicità (alcalosi) comporta danni tessutali gravi e può portare alla morte. Questo è vero in generale per tutti i liquidi extra- ed intra-cellulari: una variazione del pH comporta gravi conseguenze sulla funzionalità degli enzimi (i catalizzatori delle reazioni chimiche nelle cellule) e può arrestare il metabolismo cellulare.
+
+Una soluzione tampone è una soluzione che si oppone a variazioni del suo pH indotte dall’aggiunta di acidi o di basi in piccole quantità. Tutti i principali liquidi organici (plasma, linfa, liquido intracellulare) siano soluzioni tampone.
+
+Una soluzione tampone contiene:
+
+- un acido debole più un suo sale, fatto con una base forte; oppure
+
+- una base debole più un suo sale, fatto con un acido forte.
+
+
+
+Esempio 1: tampone acetato/acido acetico
+
+acido acetico (debole) CH3COOH ↔ CH3COO- + H+
+
+acetato di sodio (sale con NaOH) CH3COONa → CH3COO- + Na+
+
+L’equilibrio di dissociazione dell’acido è spostato verso sinistra (acido debole), invece l’equilibrio di dissociazione del sale è spostato tutto verso destra (dissociato). Se si aggiungono H+ in soluzione (aggiunta di un acido), lo ione acetato (CH3COO-) tende a reagire con H+ per dare l’acido debole CH3COOH: finché c’è acetato disponibile quindi, il pH della soluzione non
+
+cambia perché gli H+ aggiunti non restano in soluzione ma vengono “tamponati” dallo ione acetato.
+
+Se si aggiungono OH- (aggiunta di una base), questi tendono a reagire con H+ dissociati dall’acido acetico per dare acqua: finché c’è acido disponibile il pH della soluzione non cambia perché gli OH- aggiunti vengono “tamponati” dall’acido.
+
+La capacità tamponante della soluzione dipende dalla quantità di ione acetato (che tampona l’acidità) e di acido acetico (che tampona la basicità).
+
+Esempio 2 : tampone bicarbonato/acido carbonico
+
+acido carbonico H
+
+-
+
+2CO3↔ HCO3 + H+
+
+bicarbonato NaHCO
+
+-
+
+3 →Na+ + HCO3
+
+L’effetto tampone del sangue si basa su queste due sostanze. Infatti la CO2 che espiriamo (prodotta dall’attività metabolica cellulare) in soluzione acquosa (nel plasma) forma acido carbonico, secondo la reazione: CO
+
+-
+
+2 + H2O ↔ H2CO3 ↔ HCO3 + H+
+
+Gli ioni bicarbonato si combinano con gli ioni Na+ (gli ioni positivi più abbondanti nel plasma) formando NaHCO3.
+
+Il pH di una soluzione tampone si calcola con la formula:
+
+pH = pKa + log [sale]/[acido]
+
+dove Ka è la costante di dissociazione dell’acido.
+
+Il potere tamponante si esercita al meglio entro 1 unità di pH sopra e sotto la costante di dissociazione dell’acido debole: pH = pKa±1
+
+
+
+
+
+Termodinamica chimica
+
+
+Un sistema può scambiare energia con l’esterno mediante scambio lavoro e/o di calore. Un combustibile possiede energia chimica; la sua combustione libera tale energia sotto forma di calore. Se l'energia contenuta nelle molecole dei prodotti è > di quella dei reagenti occorre fornire energia: es. della fotosintesi per la biosintesi di glucosio, (C6H1206) a partire da biossido di carbonio e acqua:
+
+6C02 (g) + 6H20(1) + energia → C6H1206(s) + 602(g)
+
+Se l'energia delle molecole dei prodotti è < a quella dei reagenti la differenza di energia viene liberata nell'ambiente. es. combustione.
+
+C6H1206(s) + 602(g) → 6C02(g) + 6H20(1) + energia
+
+
+
+In realtà, quindi: A + B → C + D ± ∆H
+
+Dove ∆H è il calore scambiato (entalpia) durante la reazione.
+
+L'unità di misura energia nel S.I. è il joule (j) : l J =1 kg m2/s2. Una unità di misura largamente utilizzata in chimica è la caloria (cal): quantità di energia necessaria per aumentare di l°C la temperatura di 1 g di acqua.: 1 cal = 4.184 j
+
+
+
+Esempio 1: C + O2 → CO2 + 94 kcal ∆H = -94 kcal/mole 12g + 32g→ 44g + 94 kcal
+
+questa reazione è esotermica (sviluppa calore).
+
+Esempio 2: 43 kcal + H2 + Cl2 → 2HCl ∆H = 43 kcal/mole 43 kcal + 2g + 71g → 73g
+
+questa reazione è endotermica (richiede calore).
+
+
+
+
+
+Le reazioni esotermiche in genere sono spontanee e le reazioni endotermiche in genere non sono spontanee: ma la spontaneità della reazione non dipende solo dal calore scambiato (∆H).
+
+Occorre considerare anche la variazione del disordine molecolare (entropia) del sistema durante la trasformazione. Un aumento del disordine molecolare del sistema durante la trasformazione la favorisce. La variazione di entropia è definita dal termine T∆S.
+
+Quindi, la spontaneità di reazione dipende sia dal calore scambiato (∆H), che dalla variazione del disordine molecolare (T∆S).
+
+
+
+Definiamo una grandezza che leghi queste due funzioni di stato, l’energia libera (G):
+
+∆G = ∆H - T∆S
+
+Questa equazione significa: la variazione di energia libera di un sistema durante una trasformazione chimica (energia finale – energia iniziale) dipende dalla variazione di entalpia e dalla variazione di entropia. Una reazione endotermica (∆H > 0) può essere spontanea, se la variazione di entropia è positiva (aumenta il disordine molecolare durante la trasformazione) e maggiore del consumo di calore.
+
+Una reazione è spontanea se ∆G < 0 (reazione esoergonica). Se ∆G > 0, la reazione non avviene nella direzione in cui è scritta (endoergonica), mentre è spontanea nella direzione opposta.
+
+Quando ∆G = 0 la reazione è all’equilibrio. Quindi, la variazione di energia libera durante una trasformazione è una misura della tendenza del sistema a trasformarsi.
+
+Il bilancio energetico della reazione (cioè il ∆G) dipende solo dallo stato iniziale e dallo stato finale, qualunque sia stata la “strada” chimica seguita dal sistema per trasformarsi.
+
+Che relazione c’è tra ∆G e costante di equilibrio della reazione? In sostanza, ci danno entrambe una misura della tendenza della reazione ad avvenire nel senso indicato dalla freccia. Abbiamo detto sopra che quando Keq > 1 l’equilibrio di reazione è spostato verso i prodotti, quindi ∆G
+
+sarà negativo. Viceversa, quando Keq < 1, l’equilibrio è spostato verso i reagenti e ∆G sarà positivo.
+
+Vediamo ora più nel dettaglio come varia il contenuto di energia libera del sistema durante una reazione tipo: A + B → C + D ∆G < 0 (reazione spontanea)
+
+
+
+
+
+La variazione di energia libera (∆G) è negativa (contenuto energetico dei prodotti minore dei reagenti), quindi la reazione procede spontaneamente verso i prodotti. Però energeticamente, la
+
+“strada” verso i prodotti non è tutta in discesa: i reagenti devono passare attraverso uno stato a maggiore contenuto energetico (stato di transizione) prima di potersi trasformare nei prodotti.
+
+L’energia di attivazione è quella quantità di energia necessaria per portare tutte le molecole dei reagenti allo stato di transizione.
+
+Per fare un paragone, immaginiamo di rompere a metà un pezzo di legno: dobbiamo prima piegarlo. Nel momento in cui è piegato (ma non ancora spezzato) ha un contenuto energetico maggiore del pezzo di legno a riposo (per esempio può sfuggirmi di mano e rompermi un dente).
+
+Questo stato corrisponde allo stato di transizione. A questo punto, il più è fatto e la “reazione”
+
+procede con la rottura completa del pezzo di legno in due frammenti (i prodotti della reazione).
+
+Lo stato di transizione viene raggiunto statisticamente da un certo numero di molecole nell’unità di tempo, che si vengono a trovare momentaneamente in uno stato di maggiore contenuto energetico. Più alta è la “collinetta” da superare, però, e minore sarà il numero di molecole che riusciranno a superarla, nell’unità di tempo.
+
+Un catalizzatore (per esempio, gli enzimi) abbassa l’energia di attivazione della reazione, formando un complesso con i reagenti, aiutandoli ad assumere lo stato di transizione. Quindi, nell’unità di tempo, più molecole riusciranno a superare la barriera di attivazione: la reazione sarà accelerata, ma il ΔG della reazione NON cambia perché dipende solo dalla natura chimica di reagenti e prodotti e non dal percorso energetico della trasformazione. Per tornare all’esempio del pezzo di legno, il catalizzatore in questo caso potrebbe essere una morsa che tiene il pezzo di legno un po’ piegato e mi facilita il compito di romperlo. Nel caso degli enzimi, questi legano il substrato distorcendone un po’ la molecola, in modo che nel complesso enzima-substrato il substrato assomiglia più al suo stato di transizione che al substrato nativo. In definitiva, il catalizzatore abbassa l’energia di attivazione, ma non sposta l’equilibrio di reazione (non modifica ΔG né Keq).
+
+
+
+se ∆G <0 reazione spontanea (esoergonica)
+
+se ∆G >0 reazione non spontanea (endoergonica)
+
+se ∆G =0 reazione all’equilibrio
+
+
+
+
+
+ASPETTO TERMODINAMICO
+
+La termodinamica ci dice se una reazione è esoergonica o endoergonica, ovvero come è spostato l'equilibrio.
+
+A <=> B
+
+Se GA° e GB° sono le energie libere standard di A e B, ∆G° della reazione = GB° – GA°
+
+
+
+
+
+In chimica organica molto spesso le reazioni esoergoniche sono anche esotermiche. Una reazione è esotermica quando ∆H° è negativo. Se una reazione è endoergonica o poco esoergonica, la reazione non andrà a completezza, a meno di usare un effetto di massa (largo eccesso di A o
+
+rimozione di B)
+
+∆G° = ∆H° – T∆S
+
+
+
+G e H tendono a diminuire, S ad aumentare
+
+Ma una reazione può anche essere esoergonica ed endotermica, quando è favorita entropicamente, ma sfavorita entalpicamente se ∆H° > 0 e ∆S° > 0 essendo ∆G° = ∆H° – T∆S ci sarà una temperatura al di sopra della quale ∆G° diventerà negativa.
+
+
+
+ASPETTO CINETICO
+
+Il ∆G°dà informazioni sull'equilibrio di una reazione, ma non la velocità la reazione avviene.
+
+Alcune reazioni sono molto veloci (ad esempio le reazioni acido-base), ma altre sono molto lente, tanto da non avvenire per nulla. Vi sono specie chimiche che, pur potendo dare una reazione esoergonica, sopravvivono a lungo. Esse sono dette metastabili.
+
+Ad esempio, se mescoliamo un alcano come l'esano e l'ossigeno, non succede nulla per un tempo praticamente infinito. La miscela esano/ossigeno è metastabile.
+
+Anche un pezzo di legno o noi stessi siamo metastabili in presenza di O2!
+
+Infatti le reazioni di combustione sono reazioni molto lente.
+
+Da cosa dipende la velocità di una reazione? Ogni reazione prevede una barriera energetica da superare
+
+
+
+
+
+La velocità di una reazione dipende dal ∆Gatt. Più è alto più la reazione sarà lenta. A temperatura ambiente alcune reazioni sono molto veloci ed avvengono spontaneamente non appena si mescolano i reattivi. Altre richiedono minuti, ore o giorni. Altre infine sono tanto lente da non avvenire in pratica mai.
+
+Ci sono essenzialmente due modi per accelerare una reazione lenta
+
+1) Fornire energia in modo che il sistema riesca a superare la barriera energetica 2) Abbassare la barriera energetica con un catalizzatore.
+
+In natura esistono catalizzatori (enzimi) che consentono un'ossidazione controllata degli alcani.
+
+
+
+
+

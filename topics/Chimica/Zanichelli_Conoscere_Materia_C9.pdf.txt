@@ -1,0 +1,10683 @@
+Franco Bagatti Elis Corradi Alessandro Desco Claudia Ropa
+
+Conoscere la materia
+
+Seconda edizione
+
+
+
+
+
+Chimica organica
+
+
+Questo corso presenta in modo chiaro e ordinato i contenuti essenziali della fisica e della chimica
+
+con numerosi riferimenti alla realtà.
+
+
+
+
+
+Nel libro
+
+
+• La teoria è accompagnata da esercizi svolti per imparare a risolvere i problemi e da semplici esercizi (Prova tu) per mettersi subito alla prova.
+
+• Ci sono molti riferimenti alla storia della scienza e alla vita quotidiana: Per saperne di più Franco Bagatti
+
+(La coltura in serra), I protagonisti della scienza, schede di approfondimento
+
+(La produzione dell’alluminio).
+
+Elis Corradi
+
+• Le mappe di sintesi alla fine dei capitoli riassumono i concetti fondamentali
+
+Alessandro Desco
+
+e permettono di ripassare velocemente.
+
+• Gli esercizi di fine paragrafo, più semplici, sono seguiti da esercizi di fine capitolo
+
+Claudia Ropa
+
+in cui occorre mettere insieme più concetti studiati nell’intero capitolo.
+
+Conoscere la materia
+
+Online su www.online.zanichelli.it/conoscerelamateria
+
+In questo volume:
+
+Seconda edizione
+
+• 20 esercizi interattivi
+
+Nel sito www.scienze.zanichelli.it c’è tutto quel o che è troppo nuovo per stare
+
+
+
+
+
+Chimica
+
+
+in un libro: le ultime notizie dal mondo del a scienza e blog per parlare di fisica
+
+e biologia.
+
+
+
+
+
+organica
+
+
+La configurazione completa del corso è in seconda di copertina
+
+LM lIBRo mISTo
+
+SU WWW.ONLINE.ZANICHELLI.IT
+
+320 ESERCIZI INTERAT TIVI
+
+ChImICA oRgANICA (56 pAgINE)
+
+ElETTRomAgNETISmo (88 pAgINE)
+
+
+
+
+
+SCIENZE
+
+
+
+
+
+La chimica
+
+del carbonio
+
+C9
+
+1. La chimica organica
+
+2. Formule e nomi
+
+degli idrocarburi saturi
+
+3. Gli idrocarburi insaturi
+
+
+
+
+
+4. Gli idrocarburi aromatici
+
+
+5. Origine e proprietà chimiche
+
+degli idrocarburi
+
+
+
+
+
+6. Gli idrocarburi alogenati
+
+
+7. Alcoli e fenoli, eteri
+
+
+
+
+
+8. I composti del gruppo
+
+
+
+
+
+carbonilico e del gruppo
+
+
+
+
+carbossilico
+
+9. Composti polifunzionali
+
+e carboidrati
+
+
+
+
+
+10. I composti organici
+
+
+
+
+con l’azoto: ammine,
+
+
+
+amminoacidi e proteine
+
+11. Dai polimeri naturali
+
+
+
+
+
+ai nuovi materiali sintetici
+
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+1. La chimica organica
+
+
+
+
+
+Le sostanze organiche
+
+
+Ancora verso la metà dell’Ottocento i chimici erano convinti che tutte le sostanze do-
+
+vessero essere divise in due gruppi nettamente distinti; a tale scopo il chimico svede-
+
+se J.J. Berzelius aveva proposto già nel 1806 di chiamare sostanze organiche quelle
+
+prodotte dagli organismi viventi per distinguerle dalle sostanze inorganiche, tutte le
+
+altre.
+
+La divisione era tutt’altro che formale poiché si sosteneva che gran parte dei compo-
+
+sti costituenti gli organismi viventi (ad eccezione dell’acqua, dei sali minerali e di poche
+
+altre sostanze) potessero essere ottenuti soltanto attraverso operazioni di separazione o
+
+per mezzo di reazioni chimiche effettuate su tessuti di organismi viventi; in altre parole
+
+i chimici pensavano che le sostanze organiche potessero avere soltanto un’origine natu-
+
+rale ed essere quindi i prodotti dell’attività biologica degli organismi animali e vegetali.
+
+Questo convincimento si indebolì via via che crescevano le conoscenze scientifi-
+
+che ed entrò in crisi nel 1828 quando il chimico tedesco F. Wöhler, partendo dal cia-
+
+nato d’ammonio, un composto inorganico, sintetizzò l’urea, una sostanza organica
+
+già nota come costituente dell’urina dei mammiferi.
+
+Successive scoperte fecero comprendere che le leggi della chimica valgono per
+
+tutti i tipi di sostanze e che quindi non esiste un confine netto tra sostanze organiche
+
+e inorganiche. Tuttavia il nome chimica organica è rimasto nel lessico abituale della
+
+comunità scientifica ed è ancora utile per indicare la chimica dei composti del carbo-
+
+nio, cioè una branca della chimica che non è certamente governata da leggi proprie.
+
+Infatti essa si caratterizza e si differenzia proprio perché dalla combinazione del car-
+
+bonio con pochi altri elementi (tra cui l’azoto, l’ossigeno, lo zolfo e il fosforo) trae ori-
+
+gine un enorme numero di composti differenti per struttura e proprietà.
+
+A tutt’oggi si conoscono milioni di composti organici e ogni anno ne vengono pre-
+
+parati di nuovi che trovano impiego per gli usi più disparati in moltissimi campi del-
+
+le attività umane. Ed è così che li ritroviamo, spesso inconsapevolmente, nelle cose
+
+che vediamo e che usiamo tutti i giorni: stoffe e tessuti, medicinali, alimenti, plasti-
+
+che di tanti tipi, gomme eccetera (figura 1).
+
+ Figura 1 La combinazione di po-
+
+chi elementi evidenziati nella tavola
+
+periodica dà origine a una grande va-
+
+rietà di sostanze che costituiscono
+
+molti prodotti della vita quotidiana,
+
+come stoffe e medicinali.
+
+H
+
+C
+
+O
+
+N
+
+He
+
+Li
+
+Be
+
+B
+
+F
+
+Ne
+
+P
+
+Na Mg
+
+Al
+
+Si
+
+S
+
+Cl
+
+Ar
+
+K
+
+Ca
+
+Sc
+
+Ti
+
+V
+
+Cr Mn
+
+Fe
+
+Co
+
+Ni
+
+Cu
+
+Zn
+
+Ga Ge
+
+As
+
+Se
+
+Br
+
+Kr
+
+Rb
+
+Sr
+
+Y
+
+Zr
+
+Nb Mo
+
+Tc
+
+Ru
+
+Rh
+
+Pd
+
+Ag
+
+Cd
+
+In
+
+Sn
+
+Sb
+
+Te
+
+I
+
+Xe
+
+Cs
+
+Ba
+
+La
+
+Hf
+
+Ta
+
+W
+
+Re
+
+Os
+
+Ir
+
+Pt
+
+Au
+
+Hg
+
+Tl
+
+Pb
+
+Bi
+
+Po
+
+At
+
+Rn
+
+Fr
+
+Ra
+
+Ac
+
+Rf
+
+Db
+
+Sg
+
+Bh
+
+Hs
+
+Mt
+
+Ds
+
+Rg
+
+C•194
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+
+
+1. La chimica organica
+
+
+
+
+
+I legami del carbonio
+
+
+Come è noto, il carbonio fa parte del IV gruppo e pertanto ogni suo atomo presenta
+
+quattro elettroni di valenza che gli consentono di formare quattro legami covalenti
+
+con altri atomi, come per esempio nella molecola del metano che ha formula CH4 (fi-
+
+gura 2).
+
+Ma se un atomo di carbonio si lega con altri quattro atomi di carbonio e se ognu-
+
+no di questi a sua volta si lega con altri tre atomi di carbonio e così via a catena, si
+
+109,5°
+
+arriva a ottenere quella stupenda (e rarissima) opera della natura che si chiama dia-
+
+mante.
+
+ Figura 2 Nelle molecole del me-
+
+tano l’atomo di carbonio forma quat-
+
+tro legami covalenti con gli atomi di
+
+idrogeno che si dispongono ai vertici
+
+di un immaginario tetraedro regolare.
+
+Ogni angolo di legame vale 109,5°.
+
+Nel diamante ciascun ato-
+
+mo di carbonio si trova al
+
+centro di un immaginario te-
+
+traedro ai cui vertici ci sono
+
+altri 4 atomi di carbonio.
+
+Tra questi due estremi, la piccola molecola di metano e la macromolecola del dia-
+
+mante, troviamo migliaia di molecole diverse in cui atomi di carbonio si legano tra
+
+loro e ad atomi di idrogeno in rapporti differenti.
+
+Il legame tra atomi di carbonio risulta particolarmente stabile e per questo sul no-
+
+stro pianeta in tempi passati si formarono grandi quantità di idrocarburi, composti
+
+formati da carbonio e da idrogeno, senza dubbio meno affascinanti dei diamanti, ma
+
+certamente più importanti per la nostra vita. Negli idrocarburi ma più in generale in
+
+tutti i composti organici sono presenti quasi esclusivamente legami covalenti (sem-
+
+plici o multipli, polarizzati o no) e pertanto queste sostanze sono costituite da mole-
+
+cole (o macromolecole) e fanno parte della famiglia delle sostanze covalenti.
+
+Idrocarburi saturi: alcani e cicloalcani
+
+Gli idrocarburi più diffusi vengono chiamati idrocarburi saturi perché in essi l’ato-
+
+mo di carbonio è sempre legato ad altri quattro atomi, cioè forma quattro legami co-
+
+valenti semplici.
+
+Il metano è l’idrocarburo saturo più semplice: l’atomo di carbonio è legato a quat-
+
+ Figura 3 I modelli molecolari raf-
+
+tro atomi di idrogeno e la molecola presenta, come sappiamo, una perfetta geometria
+
+figurati evidenziano la caratteristica
+
+tetraedrica.
+
+strutturale comune agli idrocarburi
+
+L’idrocarburo che contiene due atomi di carbonio legati tra loro si chiama etano e
+
+saturi: ogni atomo di carbonio forma
+
+quattro legami covalenti con altri
+
+ha formula C2H6; gli idrocarburi con tre e quattro atomi di carbonio in catena si chia-
+
+quattro atomi rispettando la geome-
+
+mano rispettivamente propano, C3H8, e butano, C4H10 (figura 3).
+
+tria tetraedrica.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•195
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+Gli atomi di carbonio che costituiscono la catena dell’idrocarburo distano tra loro
+
+l � 0,109 nm
+
+0,154 nm e la lunghezza del legame C — H vale invece 0,109 nm (figura 4).
+
+Se si continua ad allungare la catena aggiungendo via via un atomo di carbonio,
+
+si ottengono gli idrocarburi che costituiscono la famiglia degli alcani (tabella 1).
+
+l � 0,154 nm
+
+ Figura 4 Per lunghezza di legame
+
+Tabella 1 Nella tabella sono riportati i nomi dei primi alcani a catena lineare. Ogni composto differisce da si intende la distanza che separa i
+
+quello che lo precede perché ha un gruppo –CH2– in più. La catena viene detta lineare perché gli atomi di centri dei nuclei dei due atomi legati.
+
+carbonio sono legati uno di seguito all’altro anche se, in realtà, gli atomi di carbonio formano una linea Di solito la lunghezza di legame è
+
+spezzata a zig-zag.
+
+espressa in nanometri.
+
+Nome
+
+Formula
+
+
+
+
+
+Formula
+
+
+
+
+molecolare
+
+
+
+
+
+di struttura
+
+
+metano
+
+
+CH4
+
+etano
+
+C2H6
+
+propano
+
+C3H8
+
+butano
+
+C4H10
+
+pentano
+
+C5H12
+
+esano
+
+C6H14
+
+eptano
+
+C7H16
+
+ottano
+
+C8H18
+
+nonano
+
+C9H20
+
+decano
+
+C10H22
+
+undecano
+
+C11H24
+
+dodecano
+
+C12H26
+
+tridecano
+
+C13H28
+
+tetradecano
+
+C14H30
+
+pentadecano
+
+C15H32
+
+esadecano
+
+C16H34
+
+eptadecano
+
+C17H36
+
+ottadecano
+
+C18H38
+
+nonadecano
+
+C19H40
+
+eicosano
+
+C20H42
+
+Gli alcani elencati nella tabella 1 sono idrocarburi saturi a catena aperta, chiamati
+
+così perché esistono anche composti in cui gli atomi di carbonio si legano in modo
+
+da formare una catena chiusa; per questo motivo questi ultimi sono indicati con il
+
+termine di idrocarburi saturi ciclici, oppure, più brevemente e più comunemente, ci-
+
+cloalcani.
+
+
+
+ Figura 5 Modelli della struttura
+
+molecolare dei primi tre cicloalcani.
+
+Nella figura 5 sono mostrate le strutture molecolari dei primi tre cicloalcani.
+
+ciclopropano
+
+ciclobutano
+
+ciclopentano
+
+C•196
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+1. La chimica organica
+
+Questi esempi dimostrano che gli atomi di carbonio per legarsi e formare una strut-
+
+tura ciclica devono assumere posizioni nello spazio che corrispondono ad angoli di
+
+legame minori di 109,5°; in particolare, nel ciclopropano e nel ciclobutano è molto ac-
+
+centuata la differenza tra l’angolo di legame teorico e quello reale, così che questi
+
+composti risultano essere particolarmente instabili. Sulla base delle stesse conside-
+
+razioni si spiega il fatto che hanno maggiore stabilità i cicloalcani con catena forma-
+
+ta da cinque, sei e sette atomi di carbonio, in quanto gli angoli di legame si avvicina-
+
+no a quelli teorici (figura 6).
+
+ Figura 6 La struttura non planare
+
+del cicloesano consente di realizzare
+
+angoli di legame vicini a quelli carat-
+
+teristici della struttura tetraedrica.
+
+Si può osservare che nelle formule degli alcani e dei cicloalcani che abbiamo presen-
+
+tato c’è un rapporto preciso tra il numero di atomi di carbonio e quelli di idrogeno.
+
+! Gli alcani hanno formula generale CnH2n+2 mentre i cicloalcani hanno formula gene-
+
+rale CnH2n; il nome di tutti gli idrocarburi saturi termina con la desinenza ano.
+
+Qual è la formula molecolare dei due idrocarburi saturi con 16 atomi di idrogeno?
+
+Catene ramificate: idrocarburi isomeri
+
+Finora abbiamo mostrato idrocarburi in cui (a esclusione del metano) gli atomi di
+
+carbonio sono legati in successione formando catene aperte o chiuse. Tuttavia questa
+
+non è l’unica modalità con cui si possono legare
+
+gli atomi di carbonio negli idrocarburi saturi.
+
+ Figura 7 Nella molecola di questo
+
+idrocarburo saturo c’è un atomo di
+
+Nella figura 7 è presentato il modello della
+
+carbonio legato a tre atomi di carbonio
+
+molecola di un idrocarburo saturo: la sua formu-
+
+e a un solo atomo di idrogeno; questa
+
+la (C
+
+situazione non si presenta negli idro-
+
+4H10) è quella del butano, ma la sua struttura
+
+molecolare non è la stessa; infatti soltanto tre
+
+carburi saturi a catena lineare dove
+
+ogni atomo di carbonio è legato a uno
+
+atomi di carbonio si succedono in modo lineare,
+
+o a due atomi di carbonio.
+
+dato che il quarto è legato in modo da creare una
+
+catena ramificata.
+
+Si comprende che ci troviamo di fronte ad
+
+un’importante novità: abbiamo due molecole che
+
+hanno la stessa formula molecolare ma che sono
+
+diverse perché sono diverse le strutture delle catene degli atomi che le costituiscono.
+
+Si tratta quindi di due composti diversi con proprietà fisiche diverse e, ovviamente,
+
+nome diverso (tabella 2).
+
+Quando gli atomi di carbonio sono quattro ci sono solo due modi di legarli tra
+
+Tabella 2 Densità e temperature dei passaggi di stato di due composti con formula C4H10.
+
+
+
+
+
+Idrocarburo
+
+
+d (kg/L)
+
+tf (°C)
+
+teb (°C)
+
+metilpropano
+
+0,549
+
+159,4
+
+11,6
+
+butano
+
+0,579
+
+138,4
+
+0,5
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•197
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+CH3
+
+
+CH3
+
+9
+
+9
+
+CH39CH29CH29CH29CH3
+
+CH39CH9CH29CH3
+
+CH39C9CH3
+
+9
+
+CH3
+
+ Figura 8 Nella molecola rappre-
+
+loro, ma se gli atomi di carbonio che formano il composto diventano cinque, vedia-
+
+sentata nella terza formula c’è un
+
+mo che le possibili catene diventano tre (figura 8).
+
+atomo di carbonio che, come nel dia-
+
+mante, è legato soltanto ad atomi di
+
+Anche in questo caso, la formula molecolare è sempre la stessa, C5H12, ma a ogni
+
+carbonio.
+
+diversa formula di struttura corrispondono composti con proprietà diverse.
+
+Possiamo già sottolineare una importante conclusione: quando gli atomi di carbo-
+
+nio che si legano sono più di tre, le catene che si formano possono essere ramificate;
+
+questo fatto determina un aumento del numero di composti che si possono formare:
+
+infatti alla stessa formula molecolare corrispondono composti diversi perché è diver-
+
+sa la loro formula di struttura.
+
+Questo aspetto tipico dei composti della chimica del carbonio viene detto isomeria.
+
+! In generale, si chiamano isomeri i composti che hanno la stessa formula molecola-
+
+re ma proprietà diverse a causa di una diversa disposizione reciproca degli atomi.
+
+In particolare, i due idrocarburi che corrispondono alla formula molecolare C4H10 e i
+
+tre che hanno formula C5H12 sono isomeri di catena (o di struttura), espressione che sottolinea che i due composti sono diversi perché è diversa la struttura della catena
+
+di atomi di carbonio che costituisce l’ossatura della molecola.
+
+Come si intuisce, via via che cresce il numero di atomi di carbonio, aumenta an-
+
+che il numero di isomeri possibili. Se la formula molecolare è C6H14, si possono scri-
+
+vere le formule di ben cinque idrocarburi saturi isomeri, ma se gli atomi di carbonio
+
+Scrivi la formula di struttura dei
+
+sono 10 gli isomeri possibili sono settantacinque e diventano ben trecentosessanta-
+
+cinque idrocarburi isomeri aventi
+
+formula molecolare C
+
+seimilatrecentodiciannove quando si possono legare tra loro in modi diversi 20 ato-
+
+6H14.
+
+mi di carbonio!
+
+Le proprietà fisiche degli idrocarburi saturi
+
+In quasi tutti gli idrocarburi saturi gli atomi di carbonio presentano una struttura te-
+
+traedrica; anche se il legame C — H è debolmente polare, la distribuzione della cari-
+
+ca elettrica è complessivamente simmetrica; pertanto, gli idrocarburi saturi sono so-
+
+stanze apolari per le ragioni che abbiamo illustrato nel capitolo C6.
+
+Le considerazioni sulla struttura molecolare trovano conferma nelle prove di solu-
+
+bilità: quale che sia il loro stato di aggregazione, gli alcani e i cicloalcani sono prati-
+
+camente insolubili in acqua, mentre si sciolgono in solventi apolari.
+
+Sulla base della apolarità molecolare possiamo anche prevedere che altre proprie-
+
+tà fisiche di questi composti dipendono principalmente da quel tipo di forze intermo-
+
+lecolari che abbiamo chiamato forze di dispersione di London; come sappiamo, que-
+
+ste forze aumentano via via che cresce il numero di atomi che costituiscono la mole-
+
+C•198
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+1. La chimica organica
+
+200
+
+ Figura 9 Le temperature di fusio-
+
+ne e di ebollizione degli alcani a ca-
+
+t
+
+tena lineare aumentano con l’aumen-
+
+150
+
+f
+
+t
+
+tare del numero di atomi di carbonio.
+
+eb
+
+100
+
+50
+
+0
+
+–50
+
+temperatura (°C)
+
+–100
+
+–150
+
+–200
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+Tabella 3 Temperatura di ebollizione
+
+atomi di carbonio
+
+di tutti gli idrocarburi isomeri aventi
+
+formula molecolare C6H14.
+
+cola, per cui ci aspettiamo che cambino gradualmente al cre- Formula
+
+
+
+
+
+t
+
+
+scere del numero di atomi di carbonio e quindi delle dimen-
+
+eb (°C)
+
+sioni delle molecole. I dati riportati nel grafico della figura 9
+
+CH — CH — CH — CH — CH — CH
+
+69
+
+3
+
+
+
+2
+
+
+
+2
+
+
+
+2
+
+
+
+2
+
+
+
+3
+
+costituiscono una conferma di queste previsioni.
+
+Un’altra considerazione interessante può essere fatta os-
+
+CH — CH — CH— CH — CH
+
+3
+
+
+
+2
+
+
+
+
+
+2
+
+
+
+3
+
+servando i dati riportati nella tabella 3 relativa ai cinque iso-
+
+63
+
+meri con formula molecolare C
+
+CH
+
+6H14: si nota che, anche se il
+
+3
+
+numero di atomi presenti nella molecola è sempre lo stesso,
+
+Ciclopropano
+
+Ciclobutano
+
+Ciclopentano
+
+la temperatura di ebollizione diminuisce con l’aumentare
+
+CH — CH — CH — CH — CH
+
+3
+
+
+
+
+
+2
+
+
+
+2
+
+
+
+3
+
+60
+
+delle ramificazioni presenti nella catena.
+
+CH
+
+In generale si può concludere che in tutte le situazioni di
+
+3
+
+isomeria di catena l’isomero con il maggior numero di rami-
+
+ficazioni è quello che presenta la minore temperatura di ebol-
+
+CH — CH — CH — CH
+
+3
+
+
+
+
+
+3
+
+lizione.
+
+58
+
+CH
+
+CH
+
+Possiamo perciò osservare che le forze intermolecolari
+
+3
+
+3
+
+sono meno intense via via che le ramificazioni delle molecole
+
+aumentano e questo trova una logica spiegazione se si consi-
+
+CH3
+
+dera che le ramificazioni della catena comportano una dimi-
+
+CH — C — CH — CH
+
+50
+
+nuzione della superficie di interazione tra le molecole e di
+
+3
+
+
+
+
+
+2
+
+
+
+3
+
+conseguenza una diminuzione delle forze di dispersione in-
+
+CH3
+
+termolecolari (figura 10).
+
+Ciclopropano
+
+Ciclobutano
+
+Ciclopentano
+
+ Figura 10 Tra le molecole lineari di
+
+pentano si possono stabilire numerosi
+
+punti di contatto; viceversa, le mole-
+
+cole del composto con struttura rami-
+
+ficata sono più tondeggianti e pertanto
+
+la superficie di contatto è minore.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•199
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+2. Formule e nomi
+
+
+
+
+degli idrocarburi saturi
+
+
+
+
+
+Le formule degli idrocarburi saturi
+
+
+L’esistenza di composti isomeri ha costretto i chimici a mettere a punto metodi di
+
+rappresentazione dei composti tali da evitare ogni confusione: in queste rappresenta-
+
+zioni si mettono in evidenza le diverse strutture delle molecole e si riportano tutti o
+
+parte dei legami tra gli atomi costituenti. La rappresentazione sul piano risulta com-
+
+plicata dal fatto che la struttura molecolare degli alcani si sviluppa nello spazio se-
+
+condo la geometria tetraedrica.
+
+Esistono alcuni modi codificati e la scelta di una rappresentazione piuttosto che
+
+di un’altra dipende da quante e quali informazioni si desidera comunicare.
+
+Per illustrare le diverse tipologie di rappresentazione consideriamo come esempio
+
+il seguente idrocarburo:
+
+La formula molecolare C9H20 è detta anche formula bruta o grezza ed è ovviamente
+
+la più povera di informazioni perché indica solamente quali e quanti atomi sono pre-
+
+senti nella molecola.
+
+La formula di struttura è la più ricca di informazioni, perché mostra tutti gli ato-
+
+mi e i legami tra gli stessi:
+
+H
+
+H
+
+H
+
+H
+
+H
+
+H
+
+H
+
+H 9 C 99 C 99 C 99 C 99 C 99 C 99 C 9 H
+
+H
+
+H
+
+H
+
+H
+
+H
+
+H 9 C 9 H H 9 C 9 H
+
+H
+
+H
+
+Nella formula condensata sono rappresentati tutti gli atomi di carbonio e si dà rilie-
+
+vo ai soli legami tra questi, che definiscono la struttura della catena:
+
+CH3 9 CH 9 CH2 9 CH 9 CH2 9 CH2 9 CH3
+
+CH3
+
+CH3
+
+Infine, nella formula semplificata è evidenziato soltanto lo scheletro molecolare che è
+
+formato dagli atomi di carbonio, indicati con un punto ingrossato:
+
+
+
+
+
+I nomi degli idrocarburi saturi
+
+
+La necessità di distinguere tra loro i vari isomeri e in generale il problema di dare un
+
+nome a milioni di composti ha portato la IUPAC a sviluppare una lunga serie di re-
+
+C•200
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+2. Formule e nomi
+
+degli idrocarburi saturi
+
+gole specifiche per la chimica organica. Le regole relative agli alcani sono molto im-
+
+portanti poiché in base a esse viene costruita la nomenclatura di tutti gli altri com-
+
+posti della chimica del carbonio.
+
+Per quanto riguarda gli alcani con catena lineare, cioè priva di ramificazioni, occor-
+
+re fare una precisazione. Come sappiamo già, metano, etano, propano e butano sono i
+
+nomi degli idrocarburi che hanno rispettivamente uno, due, tre e quattro atomi di car-
+
+bonio. Il nome degli altri composti è formato da un prefisso, che indica il numero di
+
+atomi di carbonio, seguito dalla desinenza ano. I prefissi sono del tipo che già cono-
+
+sciamo: penta, esa, epta eccetera.
+
+Se invece l’alcano presenta una o più ramificazioni nella catena di atomi di carbo-
+
+nio, il nome si ricava seguendo alcune regole.
+
+Consideriamo per esempio un composto la cui formula è la seguente:
+
+CH3
+
+CH3 9 CH2 9 CH2 9 CH 9 CH 9 CH2 9 CH3
+
+CH2
+
+CH3
+
+Osservando la formula condensata occorre individuare la catena principale, cioè la
+
+catena di atomi di carbonio più lunga; l’alcano corrispondente (quello cioè che ha lo
+
+stesso numero di atomi di carbonio, in questo caso 7) fornisce il nome principale del
+
+composto: …eptano.
+
+Per quanto riguarda le ramificazioni, esse vengono considerate come fossero un
+
+altro alcano a cui è stato sottratto un atomo di idrogeno; il gruppo di atomi che ne ri-
+
+sulta è perciò chiamato genericamente alchile o gruppo alchilico; il nome specifico si ricava dal nome del corrispondente alcano sostituendo la desinenza ano con la desinenza ile (tabella 4 e figura 11).
+
+Tabella 4 Formule e nomi dei più comuni gruppi alchilici.
+
+
+
+Alcano
+
+
+
+
+
+Gruppo alchilico
+
+
+CH4
+
+
+metano
+
+CH3
+
+metile
+
+CH3 CH
+
+C
+
+
+
+3
+
+etano
+
+CH2CH3 (o  2H5)
+
+etile
+
+
+
+
+
+CH2CH2CH3 (o C
+
+ 3H7)
+
+propile
+
+
+
+CH
+
+
+
+
+
+
+
+3
+
+CH
+
+CH
+
+CH CH
+
+
+
+2 3 propano
+
+
+
+
+
+3
+
+
+
+
+
+
+
+1-metiletile
+
+CH3
+
+(o isopropile)
+
+ Figura 11 I due gruppi alchilici
+
+con tre atomi di carbonio hanno nomi
+
+diversi perché l’atomo di idrogeno
+
+che manca si trova in due posizioni
+
+della catena non equivalenti.
+
+propano
+
+propile
+
+1-metiletile
+
+Una volta individuati e nominati i gruppi alchilici legati alla catena principale, oc-
+
+corre indicarne la posizione esatta; a tal fine si contrassegnano con un numero pro-
+
+gressivo tutti gli atomi di carbonio della catena principale. Tale numerazione viene
+
+effettuata iniziando da una estremità della catena, quella che consente di attribuire i
+
+numeri più bassi possibile agli atomi di carbonio a cui sono legati i gruppi alchilici.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•201
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+Nel composto a cui vogliamo assegnare il nome, la numerazione corretta si ottiene
+
+numerando la catena da destra:
+
+CH3
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+CH3 9 CH2 9 CH2 9 CH 9 CH 9 CH2 9 CH3
+
+CH2
+
+CH3
+
+Si tratta ora di scrivere il nome dell’alcano: i nomi dei gruppi alchilici sono preceduti
+
+dal numero che indica l’atomo di carbonio a cui sono legati e sono riportati in ordine
+
+alfabetico. Se sono presenti più gruppi uguali, il nome si scrive una volta sola e si
+
+utilizza un prefisso (di, tri, tetra eccetera) che ne indica il numero. Infine si aggiunge
+
+il nome corrispondente alla catena principale. A questo punto siamo finalmente in
+
+grado di scrivere il nome del nostro idrocarburo:
+
+CH3
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+CH39CH29CH29CH9CH9CH29CH3
+
+CH2
+
+CH3
+
+4-etil-3-metileptano
+
+In generale, i nomi devono essere scritti senza interruzione e sono separati dai nume-
+
+ri con un trattino, mentre i numeri vengono separati da una virgola.
+
+Per i cicloalcani valgono le stesse regole, alle quali bisogna aggiungere l’obbligo
+
+di considerare come catena principale non la più lunga ma quella chiusa. Natural-
+
+mente il nome finale viene preceduto dal prefisso ciclo.
+
+Per esempio, il composto rappresentato con la seguente formula condensata si
+
+chiama 1,3-dimetilciclopentano:
+
+2
+
+CH2
+
+1
+
+3
+
+CH3 9 CH
+
+CH 9 CH3
+
+5
+
+4
+
+CH2 9 CH2
+
+a) Assegna il nome al composto che ha la seguente formula condensata:
+
+CH3
+
+CH2
+
+CH3
+
+CH2
+
+CH39C9CH29CH9CH3
+
+CH2
+
+CH3
+
+b) Scrivi la formula semplificata del 2,2,4-trimetilesano.
+
+C•202
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+3. Gli idrocarburi insaturi
+
+3. Gli idrocarburi insaturi
+
+
+
+
+
+Alcheni e cicloalcheni
+
+
+Ci sono idrocarburi con proprietà chimiche e strutture molecolari differenti da quelle
+
+che caratterizzano gli alcani e i cicloalcani. Questo accade perché nelle molecole di
+
+questi idrocarburi ci sono almeno due atomi di carbonio che non sono legati a quat-
+
+tro altri atomi; questi composti sono genericamente chiamati idrocarburi insaturi.
+
+Per esempio, l’etene (o etilene secondo il nome tradizionale) è un idrocarburo che
+
+ha formula C2H4 e quindi nelle sue molecole ci sono due atomi di carbonio come
+
+ Figura 12 Le molecole di etene
+
+nell’etano ma due atomi di idrogeno in meno (figura 12).
+
+presentano una struttura planare, cioè
+
+In base ai modelli del legame covalente, si può affermare che tra i due atomi di
+
+tutti i sei atomi si trovano sullo stesso
+
+piano. Anche questa struttura geome-
+
+carbonio si forma un doppio legame la cui lunghezza, 0,134 nm, è sempre minore di
+
+trica dà luogo a una molecola apola-
+
+quella del legame semplice.
+
+re.
+
+Se alla catena dell’etene si aggiunge un altro atomo di carbonio, si ottiene un idro-
+
+carburo che ha formula C3H6 e si chiama propene (figura 13).
+
+Se si allunga via via la catena aggiungendo ogni volta un gruppo — CH2 —, si
+
+individua un’altra categoria di idrocarburi.
+
+! In generale, gli idrocarburi insaturi a catena aperta che presentano un doppio lega-
+
+me vengono chiamati alcheni; la formula generale degli alcheni a catena aperta è
+
+CnH2n e il loro nome è caratterizzato dalla desinenza ene.
+
+Le regole che consentono di assegnare il nome specifico a un alchene sono molto si-
+
+mili a quelle già descritte per gli alcani. Dobbiamo sottolineare che, se gli atomi di
+
+ Figura 13 Nel propene ci sono
+
+carbonio legati in catena sono più di quattro, è necessario precisare in quale posizio-
+
+due atomi di carbonio con struttura
+
+ne si trova il doppio legame; a tal fine si devono numerare gli atomi di carbonio che
+
+triangolare (quelli legati con il doppio
+
+legame) mentre l’altro atomo di car-
+
+costituiscono la catena partendo dall’estremità più vicina al doppio legame.
+
+bonio ha struttura tetraedrica perché
+
+Per comprendere meglio il significato di queste regole è utile un esempio; voglia-
+
+forma quattro legami semplici.
+
+mo assegnare il nome al composto che ha la seguente formula:
+
+6
+
+5
+
+4
+
+3
+
+2
+
+1
+
+CH
+
+
+
+3 9 CH2 9 CH2 9 CH " CH 9 CH3
+
+"
+
+
+
+Per indicare la posizione del doppio legame si indica il numero del primo dei due
+
+atomi di carbonio interessati. Dato che la catena è formata da sei atomi di carbonio,
+
+la desinenza ene è preceduta dal prefisso esa. Pertanto il nome dell’idrocarburo, a seguito di una contrazione, è 2-esene.
+
+Per sottolineare un altro aspetto che riguarda l’assegnazione del nome a un alche-
+
+ne, supponiamo che l’idrocarburo abbia la seguente formula:
+
+1
+
+2
+
+3
+
+4
+
+CH
+
+2 " C 9 CH2 9 CH3
+
+CH2 9 CH3
+
+In questo caso è importante osservare che la catena di atomi più lunga è formata da
+
+cinque atomi di carbonio, ma la catena a cui si deve fare riferimento è comunque
+
+quella in cui è presente il doppio legame, ed essa è formata da quattro atomi di car-
+
+bonio; la numerazione di questa catena inizia da sinistra e individua in posizione 2
+
+una ramificazione formata dal gruppo etile  C2H5. Pertanto il nome dell’idrocarbu-
+
+ro insaturo è 2-etil-1-butene.
+
+Scrivi la formula condensata del 3-metil-1-pentene.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•203
+
+
+
+
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+La diversa posizione del doppio legame in una catena formata dallo stesso numero
+
+di atomi di carbonio rende possibile l’esistenza di due o più composti isomeri. Per
+
+esempio, ci sono ben tre alcheni lineari isomeri di posizione che corrispondono alla
+
+formula C6H12: 1-esene, 2-esene e 3-esene. Si tratta di isomeri di posizione proprio
+
+perché nelle loro molecole il doppio legame è presente in una posizione diversa nella
+
+catena.
+
+Scrivi le formule semplificate e i nomi degli alcheni lineari isomeri di posizione che corrispondo-
+
+no alla formula molecolare C5H10.
+
+Esaminiamo infine i dati presentati nella tabella 5: si può osservare che le tempera-
+
+ture di ebollizione di alcuni alcheni a catena lineare aumentano all’aumentare della
+
+lunghezza della catena e ciò si spiega sulla base delle stesse considerazioni prima
+
+svolte a proposito delle proprietà fisiche degli alcani: dato che anche gli alcheni sono
+
+composti apolari, le forze di dispersione tra le loro molecole aumentano via via che
+
+aumenta il numero di atomi di carbonio.
+
+Tabella 5 Nella tabella sono riportate
+
+Nome
+
+Formula
+
+Formula condensata
+
+
+
+
+
+Temperatura di
+
+
+le temperature di ebollizione di quattro
+
+
+
+
+
+bruta
+
+
+
+
+ebollizione (°C)
+
+alcheni a catena lineare aventi tutti il
+
+doppio legame in posizione 1.
+
+etene
+
+C2H4
+
+CH2  CH2
+
+104
+
+propene
+
+C
+
+—
+
+3H6
+
+CH2  CH
+
+CH3
+
+47
+
+1-butene
+
+C
+
+—
+
+—
+
+4H8
+
+CH2  CH
+
+CH2
+
+CH3
+
+6
+
+1-pentene
+
+C
+
+—
+
+—
+
+—
+
+5H10
+
+CH2  CH
+
+CH2
+
+CH2
+
+CH3
+
+30
+
+Come accade per gli alcani, si possono trovare anche alcheni le cui molecole presenta-
+
+no struttura ciclica; essi si chiamano cicloalcheni e la loro formula generale è CnH2n22.
+
+Il ciclopentene (C5H8) e il cicloesene (C6H10) sono esempi di cicloalcheni.
+
+Nel caso che la catena ciclica sia ramificata, per individuare la posizione del grup-
+
+po alchilico è necessario numerare la catena partendo da uno dei due atomi legati da
+
+un doppio legame in modo da assegnare il numero inferiore.
+
+Consideriamo per esempio il composto che ha la seguente formula:
+
+2
+
+3
+
+CH 9 CH2
+
+1
+
+4
+
+CH
+
+CH 9 CH2 9 CH2 9 CH3
+
+6
+
+5
+
+CH2 9 CH2
+
+La numerazione della catena in senso orario consente di assegnare il nome del com-
+
+posto: 4-propilcicloesene.
+
+I dieni e i polieni coniugati
+
+Gli idrocarburi che presentano due doppi legami sono chiamati dieni. Il più semplice
+
+tra questi si chiama 1,3-butadiene e la sua formula molecolare è C4H6 (figura 14). Si
+
+ Figura 14 Il composto 1,3-buta-
+
+diene è la sostanza base per la prepa-
+
+razione di diversi tipi di sostanze plasti-
+
+che che trovano impiego nella produ-
+
+zione degli pneumatici.
+
+C•204
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+
+
+3. Gli idrocarburi insaturi
+
+può notare che la presenza di un altro doppio legame fa diminuire di due il numero
+
+degli atomi di idrogeno. In generale, si può osservare che rispetto all’idrocarburo li-
+
+neare saturo il numero di atomi di idrogeno diminuisce di due per ogni doppio lega-
+
+me presente. Per esempio ogni molecola di 1,3,5-ottatriene ha dodici atomi di idroge-
+
+no, cioè sei in meno dell’ottano, perché le molecole di questo composto, come indica
+
+il prefisso tri, presentano tre doppi legami.
+
+Ci sono altri composti, come il butadiene, in cui due doppi legami sono separati
+
+da un legame semplice. I composti nella cui struttura molecolare si alternano rego-
+
+larmente legami semplici a doppi legami prendono il nome di polieni coniugati e han-
+
+no grande importanza in alcuni processi biologici.
+
+Per esempio, il -carotene è un composto presente in molti alimenti di origine ve-
+
+getale ed è fondamentale per la produzione della vitamina A; come mostra la formu-
+
+la, nel -carotene è presente una catena di atomi di carbonio in cui si trovano ben
+
+undici doppi legami alternati a legami semplici (figura 15).
+
+ Figura 15 Il -carotene, presente
+
+in buona percentuale nelle carote e
+
+in altri ortaggi colorati, viene trasfor-
+
+mato nel nostro organismo in vitami-
+
+na A, un catalizzatore biologico che
+
+esercita una funzione essenziale so-
+
+prattutto durante la fase della cresci-
+
+ta degli individui.
+
+ß-carotene
+
+ß-carotene
+
+
+
+
+
+Gli alchini
+
+
+La presentazione dei diversi tipi di idrocarburi insaturi si conclude con i composti
+
+nelle cui molecole si trovano atomi di carbonio legati solamente ad altri due atomi; il
+
+più semplice di questi ha formula C2H2 e si chiama etino, anche se è più noto col suo
+
+nome tradizionale di acetilene.
+
+CH CH
+
+In base al nostro modello di legame covalente sappiamo che tra due atomi di carbo-
+
+nio si forma un triplo legame; in tal modo si spiega anche il fatto che la molecola ha
+
+una struttura lineare e che la lunghezza del triplo legame carbonio-carbonio vale
+
+0,120 nm, cioè un valore inferiore anche a quella del doppio legame.
+
+! In generale, gli idrocarburi insaturi a catena aperta che presentano nella catena un
+
+triplo legame si chiamano alchini; la formula generale è CnH2n22 e il loro nome è
+
+caratterizzato dalla desinenza ino.
+
+Per quel che riguarda la nomenclatura, gli alchini seguono le stesse regole già illu-
+
+strate a proposito degli alcheni; per esempio, il nome del composto che viene qui rap-
+
+presentato è 4-metil-1-esino.
+
+4
+
+3
+
+2
+
+1
+
+CH3 9 CH 9 CH2 9 C #
+
+
+
+CH
+
+5CH2
+
+6
+
+Scrivi la formula condensata del
+
+CH3
+
+4-etil-2-eptino.
+
+4-metil-1-esino
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•205
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+La stereoisomeria
+
+
+Abbiamo già sottolineato che la presenza di un legame multiplo in una catena costi-
+
+tuita da quattro o più atomi di carbonio rende necessario precisare tra quali atomi di
+
+1-butene
+
+carbonio è presente il doppio legame. Infatti, per esempio, 1-butene e 2-butene sono
+
+composti che hanno la stessa formula molecolare e sono isomeri di posizione. Possia-
+
+mo anche osservare che ciascuno di questi due composti è isomero di catena del
+
+2-butene
+
+2-metilpropene (figura 16).
+
+In realtà dobbiamo rilevare che si conoscono due isomeri del 2-butene, uno che
+
+fonde a –139 °C e l’altro che fonde a –106 °C. Il solo modo per giustificare questi ri-
+
+sultati è che gli atomi sono disposti attorno al doppio legame in due modi differenti.
+
+2-metilpropene
+
+Infatti, in un composto i due gruppi CH3 con cui inizia e finisce la catena si trovano
+
+ Figura 16 La catena degli atomi
+
+dalla stessa parte ( cis) rispetto la linea del doppio legame, mentre nell’altro composto
+
+di carbonio che costituiscono il metil-
+
+si trovano da parti opposte ( trans):
+
+propene è diversa da quella dei due
+
+altri idrocarburi; per questo esso è un
+
+isomero di catena.
+
+cis-2-butene
+
+trans-2-butene
+
+Il fatto che questi due composti esistano realmente porta a una conclusione di carat-
+
+tere più generale: i quattro atomi legati alla struttura >C — C< sono costretti a stare
+
+sullo stesso piano; in altre parole, il doppio legame costituisce una barriera energeti-
+
+ca che impedisce la rotazione attorno all’asse del legame C — C, rotazione che invece
+
+è possibile quando il legame è semplice.
+
+A seguito di questo fatto si possono avere due composti che sono detti isomeri geo-
+
+metrici; dobbiamo sottolineare che l’isomeria geometrica presenta un’importante no-
+
+vità rispetto all’isomeria di catena e a quella di posizione; infatti negli isomeri cis e
+
+trans i legami reciproci tra gli atomi sono esattamente gli stessi, per cui questi compo-
+
+sti differiscono unicamente per la diversa disposizione nello spazio degli atomi.
+
+Gli isomeri geometrici fanno parte di una più ampia categoria di isomeri: la stere-
+
+oisomeria.
+
+In generale, due composti sono stereoisomeri quando gli atomi delle loro moleco-
+
+le differiscono per la disposizione nello spazio pur presentando gli stessi legami.
+
+Si può anche affermare che possono esistere isomeri cis e trans solo se il doppio
+
+legame non si trova all’inizio della catena dell’alchene.
+
+La diversa struttura spaziale dei due isomeri geometrici ha talvolta grande rile-
+
+vanza dal punto di vista biologico. Per esempio, nell’occhio umano l’evento fonda-
+
+mentale che sta alla base del fenomeno della vista è la trasformazione del cis-retinale
+
+nell’isomero trans; al buio avviene la trasformazione inversa e il ciclo può ricomin-
+
+ciare.
+
+CH
+
+cis
+
+3
+
+CH3
+
+CH3
+
+H
+
+CH3 CH3
+
+CH3
+
+H
+
+CH3
+
+CHO
+
+H
+
+luce
+
+H
+
+CH
+
+trans
+
+3
+
+CH3
+
+CH3
+
+CHO
+
+C•206
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+11-cis-retinale
+
+trans-retinale
+
+
+
+4. Gli idrocarburi aromatici
+
+4. Gli idrocarburi aromatici
+
+
+
+
+
+I protagonisti della scienza
+
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+
+
+
+
+Il benzene
+
+
+-------------------------------------------
+
+
+-------------------------------------------
+
+In base a un criterio di classificazione tradizionale, tutti gli idrocarburi finora pre-
+
+-------------------------------------------
+
+sentati sono denominati idrocarburi alifatici, con la specificazione cicloalifatici se ci si -------------------------------------------
+
+riferisce a idrocarburi a catena chiusa.
+
+-------------------------------------------
+
+L’opportunità di questa classificazione è dettata dal fatto che esistono idrocarburi -------------------------------------------
+
+con proprietà tali da costituire un’altra importante categoria, a cui è stato assegnato -------------------------------------------
+
+il nome di idrocarburi aromatici.
+
+-------------------------------------------
+
+-------------------------------------------
+
+Il capostipite degli idrocarburi aromatici è il benzene: la sua formula molecolare ----F---------
+
+riedrich ----------
+
+August ---
+
+K ------
+
+ekulé ---------
+
+(1829- --
+
+(C
+
+1896), dopo aver svolto lavori a Pari-
+
+6H6) rivela subito che ci troviamo di fronte a un idrocarburo le cui molecole devono
+
+-------------------------------------------
+
+contenere legami multipli; anche se la formula è molto semplice e pochi sono gli atomi ------
+
+gi -
+
+e --------
+
+Londra --
+
+e -----------
+
+insegnato -a -------------
+
+Heildelberg -
+
+e a Gand, ricoprì, dal 1865 sino alla
+
+che si legano, la comprensione della struttura della molecola del benzene ha richiesto -------------------------------------------
+
+sua morte, la carica di direttore del-
+
+un lungo e faticoso impegno da parte delle migliori intelligenze dei chimici del dician-
+
+-------------------------------------------
+
+------------
+
+l’istituto --
+
+di ---------
+
+chimica --
+
+di ------
+
+Bonn ---
+
+da ---
+
+lui ---
+
+fon----
+
+novesimo secolo, tra cui il grande chimico tedesco F.A. Kekulé.
+
+---------
+
+dato. --------
+
+Proprio ---
+
+in --------
+
+questa -----
+
+città ---------
+
+tedesca -
+
+Infatti, numerose prove consentono di affermare che la struttura e le proprietà -------
+
+nel ------
+
+1900 ---
+
+fu -------
+
+eretto ---
+
+un -------------
+
+monumento ---
+
+in -
+
+della molecola del benzene sono tali da escludere che esso possa essere un idrocar-
+
+--------
+
+suo --------
+
+ricordo. --
+
+K ------
+
+ekulé --
+
+si ------------
+
+concentrò ----
+
+per -
+
+buro insaturo a catena aperta, cioè un polialchene o un polialchino. Le molecole del ---------
+
+molti -----
+
+anni ------
+
+sullo -------
+
+studio ---------------
+
+sperimentale -
+
+di diversi composti chimici ed in par-
+
+benzene infatti presentano una struttura ad anello che ha forma di un esagono rego-
+
+-------------------------------------------
+
+ticolare del benzene. Contribuì a de-
+
+lare. Dato che ogni atomo di carbonio è legato ad altri due atomi di carbonio e a un -------------------------------------------
+
+---------
+
+finire --
+
+il ---------
+
+concetto ---
+
+di --------
+
+valenza --
+
+e ---
+
+in ----
+
+parti----
+
+atomo di idrogeno, si deve concludere che ogni atomo di carbonio utilizza solo tre ----------
+
+colare ---
+
+fu -il -------
+
+primo --
+
+a ----------
+
+ipotizzare ---
+
+la ----
+
+tetra----
+
+dei suoi quattro elettroni di valenza e quindi abbiamo indicato con un puntino l’elet-
+
+------------
+
+valenza ---
+
+del ----------
+
+carbonio. ------------------
+
+trone di valenza che non è utilizzato per formare legami (figura 17).
+
+In base alla teoria del legame covalente e alla regola dell’ottetto, non è possibile
+
+
+
+
+
+H
+
+
+che un elettrone di valenza non sia accoppiato e quindi dobbiamo formare un altro
+
+legame covalente accoppiando i due elettroni di due atomi di carbonio adiacenti.
+
+Possiamo ottenere così due formule di struttura:
+
+H
+
+C
+
+H
+
+C
+
+
+
+
+
+C
+
+
+H
+
+
+H
+
+
+
+
+
+C
+
+
+120°
+
+
+
+
+
+C
+
+
+H
+
+
+C
+
+H
+
+H
+
+C
+
+H
+
+C
+
+C
+
+C
+
+C
+
+H
+
+C
+
+
+
+
+
+H
+
+
+120°
+
+120°
+
+C
+
+C
+
+C
+
+C
+
+
+
+
+
+H
+
+
+H
+
+
+C
+
+H
+
+H
+
+C
+
+H
+
+ Figura 17 La molecola del benze-
+
+ne ha la forma di un esagono regolare e
+
+H
+
+H
+
+tutti e dodici gli atomi giacciono nello
+
+stesso piano.
+
+Anche se talvolta il benzene viene rappresentato con una di queste formule, dobbia-
+
+mo dire che esse non possono descrivere la struttura regolare delle sue molecole: in-
+
+fatti l’alternanza di tre legami semplici e di tre doppi legami darebbe luogo a un esa-
+
+gono irregolare, come nella molecola del 1,3,5-cicloesatriene.
+
+In conclusione, per una corretta interpretazione della struttura molecolare del
+
+benzene si rende necessario un ampliamento della teoria del legame covalente: i sei
+
+elettroni di legame non formano tre coppie di legame localizzate tra due atomi, ma
+
+costituiscono una sorta di anello di carica elettronica che rafforza equamente i sei le-
+
+gami covalenti tra gli atomi di carbonio; infatti la lunghezza del legame tra gli atomi
+
+ Figura 18 La formula semplificata
+
+della molecola del benzene si scrive
+
+di carbonio è intermedia tra quella del legame semplice e quella di un doppio lega-
+
+senza simboli e disegnando un cerchio
+
+me. Questo modello viene anche indicato con il termine delocalizzazione elettronica
+
+dentro a un esagono; in questo modo
+
+poiché si basa sull’ipotesi che la carica degli elettroni di legame covalente possa es-
+
+si indicano i legami che corrispondono
+
+sere ripartita tra più di due atomi, creando una sorta di corrente di carica elettrica
+
+alla delocalizzazione elettronica. Ogni
+
+legame tra gli atomi di carbonio ha una
+
+negativa che percorre lo scheletro della molecola (figura 18).
+
+lunghezza di 0,140 nm.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•207
+
+
+
+
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+Questo modello teorico trova conferma anche nelle proprietà chimiche del benzene:
+
+esse infatti sono assolutamente caratteristiche, tanto che i composti ciclici che presen-
+
+tano un comportamento chimico simile a quello del benzene sono idrocarburi aromati-
+
+ci; con il termine generico aromaticità si individuano alcune proprietà tipiche delle so-
+
+stanze in cui è presente un anello benzenico, o comunque una struttura ciclica in cui i le-
+
+gami tra gli atomi sono interpretabili con il modello della delocalizzazione elettronica.
+
+cristalli di naftalene visti
+
+al microscopio elettronico
+
+
+
+
+
+Idrocarburi policiclici aromatici e alchilbenzeni
+
+
+Esiste una serie di idrocarburi aromatici che sono detti idrocarburi aromatici conden-
+
+sati perché contengono due o più anelli benzenici uniti tra loro per effetto di una o più
+
+coppie di atomi in comune. L’esempio più semplice è il naftalene, C10H8 (figura 19).
+
+Se invece i due anelli benzenici sono legati tra loro con un unico legame C — C, si ha
+
+una molecola chiamata difenile (C12H10): il nome deriva da quello del gruppo — C6H5
+
+che si chiama appunto fenile.
+
+ Figura 19 Il naftalene, noto più
+
+comunemente con il nome di naftali-
+
+Il difenile è un composto tossico a spiccata azione funghicida; per questo è impiegato
+
+na, è un solido volatile il cui vapore
+
+esercita un’azione tossica per alcuni
+
+tra l’altro per proteggere dalle muffe la buccia degli agrumi.
+
+insetti. Viene ancora utilizzato per la
+
+Dalla condensazione di tre anelli benzenici si ottengono due sostanze: antracene e
+
+sua azione tarmicida, anche se oggi
+
+fenantrene; nel benzopirene ci sono ben cinque anelli condensati:
+
+viene sostituito con altre sostanze (per
+
+esempio, la canfora) perché fortemen-
+
+te tossico.
+
+antracene (C14H10)
+
+fenantrene (C14H10)
+
+3, 4-benzopirene (C20H12)
+
+Al naftalene e agli altri idrocarburi aromatici condensati si dà il nome di idrocarbu-
+
+ri policiclici aromatici; essi vengono identificati anche con la sigla IPA e rivestono molta importanza a causa del loro elevato potenziale cancerogeno. Essi sono presen-
+
+ Figura 20 Dal tubo di scarico degli
+
+ti nel fumo che deriva dalla combustione del tabacco, negli scarichi delle auto ali-
+
+autoveicoli alimentati a benzina e a
+
+mentate a benzina e negli alimenti bruciacchiati (figura 20).
+
+gasolio escono anche piccole particel-
+
+le di materia; la pericolosità di queste
+
+Esistono idrocarburi che contengono sia una parte alifatica sia una parte aromati-
+
+particelle è dovuta anche al fatto che
+
+ca, costituita da un anello benzenico: a questi composti si dà il nome generale di al-
+
+sulla loro superficie sono adsorbite le
+
+chilbenzeni.
+
+molecole di sostanze pericolose come
+
+L’esempio più semplice è costituito dal toluene: ogni sua molecola deriva dall’unio-
+
+gli IPA.
+
+ne di una molecola del benzene con una di metano, per cui il suo nome IUPAC è metil-
+
+benzene.
+
+Quando i gruppi metilici legati all’anello benzenico sono due i composti si chia-
+
+mano xileni; abbiamo usato il plurale poiché a seconda della posizione reciproca dei
+
+due gruppi metilici si hanno tre isomeri di posizione (figura 21). Essi sono utilizzati
+
+in miscela come solventi per vernici e anche come componenti delle benzine.
+
+ Figura 21 Le reciproche posizioni
+
+CH3
+
+CH3
+
+CH3
+
+dei gruppi legati all’anello benzenico
+
+CH3
+
+sono tuttora indicate utilizzando prefis-
+
+si anziché numeri; l’isomero 1,2-dime-
+
+tilbenzene è detto orto-xilene, l’isome-
+
+ro 1,3-dimetilbenzene è indicato come
+
+CH3
+
+meta-xilene e infine il para-xilene cor-
+
+CH3
+
+risponde all’isomero 1,4-dimetilbenze-
+
+ne.
+
+1,2-dimetilbenzene
+
+1,3-dimetilbenzene
+
+1,4-dimetilbenzene
+
+C•208
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+5. Origine e proprietà chimiche
+
+degli idrocarburi
+
+5. Origine e proprietà chimiche
+
+
+
+
+
+degli idrocarburi
+
+
+Gli idrocarburi: una risorsa per lo sviluppo
+
+Gli idrocarburi sono composti utilizzati in modo massiccio e per diversi usi. Le fonti
+
+di idrocarburi di gran lunga più importanti sono senz’altro il petrolio e il gas natura-
+
+le che sono estratti dal sottosuolo.
+
+Oltre a essere utilizzato ancora in massima parte come fonte primaria di energia,
+
+il petrolio alimenta anche un importante settore industriale, la petrolchimica, da cui
+
+traggono origine materiali e manufatti che hanno letteralmente rivoluzionato la vita
+
+di milioni di persone e che hanno determinato la crisi e il ridimensionamento di altri
+
+settori industriali, come quello siderurgico (figura 22).
+
+ Figura 22 La percentuale di ma-
+
+teriale ferroso con cui è costruita
+
+un’auto è diminuita perché molte sue
+
+parti sono costruite con materiali sin-
+
+tetici ottenuti dal petrolio.
+
+Normalmente il petrolio non trova impiego tal quale ma vengono invece utilizzate le
+
+differenti miscele di idrocarburi che lo compongono. Ecco perché la prima cosa da
+
+fare è quella di effettuare una operazione di separazione sul greggio che si chiama
+
+distillazione frazionata. La distillazione porta a ottenere varie frazioni costituite prin-
+
+Tabella 6 Frazioni di idrocarburi che si
+
+cipalmente da idrocarburi le cui temperature di ebollizione sono comprese in determi-
+
+ottengono attraverso la distillazione
+
+nati intervalli (tabella 6).
+
+del petrolio.
+
+Frazione
+
+Intervallo di
+
+Composizione
+
+
+
+
+
+Usi
+
+
+
+
+ebollizione (°C)
+
+gas
+
+fino a 20
+
+da CH4 a C4H10
+
+sintesi di altri composti; combustibile
+
+etere di petrolio
+
+20-70
+
+C5H12 e C6H14
+
+solvente; additivo antigelo per benzina
+
+benzina
+
+70-170
+
+da C5H14 a C10H22
+
+combustibile per motori a scoppio
+
+cherosene
+
+170-210
+
+da C11H24 a C12H26
+
+combustibile per motori d’aereo
+
+gasolio
+
+210-290
+
+da C13H28 a C17H36
+
+combustibile industriale e per motori diesel
+
+nafta e lubrificanti leggeri
+
+290-400
+
+da C18H38 a C25H52
+
+combustibile per centrali elettriche; oli lubrificanti
+
+lubrificanti
+
+400-500
+
+alcani superiori
+
+grassi, solidi cerosi; grasso lubrificante
+
+residuo solido
+
+
+
+
+
+pece o asfalto per manti impermeabili o stradali
+
+Le benzine costituiscono proprio una di queste frazioni; prima però di arrivare nel serba-
+
+toio della nostra automobile il liquido ottenuto per distillazione viene sottoposto a un
+
+processo chimico che nel linguaggio industriale è detto reforming e che ha lo scopo di
+
+riorganizzare le catene degli idrocarburi per aumentare la percentuale di idrocarburi
+
+ramificati. Infatti, a parità di peso molecolare, gli idrocarburi ramificati, quando vengo-
+
+no impiegati nelle reazioni di combustione nei motori a scoppio, presentano caratteristi-
+
+che migliori dei corrispondenti isomeri a catena lineare.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•209
+
+
+
+
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+Inoltre, data la crescente richiesta di benzina, si rende necessario convertire frazioni co-
+
+stituite da idrocarburi con maggiore massa molecolare: il processo industriale si chiama
+
+cracking e, come suggerisce il nome, consiste nella rottura di lunghe catene di idrocarbu-
+
+ri per ottenere idrocarburi a catena più corta, quelli che costituiscono la benzina.
+
+
+
+
+
+Le reazioni degli idrocarburi
+
+
+Abbiamo completato la presentazione di tutte le classi di idrocarburi e vogliamo mo-
+
+strare ora che le diverse caratteristiche strutturali si riflettono anche sul comporta-
+
+mento chimico, cioè su quella che viene chiamata reattività.
+
+In realtà, c’è una reazione che è comune a tutti gli idrocarburi, la reazione di com-
+
+bustione: il «destino» di molti idrocarburi infatti è quello di essere bruciati.
+
+La combustione è realizzata per trasformare l’energia chimica presente negli idro-
+
+carburi e ottenere energia termica, energia meccanica, energia elettrica. Ovviamente
+
+si ottengono anche i veri prodotti della reazione, e cioè diossido di carbonio e acqua.
+
+In ogni caso la reazione di combustione va innescata, poiché gli idrocarburi sono
+
+composti assai stabili e quindi è necessaria una elevata energia di attivazione.
+
+Presentiamo ora le reazioni che differenziano il comportamento dei diversi tipi di
+
+idrocarburi. Queste possono essere classificate in due grandi categorie: le reazioni di
+
+sostituzione e le reazioni di addizione.
+
+! Si chiama reazione di sostituzione la reazione in cui un atomo di idrogeno di un idro-
+
+carburo è sostituito da un altro atomo, o da un gruppo di atomi.
+
+Lo schema generale di una reazione di sostituzione è dunque il seguente:
+
+
+
+
+
+— C — H  X — X → — C — X  H — X
+
+
+
+
+
+Le reazioni di sostituzione comportano la rottura di un legame molto stabile, quello tra
+
+carbonio e idrogeno, e quindi di solito presentano energia di attivazione elevata.
+
+Nella figura 23 è presentata una reazione di sostituzione tra un alcano e il bromo.
+
+ Figura 23 La figura mostra la re-
+
+azione di sostituzione tra l’ottano e il
+
+bromo. La reazione procede rapida-
+
+mente soltanto in presenza di forti
+
+radiazioni luminose.
+
+L’equazione della reazione è la se-
+
+guente:
+
+C8H18  Br2 → C8H17Br  HBr
+
+Dopo la reazione il colore del bromo
+
+è scomparso e la cartina all’indicato-
+
+re universale evidenzia l’altro prodot-
+
+to, l’acido bromidrico.
+
+! Si chiama reazione di addizione la reazione in cui ai due atomi di carbonio dell’idrocarburo insaturo uniti con doppio o triplo legame si legano due atomi (o gruppi di atomi).
+
+Lo schema generale di una reazione di addizione è pertanto il seguente:
+
+\ /  
+
+C —
+
+— C  Y — Y → — C — C —
+
+/ \  
+
+
+
+Y Y
+
+Nella figura 24 è presentata una reazione di addizione tra un alchene e il bromo.
+
+C•210
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+
+
+5. Origine e proprietà chimiche
+
+degli idrocarburi
+
+ Figura 24 La figura mostra la re-
+
+azione tra il decene e il bromo.
+
+Entrambe le provette contengono una
+
+soluzione di bromo ma soltanto nella
+
+provetta B è stato aggiunto l’alchene.
+
+Anche in questo caso la scomparsa
+
+della colorazione del bromo segnala
+
+l’avvenuta reazione:
+
+C10H20  Br2 → C10H20Br2
+
+Vogliamo ora sottolineare la netta differenza tra i due tipi di reazione: i reagenti sono
+
+sempre due, mentre i prodotti sono due soltanto nella reazione di sostituzione.
+
+Dobbiamo precisare che gli idrocarburi saturi possono dar luogo soltanto a rea-
+
+zioni di sostituzione, mentre gli idrocarburi insaturi possono dare luogo sia alla rea-
+
+Per saperne di più
+
+zione di addizione sia a quella di sostituzione. In generale si può affermare che gli -------------------------------------------
+
+idrocarburi insaturi sono più reattivi di quelli saturi.
+
+-------------------------------------------
+
+Un altro aspetto che caratterizza molte reazioni di sostituzione risulta chiaro se -------------------------------------------
+
+scriviamo la formula di alcuni prodotti della reazione tra ottano e bromo:
+
+-------------------------------------------
+
+-------------------------------------------
+
+CH
+
+-------------------------------------------
+
+3 9 CH 9 CH2 9 CH2 9 CH2 9 CH2 9 CH2 9 CH3
+
+-------------------------------------------
+
+-------------------------------------------
+
+Br
+
+2-bromoottano
+
+-------------------------------------------
+
+-------------------------------------------
+
+CH
+
+Le scoperte scientifiche importanti
+
+3 9 CH2 9 CH 9 CH2 9 CH2 9 CH2 9 CH2 9 CH3
+
+-------------------------------------------
+
+----v--
+
+e -n-g--o-n--o- --a- --v-o-l-t-e- --ri--c-o-r-d--a-t-e- --c--o--
+
+n -
+
+Br
+
+3-bromoottano
+
+----------------
+
+l’emissione ---
+
+di -------------
+
+francobolli; -------
+
+nella -fi----
+
+---------
+
+gura --
+
+è ----------
+
+riportato --
+
+il -------------
+
+francobollo ----
+
+com----
+
+memorativo, emesso in Germania
+
+CH
+
+-------------------------------------------
+
+3 9 CH2 9 CH2 9 CH 9 CH2 9 CH2 9 CH2 9 CH3
+
+-------
+
+nel -------
+
+100° --------------
+
+anniversario ------
+
+della ------
+
+propo----
+
+sta di Kekulé sulla struttura del
+
+Br
+
+-------------------------------------------
+
+4-bromoottano
+
+-------------
+
+benzene --
+
+. ----
+
+Sul --------------
+
+francobollo --
+
+è -----
+
+dise----
+
+gnata una struttura simile a quella
+
+Abbiamo riportato la formula condensata di tre possibili prodotti (detti bromoderi-
+
+-------------------------------------------
+
+del modello originale proposto da
+
+vati) che sono isomeri di posizione. Questa situazione si presenta spesso perché in -------------------------------------------
+
+-----
+
+K ------
+
+ekulé.--------------------------------
+
+generale nelle relazioni organiche si ottengono miscele di prodotti. Inoltre, altri e più -------------------------------------------
+
+isomeri si possono formare se la sostituzione interessa due o più atomi di idrogeno -------------------------------------------
+
+formando dibromo derivati isomeri e tribromo derivati isomeri.
+
+-------------------------------------------
+
+Per quanto riguarda la reattività degli idrocarburi aromatici va sottolineato che
+
+essa costituisce una delle prove sperimentali a sostegno della teoria della delocaliz-
+
+zazione elettronica e della conseguente stabilità dell’anello benzenico; infatti l’anello
+
+benzenico, nonostante non presenti affatto la struttura di un idrocarburo saturo, si
+
+Scrivi le formule condensate di
+
+comporta in modo da dare prevalentemente reazioni di sostituzione.
+
+tutti i possibili isomeri che si ot-
+
+Se, per esempio, si fa reagire il benzene con il bromo, si osserva che si formano
+
+tengono facendo reagire il buta-
+
+no con il cloro:
+
+bromobenzene e acido bromidrico:
+
+a) in modo che sia sostituito un
+
+solo atomo di idrogeno;
+
+b) in modo che siano sostituiti
+
+
+
+due atomi di idrogeno.
+
+H + Br2
+
+Br + HBr
+
+Nella formula del benzene abbiamo evidenziato un atomo di idrogeno per indicare
+
+che esso viene sostituito con un atomo di bromo. Occorre infine precisare che questa
+
+reazione richiede specifici catalizzatori ma non necessita della luce così come è ri-
+
+chiesto per la reazione di sostituzione di un alcano.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•211
+
+
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+6. Gli idrocarburi alogenati
+
+
+Come cambiano gli idrocarburi: i gruppi funzionali
+
+ Figura 25 Nel corso della prima
+
+Abbiamo detto che per mez-
+
+guerra mondiale furono utilizzati an-
+
+zo delle reazioni di sostitu-
+
+che gas tossici. Uno di questi è l’ipri-
+
+zione e di quelle di addizione
+
+te, dal nome della città belga di Ypres
+
+dove fu usato per la prima volta
+
+le molecole degli idrocarburi
+
+dall’esercito tedesco. Nelle molecole
+
+possono essere modificate
+
+di iprite, oltre agli atomi caratteristici
+
+introducendo nelle catene
+
+di tutte le sostanze organiche, carbo-
+
+nio e idrogeno, sono presenti anche
+
+atomi diversi da quelli di car-
+
+atomi di zolfo e di cloro che conferi-
+
+bonio e di idrogeno e creando
+
+scono a questo composto particolari
+
+così composti che non sono
+
+proprietà.
+
+più idrocarburi. Alcuni di
+
+questi composti hanno origi-
+
+ne naturale, ma il numero di
+
+quelli che sono stati preparati dai chimici soprattutto nel corso degli ultimi decenni è
+
+in continuo aumento (figura 25).
+
+La presenza nella molecola di nuovi atomi o gruppi di atomi modifica quasi sempre in
+
+modo netto e radicale le proprietà fisiche e chimiche dell’idrocarburo, al punto di impar-
+
+tire alla sostanza proprietà del tutto nuove e caratteristiche.
+
+Tabella 7 Nelle formule generiche ri-
+
+portate in tabella, i gruppi funzionali
+
+sono legati a un gruppo alchilico (R)
+
+! In generale, un atomo o un gruppo di atomi che all’interno di una molecola caratterizzano l’appartenenza di un composto a una famiglia prendono il nome di gruppo funzionale.
+
+ma possono legarsi anche a un gruppo
+
+arilico (Ar) in cui è presente un anello
+
+Nella tabella 7 sono presentati i principali gruppi funzionali.
+
+aromatico. Solo nel caso del gruppo
+
+Passiamo ora a illustrare le principali caratteristiche fisiche e chimiche dei composti
+
+ossidrile (—OH) le famiglie assumono
+
+nomi diversi.
+
+appartenenti alle diverse famiglie individuate dai gruppi funzionali più significativi.
+
+Gruppo
+
+Famiglia
+
+Esempio
+
+Gruppo
+
+Famiglia
+
+Esempio
+
+
+
+
+
+funzionale
+
+
+
+
+
+funzionale
+
+
+O
+
+
+O
+
+R
+
+acidi
+
+9 C
+
+CH3 9 C
+
+R 9 Alg
+
+idrocarburi
+
+CH3 9 Cl
+
+OH
+
+carbossilici
+
+OH
+
+alogenati
+
+clorometano
+
+acido etanoico
+
+O
+
+O
+
+R 9 C
+
+esteri
+
+CH3 9 C
+
+R 9 OH
+
+alcoli
+
+CH3 9 CH2 9 OH
+
+O 9 R�
+
+O 9 CH3
+
+etanolo
+
+etanoato di metile
+
+R
+
+ammina
+
+9 NH2
+
+CH
+
+R 9 O 9 R�
+
+eteri
+
+CH
+
+primaria
+
+3 9 NH2
+
+3 9 CH2 9 O 9 CH3
+
+metossietano
+
+metilammina
+
+O
+
+O
+
+O
+
+O
+
+R 9 C
+
+ammidi
+
+CH3 9 C
+
+R 9 C
+
+aldeidi
+
+CH3 9 C
+
+NH2
+
+NH2
+
+H
+
+etanale
+
+H
+
+etanammide
+
+R
+
+CH3
+
+Ar 9 OH
+
+fenoli
+
+CH
+
+C " O
+
+chetoni
+
+C
+
+3 9
+
+9 OH
+
+" O
+
+R�
+
+CH3
+
+4-metilfenolo
+
+propanone
+
+C•212
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+6. Gli idrocarburi alogenati
+
+Nomenclatura e proprietà degli idrocarburi alogenati
+
+Quando in una catena di atomi di carbonio si sostituiscono uno o più atomi di idro-
+
+geno con uno o più atomi di un elemento del VII gruppo del sistema periodico, si ha
+
+un composto chiamato genericamente idrocarburo alogenato.
+
+! Si chiamano idrocarburi alogenati o aloidrocarburi i composti in cui uno o più ato-
+
+Cl
+
+H
+
+mi di idrogeno sono sostituiti con altrettanti atomi di un alogeno.
+
+C " C
+
+Secondo una terminologia ancora in uso questi composti si distinguono in alogenuri
+
+Cl
+
+Cl
+
+alchilici e alogenuri arilici.
+
+Gli alogenuri alchilici sono talvolta sono indicati con la formula generica RAlg,
+
+dove R indica una catena alchilica aperta o chiusa, satura o insatura e Alg indica un gene-
+
+rico alogeno. Le formule che seguono costituiscono alcuni esempi di alogenuri alchilici.
+
+CH2
+
+Cl
+
+CH2
+
+CH
+
+CH39Cl
+
+CH39CH9CH3
+
+CH2
+
+CH
+
+Br
+
+CH
+
+Cl
+
+2
+
+clorometano
+
+(cloruro di metile)
+
+2-bromopropano
+
+1,2-diclorocicloesano
+
+Come si può capire, le regole per dare il nome a questi composti sono simili a quelle
+
+che già conosciamo: per primo viene il nome dell’alogenuro preceduto, se necessario,
+
+da un numero che identifica l’atomo di carbonio a cui è legato; segue poi il nome
+
+dell’idrocarburo alchilico da cui ha preso formalmente origine.
+
+Pur essendo composti che presentano legami covalenti polarizzati, gli alogenuri
+
+alchilici sono assai poco solubili in acqua, mentre si dimostrano efficaci solventi dei
+
+ Figura 26 La trielina (1,1,2-triclo-
+
+roetene) è una sostanza usata per to-
+
+grassi vegetali e animali (figura 26).
+
+gliere le macchie di grasso nei tessuti.
+
+Occorre usarla con attenzione, essen-
+
+do tossica e, forse, cancerogena.
+
+Scrivi la formula condensata del seguente alogenuro alchilico: 3-bromo-2-metilpentano.
+
+Gli alogenuri arilici sono individuati con la formula generica Ar-Alg e si distinguono
+
+per il fatto che l’atomo o gli atomi dell’alogeno sono legati ad atomi di carbonio che
+
+fanno parte di un anello aromatico. Le formule che seguono sono quelle di alcuni
+
+alogenuri arilici e permettono di individuare le regole di nomenclatura nei casi più
+
+semplici.
+
+Br
+
+Cl
+
+Cl
+
+1
+
+8
+
+1
+
+6
+
+2
+
+7
+
+2
+
+5
+
+3
+
+6
+
+3
+
+4
+
+Br
+
+5
+
+4
+
+clorobenzene
+
+1,3-dibromobenzene
+
+1-cloronaftalene
+
+Una proprietà chimica che accomuna alogenuri alchilici e arilici è la reattività
+
+dell’atomo di carbonio a cui è legato l’atomo di alogeno; infatti, dato che fluoro, cloro
+
+e bromo sono più elettronegativi del carbonio, il legame covalente C — Alg è pola-
+
+rizzato e l’atomo di carbonio può subire l’attacco di reattivi nucleofili, cioè di atomi o
+
+gruppi atomici che vengono attratti da un centro in cui prevale la carica positiva.
+
+è proprio per questa reattività che i derivati alogenati degli idrocarburi costituisco-
+
+no una famiglia di composti di grande importanza sia nei processi industriali sia nella
+
+pratica di laboratorio; essi vengono qualificati come intermedi, cioè sostanze che ser-
+
+vono per preparare altri composti non ottenibili direttamente dagli idrocarburi.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•213
+
+
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+Produzione e utilizzazione degli idrocarburi alogenati
+
+Come abbiamo già visto, gli alogenuri alchilici si possono ottenere a seguito di una
+
+reazione di sostituzione oppure, se l’idrocarburo di partenza è insaturo, attraverso
+
+una reazione di addizione; per esempio, facendo reagire con cloro il propano e il pro-
+
+pene si possono ottenere i seguenti prodotti:
+
+CH3 9 CH2 9 CH3 � Cl2 → CH3 9 CH 9 CH3 � HCl
+
+Cl
+
+2-cloropropano
+
+CH
+
+
+
+3 9 CH " CH2 � Cl2 → CH3 9 CH 9 CH2
+
+Cl
+
+Cl
+
+1,2-dicloropropano
+
+In relazione alle reazioni di alogenazione degli idrocarburi, rispondi alle seguenti domande.
+
+ a) Se si effettua la reazione di bromurazione del pentano, quanti composti isomeri con for-
+
+mula C5H11Br si possono ottenere?
+
+ b) Se si effettua la reazione di addizione di cloro al cis-2-butene, come si chiama il compo-
+
+sto ottenuto?
+
+Le reazioni di sostituzione, come abbiamo già detto, portano normalmente alla forma-
+
+zione di una miscela di prodotti. Per esempio, dalla clorurazione del metano si può otte-
+
+nere una miscela formata da percentuali diverse dei seguenti prodotti:
+
+CH3Cl clorometano o cloruro di metile
+
+CH2Cl2 diclorometano
+
+CHCl3 triclorometano o cloroformio
+
+CCl4
+
+tetraclorometano o tetracloruro di carbonio.
+
+Gli idrocarburi alogenati trovano largo impiego in diversi settori delle attività
+
+umane. Essi infatti vengono utilizzati come solventi, come monomeri per la produ-
+
+zione di importanti materie plastiche (per esempio il polivinilcloruro e il teflon) e
+
+inoltre sono largamente impiegati a supporto delle attività agricole.
+
+Per saperne di più
+
+--------------------------------------------------------------------------------------------------------------
+
+------
+
+Gli ------------
+
+idrocarburi ----------
+
+clorurati ---------
+
+trovano --
+
+lar------------------------------------------------------------------------
+
+------
+
+go ---------
+
+impiego -------
+
+come ----------
+
+pesticidi -. --------
+
+Questi ---------------------------------------------------------------------
+
+------------
+
+prodotti -------------
+
+(insetticidi, ---------
+
+erbicidi -----
+
+ecce------------------------------------------------------------------------
+
+--------
+
+tera) ---
+
+ci ---------
+
+liberano ------
+
+dalle ----------
+
+erbacce --
+
+e ---
+
+da ---------------------------------------------------------------------
+
+-------------
+
+fastidiosi --
+
+e ---------
+
+talvolta ---------
+
+dannosi --------
+
+insetti ---------------------------------------------------------------------
+
+-------------
+
+(zanzare, --------------
+
+mosche…) -----
+
+ma ---
+
+la ------
+
+loro ---------------------------------------------------------------------
+
+----------
+
+azione -----------
+
+colpisce ------------
+
+purtroppo --------
+
+anche ---------------------------------------------------------------------
+
+-------
+
+altri ----------
+
+vegetali --
+
+e --------
+
+insetti -----
+
+utili -----
+
+per ----
+
+cui ---------------------------------------------------------------------
+
+------
+
+nel --------
+
+corso ------
+
+degli -------
+
+anni --
+
+i ------------
+
+ricercatori ---------------------------------------------------------------------
+
+----------
+
+hanno ---------
+
+messo ---
+
+a ---------
+
+punto ----------
+
+prodotti ---------------------------------------------------------------------
+
+-----------
+
+sempre -----
+
+più ----------
+
+selettivi, -----
+
+cioè ---
+
+in -------
+
+grado ---------------------------------------------------------------------
+
+-----
+
+di ------
+
+agire ------------------
+
+specificamente ------
+
+sulla ----
+
+spe------------------------------------------------------------------------
+
+------
+
+cie ----------
+
+animale --
+
+o ----------
+
+vegetale -----------
+
+dannosa --
+
+e ---------------------------------------------------------------------
+
+-------
+
+non ------
+
+sulle ------
+
+altre. - ----- ----------- --------------------------------------------------------------------------
+
+--- ------
+
+In -----
+
+ogni ------
+
+caso --
+
+si ------
+
+tratta ---
+
+di ----------
+
+sostanze -----
+
+che ----------
+
+possono ----------
+
+produrre -------
+
+effetti ---------
+
+negativi -------
+
+anche ------
+
+sugli -------
+
+esseri ----
+
+uma-----
+
+-----
+
+ni --
+
+e ---------
+
+devono --------
+
+perciò --------
+
+essere -----------------
+
+somministrate -----
+
+con -------------
+
+cognizione --
+
+e ---------
+
+cautela ---
+
+e, --------------
+
+soprattutto, -------------
+
+prendendo --
+
+-------------
+
+adeguate ---------
+
+misure --
+
+di ------------
+
+protezione.--------------------------------------------------------------------------
+
+C•214
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+
+
+7. Alcoli e fenoli, eteri
+
+7. Alcoli e fenoli, eteri
+
+Nomi e proprietà di alcoli e fenoli
+
+Il gruppo funzionale ossidrilico  OH caratterizza due famiglie di composti organici:
+
+gli alcoli e i fenoli.
+
+! Si chiamano alcoli i composti in cui il gruppo ossidrilico OH è legato a una cate-
+
+na alchilica; si chiamano fenoli i composti in cui questo gruppo è legato a un anello
+
+benzenico.
+
+In base a questa definizione gli alcoli possono anche essere indicati con la formula
+
+generica R OH e i fenoli con Ar OH. Questa classificazione è necessaria perché
+
+fenolo
+
+alcoli e fenoli presentano proprietà sensibilmente diverse. Una differenza significati-
+
+va è il comportamento acido-base in acqua (figura 27).
+
+Il benzenolo, C6H5OH, è il fenolo più semplice e proprio per questo è più spesso
+
+chiamato semplicemente fenolo. Se il gruppo  OH è legato ai due anelli condensati
+
+del naftalene si hanno due isomeri: 1-naftolo e 2-naftolo.
+
+OH
+
+8
+
+1
+
+8
+
+1
+
+OH
+
+7
+
+2
+
+7
+
+2
+
+6
+
+3
+
+6
+
+3
+
+5
+
+4
+
+5
+
+4
+
+1-naftolo
+
+2-naftolo
+
+In generale, il nome degli alcoli si ricava sostituendo con la desinenza olo l’ultima
+
+etanolo
+
+lettera del nome dell’idrocarburo cui è legato il gruppo ossidrilico. Come al solito, il
+
+ Figura 27 Per le sue proprietà
+
+nome è preceduto da un numero che indica l’atomo di carbonio al quale è legato il
+
+acide il fenolo, C6H5OH, veniva anche
+
+gruppo funzionale. Se l’idrocarburo è insaturo, il numero che indica la posizione del
+
+chiamato acido fenico.
+
+gruppo funzionale va scritto immediatamente prima della desinenza olo. Le princi-
+
+pali regole di nomenclatura si possono dedurre considerando alcuni esempi:
+
+1
+
+2
+
+3
+
+4
+
+5
+
+CH39CH29OH
+
+CH39CH9CH29CH29CH3
+
+etanolo
+
+OH
+
+2-pentanolo
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+4
+
+3
+
+2
+
+1
+
+CH39CH29CH9CH29CH9CH3
+
+CH39CH9CH9CH29OH
+
+H
+
+OH
+
+CH
+
+2-buten-1-olo
+
+3
+
+R — C — OH
+
+5-metil-3-esanolo
+
+H
+
+Un metodo chimicamente utile per classificare gli alcoli consiste nel precisare quanti
+
+atomi di carbonio sono legati a quello che porta il gruppo ossidrilico. Si dice che un
+
+R�
+
+alcol è primario se il carbonio del gruppo —OH è legato a un solo atomo di carbonio.
+
+In modo analogo vengono definiti gli alcoli secondari e quelli terziari (figura 28).
+
+R — C — OH
+
+Gli alcoli hanno una temperatura di ebollizione sempre maggiore di quella degli
+
+idrocarburi con massa molecolare simile. Infatti, per esempio i quattro alcoli isomeri
+
+H
+
+che hanno formula C4H9OH e la cui massa vale 74,12 u hanno tutti temperatura di
+
+ebollizione decisamente maggiore di quella del pentano (36 °C) che ha un peso mole-
+
+R�
+
+colare di 72,15 u.
+
+Questo fatto si spiega considerando che il gruppo funzionale
+
+R — C — OH
+
+ OH contiene un
+
+legame fortemente polarizzato in quanto l’ossigeno è assai più elettronegativo
+
+R�
+
+dell’idrogeno. Tra le molecole degli alcoli pertanto si manifestano forze intermoleco-
+
+lari (legami a idrogeno) che sono senz’altro più intense delle forze di dispersione
+
+ Figura 28 In ordine, dall’alto ver-
+
+esistenti tra le molecole apolari degli idrocarburi e questo rende plausibile una diffe-
+
+so il basso, sono rappresentate le
+
+formule generiche di un alcol prima-
+
+renza così vistosa tra le temperature di ebollizione.
+
+rio, secondario e terziario.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•215
+
+
+
+
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+Per saperne di più
+
+La possibilità degli alcoli di formare legami a idrogeno spiega anche la completa mi-
+
+-------------------------------------------
+
+scibilità in acqua di metanolo e di etanolo a differenza degli idrocarburi che, come
+
+-------------------------------------------
+
+sappiamo, sono composti apolari e quindi insolubili in acqua.
+
+-------------------------------------------
+
+Il comportamento di etanolo e metanolo con acqua non può essere generalizzato a
+
+-------------------------------------------
+
+tutti gli alcoli; non si può dimenticare infatti che in una molecola di alcol, oltre alla
+
+-------------------------------------------
+
+zona polare del gruppo ossidrilico, c’è un’altra parte, quella corrispondente alla cate-
+
+-------------------------------------------
+
+-------------------------------------------
+
+na alchilica, che ha carattere apolare.
+
+-------------------------------------------
+
+Tenendo presente questo fatto, si può spiegare perché la solubilità in acqua di un
+
+-------------------------------------------
+
+alcol diminuisce via via che aumenta la lunghezza della catena degli atomi di carbo-
+
+-------------------------------------------
+
+nio. Infatti già l’alcol 1-butanolo (C4H9OH) è scarsamente solubile in acqua. Se la
+
+-------------------------------------------
+
+struttura della catena alchilica è ramificata, la miscibilità con l’acqua dell’alcol au-
+
+-------------------------------------------
+
+La tossicità dell’etanolo non è para-
+
+menta; l’alcol terziario 2-metil-2-propanolo è addirittura completamente miscibile.
+
+-------------------------------------------
+
+--------------
+
+gonabile --
+
+a -------
+
+quella ----
+
+del -----------
+
+metanolo; ---
+
+tut ---
+
+----------
+
+tavia --
+
+è -----
+
+noto -----
+
+che ---
+
+se ----------
+
+assunto ---
+
+in -----
+
+dosi
+
+------------
+
+elevate --
+
+e ---------
+
+lontano ----
+
+dai ------
+
+pasti ------
+
+entra --
+
+ra ---
+
+pidamente in circolo nel sangue e
+
+Scrivi la formula condensata e il nome dell’alcol terziario che ha formula molecolare C4H10O.
+
+-------------------------------------------
+
+-------------
+
+provoca ------
+
+gravi ------
+
+danni -------
+
+prima -----------
+
+reversibili,
+
+--------
+
+poi -------------
+
+irreversibili. -----
+
+Dato -----
+
+che --
+
+la --------
+
+concen ---
+
+-------------
+
+trazione ----------
+
+dell’alcol ----------
+
+nell’alito ----------
+
+espirato
+
+------
+
+è ---------------
+
+proporzionale --
+
+al -------
+
+tasso --------
+
+alcolico- ----
+
+nel
+
+
+
+
+
+Produzione e utilizzazione degli alcoli
+
+
+-------------
+
+
+sangue, ------
+
+sono -----
+
+stati ------------
+
+approntati -------
+
+alcuni
+
+--------------
+
+semplici -
+
+e -------
+
+pratici -----------
+
+dispositivi -----
+
+che ---
+
+con ---
+
+L’alcol più semplice è il metanolo, CH3OH; è un composto tossico e, anche se viene
+
+-------------
+
+sentono ---
+
+di ---------
+
+rilevare ---------------
+
+rapidamente ---
+
+lo
+
+assimilato in piccole dosi, può provocare disturbi gravi, cecità e persino la morte. Il
+
+----------
+
+stato --
+
+e --il --------
+
+grado --
+
+di -----------
+
+ebbrezza ---
+
+di -----
+
+una
+
+metanolo è un importante prodotto dell’industria chimica che può essere ottenuto se-
+
+-------------
+
+persona.------------------------------
+
+parando la miscela dei composti che provengono dalla distillazione del legno, cioè
+
+dal riscaldamento del legno in assenza di aria. Oggigiorno è preparato allo stato gas-
+
+soso attraverso una reazione di sintesi tra ossido di carbonio e idrogeno:
+
+CO  2 H2 → CH3OH
+
+Il secondo membro della famiglia si chiama etanolo, C2H5OH (detto anche alcol etili-
+
+co), e i suoi usi sono molteplici: per esempio viene utilizzato per detergere (in tal caso
+
+è posto in vendita come alcol denaturato), per usi alimentari, come biocarburante per
+
+autoveicoli eccetera.
+
+L’etanolo è l’alcol presente in tutte le cosiddette bevande alcoliche: il vino, la birra
+
+e i superalcolici, il nome dei quali sottolinea che questi ultimi contengono una eleva-
+
+ta concentrazione di etanolo.
+
+L’etanolo può essere ottenuto attraverso il processo di fermentazione di molti pro-
+
+dotti naturali contenenti zuccheri o amido. Industrialmente l’alcol etilico viene pro-
+
+dotto attraverso una reazione di addizione al doppio legame dell’etene:
+
+CH2 R CH2  H2O → CH3 — CH2 — OH
+
+Nei Paesi della Unione Europea può essere venduto per usi alimentari solo l’alcol ot-
+
+tenuto per fermentazione: dato che l’attività dei microrganismi, indispensabile per il
+
+processo di fermentazione, cessa quando la concentrazione della soluzione alcolica
+
+raggiunge valori tra il 14% e il 18%, per ottenere soluzioni alcoliche più concentrate
+
+occorre distillare il miscuglio idroalcolico.
+
+ Figura 29 Il composto 1,2- etan-
+
+
+
+
+
+Polialcoli e polifenoli
+
+
+diolo è più noto con il nome di glicole
+
+etilenico. Nonostante il suo peso mo-
+
+La caratteristica strutturale dei polialcoli è quella di contenere due o più gruppi ossi-
+
+lecolare sia maggiore soltanto di 16 u
+
+drile. Nel caso in cui i gruppi ossidrile siano due, i composti sono chiamati dioli. Il
+
+rispetto a quello dell’etanolo, ha una
+
+temperatura di ebollizione, 198 °C,
+
+diolo più semplice è il 1,2-etandiolo.
+
+molto più alta di quella dell’etanolo
+
+Dato che i dioli contengono due gruppi — OH, è facile comprendere che possono
+
+(79 °C). Anche per questa proprietà
+
+formare legami a idrogeno: per questo presentano elevata temperatura di ebollizione
+
+viene utilizzato nei radiatori delle au-
+
+to.
+
+e buona miscibilità in acqua (figura 29).
+
+C•216
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+
+
+7. Alcoli e fenoli, eteri
+
+La glicerina è un altro polialcol di straordinaria importanza: si tratta infatti di un
+
+composto il cui nome IUPAC, 1,2,3-propantriolo, indica subito che le sue molecole
+
+contengono tre gruppi ossidrile:
+
+CH2 9 CH 9 CH2
+
+glicerina
+
+OH
+
+OH
+
+OH
+
+La glicerina è molto usata nella preparazione di prodotti per l’igiene della persona ed
+
+è anche il composto di partenza per la produzione della nitroglicerina (figura 30).
+
+ Figura 30 Tutti sanno che la nitro-
+
+glicerina è un potente esplosivo, ma
+
+probabilmente qualcuno ignora che,
+
+per le sue proprietà vasodilatatorie,
+
+essa viene utilizzata anche nella pre-
+
+parazione di farmaci come coadiuvan-
+
+ti nella terapia contro le malattie del
+
+sistema cardiovascolare.
+
+CH2 9 ONO2
+
+CH 9 ONO2
+
+CH2 9 ONO2
+
+I difenoli sono composti aromatici che presentano due gruppi  OH legati all’anello
+
+benzenico. In particolare vogliamo citare il 1,4-diidrossibenzene, più noto con il nome
+
+di idrochinone. L’importanza di questo composto sta nel fatto che esso può essere
+
+ossidato a 1,4-benzochinone (o semplicemente chinone) e questa reazione di ossidori-
+
+duzione costituisce un anello fondamentale della catena di trasformazioni che avven-
+
+gono durante il processo di fotosintesi clorofilliana.
+
+
+
+
+
+Eteri
+
+
+In chimica organica si chiamano reazioni di condensazione le reazioni in cui due (o
+
+più) molecole, uguali o diverse, si uniscono per effetto della eliminazione di una (o
+
+più) molecole di acqua.
+
+Il prodotto della condensazione di due alcoli è un composto caratterizzato struttu-
+
+ralmente dal fatto che un atomo di ossigeno fa da ponte tra due gruppi alchilici:
+
+R 9 OH � HO 9 R� R 9 O 9 R� � H2O
+
+Per esempio, la condensazione di due molecole di etanolo porta alla formazione di un
+
+composto il cui nome IUPAC è etossietano:
+
+C2H5 — OH  HO — C2H5 → C2H5 — O — C2H5  H2O
+
+Il nome più comune di questo composto è dietiletere (o etere dietilico) sostanza che è
+
+stata usata per molto tempo come anestetico in chirurgia.
+
+! In generale, si chiamano eteri i composti in cui a un atomo di ossigeno sono legati
+
+due gruppi alchilici o arilici.
+
+I gruppi legati all’atomo di ossigeno possono essere uguali come nel dietiletere o an-
+
+che diversi, come negli esempi che seguono:
+
+CH3 — O — CH2 — CH3 etilmetiletere C6H5 — O — CH3 fenilmetiletere
+
+Si può osservare che la formula molecolare del dimetiletere (C
+
+Qual è il nome dell’alcol primario
+
+2H6O) è la stessa di
+
+a catena lineare che è isomero
+
+quella dell’etanolo. In questi casi si dice che i due composti sono isomeri funzionali,
+
+funzionale del dietiletere?
+
+dato che sono caratterizzati da gruppi funzionali diversi.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•217
+
+
+
+
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+8. I composti del gruppo carbonilico
+
+e del gruppo carbossilico
+
+
+
+
+
+Aldeidi e chetoni
+
+
+Le aldeidi e i chetoni costituiscono due classi di composti caratterizzati dalla presen-
+
+za del gruppo funzionale carbonilico >C — O.
+
+In questo gruppo funzionale l’atomo di carbonio presenta una struttura geometri-
+
+ca triangolare; in altre parole, l’atomo di carbonio e gli altri tre atomi ad esso legati
+
+si trovano nello stesso piano e formano angoli di legame di 120°.
+
+La differenza strutturale tra aldeidi e chetoni nasce ovviamente dagli atomi legati
+
+all’atomo di carbonio del gruppo funzionale.
+
+! Si chiamano aldeidi i composti in cui al gruppo funzionale carbonilico sono legati un
+
+atomo di idrogeno e un atomo di carbonio di una catena idrocarburica; si chiamano
+
+chetoni i composti in cui al gruppo funzionale sono legate due catene idrocarburiche.
+
+Le aldeidi e i chetoni possono essere rappresentati con le seguenti formule generiche:
+
+H
+
+R�
+
+C"O
+
+R9CHO
+
+C"O
+
+R9CO9R�
+
+R
+
+R
+
+ Figura 31 L’aldeide formica costi-
+
+aldeide
+
+chetone
+
+tuisce uno dei più importanti prodotti
+
+di base della industria chimica. La sua
+
+Si può verificare facilmente che aldeidi e chetoni hanno formula generale C n H2 n O e soluzione acquosa viene chiamata for-quindi è facile concludere che aldeidi e chetoni con lo stesso numero di atomi di car-
+
+malina ed essendo un energico anti-
+
+settico viene tuttora usata per conser-
+
+bonio sono isomeri funzionali.
+
+vare reperti biologici (a sinistra).
+
+Il nome delle aldeidi si ottiene tenendo come base il nome dell’alcano che presenta
+
+Alcune aldeidi formate da un numero
+
+lo stesso numero di atomi di carbonio, a cui si aggiunge la desinenza ale. Alcuni maggiore di atomi di carbonio (tra 6 e
+
+esempi serviranno a chiarire questa regola.
+
+12) sono caratterizzate da intense
+
+profumazioni; possono essere di origi-
+
+
+
+H — CHO
+
+CH
+
+ne naturale (come il citrale contenuto
+
+3 — CHO
+
+CH3 — CH2 — CHO
+
+
+
+metanale
+
+etanale
+
+propanale
+
+nella buccia dei limoni e il citronellale
+
+
+
+(aldeide formica)
+
+(aldeide acetica)
+
+(aldeide propionica)
+
+presente nell’essenza di citronella) o
+
+sintetica e vengono largamente utiliz-
+
+Sotto al nome IUPAC abbiamo indicato anche il nome tradizionale dell’aldeide (figu-
+
+zate nell’industria della cosmesi come
+
+«profumazioni di fantasia» (a destra).
+
+ra 31).
+
+Il nome dei chetoni si ottiene scrivendo la radice del nome dell’alcano che presenta lo
+
+stesso numero di atomi di carbonio e aggiungendo la desinenza one.
+
+Il chetone più semplice ha tre atomi di carbonio e quindi si chiama propanone, ma
+
+è assai più noto con il nome tradizionale di acetone.
+
+C•218
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+8. I composti del gruppo carbonilico
+
+e del gruppo carbossilico
+
+Per quanto riguarda la nomenclatura dei chetoni con più di 4 atomi di carbonio, è
+
+necessario precisare la posizione del gruppo carbonilico nella catena; ad esempio, il
+
+composto che ha formula CH3 — CO — CH2 — CH2 — CH3 si chiama 2-pentanone,
+
+per distinguerlo dal suo isomero di posizione, il 3-pentanone, che corrisponde invece
+
+alla formula CH3 — CH2 — CO — CH2 — CH3.
+
+In laboratorio molti composti carbonilici vengono preparati per ossidazione degli
+
+alcoli. In particolare, le aldeidi si ottengono dall’ossidazione di alcoli primari:
+
+R — CH2 — OH  1/2 O2 → R — CHO  H2O
+
+alcol primario aldeide
+
+Ossidando invece gli alcoli secondari si ricavano i chetoni:
+
+R 9 CH 9 R� � 1/2 O2 R 9 CO 9 R� � H2O
+
+OH
+
+chetone
+
+alcol secondario
+
+Dato che il legame del gruppo carbonilico è polarizzato, le molecole di aldeidi e che-
+
+a) Come si chiama l’aldeide che
+
+si può ottenere per ossidazio-
+
+toni contengono una parte polare e quindi i composti carbonilici più semplici (meta-
+
+ne dell’etanolo?
+
+nale, etanale e propanone) sono completamente miscibili con l’acqua; man mano che
+
+b) Come si chiama l’alcol che
+
+aumenta la lunghezza della catena apolare la miscibilità diminuisce, cosicché già il
+
+occorre ossidare per ottenere
+
+l’acetone?
+
+butanale e il butanone sono scarsamente solubili in acqua.
+
+
+
+
+
+Acidi carbossilici
+
+
+Se immaginiamo di legare un gruppo carbonilico con un gruppo ossidrile otteniamo
+
+un nuovo gruppo funzionale chiamato gruppo carbossilico.
+
+! Si chiamano acidi carbossilici i composti organici caratterizzati dalla presenza del
+
+gruppo funzionale carbossilico —COOH.
+
+Il gruppo carbossilico mostra comportamento acido con l’acqua perché l’atomo di
+
+idrogeno può ionizzarsi con relativa facilità:
+
+O
+
+O
+
+H
+
+9C
+
+
+
+2O H� � 9C
+
+OH
+
+O�
+
+gruppo
+
+ione
+
+carbossilico
+
+carbossilato
+
+Come sappiamo, il gruppo — OH è presente anche in alcoli e fenoli, ma è la sua vici-
+
+nanza con il gruppo >C — O che consente di spiegare il carattere acido degli acidi
+
+carbossilici. Si è potuto osservare che nello ione carbossilato i legami tra l’atomo di
+
+carbonio e i due atomi di ossigeno hanno la stessa lunghezza e questo fatto a livello
+
+particellare fa ritenere che la carica negativa dell’anione possa essere delocalizzata
+
+sui due atomi di ossigeno; in questo modo l’anione risulta più stabile rispetto allo
+
+ione fenato Ar— O.
+
+Il gruppo funzionale carbossilico e il gruppo funzionale carbonilico sono legati tra
+
+loro da una reazione di ossidoriduzione:
+
+O
+
+O
+
+R 9 C
+
+1
+
+� /2 O2 i R 9 C
+
+H
+
+OH
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•219
+
+
+
+
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+In base alle regole IUPAC, il nome degli acidi carbossilici si forma aggiungendo la
+
+desinenza oico alla radice del nome dell’idrocarburo saturo che ha lo stesso numero
+
+di atomi di carbonio. Come al solito facciamo alcuni esempi per aiutare la compren-
+
+sione delle regole più semplici. Sotto i nomi IUPAC dei composti abbiamo scritto i ri-
+
+spettivi nomi tradizionali:
+
+O
+
+O
+
+O
+
+H 9 C
+
+CH3 9 C
+
+CH3 9 CH2 9 CH2 9 C
+
+OH
+
+OH
+
+OH
+
+ Figura 32 I benzoati alcalini, cioè
+
+i sali di potassio e di sodio dell’acido
+
+acido metanoico
+
+acido etanoico
+
+acido butanoico
+
+benzoico, sono conservanti sintetici
+
+(acido formico)
+
+(acido acetico)
+
+(acido butirrico)
+
+ammessi dalla legge. Trovano impiego
+
+negli alimenti a carattere acido tipo
+
+Il gruppo funzionale può trovarsi legato anche a un anello aromatico. L’acido car-
+
+maionese, conserve ittiche, insalate
+
+russe, preparati freddi di carne, bibite
+
+bossilico aromatico più semplice è l’acido benzoico, C6H5COOH (figura 32).
+
+analcoliche.
+
+Molti nomi tradizionali degli acidi carbossilici derivano dai sistemi in cui sono
+
+presenti. L’acido etanoico, per esempio, è detto acido acetico perché è presente
+
+nell’aceto di vino e l’acido esanoico si chiama anche acido capronico perché si ritrova
+
+nel latte di capra inacidito (figura 33).
+
+ Figura 33 Oltre all’acido
+
+acetico, anche molti altri acidi
+
+sono responsabili di sapori e
+
+odori caratteristici. I tre acidi
+
+capronico, caprilico e caprinico
+
+presentano, come dicono i
+
+nomi stessi, l’inconfondibile
+
+odore di certi formaggi pecorini;
+
+la presenza di acido butirrico è
+
+la causa principale dell’odore
+
+del burro rancido; l’acido pro-
+
+pionico è responsabile dell’odo-
+
+re e del sapore di alcuni for-
+
+maggi svizzeri.
+
+ Figura 34 L’uso farmacologico di
+
+Il gruppo carbossilico, in modo analogo a quello alcolico, costituisce sicuramente
+
+acidi grassi polinsaturi di origine na-
+
+turale e proposti come preparati di
+
+una parte polare della molecola in cui si trova e pertanto può conferire ai composti la
+
+olio di pesce è nato dalla constata-
+
+proprietà di essere solubili in acqua. Come abbiamo già detto a proposito degli alcoli
+
+zione che alcune gravi malattie car-
+
+e anche di aldeidi e chetoni, questa proprietà si manifesta quando la catena a cui è
+
+diovascolari sono molto rare nella po-
+
+polazione Inuit (esquimesi). Nono-
+
+legato il gruppo carbossilico contiene un numero limitato di atomi di carbonio.
+
+stante che la loro dieta sia molto ric-
+
+Gli acidi costituiti da una lunga catena alchilica hanno la caratteristica di essere
+
+ca di grassi e di colesterolo, il basso
+
+untuosi al tatto e anche per questo sono chiamati acidi grassi. Tutti gli acidi grassi
+
+tasso di soggetti colpiti da patologie
+
+delle arterie è stato attribuito al fatto
+
+di origine biologica hanno un numero pari di atomi di carbonio ed è importante di-
+
+che la loro alimentazione è costituita
+
+stinguere gli acidi grassi saturi dagli acidi grassi insaturi.
+
+prevalentemente da pesce, un ali-
+
+L’acido palmitico è un acido grasso saturo mentre nella catena alchilica dell’acido
+
+mento ricco, per l’appunto, di acidi
+
+oleico è presente un doppio legame; per questo l’acido oleico è un acido grasso insaturo.
+
+grassi polinsaturi, tra cui i cosiddetti
+
+omega-3.
+
+Se i doppi legami sono due o più, l’acido grasso è detto polinsaturo (figura 34).
+
+O
+
+CH3 – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – C
+
+acido palmitico
+
+OH
+
+O
+
+CH3 – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – CH " CH – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – CH2 – C
+
+acido oleico
+
+OH
+
+C•220
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+8. I composti del gruppo carbonilico
+
+e del gruppo carbossilico
+
+
+
+
+
+Esteri e trigliceridi
+
+
+In opportune condizioni si può fare avvenire una reazione di condensazione tra un
+
+alcol e un acido carbossilico; in generale l’equazione di reazione è la seguente:
+
+O
+
+O
+
+R9C � HO9R� R9C9O9R� � H2O
+
+OH
+
+Si è potuto stabilire che l’atomo di ossigeno presente nella molecola di acqua è quello
+
+presente nel gruppo OH della funzione carbossilica. Si tratta di una reazione di con-
+
+densazione chiamata più specificamente reazione di esterificazione perché porta alla
+
+formazione di esteri, composti caratterizzati dalla presenza di un nuovo gruppo fun-
+
+zionale.
+
+! In generale, si chiamano esteri i composti organici caratterizzati dalla presenza del
+
+gruppo funzionale — COO —; a esso sono legati due gruppi alchilici o arilici.
+
+Il nome degli esteri si ottiene sostituendo la desinenza dell’acido carbossilico di pro-
+
+venienza con la desinenza ato e facendo seguire il nome del gruppo alchilico o arilico
+
+che deriva dall’alcol. Per esempio, l’estere che ha formula C2H5COOCH3 si chiama
+
+etanoato (o acetato) di metile.
+
+La reazione inversa a quella di condensazione si chiama idrolisi dell’estere e i pro-
+
+dotti sono un acido carbossilico e un alcol.
+
+A proposito degli esteri, rispondi alle seguenti domande:
+
+ a) Qual è il nome dell’estere che si ottiene dalla condensazione tra acido butanoico e 1-propanolo?
+
+ b) Quali sono i nomi dell’acido carbossilico e dell’alcol che si ottengono idrolizzando il pro-
+
+panoato di etile?
+
+Gli esteri hanno generalmente odori gradevoli, a differenza degli acidi carbossilici da
+
+cui derivano (figura 35).
+
+Ci sono esteri che meritano particolare attenzione perché costituiscono i tessuti
+
+grassi animali e vegetali; essi si chiamano trigliceridi e questo nome indica che trag-
+
+gono origine dalla reazione di condensazione tra la glicerina, un alcol con tre funzio-
+
+ni OH, e tre molecole di acidi grassi:
+
+O
+
+O
+
+CH29OH HO9C9(CH2) n 9R
+
+CH29O9C9(CH2) n 9R
+
+O
+
+O
+
+CH9OH � HO9C9(CH2) n 9R
+
+CH9O9C9(CH2) n 9R � 3 H2O
+
+O
+
+O
+
+ Figura 35 Stupisce il cambiamen-
+
+CH29OH HO9C9(CH2) n 9R
+
+CH29O9C9(CH2) n 9R
+
+to di sapori e odori che avviene quan-
+
+do un acido carbossilico si trasforma
+
+glicerina
+
+acido grasso
+
+lipide
+
+in estere. Ad esempio: dall’acido butir-
+
+rico, che emana uno sgradevole odore
+
+Dall’equazione si capisce che se cambia l’acido grasso che esterifica la glicerina si ot-
+
+di rancido, derivano il butirrato di me-
+
+tile che contribuisce ai profumi delle
+
+tengono trigliceridi diversi.
+
+mele e degli ananas e il butirrato di
+
+Le proprietà fisiche dei grassi animali e vegetali dipendono stretta mente dalla com-
+
+etile presente nelle pesche e negli
+
+posizione chimica dei diversi trigliceridi che li costituiscono. Infatti alcuni trigliceridi
+
+ananas. Per questa loro proprietà, si
+
+producono esteri sintetici per insapori-
+
+sono solidi a temperatura ambiente e si chiamano semplicemente grassi, altri invece,
+
+re prodotti alimentari come yogurt e
+
+che sono liquidi, vengono comunemente chiamati oli. Questa diversità dipende dal
+
+succhi di frutta.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•221
+
+
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+numero di doppi legami presenti nelle mole-
+
+cole degli acidi grassi che costituiscono i tri-
+
+gliceridi: gli oli sono formati prevalentemen-
+
+te da trigliceridi di acidi grassi insaturi men-
+
+tre i grassi sono costituiti in prevalenza da
+
+trigliceridi di acidi grassi saturi.
+
+dipalmitooleato
+
+
+
+
+
+O
+
+
+Si può spiegare questa diversità conside-
+
+di glicerile
+
+
+
+
+
+H
+
+
+rando che gli acidi grassi insaturi di origine
+
+CH2OC
+
+
+
+
+
+H
+
+
+biologica presentano una stereoisomeria di
+
+
+O
+
+
+tipo cis; questa struttura molecolare deter-
+
+
+
+
+
+CHOC
+
+
+mina una geometria spaziale tale da impe-
+
+
+
+
+
+O
+
+
+dire alle molecole dei trigliceridi di impac-
+
+
+
+
+
+CH2OC
+
+
+chettarsi e questo fa sì che le forze intermo-
+
+lecolari siano più deboli rispetto a quelle
+
+che uniscono i trigliceridi formati da acidi
+
+grassi saturi (figura 36).
+
+ Figura 36 La figura rappresenta
+
+I trigliceridi di origine vegetale, essendo formati prevalentemente da acidi insatu-
+
+una molecola di dipalmitooleato di
+
+ri, sono liquidi a temperatura ambiente. La scienza medica è orientata a ritenere che
+
+glicerile, cioè l’estere ottenuto per
+
+condensazione di una molecola di gli-
+
+un’alta concentrazione nel sangue di trigliceridi formati da acidi grassi saturi sia po-
+
+cerina con due molecole di acido pal-
+
+tenzialmente pericolosa, cioè possa provocare nel tempo gravi difficoltà alla circola-
+
+mitico e una di acido oleico.
+
+zione sanguigna. Proprio per questo si consiglia di ridurre il consumo di alimenti
+
+ricchi di grassi di origine animale, dato che questi contengono una maggiore percen-
+
+tuale di acidi grassi saturi (tabella 8).
+
+Tabella 8 Una reazione che coinvolge il doppio legame presente nei trigliceridi insaturi è quella chiamata irrancidimento. All’idrolisi del trigliceride segue l’ossidazione degli alcoli ad aldeidi e chetoni e ciò determina una netta alterazione dei caratteri organolettici dell’alimento. Per rallentare questo processo occorre proteggere i grassi dall’azione della luce e tenerli al riparo dall’aria.
+
+
+
+
+
+Alimento
+
+
+Lipidi totali (%) Acidi grassi saturi (%) Acidi grassi insaturi (%)
+
+burro
+
+83
+
+51
+
+32
+
+strutto
+
+99
+
+40
+
+59
+
+olio extravergine d’oliva
+
+100
+
+17
+
+83
+
+olio di girasole
+
+100
+
+8
+
+92
+
+Il rapporto tra struttura e proprietà dei trigliceridi è stato sfruttato a livello industriale per la produzione della margarina. Mescolando a caldo oli vegetali e idrogeno
+
+sotto pressione in presenza di opportuni catalizzatori avviene una reazione di addi-
+
+zione, chiamata specificamente reazione di idrogenazione, che trasforma la catena
+
+insatura dell’acido grasso:
+
+C C � H2 → 9 C 9 C 9
+
+A seguito di questa trasformazione si ottiene un trigliceride saturo, caratterizzato quin-
+
+di da una più alta temperatura di fusione. Idrogenando, per esempio, la trioleina
+
+( t f  17 °C) si ottiene la tristearina che fonde a 33 °C. Possiamo quindi dire che la margarina è un grasso artificiale di origine vegetale. In base alla miscela di oli di partenza e
+
+regolando opportunamente il grado di avanzamento della reazione, si possono ottenere
+
+i grassi idrogenati, utilizzati per la produzione di margarine e per altri prodotti alimentari (figura 37).
+
+La reazione di idrolisi dei trigliceridi è alla base di un’importante trasformazione
+
+industriale dei grassi che porta però a un prodotto che non è più commestibile. Infat-
+
+ Figura 37 Già un manifesto del
+
+1926 invitava a sostituire il burro con
+
+ti, quando l’idrolisi viene effettuata a caldo con una soluzione acquosa di basi alcali-
+
+la margarina.
+
+ne, come l’idrossido di sodio o l’idrossido di potassio, si ottengono i saponi.
+
+C•222
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+
+
+9. Composti polifunzionali
+
+e carboidrati
+
+
+
+
+
+9. Composti polifunzionali
+
+
+OH
+
+
+e carboidrati
+
+
+O
+
+
+CH3
+
+
+
+
+
+Gli idrossiacidi
+
+
+I composti del carbonio in cui sono presenti due o più gruppi funzionali diversi pren-
+
+CHOvanillina
+
+dono il nome di composti polifunzionali (figura 38).
+
+Come si può immaginare, esistono diverse famiglie di composti polinfunzionali
+
+per cui ci soffermeremo soltanto su alcune di esse.
+
+Tra i composti polifunzionali più diffusi ci sono gli idrossiacidi; in essi, come suggerisce il nome, è presente sia il gruppo funzionale ossidrile sia il gruppo carbossilico. Dobbiamo sottolineare che la diversa posizione reciproca dei gruppi funzionali
+
+gioca spesso un ruolo importante sulle proprietà del composto al punto da divenire
+
+discriminante a livello biologico (figura 39).
+
+ Figura 38 Dai semi del a vanil a
+
+planifoglia, famiglia delle orchidacee,
+
+O
+
+si estrae una nota sostanza aromati-
+
+O
+
+OH
+
+C
+
+ca, la vanillina. Nelle sue molecole
+
+"
+
+sono presenti ben tre gruppi funziona-
+
+C
+
+OH
+
+li: quello degli alcoli, quello delle aldei-
+
+OH
+
+O
+
+OH
+
+di e quello degli eteri.
+
+3
+
+C
+
+ Figura 39 L’ape regina produce un
+
+composto, l’acido 9-idrossi-2-dece-
+
+O
+
+noico, che consente alle api operaie di
+
+individuarla; tutte le altre le api produ-
+
+cono invece un isomero dell’acido, un
+
+composto nelle cui molecole il gruppo
+
+OH è in posizione 10.
+
+Un altro esempio di idrossiacido molto importante dal punto di vista biologico è
+
+l’acido 2-idrossipropanoico, assai più noto come acido lattico:
+
+O
+
+OOH
+
+CH
+
+C
+
+3 9 CH 9 C
+
+OHO
+
+CH3
+
+OH
+
+C
+
+Si tratta di un acido debole presente in piccola quantità nel latte e in misura maggio-
+
+O
+
+re nello yogurt.
+
+Anche l’acido salicilico (acido 2-idrossibenzoico) viene prodotto in modo naturale
+
+ O
+
+Figura O
+
+40 HL’acido acetilsalicilico
+
+nel mondo vegetale e deve il suo nome proprio al fatto che può essere estratto dalla
+
+deve il suo nome al fatto che può es-
+
+corteccia delle piante di salice. Oggi però l’acido salicilico è una sostanza prodotta a
+
+sere
+
+C
+
+estratto dalla pianta di salice. Si
+
+tratta di un composto bifunzionale,
+
+livello industriale perché serve per la preparazione dell’acido acetilsalicilico (acido
+
+O
+
+dato che è un estere che OH3
+
+presenta an-
+
+2-acetilossibenzoico), che costituisce il principio attivo di molti farmaci (figura 40).
+
+che la funzione
+
+C
+
+carbossilica.
+
+O
+
+O
+
+OH
+
+C
+
+OH
+
+O
+
+OH
+
+C
+
+O
+
+CH3
+
+C
+
+O
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•223
+
+O
+
+OH
+
+C
+
+OH
+
+
+
+
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+Un altro composto bifunzionale è l’ acido citrico: le sue molecole contengono un solo
+
+gruppo ossidrilico e ben tre gruppi carbossilici; tuttavia esso è un acido debole che si
+
+trova anche nel sangue e che, come probabilmente è noto ai più, impartisce al succo
+
+di molti frutti, particolarmente degli agrumi, il caratteristico sapore asprigno.
+
+Molecole allo specchio: gli enantiomeri
+
+Dell’acido lattico si conoscono due stereoisomeri; solo uno di essi ha grande impor-
+
+tanza biologica perché si forma durante la trasformazione anaerobica del glucosio e
+
+il suo accumulo è responsabile della sensazione di affaticamento muscolare.
+
+Nelle molecole dell’acido lattico non è presente il doppio legame tra due atomi di
+
+carbonio e quindi non è possibile che i due isomeri siano isomeri geometrici. I due
+
+isomeri dell’acido lattico appartengono infatti a un’altra categoria di stereoisomeri,
+
+gli enantiomeri.
+
+Per comprendere l’origine di questa nuova categoria di isome-
+
+CH3
+
+ri, dobbiamo riesaminare la formula dell’acido lattico e concentra-
+
+re l’attenzione sull’atomo di carbonio che abbiamo evidenziato: si
+
+H 9 C 9 OH
+
+può così osservare che i quattro gruppi atomici legati all’atomo di
+
+carbonio sono diversi e per questo si dice che la molecola presen-
+
+COOH
+
+ta un centro chirale, cioè un atomo di carbonio asimmetrico.
+
+ Figura 41 Anche le mani e i piedi
+
+La presenza di un centro chirale determina una situazione assolutamente origina-
+
+sono esempi di coppie di oggetti che
+
+hanno la proprietà di essere uno l’im-
+
+le: i gruppi atomici che si dispongono attorno ad esso possono dar luogo a due mole-
+
+magine speculare dell’altro e quindi
+
+cole, ognuna delle quali è l’immagine speculare dell’altra; esse non sono sovrapponi-
+
+non sono sovrapponibili. Per convin-
+
+bili e pertanto sono due molecole diverse (figura 41).
+
+cersi di questa proprietà si può pro-
+
+In generale, si chiamano enatiomeri le coppie di sostanze che sono diverse perché
+
+vare a sovrapporre un paio di guanti
+
+o un paio di scarpe.
+
+le molecole dell’una sono l’immagine speculare di quelle dell’altra.
+
+CH3
+
+CH3
+
+C
+
+C
+
+H
+
+OH
+
+OH
+
+H
+
+COOH
+
+COOH
+
+CH
+
+H3CH3
+
+C C
+
+H
+
+OH
+
+H
+
+OH
+
+H
+
+COOH
+
+OH
+
+
+
+
+
+COOH
+
+
+C•224
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+9. Composti polifunzionali
+
+e carboidrati
+
+Come vedremo, nella chimica degli esseri viventi la presenza di composti enantiomeri è
+
+decisiva; ci sono moltissime situazioni in cui il reagente o il prodotto di una trasforma-
+
+zione è uno solo dei due enantiomeri possibili. L’acido lattico che si forma nei muscoli è
+
+l’isomero individuato con il nome L-()-lattico, mentre nella fermentazione acida del
+
+latte si formano entrambi, anche l’isomero D-()-lattico.
+
+è importante sottolineare che, diversamente dagli altri casi di composti isomeri, tut-
+
+te le proprietà fisiche dei due enantiomeri sono le stesse. La sola caratteristica che li di-
+
+stingue è la capacità di ruotare in versi opposti il piano della luce polarizzata. Proprio
+
+per questo le sostanze chirali sono dette otticamente attive.
+
+Se si devono separare due enantiomeri si ricorre spesso alla reazione con altre sostan-
+
+ze enantiomere, proprio come si può utilizzare una mano per distinguere quale dei due
+
+guanti è il destro e quale è il sinistro.
+
+
+
+Attività ottica e polarimetro
+
+Nel 1811 lo scienziato francese Jean Bap-
+
+questione sono due enantiomeri dell’acido
+
+tiste Biot scoprì il fenomeno della polarizza-
+
+tartarico:
+
+zione della luce e successivamente mostrò
+
+COOH
+
+COOH
+
+anche come il percorso della luce polarizza-
+
+HO 9 C* 9 H
+
+H 9 C* 9 OH
+
+ta possa essere deviato quando attraversa
+
+alcune sostanze o le loro soluzioni.
+
+H 9 C* 9 OH
+
+HO 9 C* 9 H
+
+Secondo le teorie attuali, un raggio di
+
+
+
+
+
+B
+
+
+COOH
+
+
+COOH
+
+luce naturale è costituito da un insieme di
+
+COO�Na�
+
+radiazioni elettromagnetiche che oscillano
+
+acido tartarico
+
+acido tartarico
+
+H 9 C 9 OH
+
+(levogiro)
+
+(destrogiro)
+
+negli infiniti piani perpendicolari alla direzio-
+
+ne di propagazione del raggio; un raggio di
+
+HO 9 C 9 H
+
+Nelle formule abbiamo evidenziato con un
+
+luce polarizzata è invece costituito da radia-
+
+asterisco la presenza dei due atomi di car-
+
+COO�NH�
+
+zioni che oscillano su un solo piano.
+
+4
+
+bonio asimmetrici.
+
+Si può ottenere luce polarizzata facendo
+
+tartrato di sodio e ammonio
+
+A conferma della sua ipotesi, Pasteur
+
+passare un raggio di luce naturale attraver-
+
+loro soluzioni ad analisi con il polarimetro;
+
+notò anche che una soluzione contenente
+
+so un opportuno filtro polarizzatore.
+
+questo strumento viene utilizzato per misu-
+
+quantità uguali dei due enantiomeri è otti-
+
+rare l’angolo di rotazione del piano della
+
+camente inattiva. Una miscela costituita in
+
+luce polarizzata, rotazione causata dalla so-
+
+parti uguali da due enantiomeri viene chia-
+
+luce
+
+polarizzata
+
+stanza otticamente attiva.
+
+mata miscela racemica, o semplicemente
+
+Pasteur poté così verificare che le solu-
+
+racemo.
+
+zioni dei due diversi cristal i avevano la pro-
+
+Sappiamo che esiste una relazione tra
+
+prietà di ruotare in verso opposto il piano
+
+l’ampiezza dell’angolo di rotazione del raggio
+
+della luce polarizzata. Per questo egli fu in
+
+polarizzato e il numero di molecole otticamen-
+
+grado di concludere che l’attività ottica non
+
+te attive che esso incontra lungo il suo percor-
+
+era una proprietà dei cristalli, ma doveva
+
+so; per questo il polarimetro viene utilizzato
+
+
+
+
+
+A
+
+
+essere attribuita alle singole molecole.
+
+anche per analisi quantitative, cioè per deter-
+
+Nel 1848 il chimico e biologo francese Louis
+
+Oggi noi sappiamo che le molecole in
+
+minare la concentrazione delle soluzioni.
+
+Pasteur osservando al microscopio i cristalli
+
+di un sale dell’acido tartarico (un composto
+
+luce
+
+materiale
+
+polarizzata
+
+che si forma durante l’invecchiamento del
+
+analizzatore
+
+vino) si accorse che essi si presentavano in
+
+due forme aventi struttura cristal ografica
+
+sorgente
+
+luminosa
+
+uguale, ma tali da risultare l’una l’immagine
+
+materiale
+
+speculare dell’altra (figura B).
+
+polarizzatore
+
+tubo
+
+La differenza era così evidente che Pa-
+
+portacampioni
+
+luce
+
+steur, utilizzando le pinzette, fu in grado di
+
+polarizzata
+
+separare i due tipi di cristalli e sottoporre le
+
+
+
+
+
+C
+
+
+ruotata
+
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•225
+
+
+
+
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+Carboidrati, monosaccaridi e polisaccaridi
+
+Un dato che si può leggere nel certificato dell’analisi del sangue è la glicemia: essa
+
+esprime la concentrazione del glucosio nel sangue. Il glucosio è un composto che ap-
+
+
+
+
+
+CHO
+
+
+partiene alla famiglia dei glucidi o carboidrati.
+
+H
+
+
+
+
+
+OH
+
+
+Anche se oggi alcuni glucidi sono ottenuti artificialmente, è fuor di dubbio che la
+
+HO
+
+H
+
+H
+
+
+
+
+
+OH
+
+
+maggior parte di essi deriva da processi biologici relativi al mondo animale o vege-
+
+H
+
+
+
+
+
+OH
+
+
+tale. Anzitutto è opportuno distinguere subito tra glucidi semplici, i monosaccaridi e
+
+i disaccaridi, e glucidi macromolecolari, cioè i polisaccaridi.
+
+
+
+
+
+CH2OH
+
+
+I glucidi semplici sono spesso chiamati con il termine generico di zuccheri; i due
+
+
+
+
+
+CH
+
+
+monosaccaridi più comuni sono il glucosio e il fruttosio:
+
+2OH
+
+O
+
+H
+
+H
+
+
+
+
+
+H
+
+
+CHO
+
+
+CH2OH
+
+OH
+
+H
+
+HO
+
+
+
+
+
+OH
+
+
+H 9 C 9 OH
+
+
+C " O
+
+H
+
+
+
+
+
+OH
+
+
+HO 9 C 9 H
+
+
+HO 9 C 9 H
+
+H
+
+H
+
+HOCH2
+
+O
+
+
+
+
+
+C
+
+
+H
+
+
+OH
+
+
+9 C 9 OH
+
+
+glucosio
+
+H 9 C 9 OH
+
+fruttosio
+
+C
+
+HO
+
+C
+
+C
+
+HO
+
+
+
+
+
+C
+
+
+H 9 C 9 OH
+
+
+H 9 C 9 OH
+
+H
+
+OH H
+
+
+
+
+
+H
+
+
+CH2OH
+
+
+CH2OH
+
+ Figura 42 Le molecole dei glucidi
+
+possono essere rappresentate in tre
+
+Dal punto di vista strutturale si può osservare che si tratta di composti polifunziona-
+
+modi diversi. La figura mostra la mo-
+
+li: più precisamente, il glucosio è una poliidrossialdeide e il fruttosio è un poliidrossi-
+
+lecola del glucosio.
+
+chetone (figura 42).
+
+Glucosio e fruttosio hanno la stessa formula C6H12O6; quindi si tratta di due iso-
+
+meri. Infatti presentano proprietà diverse, tra cui il potere dolcificante: il fruttosio,
+
+costituente principale del miele, è molto più dolce del glucosio, presente in molti frut-
+
+ti, come per esempio nell’uva. Sono state preparate anche sostanze sintetiche caratte-
+
+rizzate da un potere dolcificante maggiore di quello del fruttosio (figura 43).
+
+ Figura 43 Aspartame, saccarina
+
+e ciclammato sono nomi di sostanze
+
+sintetiche con elevato potere dolcifi-
+
+cante, molto di più di quello del mie-
+
+le. Il loro uso andrebbe limitato a re-
+
+gimi dietetici e/o patologie particolari.
+
+Esistono anche monosaccaridi formati da quattro atomi di carbonio, come l’ eritrosio,
+
+o da cinque atomi, come il ribosio, composto che fa parte della struttura del DNA.
+
+Lo zucchero sicuramente più famoso e diffuso è il saccarosio: nel mondo se ne
+
+ Figura 44 La barbabietola può es-
+
+producono ogni anno centinaia di milioni di tonnellate! L’uso di questo composto
+
+sere coltivata anche in zone del piane-
+
+come dolcificante è relativamente recente: inizialmente veniva estratto soltanto dalla
+
+ta a clima temperato. La sua polpa
+
+canna coltivata nei Paesi tropicali e, a partire dal diciannovesimo secolo, anche dalla
+
+può arrivare a contenere fino al 20%
+
+barbabietola (figura 44). Il saccarosio ha un potere dolcificante maggiore di quello
+
+di saccarosio che viene estratto con
+
+acqua calda.
+
+del glucosio, ma minore di quello del fruttosio.
+
+C•226
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+9. Composti polifunzionali
+
+e carboidrati
+
+La formula del saccarosio, C12H22O11, suggerisce che si tratta di uno zucchero forma-
+
+to da molecole più complesse di quelle esaminate fino ad ora; infatti il saccarosio può
+
+dare una reazione di idrolisi a seguito della quale si formano glucosio e fruttosio, i
+
+due monosaccaridi che abbiamo già presentato:
+
+C12H22O11  H2O → C6H12O6  C6H12O6
+
+saccarosio glucosio fruttosio
+
+Il saccarosio è dunque un disaccaride. Più in generale, i disaccaridi sono composti
+
+in cui un atomo di ossigeno fa da ponte tra due molecole di monosaccaridi; questo le-
+
+game che si forma a seguito di una reazione di condensazione tra due molecole di
+
+monosaccaridi viene chiamato legame glicosidico. Nel caso del lattosio, il disaccaride
+
+presente nel latte dei mammiferi, il legame glicosidico unisce una molecola di gluco-
+
+sio e una di galattosio.
+
+Attraverso legami glicosidici si possono unire insieme anche un numero molto
+
+grande di molecole di monosaccaridi: i composti macromolecolecolari che ne deriva-
+
+no, l’ amido, la cellulosa e il glicogeno, si chiamano polisaccaridi e hanno grande inte-resse biologico. L’amido infatti, formato da molte centinaia di molecole di glucosio
+
+unite una all’altra, costituisce il «magazzino» in cui le piante accumulano la loro ri-
+
+serva di energia chimica; esso è il costituente principale dei cereali e dei legumi dai
+
+quali, fin dall’antichità, gli esseri umani hanno tratto anche altre sostanze fondamen-
+
+tali per la loro alimentazione (figura 45).
+
+H
+
+CH OH
+
+2
+
+O
+
+O
+
+H
+
+H
+
+H
+
+HO
+
+OH
+
+H
+
+O
+
+H
+
+CH OH
+
+2
+
+O
+
+H
+
+H
+
+H
+
+HO
+
+OH
+
+H
+
+O
+
+H
+
+CH OH
+
+2
+
+O
+
+H
+
+H
+
+H
+
+HO
+
+OH
+
+H
+
+O
+
+H
+
+CH OH
+
+2
+
+O
+
+H
+
+H
+
+H
+
+HO
+
+OH
+
+O
+
+H
+
+Il glicogeno è per gli animali ciò che l’amido è per le piante. Infatti il glicogeno è
+
+ Figura 45 L’amido, costituito da
+
+anch’esso un polimero del glucosio che viene preparato e immagazzinato nel fegato
+
+lunghe catene di molecole di glucosio,
+
+è presente in molti prodotti agricoli,
+
+allo scopo di garantire sempre la giusta concentrazione di glucosio nel sangue.
+
+come cereali, legumi e patate.
+
+Un altro polisaccaride del glucosio è la cellulosa, che ha però una struttura diver-
+
+sa da quella dell’amido. Le macromolecole della cellulosa, formate anche da migliaia
+
+di unità di glucosio, hanno una struttura fibrosa e di conseguenza tra le diverse cate-
+
+ne si formano numerosissimi legami a idrogeno: in questo modo si formano strutture
+
+molto robuste che costituiscono e accrescono via via l’organismo vegetale.
+
+Soltanto alcuni animali, tra cui i ruminanti, si cibano di vegetali ricchi di cellulosa
+
+poiché il loro organismo elabora un enzima in grado di idrolizzare i legami glicosidi-
+
+ci della cellulosa e di liberare così molecole di glucosio.
+
+Tuttavia anche nell’alimentazione umana devono essere presenti cibi che conten-
+
+gono una certa quantità di cellulosa: essa viene indicata come «fibra» sulle confezio-
+
+ni alimentari e serve a favorire le funzioni intestinali.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•227
+
+
+
+C9
+
+Capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+10. I composti organici con l’azoto:
+
+ammine, amminoacidi e proteine
+
+
+
+
+
+Ammine
+
+
+Come sappiamo, l’atomo di azoto (numero atomico 7, V gruppo) ha cinque elettroni
+
+di valenza e quindi si lega con altri atomi di non-metalli formando tre legami cova-
+
+lenti e conservando una coppia di elettroni libera.
+
+Così accade nell’ammoniaca, NH3, e così pure in altri composti, come per esempio
+
+nelle ammine; nelle molecole di queste sostanze l’atomo di azoto è sempre legato ad
+
+almeno un atomo di carbonio ed esaurisce la sua capacità di legame legandosi con
+
+altri atomi di carbonio e/o di idrogeno.
+
+! In generale, si chiamano ammine i composti che presentano un atomo di azoto legato a
+
+uno, a due o a tre atomi di carbonio appartenenti a gruppi alchilici o arilici.
+
+Si possono quindi avere tre tipi fondamentali di ammine a seconda di quanti sono
+
+gli atomi di carbonio legati all’atomo di azoto:
+
+N
+
+N
+
+N
+
+H
+
+R
+
+H
+
+R
+
+R
+
+R
+
+H
+
+R
+
+R
+
+ammina primaria
+
+ammina secondaria
+
+ammina terziaria
+
+Il nome delle ammine si ottiene aggiungendo la desinenza ammina al nome dei grup-
+
+pi alchilici o degli anelli aromatici legati all’atomo di azoto (figura 46).
+
+ Figura 46 La fenilammina, chia-
+
+mata più spesso anilina, è un’ammina
+
+aromatica primaria. È un composto
+
+sicuramente tossico e cancerogeno
+
+che è prodotto a livello industriale per-
+
+NH2
+
+ché è un intermedio fondamentale
+
+nella preparazione dei coloranti sinte-
+
+tici.
+
+Le ammine sono composti meno polari degli alcoli, dato che l’azoto è meno elettrone-
+
+gativo dell’ossigeno. La coppia di elettroni che l’atomo di azoto non impegna in lega-
+
+mi conferisce a molte ammine la proprietà di comportarsi da basi; la forza basica di
+
+un’ammina dipende dai gruppi legati all’azoto; la trimetilammina, per esempio, è più
+
+basica della metilammina che a sua volta è più basica dell’ammoniaca.
+
+Amminoacidi e proteine
+
+
+
+
+
+O
+
+
+Il nome di amminoacidi spetta a quei composti polifunzionali che contengono sia la
+
+funzione amminica sia la funzione carbossilica.
+
+
+
+
+
+R CH C
+
+
+Nel linguaggio comune il termine si riferisce più specificamente a una famiglia di
+
+NH
+
+OH
+
+
+
+
+
+2
+
+
+20 composti di grandissima importanza biologica che possono essere rappresentati
+
+da una unica formula generale (figura 47).
+
+ Figura 47 Gli amminoacidi biologi-
+
+La formula specifica di ogni amminoacido dipende ovviamente dal gruppo R. Se,
+
+ci sono 20 e sono tutti di tipo ; ciò
+
+per esempio, R è un atomo di idrogeno, l’amminoacido (l’unico che non è otticamente
+
+significa che i due gruppi funzionali
+
+sono legati allo stesso atomo di car-
+
+attivo) si chiama glicina; se invece R è un radicale metilico si ha l’ alanina. L’alanina e bonio.
+
+tutti gli altri amminoacidi biologici, pur avendo un atomo di carbonio asimmetrico, si
+
+presentano in natura solamente in una delle due forme enantiomere. Le molecole di due
+
+di essi, la cisteina e la metionina, presentano anche l’atomo di zolfo nella loro struttura.
+
+Infine, otto di essi, fenilalanina, isoleucina, leucina, lisina, metionina, treonina, tripto-C•228
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+
+
+10. I composti organici con l’azoto:
+
+ammine, amminoacidi e proteine
+
+fano e valina, sono detti amminoacidi essenziali perché l’organismo umano non riesce a sintetizzarli e pertanto devono essere introdotti nel nostro organismo attraverso le
+
+proteine che costituiscono gli ingredienti fondamentali della nostra alimentazione.
+
+Negli alimenti proteici di origine animale sono presenti proteine che contengono
+
+tutti gli amminoacidi essenziali; questo non accade per le proteine contenute negli
+
+alimenti di origine vegetale. Le proteine sono state (e sono!) molecole decisive per
+
+l’evoluzione della vita nel nostro pianeta; la loro infinita e straordinaria varietà è il
+
+risultato della diversa sequenza con cui si combinano gli amminoacidi.
+
+L’unione di due molecole di amminoacidi avviene attraverso una reazione di con-
+
+densazione tra il gruppo amminico di un amminoacido e il gruppo carbossilico di un
+
+altro amminoacido:
+
+R
+
+O
+
+H
+
+R'
+
+O
+
+R
+
+O
+
+H
+
+R'
+
+O
+
+H — — —
+
++
+
+— —
+
+→
+
+— — — — — —
+
++ H
+
+
+
+N C C
+
+N
+
+C C
+
+H N C C N C C
+
+2O
+
+OH
+
+OH
+
+OH
+
+H
+
+H
+
+H
+
+H
+
+H
+
+H
+
+H
+
+legame peptidico
+
+La molecola che si forma si chiama dipeptide e si chiama legame peptidico quello che unisce l’atomo di carbonio di un amminoacido con l’atomo di azoto dell’altro amminoacido.
+
+Il dipeptide è ancora una molecola dotata di due gruppi funzionali terminali e
+
+quindi può dare a sua volta reazione di condensazione. Attraverso
+
+questo meccanismo la catena di amminoacidi si accresce via via fino
+
+a formare un polipeptide, cioè una catena in cui le unità costituenti
+
+possono variare da alcune decine fino ad alcune migliaia (figura 48).
+
+Quando gli alimenti proteici giungono nello stomaco avviene la de-
+
+molizione della struttura proteica: attraverso l’idrolisi dei legami pepti-
+
+dici vengono messi in libertà gli amminoacidi che costituiscono la pro-
+
+teina in modo che nelle cellule, attraverso l’intervento del DNA, essi
+
+possano essere utilizzati per preparare le nuove proteine, quelle neces-
+
+sarie ai fabbisogni dell’organismo. Per questo si dice che le proteine
+
+degli alimenti contribuiscono alla funzione plastica, cioè alla costruzio-
+
+ne e al rinnovo dei tessuti dell’organismo vivente.
+
+Nelle confezioni degli alimenti viene indicata la percentuale di pro-
+
+teine e questo ci può aiutare a costruire in modo razionale la nostra
+
+alimentazione quotidiana (figura 49). Le proteine infatti sono indi-
+
+spensabili e preziose, ma è bene non assumerne in quantità esagerata, superiore al
+
+ Figura 48 Ogni tipo di proteina è
+
+reale fabbisogno. In tal caso l’organismo è costretto a demolirle e a trasformarle in
+
+definito da una sequenza caratteristi-
+
+modo da ricavarne energia chimica, così come succede per carboidrati e lipidi, ma
+
+ca di amminoacidi che ne costituisce
+
+la struttura primaria. I diversi gruppi
+
+questo obbliga i reni a un’attività eccessiva.
+
+ R che differenziano e caratterizza-
+
+no gli amminoacidi sono decisivi per
+
+stabilire legami chimici tra parti diver-
+
+se della stessa catena proteica e
+
+quindi contribuiscono a determinare
+
+la struttura secondaria della proteina.
+
+ Figura 49 Alimenti ricchi di pro-
+
+teine.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•229
+
+
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+11. Dai polimeri naturali
+
+ai nuovi materiali sintetici
+
+
+
+
+
+I polimeri
+
+
+Lo studio e le ricerche sui materiali di origine naturale portano a comprendere il rap-
+
+porto tra la loro struttura particellare e le proprietà chimico-fisiche; su questa base è
+
+possibile progettare e realizzare (in laboratorio prima e a livello industriale poi) ma-
+
+teriali nuovi.
+
+Per esempio, gli scienziati hanno scoperto che le proprietà della gomma naturale
+
+che si ricava dal lattice di alcune piante derivano da una struttura chimica macro-
+
+molecolare costituita da lunghe catene alchiliche (figura 50).
+
+! In generale si chiamano polimeri le macromolecole formate da un elevato numero
+
+di molecole più semplici legate tra loro, chiamate monomeri.
+
+Le macromolecole che formano la gomma naturale sono chimicamente uguali ma di
+
+diversa lunghezza, dato che sono costituite da un numero diverso di monomeri, in
+
+media circa 15 000. La formula che segue rappresenta in forma condensata la strut-
+
+tura di una macromolecola della gomma in cui è evidenziato il monomero:
+
+H
+
+CH
+
+CH
+
+CH
+
+
+
+3
+
+H
+
+3
+
+H
+
+3
+
+ Figura 50 Incidendo il tronco del-
+
+C
+
+C
+
+C
+
+C
+
+C
+
+C
+
+le piante della famiglia delle euforbia-
+
+H2C
+
+CH2
+
+CH2
+
+CH2
+
+CH2
+
+CH2
+
+cee si ottiene un liquido lattiginoso
+
+che è una sospensione di grassi e re-
+
+sine in acqua. Da questo liquido, ri-
+
+scaldato e sottoposto ad altri tratta-
+
+Dalla presenza di doppi legami nella macromolecola si capisce che la gomma natura-
+
+menti, si ottiene la gomma naturale.
+
+le è un polimero insaturo; i chimici sono riusciti a realizzare artificialmente la stessa
+
+struttura facendo reagire tra loro le molecole del 2-metil-1,3-butadiene, un diene chia-
+
+mato anche isoprene:
+
+H
+
+CH3
+
+C 9 C
+
+CH
+
+CH
+
+2
+
+2
+
+La reazione che avviene tra le molecole insature di isoprene corrisponde ad una serie
+
+successiva di reazioni di addizione e viene perciò chiamata reazione di poliaddizione.
+
+
+
+
+
+Le materie plastiche sintetiche
+
+
+Gli studi sulla struttura della gomma naturale hanno aperto la strada alla prepara-
+
+zione di molti altri tipi di materiali plastici che, dato che si ottengono attraverso rea-
+
+zioni di sintesi, sono anche chiamati materiali sintetici.
+
+Possiamo perciò dire che le cosiddette materie plastiche sono caratterizzate da
+
+una struttura polimerica ottenuta per mezzo di un particolare tipo di reazione chia-
+
+mata reazione di polimerizzazione attraverso la quale molte molecole uguali o diver-
+
+se, i monomeri, si uniscono insieme per formare i polimeri.
+
+Quando un polimero è formato da due o più monomeri diversi si usa il termine co-
+
+polimero. Per esempio, il copolimero polietilentereftalato (PET) è formato da due tipi
+
+di monomero (glicole etilenico e acido tereftalico). La reazione che avviene tra i due
+
+monomeri è una reazione di condensazione con formazione di acqua. Dato che en-
+
+trambi i monomeri presentano due gruppi funzionali si ha l’unione di più molecole di
+
+monomeri e quindi si parla in generale di reazione di policondensazione.
+
+C•230
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+11. Dai polimeri naturali
+
+ai nuovi materiali sintetici
+
+
+
+
+
+Polimero
+
+
+Monomero/i
+
+
+
+
+
+Usi
+
+
+politene (PE)
+
+CH2CH2
+
+fogli e pellicole, recipienti a perdere,
+
+
+
+CH2 " CH2
+
+giocattoli, stoviglie
+
+CH22 " CH22
+
+polipropilene (PP)
+
+CH3 CH CH
+
+CH3
+
+CH3CH
+
+9 CH
+
+" 2 2
+
+fibre, parti di automobili, imballaggi,
+
+
+
+3 9 CH " CH22
+
+rivestimenti ignifughi
+
+CH
+
+polivinilcloruro (PVC)
+
+CH2 " CHCl
+
+CH2 " CHCl
+
+2
+
+2 
+
+"
+
+
+
+tubi, rivestimenti, confezioni per alimenti
+
+polistirene (PS)
+
+
+
+giocattoli, contenitori, confezioni per
+
+CH
+
+
+
+CH " CH
+
+" CH2
+
+CH 2
+
+alimenti; come polistirolo espanso
+
+
+
+2
+
+
+
+
+
+per imballaggi e isolanti
+
+CH2 " CH 9 COOCH3
+
+polivinilacetato (PVA)
+
+CH
+
+CH2 " CH 9 COOCH
+
+2
+
+2 CHCOOCH3 33
+
+vernici, adesivi, tubi, gomma da masticare
+
+CF
+
+politetrafluoroetilene (PTFE)
+
+CF2 " CF
+
+CF2 " CF3
+
+2
+
+2 
+
+"CF2
+
+CF 3
+
+3
+
+rivestimenti per padelle, isolanti elettrici,
+
+
+
+
+
+tubi anticorrosione
+
+OCN
+
+OCN 9 R 9 NCO � HO 9 R 9 OH
+
+9 R 9 NCO � HO 9 R 9 OH
+
+poliuretano (PU)
+
+OCNRNCO  HOROH
+
+prodotti espansi e rigidi, vernici
+
+HOOC 9 COOH � HO 9 (CH
+
+polietilentereftalato (PET)
+
+HOOC 9 COOH � HO 9 (CH2)2 9 OH
+
+(CH 22)22 9 OH
+
+fibre tessili, bottiglie, pellicole fotografiche
+
+policarbonato (PC)
+
+
+
+CH3
+
+materiale di stampaggio in sostituzione di
+
+CH
+
+
+
+
+
+3
+
+3
+
+metalli e leghe (cuscinetti, bronzine,
+
+
+
+HO 9 9 C 9 9 OH � COCl2
+
+ingranaggi, caschi di protezione)
+
+HO 9 9 C 9 9 OH � COCl22
+
+CH
+
+CH3
+
+CH 33
+
+Nella tabella 9 abbiamo riportato il nome di alcuni dei più noti polimeri, la sigla con cui
+
+Tabella 9 Nome e uso delle principali
+
+sono indicati e i principali campi di impiego dei polimeri stessi; inoltre abbiamo ripor-
+
+materie plastiche.
+
+tato la formula del monomero o dei monomeri necessari per la preparazione.
+
+Le materie plastiche che contengono il gruppo funzionale ammidico sono chiama-
+
+te in generale poliammidi e la più famosa è senza dubbio il nylon 6,6, che fu prepara-
+
+to per la prima volta nel 1928 negli Stati Uniti. Il nome di questo materiale sintetico
+
+che ha svariati impieghi deriva dai reagenti che si usano per prepararla: 1,6-diammi-
+
+noesano e acido 1,6-esandioico (o acido adipico).
+
+L’enorme diffusione delle materie plastiche sintetiche ha creato anche alcuni gra-
+
+ Figura 51 Uno dei grandi proble-
+
+vi problemi, primo fra tutti quello del loro smaltimento. Infatti molti polimeri sinteti-
+
+mi delle società moderne è la cre-
+
+ci non sono biodegradabili, cioè, una volta abbandonati nel terreno, non vengono
+
+scente produzione di rifiuti solidi urba-
+
+trasformati dai microrganismi in sostanze compatibili con i cicli naturali e inoltre
+
+ni e di conseguenza la necessità del
+
+talvolta contengono metalli pesanti molto tossici.
+
+loro corretto smaltimento. È indispen-
+
+sabile a tal fine organizzare in modo
+
+Proprio per questo sta diventando ecologicamente necessaria la raccolta e la
+
+efficace la raccolta differenziata e il
+
+riutilizza zione delle materie plastiche; già dal 1988 esiste in Italia una legge che di-
+
+recupero dei materiali (carta, vetro,
+
+sciplina lo smaltimento dei rifiuti e che istituisce un consorzio obbligatorio per la
+
+metal i, plastiche eccetera) che pos-
+
+sono essere direttamente o indiretta-
+
+loro raccolta e il loro riciclo (figura 51).
+
+mente riutilizzati.
+
+Le materie plastiche che non vengono se-
+
+parate attraverso la raccolta differenziata
+
+possono finire assieme ad altri rifiuti negli
+
+impianti di incenerimento. è stato dimostra-
+
+to che nella combustione dei materiali pla-
+
+stici contenenti cloro (come il PVC) si forma
+
+acido cloridrico, una sostanza che non deve
+
+essere liberata nell’atmosfera. Per questo
+
+motivo i fumi devono essere trattati in modo
+
+da neutralizzare l’acido presente. Inoltre, nei
+
+moderni impianti di termovalorizzazione la
+
+temperatura della combustione è controllata
+
+in modo che non si formi diossina, una so-
+
+stanza velenosissima anche a basse concen-
+
+trazioni.
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•231
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+autoverifica
+
+
+6 Che cosa devono avere in comune due idrocarburi per es-
+
+
+
+
+
+1. La chimica organica
+
+
+sere definiti isomeri?
+
+1 Nei composti organici il carbonio è sempre tetravalente;
+
+7 Quale tra le formule seguenti appartiene sicuramente a un
+
+questa affermazione significa che l’atomo di carbonio:
+
+idrocarburo saturo a catena aperta?
+
+
+
+a forma sempre quattro legami covalenti
+
+
+
+a C4H4
+
+b C4H10
+
+c C4H9
+
+
+
+b è sempre legato a quattro atomi
+
+
+
+d C4H6
+
+e C4H12
+
+
+
+c è sempre legato a quattro atomi di idrogeno
+
+8 Quanti atomi di carbonio ci sono nella molecola di un ci-
+
+
+
+d può formare ioni C4 o ioni C4
+
+cloalcano in cui si trovano anche dodici atomi di idroge-
+
+
+
+e si lega sempre con quattro atomi di carbonio
+
+no?
+
+2 Quale delle seguenti affermazioni sui composti della chi-
+
+9 Come si spiega il fatto che l’ottano ha una temperatura di
+
+mica del carbonio è sbagliata?
+
+ebollizione maggiore di quella dell’esano?
+
+
+
+a Le molecole dei composti organici contengono uno o
+
+10 Perché il seguente idrocarburo ha una temperatura di
+
+più atomi di carbonio
+
+ebollizione minore di quella del nonano?
+
+
+
+b Gli atomi dei composti organici sono legati tra loro
+
+H
+
+con legami covalenti
+
+
+
+c Nelle molecole l’atomo di carbonio forma sempre quat-
+
+H 9 C 9 H
+
+tro legami covalenti
+
+H
+
+H
+
+H
+
+H
+
+H
+
+
+
+d Le molecole organiche possono essere piccole o forma-
+
+te da centinaia di atomi
+
+H 9 C 99 C 99 C 99 C 99 C 99 C 9 H
+
+
+
+e I composti della chimica del carbonio sono comunque
+
+tutti di origine naturale
+
+H
+
+H
+
+H
+
+H
+
+H 9 C 9 H H 9 C 9 H
+
+3 Qual è la caratteristica comune a tutti gli idrocarburi sa-
+
+turi?
+
+
+
+H
+
+H
+
+
+
+a La catena formata dagli atomi di carbonio è lineare
+
+
+
+b La catena formata dagli atomi di carbonio è ramifica-
+
+11 Oltre al diamante, conosci altri materiali formati preva-
+
+ta
+
+lentemente da atomi di carbonio?
+
+
+
+c La catena formata dagli atomi di carbonio è ciclica
+
+12 Perché l’eptano che ha una temperatura di ebollizione di
+
+
+
+d Ogni atomo di carbonio è legato ad altri quattro ato-
+
+98 °C non si miscela con l’acqua?
+
+mi
+
+13 Scrivi la formula molecolare dell’idrocarburo saturo con
+
+
+
+e Ogni atomo di carbonio è legato ad almeno altri due
+
+catena aperta formata da otto atomi di carbonio.
+
+atomi di carbonio
+
+14 Come si chiama l’idrocarburo saturo con catena lineare
+
+4 Qual è la condizione da verificare per affermare che due
+
+aperta che ha formula C9H20?
+
+idrocarburi sono isomeri?
+
+15 Nella figura è rappresentata la formula di un idrocarburo
+
+
+
+a Hanno la stessa formula di struttura ma diversa for-
+
+saturo; qual è il suo nome?
+
+mula molecolare
+
+
+
+b Hanno le stesse proprietà chimiche ma diversa formu-
+
+H H
+
+H
+
+la molecolare
+
+H
+
+
+
+c Hanno la stessa formula di struttura e un diverso peso
+
+C
+
+H
+
+C
+
+C
+
+H
+
+molecolare
+
+H
+
+H
+
+
+
+d Hanno la stessa formula molecolare e diverse proprie-
+
+C
+
+C
+
+H
+
+H
+
+tà fisiche
+
+H
+
+
+
+e Nessuna delle affermazioni precedenti è corretta
+
+C
+
+C
+
+H
+
+C
+
+H
+
+H
+
+5 In relazione agli idrocarburi saturi, quale affermazione è
+
+sbagliata?
+
+
+
+H H
+
+
+
+a Negli idrocarburi saturi i legami covalenti sono tutti
+
+16 Senza scrivere la formula di struttura, indica quanti atomi
+
+semplici
+
+di idrogeno sono presenti nella molecola di cicloesano.
+
+
+
+b Gli idrocarburi saturi a catena aperta si chiamano al-
+
+cani
+
+17 Qual è la formula molecolare dell’alcano a catena aperta
+
+che ha un atomo di carbonio in più rispetto al dodecano?
+
+
+
+c La formula generale di alcani e cicloalcani è C n H2 n2
+
+
+
+d I cicloalcani sono idrocarburi saturi a catena chiusa
+
+18 Senza scrivere la formula di struttura, indica quanti atomi
+
+
+
+e In tutti gli idrocarburi saturi il numero di atomi di
+
+di idrogeno ci sono in meno nel cicloeptano rispetto all’ep-
+
+idrogeno è pari
+
+tano.
+
+C•232
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+autoverifica
+
+
+29 Nella figura è rappresentata la formula condensata di un
+
+
+
+
+
+2. Formule e nomi
+
+
+idrocarburo.
+
+
+
+
+
+degli idrocarburi saturi
+
+
+Come si chiama?
+
+19 Scrivi la formula condensata del ciclobutano e quella
+
+CH3 9 CH 9 CH 9 CH2 9 CH2 9 CH2 9 CH2 9 CH3
+
+semplificata del butano.
+
+CH3 CH2 9 CH3
+
+20 Nella figura seguente sono riportate le formule di cinque
+
+
+
+idrocarburi; quale di essi non è un isomero degli altri?
+
+30 Scrivi la formula semplificata del metilciclopentano.
+
+
+
+a CH3 9 CH 9 CH 9 CH3
+
+31 Scrivi il nome di tutti i cicloalcani isomeri formati da 7
+
+CH3
+
+CH3
+
+atomi di carbonio di cui 5 legati tra loro a formare una
+
+
+
+b CH3 9 CH2 9 CH 9 CH2 9 CH3
+
+catena chiusa.
+
+CH
+
+32 Perché la temperatura di ebollizione dell’ottano è mag-
+
+3
+
+
+
+c
+
+giore di quella del 2,2,3-trimetilpentano?
+
+CH3 9 CH2 9 CH2 9 CH2 9 CH2 9 CH3
+
+
+
+d CH3 9 CH2 9 CH2 9 CH 9 CH3
+
+33 Quale tra le seguenti formule semplificate contiene il
+
+maggior numero di atomi di idrogeno?
+
+CH3
+
+
+
+e CH3 9 CH2 9 CH2 9 CH 9 CH2
+
+
+
+a
+
+CH3
+
+CH3
+
+
+
+b
+
+21 Quanti atomi di idrogeno ci sono nel gruppo alchilico
+
+butile?
+
+22 Scrivi il nome IUPAC del seguente composto:
+
+
+
+c
+
+CH3 9 CH2 9 CH2 9 CH 9 CH 9 CH3
+
+
+
+d
+
+CH3
+
+CH2
+
+CH
+
+
+
+3
+
+
+
+e
+
+23 Scrivi la formula condensata del 2,2,3-trimetilesano.
+
+24 Senza scrivere la formula di struttura, indica quale dei
+
+seguenti composti contiene il maggior numero di atomi
+
+di idrogeno.
+
+
+
+
+
+3. Gli idrocarburi insaturi
+
+
+a 2,3-dimetilesano
+
+34 Come si chiama l’isomero di posizione del 1-pentene?
+
+
+
+b 2,3,5-trimetilpentano
+
+
+
+c cicloeptano
+
+35 Uno studente ha scritto la formula del 2-esene nel se-
+
+guente modo. Quale errore ha commesso?
+
+
+
+d 3,4-dietilesano
+
+
+
+e 3-etilpentano
+
+H
+
+H
+
+H
+
+H
+
+H
+
+H
+
+25 Senza scrivere la formula di struttura, indica quanti ato-
+
+H 9 C 9 C " C 9 C 9 C 9 C 9 H
+
+mi di carbonio e quanti atomi di idrogeno ci sono nella
+
+molecola di 3-metilpentano.
+
+
+
+H
+
+H
+
+H
+
+H
+
+H
+
+H
+
+26 Assegna il nome IUPAC ai composti rappresentati con
+
+36 Qual è la formula del 2-butene?
+
+le seguenti formule:
+
+a) CH3 9 CH2 9 CH2 9 CH 9 CH2 9 CH3
+
+
+
+a CH2 " CH 9 CH2 9 CH3
+
+
+
+b CH3 9 CH " CH 9 CH3
+
+
+
+
+
+C2H5
+
+b)
+
+
+
+c CH # C 9 CH2 9 CH3
+
+
+
+
+
+d CH3 9 C # C 9 CH3
+
+
+
+e
+
+27 Scrivi la formula condensata del 1,2-dimetilciclopentano.
+
+CH3 9 C " CH 9 CH3
+
+28 Scrivi la formula semplificata del 2,2-dimetilesano.
+
+CH3
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•233
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+autoverifica
+
+
+37 Quale affermazione relativa agli alcheni è sbagliata?
+
+
+
+
+
+4. Gli idrocarburi aromatici
+
+
+a Sono tutti idrocarburi insaturi
+
+
+49 In relazione ai legami tra gli atomi di carbonio che for-
+
+
+
+b Le loro molecole hanno sempre una struttura geome-
+
+mano la molecola del benzene, quale affermazione è sba-
+
+trica planare
+
+gliata?
+
+
+
+c La loro formula generale è uguale a quella dei ciclo-
+
+
+
+a Hanno tutti la stessa lunghezza
+
+alcani
+
+
+
+b Sono legami covalenti polarizzati
+
+
+
+d Nella catena ci sono sempre due atomi legati tra loro
+
+
+
+c Si trovano tutti sullo stesso piano
+
+con doppio legame
+
+
+
+d Formano angoli di 120°
+
+
+
+e La catena alchilica può anche essere ramificata
+
+
+
+e Ogni atomo è legato ad altri due
+
+38 Quanti sono gli isomeri lineari di posizione che hanno
+
+formula molecolare C
+
+50 In relazione alle caratteristiche degli idrocarburi aroma-
+
+7H14? Qual è il loro nome?
+
+tici, quale affermazione è sbagliata?
+
+39 Perché se in un alchene il doppio legame è in posizione 1
+
+
+
+a Gli idrocarburi aromatici possono essere a catena
+
+non si può avere isomeria cis- trans?
+
+aperta o a catena chiusa
+
+
+
+b Il capostipite degli idrocarburi aromatici si chiama
+
+40 Qual è la formula molecolare del 3-metil-1-butino?
+
+benzene e ha formula C6H6
+
+41 Se un idrocarburo ha formula molecolare C6H12, puoi af-
+
+
+
+c L’aromaticità è una proprietà che deriva dalla delo-
+
+fermare con certezza che si tratta di un idrocarburo insa-
+
+calizzazione degli elettroni di legame
+
+turo?
+
+
+
+d Ogni atomo di carbonio dell’anello benzenico non
+
+può essere legato a più di un atomo di idrogeno
+
+42 Quanti atomi di carbonio e quanti atomi di idrogeno ci
+
+sono nel metilcicloesene? Dovresti essere in grado di ri-
+
+
+
+e Nelle molecole degli idrocarburi aromatici è sempre
+
+spondere senza scrivere la formula di struttura.
+
+presente un anello benzenico
+
+43 Qual è la formula molecolare dell’idrocarburo di cui è
+
+51 Nel 1,3-dimetilbenzene quanti sono gli atomi di carbonio
+
+mostrata nella figura la formula semplificata?
+
+che stanno sullo stesso piano?
+
+"
+
+
+
+a 6
+
+b 7
+
+c 8
+
+d 13
+
+e 14
+
+
+
+52 Perché il benzene, pur essendo un idrocarburo insaturo,
+
+44 Scrivi la formula semplificata del 3-metilcicloesene.
+
+non può essere classificato come alchene?
+
+45 Come si chiama l’idrocarburo insaturo di cui viene rap-
+
+53 Quale tra le seguenti non è una caratteristica della mole-
+
+presentata la formula condensata?
+
+cola del benzene?
+
+CH3 9 C " CH 9 CH2 9 CH3
+
+
+
+a La sua struttura è planare
+
+
+
+b è costituita da un anello di 6 atomi di carbonio
+
+
+
+CH3
+
+
+
+c A ogni atomo di carbonio è legato un atomo di idro-
+
+geno
+
+46 Quanti atomi di carbonio e quanti atomi di idrogeno ci
+
+sono nella molecola del 1,3-cicloesadiene? Dovresti esse-
+
+
+
+d Sono presenti 3 doppi legami alternati
+
+re in grado di rispondere senza scrivere la formula di
+
+
+
+e Tutti i legami C — C hanno la stessa lunghezza
+
+struttura.
+
+54 Scrivi il nome del seguente composto:
+
+47 Indica come si chiama l’alchene la cui formula è la se-
+
+C2H5
+
+guente.
+
+C2H5
+
+H
+
+CH2 9 CH3
+
+C " C
+
+CH
+
+
+
+3
+
+H
+
+
+
+C2H5
+
+48 Quale affermazione relativa agli alchini è sbagliata?
+
+
+
+a Nella catena sono sempre presenti due atomi legati
+
+55 Indica il nome del composto che ha la seguente formula:
+
+tra loro con un triplo legame
+
+
+
+b Sono tutti idrocarburi insaturi
+
+CH2
+
+
+
+c Le loro molecole hanno sempre una struttura geome-
+
+
+
+
+
+trica planare
+
+a naftalene
+
+b metilnaftalene
+
+
+
+d La loro formula generale è C n H2 n2
+
+c difenilmetano
+
+d ditoluene
+
+
+
+e La catena alchilica può anche essere ramificata
+
+e 1,1-dicicloesilmetano
+
+C•234
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+autoverifica
+
+
+56 Scrivi la formula molecolare e la formula condensata del
+
+63 Che tipo di reazione può essere utilizzata per trasformare
+
+1,3-dimetilbenzene.
+
+un idrocarburo insaturo in un idrocarburo saturo?
+
+64 Quante molecole di anidride carbonica si ottengono dalla
+
+57 Benzene e 1,3,5-esatriene sono isomeri?
+
+combustione di una molecola di 3-etilpentano? Dovresti
+
+58 Senza scrivere la formula di struttura, indica quanti ato-
+
+essere in grado di rispondere senza scrivere l’equazione.
+
+mi di carbonio e quanti atomi di idrogeno ci sono nella
+
+65 In relazione alle reazioni degli idrocarburi, indica l’unica
+
+molecola del 1,2-dimetilbenzene.
+
+affermazione sbagliata.
+
+
+
+a Con la reazione di addizione si introducono nella mole-
+
+5. Origine e proprietà chimiche
+
+cola solo atomi diversi dall’idrogeno
+
+
+
+
+
+degli idrocarburi
+
+
+b Con la reazione di addizione si trasforma un legame
+
+doppio in un legame semplice
+
+59 In relazione al petrolio, indica per ogni affermazione se è
+
+
+
+c Gli idrocarburi saturi possono dare soltanto reazioni
+
+vera o falsa.
+
+di sostituzione
+
+
+
+a) I componenti del petrolio sono composti solidi,
+
+
+
+d Gli idrocarburi insaturi possono dare sia la reazione di
+
+
+
+
+
+liquidi e gassosi.
+
+v f
+
+addizione sia quella di sostituzione
+
+
+
+b) La distillazione del petrolio serve a separare
+
+
+
+e Nella reazione di addizione si formano almeno due
+
+
+
+
+
+le diverse frazioni del petrolio.
+
+v f
+
+nuovi legami
+
+
+
+c) Ogni frazione ottenuta dalla distillazione
+
+
+
+66 Se si fa reagire il benzene con il cloro è probabile che il
+
+è formata da un solo composto.
+
+v f
+
+prodotto (o i prodotti) della reazione sia (o siano):
+
+
+
+d) I composti che formano il petrolio sono
+
+
+
+
+
+a clorobenzene e acido cloridrico
+
+
+
+
+
+gli idrocarburi aromatici.
+
+v f
+
+
+
+b 1,2-cloroesadiene
+
+
+
+e) La benzina è una sostanza che si ottiene
+
+
+
+dalla distillazione del petrolio.
+
+v f
+
+
+
+c 1-clorocicloesano
+
+
+
+f) Tutti i composti ottenuti dal petrolio
+
+
+
+
+
+d 1,2-clorobenzene e idrogeno
+
+sono usati come combustibili.
+
+v f
+
+
+
+e nessuno dei prodotti indicati
+
+60 Quale prodotto si ottiene dalla reazione di addizione tra
+
+67 Uno studente ha scritto la seguente equazione per descri-
+
+2-esene e idrogeno?
+
+vere la reazione di preparazione del triclorometano:
+
+
+
+a 2-esano
+
+b 2-metilpentano
+
+
+
+CH4  2 Cl2 → CHCl3  HCl
+
+
+
+c pentano
+
+d esano
+
+
+
+Quali errori ha commesso lo studente?
+
+
+
+e 3-metilpentano
+
+68 Scrivi l’equazione della reazione di combustione del com-
+
+61 Quale dei composti rappresentati con le seguenti formule
+
+posto 2,2,4-trimetilesano.
+
+semplificate può dare sicuramente reazioni di addizione?
+
+69 Utilizzando le formule molecolari scrivi l’equazione della
+
+
+
+a
+
+reazione di monosostituzione tra esano e bromo.
+
+
+
+70 Se si effettua la reazione di sostituzione di un atomo di
+
+
+
+b
+
+idrogeno del butano con un atomo di fluoro, quanti e qua-
+
+li isomeri si ottengono?
+
+
+
+c
+
+71 Attraverso una reazione di idrogenazione è possibile «di-
+
+struggere» la struttura aromatica del benzene. Quante
+
+molecole di idrogeno sono necessarie per trasformare il
+
+benzene in un idrocarburo saturo? Motiva la risposta.
+
+
+
+d
+
+72 Dalla combustione di una mole di un alcano a catena aper-
+
+ta ramificata si formano quattro moli di anidride carboni-
+
+
+
+e
+
+ca. Come si chiama l’idrocarburo?
+
+62 Se si effettua la reazione di addizione di una molecola di
+
+73 Uno studente ha scritto la seguente equazione per descri-
+
+cloro a una molecola di 1-butene e di 2-butene, qual è la
+
+vere la reazione di sostituzione tra benzene e bromo.
+
+differenza tra i prodotti ottenuti?
+
+
+
+Br
+
+
+
+a Nessuna, si ottiene un solo prodotto
+
+� Br2 →
+
+
+
+b Si ottengono due isomeri di posizione
+
+
+
+c Si ottengono due isomeri di catena
+
+
+
+Br
+
+
+
+d Si ottengono due isomeri cis e trans
+
+
+
+Sapendo che la formula del prodotto è corretta, quali erro-
+
+
+
+e Nessuna delle affermazioni precedenti è corretta
+
+ri ha commesso lo studente?
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•235
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+autoverifica
+
+
+74 Si forma più anidride carbonica dalla combustione di una
+
+
+
+e) Si chiama ................................................................................................... un compo-mole di esano o dalla combustione di una mole di benze-
+
+sto in cui un atomo di alogeno è legato a un .............................
+
+ne?
+
+........................ aromatico.
+
+75 Perché non si può effettuare la reazione di idrogenazione
+
+del 2,2,4-trimetilpentano?
+
+81 Come si chiama il composto che si ottiene facendo reagi-
+
+re bromo e 2-pentene?
+
+76 Quante molecole di acqua si formano dalla combustione
+
+di una molecola di benzene?
+
+82 Perché dalla reazione tra un alchene e bromo si ottiene
+
+sempre un bromoderivato saturo?
+
+77 Scrivi la formula condensata di tutti i composti isomeri
+
+che si possono ottenere sostituendo due atomi di idrogeno
+
+83 Quale reazione occorre effettuare per preparare il cloro-
+
+del propano con altrettanti atomi di cloro.
+
+benzene?
+
+
+
+a Una reazione di addizione di HCl all’anello benzenico
+
+
+
+b Una reazione di sostituzione di un atomo di idrogeno
+
+
+
+
+
+6. Gli idrocarburi alogenati
+
+
+dell’anello benzenico
+
+78 In relazione a un determinato gruppo funzionale, qual è
+
+
+
+c Una reazione di addizione di un atomo di cloro
+
+la sola affermazione sbagliata?
+
+all’anello benzenico
+
+
+
+a è presente in tutti i composti della stessa famiglia e
+
+
+
+d Una reazione di sostituzione di un atomo di carbonio
+
+ne caratterizza le proprietà chimiche
+
+dell’anello benzenico
+
+
+
+b è un atomo o un gruppo di atomi che modifica le
+
+
+
+e Nessuna delle affermazioni precedenti è corretta
+
+proprietà della catena alchilica o arilica a cui è legato
+
+84 Associa a ogni formula il nome IUPAC del composto:
+
+
+
+c è un atomo o un gruppo di atomi che rende saturo
+
+un idrocarburo insaturo
+
+
+
+1) 1,3-diclorobenzene
+
+
+
+d è presente in tutti i composti della stessa famiglia e
+
+
+
+2) 3,3,4,4-tetracloro-1-butene
+
+ne caratterizza il nome
+
+
+
+3) cloroetano
+
+
+
+e è un atomo o un gruppo di atomi che può conferire
+
+
+
+4) 1,2-dicloropropano
+
+polarità alla catena apolare degli idrocarburi
+
+
+
+5) diclorometano
+
+79 Che cosa si verifica se nella catena di un idrocarburo sa-
+
+a) C2H5 9 Cl
+
+…………………………
+
+turo si sostituisce un atomo di idrogeno con un gruppo
+
+funzionale?
+
+b) CH2 9 CH 9 CH3
+
+…………………………
+
+
+
+
+
+a Cambia la massa della molecola, ma non le proprietà
+
+Cl
+
+Cl
+
+fisiche della sostanza
+
+
+
+b Cambia la massa della molecola, ma non le proprietà
+
+c) CH2Cl2
+
+…………………………
+
+chimiche della sostanza
+
+Cl
+
+Cl
+
+
+
+c Cambiano le proprietà chimiche della sostanza, ma
+
+non la massa della molecola
+
+d) CH 9 C 9 CH " CH2
+
+…………………………
+
+
+
+d Cambiano le proprietà fisiche della sostanza, ma non
+
+la massa della molecola
+
+Cl
+
+Cl
+
+
+
+e Cambiano la massa della molecola e le proprietà chi-
+
+Cl
+
+miche e fisiche della sostanza
+
+Cl
+
+e)
+
+…………………………
+
+80 Completa le seguenti frasi:
+
+
+
+
+
+a) Nelle molecole degli idrocarburi ..........................................................
+
+sono presenti uno o più atomi di alogeno legati ad
+
+85 Scrivi i nomi di tutti i bromoidrocarburi che si ottengono
+
+atomi di
+
+sostituendo un solo atomo di idrogeno alla molecola
+
+..........................................................................
+
+dell’eptano.
+
+
+
+b) Negli idrocarburi alogenati ogni atomo di ...................................
+
+è legato a un solo ......................................................................... di carbonio.
+
+86 Quante molecole biatomiche di cloro sono necessarie per
+
+trasformare una molecola di cicloesano in una molecola
+
+
+
+c) Gli idrocarburi alogenati sono chiamati anche .....................
+
+di esaclorocicloesano?
+
+....................................................
+
+87 Quanti atomi di carbonio, quanti atomi di idrogeno
+
+
+
+d) Se l’atomo di ...................................................... è legato a una catena
+
+e quanti atomi di cloro ci sono in una molecola di
+
+alifatica, l’idrocarburo alogenato viene detto anche ......
+
+1,4-diclorobenzene? Dovresti essere in grado di risponde-
+
+..................................................................................................
+
+re senza scrivere la formula di struttura.
+
+C•236
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+autoverifica
+
+
+88 Scrivi l’equazione della reazione di addizione di HCl al
+
+95 Considera la seguente formula:
+
+1-butene e scrivi la formula condensata di tutti gli iso-
+
+meri che si formano.
+
+89 Spiega perché il cloroformio è un liquido praticamente
+
+immiscibile con l’acqua.
+
+
+
+OH
+
+
+
+Si può dire che essa è la formula di un isomero di catena
+
+90 Attribuisci il nome IUPAC al seguente cloroidrocarburo:
+
+del 2-metil-2-butanolo? Argomenta la risposta.
+
+
+
+CH _
+
+_
+
+_
+
+_
+
+_
+
+_
+
+3 CH2 CH2 CHCl_CH2 CHCl_CH2 CHCl_CH2 CH3
+
+96 Quanti atomi di idrogeno ci sono nel 3-pentanolo? Do-
+
+vresti saper rispondere senza che sia necessario scrive-
+
+re la formula del composto.
+
+7. Alcoli e fenoli, eteri
+
+97 Scrivi la formula semplificata dell’alcol terziario con
+
+91 In relazione agli alcoli indica la sola affermazione sba-
+
+formula molecolare C5H12O.
+
+gliata.
+
+
+
+a La formula generica degli alcoli è R—OH
+
+98 Scrivi la formula condensata e il nome dell’isomero fun-
+
+
+
+b Gli alcoli appartengono alla categoria degli idrossidi
+
+zionale del 2-propanolo.
+
+
+
+c Tutti gli alcoli sono composti ternari
+
+99 Spiega perché la miscibilità con l’acqua del composto
+
+
+
+d Negli alcoli il gruppo ossidrile è legato a un atomo di
+
+1-pentanolo è minore di quella dell’etanolo, anche se
+
+carbonio
+
+sono entrambi alcoli primari.
+
+
+
+e In acqua gli alcoli non si comportano da acidi
+
+100 Come si chiama e quale formula ha il composto che si
+
+ottiene dalla reazione di condensazione tra 1-propanolo
+
+92 La temperatura di ebollizione dell’alcol 1-pentanolo su-
+
+ed etanolo?
+
+pera di circa 40 °C quella dell’eptano. Questo fatto si
+
+spiega considerando che:
+
+101 Quale affermazione relativa ai polialcoli è sbagliata?
+
+
+
+a le molecole dell’alcol hanno un peso molecolare mag-
+
+
+
+a Sono composti ternari
+
+giore di quelle dell’idrocarburo
+
+
+
+b Nelle loro molecole sono presenti almeno due gruppi
+
+
+
+b la struttura delle molecole di 1-pentanolo è lineare
+
+ossidrile
+
+mentre quella delle molecole dell’eptano è ramificata
+
+
+
+c Tra le loro molecole si formano ponti a idrogeno
+
+
+
+c le forze intermolecolari nell’alcol sono superiori a
+
+
+
+d Possono essere composti saturi o insaturi
+
+quelle che si hanno nell’idrocarburo
+
+
+
+e Sono classificati come alcoli terziari
+
+
+
+d le molecole del 1-pentanolo si ionizzano e possono
+
+formare ponti a idrogeno con l’acqua
+
+102 Se il nome IUPAC della glicerina è 1,2,3-propantriolo,
+
+
+
+e la densità del 1-pentanolo è assai maggiore di quella
+
+quale nome IUPAC va attribuito al seguente composto?
+
+dell’eptano
+
+CH2 9 CH2 9 CH2
+
+93 Se nella molecola dell’etano un atomo di idrogeno è so-
+
+stituito da un gruppo ossidrile, si ottiene un nuovo com-
+
+OH
+
+OH
+
+posto con proprietà diverse; quale affermazione è sba-
+
+
+
+gliata?
+
+
+
+a Il peso molecolare del nuovo composto è maggiore di
+
+quello dell’etano
+
+8. I composti del gruppo carbonilico
+
+
+
+b La temperatura di ebollizione del nuovo composto è
+
+
+
+
+
+e del gruppo carbossilico
+
+
+maggiore di quella dell’etano
+
+
+
+c La solubilità in acqua del nuovo composto è maggio-
+
+103 Quale affermazione non è vera a proposito degli acidi car-
+
+re di quella dell’etano
+
+bossilici?
+
+
+
+d La densità in acqua del nuovo composto è maggiore
+
+
+
+a Sono composti caratterizzati dal gruppo funzionale
+
+di quella dell’etano
+
+ COH
+
+
+
+e Il numero di atomi di idrogeno nel nuovo composto è
+
+
+
+b Sono solubili in acqua se hanno un basso peso moleco-
+
+maggiore che nell’etano
+
+lare
+
+
+
+c Possono dare la reazione di neutralizzazione con so-
+
+94 Il 2-pentanolo è un alcol secondario o terziario? Dovresti
+
+stanze basi
+
+saper rispondere senza che sia necessario scrivere la for-
+
+
+
+d Sono composti ternari formati da carbonio, idrogeno e
+
+mula del composto.
+
+ossigeno
+
+
+
+e Possono essere sia alifatici sia aromatici
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•237
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+autoverifica
+
+
+104 In relazione alle aldeidi e ai chetoni, indica l’unica afferma-
+
+112 Come si chiama il chetone che ha formula bruta C6H12O e
+
+zione sbagliata.
+
+ha il gruppo funzionale in posizione 2? Dovresti saper ri-
+
+spondere senza scrivere la formula del composto.
+
+
+
+a Nelle aldeidi il gruppo funzionale è legato a un solo
+
+atomo di carbonio della catena
+
+113 Come si chiama la sostanza che si ottiene dall’ossidazione
+
+
+
+b Il nome delle aldeidi termina con la desinenza ale
+
+dell’esanale?
+
+
+
+c Il nome dei chetoni termina con la desinenza one
+
+114 Scrivi l’equazione della reazione di idrogenazione totale
+
+
+
+d Il gruppo funzionale di aldeidi e chetoni è il gruppo
+
+dell’acido linoleico (C17H31COOH), sapendo che si tratta
+
+carbossilico
+
+di un acido grasso di insaturo.
+
+
+
+e Nei chetoni il gruppo funzionale è sempre legato a due
+
+atomi di carbonio
+
+115 Scrivi i nomi dei composti che si ottengono idrolizzando
+
+il butanoato di etile.
+
+105 Qual è il nome del composto che si ottiene per ossidazione
+
+del propanale?
+
+116 Scrivi l’equazione della reazione di condensazione tra
+
+l’acido butanoico e il 2-butanolo.
+
+
+
+a Acido acetico
+
+b Acido propilico
+
+
+
+c Acido propanoico
+
+d Propanolo
+
+117 Come si chiama il composto che manca per completare la
+
+
+
+e Propanoato
+
+seguente equazione?
+
+106 Se si idrolizza completamente una molecola di trigliceride
+
+
+
+2-butanolo  1/2 O2 → H2O  ...................
+
+si ottengono sempre:
+
+118 Un acido carbossilico saturo con sei atomi di carbonio for-
+
+
+
+a una molecola di alcol primario e una di acido grasso
+
+ma un estere che ha formula molecolare C11H22O2. Scrivi
+
+
+
+b una molecola di glicerina e una di un alcol terziario
+
+nome e formula condensata dell’alcol primario con cui ha
+
+
+
+c una molecola di glicerina e una di un acido grasso
+
+reagito.
+
+
+
+d tre molecole di glicerina e una molecola di acido grasso
+
+119 L’ossidazione dell’alcol presente nel vino porta alla forma-
+
+
+
+e nessuna delle affermazioni precedenti è vera
+
+zione di acido etanoico. Scrivi l’equazione della reazione.
+
+107 Qual è la differenza tra oli e grassi?
+
+120 Il butanoato di pentile e il pentanoato di butile sono este-
+
+
+
+a A temperatura ambiente gli oli sono solidi, i grassi in-
+
+ri isomeri, presenti nella polpa delle mele e delle pere.
+
+vece sono liquidi
+
+Quanti atomi di carbonio e quanti di ossigeno sono pre-
+
+senti nei due composti?
+
+
+
+b Gli oli contengono una maggiore percentuale di trigli-
+
+ceridi insaturi rispetto ai grassi
+
+121 Quanti sono gli isomeri di posizione del 2-esanone? Dopo
+
+
+
+c Gli oli sono tutti di origine vegetale, i grassi sono tutti
+
+averli individuati scrivine il nome.
+
+di origine animale
+
+122 La formula dell’acido oleico si può scrivere anche:
+
+
+
+d Soltanto i trigliceridi contenuti negli oli sono idrolizza-
+
+bili
+
+
+
+CH3 — (CH2)7 — CH — CH — (CH2)7 — COOH
+
+
+
+e I trigliceridi degli oli hanno un valore energetico mag-
+
+
+
+Scrivi l’equazione di reazione relativa all’idrogenazione
+
+giore di quello dei grassi
+
+dell’acido oleico.
+
+108 Quale tra i seguenti è il nome IUPAC di un estere?
+
+
+
+a Acetato di calcio
+
+
+
+
+
+9. Composti polifunzionali
+
+
+b Etanoato di propile
+
+
+e carboidrati
+
+
+c Acetato di etile
+
+
+123 La cellulosa è formata da:
+
+
+
+d Cloruro di propile
+
+
+
+a due molecole di glucosio
+
+
+
+e Carburo di etile
+
+
+
+b un gran numero di molecole di glucosio
+
+109 Quanti atomi di carbonio ci sono nell’acido butanoico?
+
+
+
+c molte molecole di glucosio e fruttosio in rapporto 1:1
+
+110 Attribuisci il nome al seguente composto in base alle rego-
+
+
+
+d molte molecole di amido
+
+le IUPAC:
+
+
+
+e catene di glicogeno unite con legame glicosidico
+
+CH3 9 CH 9 CH2 9 CHO
+
+124 L’acido succinico ha formula HOOC-CH2-CH2-COOH. Si
+
+può affermare che si tratta di un composto polifunziona-
+
+CH
+
+
+
+3
+
+le?
+
+111 Scrivi l’equazione della reazione che porta alla formazione
+
+125 Spiega che cosa significa affermare che un atomo di car-
+
+del propanoato di metile.
+
+bonio è asimmetrico.
+
+C•238
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+autoverifica
+
+
+126 In relazione alle molecole dei carboidrati, indica l’affer-
+
+
+
+c Due composti enantiomeri hanno diversa attività otti-
+
+mazione sbagliata.
+
+ca
+
+
+
+a Il glicogeno è un glucide prodotto dal corpo umano
+
+
+
+d Negli enantiomeri è presente almeno un atomo di car-
+
+per creare una riserva energetica
+
+bonio asimmetrico
+
+
+
+b L’amido è un polisaccaride del glucosio di origine ve-
+
+
+
+e Due composti enantiomeri possono essere differenzia-
+
+getale
+
+ti con il polarimetro
+
+
+
+c Il saccarosio è un disaccaride formato da una moleco-
+
+132 In relazione al glucosio e al fruttosio, quale affermazione
+
+la di glucosio e una di fruttosio
+
+è sbagliata?
+
+
+
+d Tutti i carboidrati possono essere trasformati dall’or-
+
+
+
+a Sono composti isomeri perché hanno la stessa formu-
+
+ganismo umano per ottenere energia
+
+la bruta
+
+
+
+e L’organismo umano non produce l’enzima che è ne-
+
+
+
+b Sono composti polifunzionali perché presentano due
+
+cessario per idrolizzare la cellulosa
+
+diversi gruppi funzionali
+
+127 Come si chiama il legame che consente di unire due mo-
+
+
+
+c Sono composti che appartengono alla categoria dei
+
+lecole di monosaccaride e formare un disaccaride?
+
+carboidrati
+
+128 In relazione ai carboidrati, distingui le affermazioni vere
+
+
+
+d Possono essere classificati tra i monosaccaridi
+
+da quelle false.
+
+
+
+e Nelle loro molecole è sempre presente il legame glico-
+
+
+
+a) Sono composti quaternari.
+
+v f
+
+sidico
+
+
+
+b) Sono composti polifunzionali.
+
+v f
+
+133 Dall’idrolisi dell’amido si ottengono:
+
+
+
+c) Sono tutti composti dal sapore dolciastro.
+
+v f
+
+
+
+a soltanto molecole di saccarosio
+
+
+
+d) Possono contenere uno o più atomi
+
+
+
+
+
+b molecole di glucosio e di fruttosio
+
+di carbonio asimmetrici.
+
+v f
+
+
+
+c soltanto molecole di glucosio
+
+
+
+e) Comprendono anche sostanze
+
+
+
+
+
+d anidride carbonica e acqua
+
+macromolecolari.
+
+v f
+
+
+
+e molecole di cellulosa
+
+129 L’acido citrico è un idrossiacido. Ciò significa che l’acido
+
+134 Considera la formula dell’acido 2-idrossibutanoico:
+
+citrico è:
+
+
+
+CH3 — CH2 — CH — COOH
+
+
+
+a un acido debolissimo perché il gruppo ossidrile ha
+
+
+
+|
+
+proprietà basiche
+
+
+
+OH
+
+
+
+b un composto bifunzionale perché contiene due gruppi
+
+
+
+Perché puoi affermare che esistono due isomeri ottici di
+
+funzionali diversi
+
+questo composto?
+
+
+
+c un ossiacido che ha la proprietà di essere solubile
+
+nell’acqua
+
+135 La formula dell’acido piruvico è la seguente:
+
+
+
+d un composto neutro perché la funzione acida e quella
+
+
+
+O
+
+basica si neutralizzano
+
+
+
+||
+
+
+
+e un alcol che presenta eccezionalmente proprietà
+
+
+
+CH3— C — COOH
+
+acide
+
+
+
+Spiega perché esso viene classificato tra i composti poli-
+
+funzionali nella famiglia degli acidi chetocarbossilici.
+
+130 In relazione ai disaccaridi, indica le affermazioni vere e
+
+quelle false.
+
+
+
+a) I disaccaridi sono composti che appartengono
+
+
+
+alla categoria dei glucidi.
+
+v f
+
+10. I composti organici con l’azoto:
+
+
+
+b) I disaccaridi sono formati da molecole
+
+
+
+ammine, amminoacidi
+
+
+
+che contengono cinque atomi di carbonio.
+
+v f
+
+
+
+
+
+e proteine
+
+
+c) I disaccaridi sono composti sempre
+
+
+
+136 In relazione a proteine e amminoacidi, indica l’afferma-
+
+più dolci dei monosaccaridi.
+
+v f
+
+zione sbagliata.
+
+
+
+d) I disaccaridi sono sempre formati da due
+
+
+
+
+
+a Tutti gli amminoacidi contengono carbonio, idrogeno,
+
+
+
+
+
+molecole uguali di monosaccaridi.
+
+v f
+
+ossigeno e azoto
+
+
+
+e) Il legame intermolecolare tra le molecole
+
+
+
+
+
+b Solo un amminoacido su 20 non è otticamente attivo
+
+
+
+
+
+di disaccaridi si chiama legame glicosidico. v f
+
+
+
+c Gli amminoacidi essenziali sono 8 e sono quelli che
+
+131 In relazione agli stereoisomeri chiamati enantiomeri, qua-
+
+l’organismo umano non riesce a sintetizzare
+
+le affermazione è sbagliata?
+
+
+
+d Le proteine degli alimenti svolgono prevalentemente
+
+
+
+a Due enantiomeri hanno la stessa formula bruta
+
+una funzione plastica
+
+
+
+b Solo i composti polifunzionali possono essere enantio-
+
+
+
+e Le proteine di origine vegetale hanno un valore nutri-
+
+meri
+
+zionale uguale a quelle di origine animale
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•239
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+autoverifica
+
+
+137 Come si chiama e di che tipo è il legame che consente di
+
+142 Che cosa sono gli amminoacidi essenziali?
+
+unire due molecole di amminoacidi?
+
+
+
+a Sono gli otto amminoacidi che contengono anche ato-
+
+mi di zolfo
+
+138 Di seguito sono presentate le formule di due amminoaci-
+
+
+
+b Sono i soli amminoacidi presenti nelle proteine di ori-
+
+di, la valina (a sinistra) e la serina:
+
+gine animale
+
+O
+
+O
+
+
+
+c Sono gli otto amminoacidi indispensabili per realizza-
+
+CH3 9 CH 9 CH 9 C
+
+HO 9 CH2 9 CH 9 C
+
+re la fotosintesi
+
+
+
+d Sono i soli amminoacidi che il nostro organismo non
+
+OH
+
+CH
+
+OH
+
+3
+
+NH2
+
+NH2
+
+può sintetizzare
+
+
+
+e Sono gli amminoacidi presenti in tutte le proteine
+
+
+
+Scrivi la formula del prodotto della reazione di condensa-
+
+zione tra i due amminoacidi nel caso in cui il gruppo am-
+
+143 Che cosa si intende per struttura primaria di una protei-
+
+minico della valina reagisca con il gruppo carbossilico
+
+na?
+
+della serina.
+
+
+
+a Il numero di amminoacidi che la costituiscono
+
+139 Che cosa si intende con il termine polipeptide?
+
+
+
+b La sequenza degli amminoacidi che la costituiscono
+
+
+
+a Una molecola formata da due amminoacidi
+
+
+
+c Il numero dei tipi di amminoacidi che la costitui-
+
+
+
+b Una molecola formata da centinaia di proteine
+
+scono
+
+
+
+c Una molecola formata da tutti gli amminoacidi essen-
+
+
+
+d Il tipo di legame presente tra gli amminoacidi
+
+ziali
+
+
+
+e Il numero di amminoacidi essenziali presenti
+
+
+
+d Una molecola formata da migliaia di molecole dello
+
+144 La formula seguente è quella di un dipeptide; identifica
+
+stesso amminoacido
+
+ed evidenzia dove si trova il legame peptidico che unisce
+
+
+
+e Una molecola formata da moltissime molecole di am-
+
+le due molecole dei due diversi amminoacidi.
+
+minoacidi
+
+O
+
+O
+
+140 Una molecola di dipeptide si forma attraverso un legame
+
+che unisce:
+
+CH3 9 CH 9 CH2 9 CH 9 C 9 N 9 CH 9 C
+
+
+
+a un atomo di carbonio a un atomo di azoto di due am-
+
+CH
+
+OH
+
+3
+
+NH2
+
+H
+
+CH2
+
+minoacidi
+
+
+
+b un atomo di carbonio a un altro atomo di carbonio di
+
+C
+
+due amminoacidi diversi
+
+
+
+c un atomo di azoto a un altro atomo di azoto di due
+
+
+
+HO
+
+O
+
+amminoacidi
+
+145 Quale delle seguenti ammine è la più basica?
+
+
+
+d un atomo di idrogeno a un atomo di azoto di due am-
+
+minoacidi
+
+
+
+
+
+NH2
+
+
+
+e un atomo di idrogeno e un atomo di carbonio di due
+
+amminoacidi
+
+a
+
+141 Quale delle seguenti formule può essere attribuita a
+
+un’ammina primaria?
+
+b CH3NH2
+
+
+
+CH
+
+CH
+
+3
+
+2 9 NH 9 CH3
+
+a
+
+c CH3 9 CH2 9 N 9 CH3
+
+d CH3 9 CH2 9 NH 9 CH3
+
+
+
+b (CH3)3N
+
+e (CH3)2 NH
+
+c CH3 9 CH 9 CH2 9 CH3
+
+
+
+
+
+NH2
+
+d CH3 9 CH2 9 CH2 9 NH 9 CH3
+
+e CH3 9 CH2 9 CH2 9 NH 9 CH2OH
+
+
+
+
+
+Le risposte si trovano in fondo al libro
+
+C•240
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+Esercizi
+
+interattivi
+
+C9
+
+Capitolo
+
+esercizi di fine capitolo
+
+
+
+
+
+La chimica del carbonio
+
+
+1 L’etanolo si può preparare industrialmente attraverso la
+
+10 La formula dell’acido salicilico è:
+
+reazione di addizione di acqua all’etene. In modo analogo
+
+HO
+
+O
+
+reagiscono propene e acqua: scrivi nomi e formule con-
+
+densate dei due isomeri che si possono formare.
+
+C
+
+OH
+
+2 Perché l’acido etanoico è solubile in acqua mentre l’acido
+
+dodecanoico non lo è?
+
+
+
+3 Scrivi accanto ad ogni nome il numero che individua la
+
+classe di appartenenza:
+
+
+
+a) Qual è il suo nome in base alle regole IUPAC?
+
+
+
+b) Si può affermare che l’acido salicilico è un acido di-
+
+
+
+a) 2-pentene
+
+.....................
+
+protico? Argomenta la risposta.
+
+
+
+b) pentanale
+
+.....................
+
+11 Scrivi la formula condensata e il nome dell’alcol da cui si
+
+
+
+c) pentanoato di etile .....................
+
+può ottenere per ossidazione il 2-pentanone.
+
+
+
+d) 3-cloropentano
+
+.....................
+
+12 L’ottano e il 2,2,3-trimetilpentano presentano una diversa
+
+
+
+e) 3-pentanolo
+
+.....................
+
+temperatura di ebollizione. Quale considerazione consente
+
+di prevedere ragionevolmente quale dei due bolle a tem-
+
+
+
+1) aloidrocarburo
+
+peratura maggiore?
+
+
+
+2) estere
+
+13 Quanti sono e come si chiamano i cloroidrocarburi isome-
+
+
+
+3) aldeide
+
+ri a catena lineare che hanno formula bruta C4H8Cl2?
+
+
+
+4) alchene
+
+14 Uno studente ha attribuito il nome di 2-etilesano al com-
+
+
+
+5) alcol
+
+posto che ha la seguente formula semplificata:
+
+4 Scrivi la formula condensata dei tre isomeri di un idrocar-
+
+buro lineare con due tripli legami che ha la stessa formula
+
+
+
+bruta del benzene.
+
+
+
+Dato che lo studente ha sbagliato, attribuisci tu il nome
+
+5 Il naftalene è un idrocarburo aromatico condensato con
+
+corretto al composto.
+
+formula C10H8. Scrivi la formula condensata dei composti
+
+15 Qual è la formula del reagente che manca per completare
+
+isomeri con formula C10H7Cl.
+
+la seguente equazione?
+
+6 Supponiamo che, per percorrere un kilometro, un’auto
+
+
+
+CH3 — CH — CH3  ..................... → H2O  CH3 — CO — CH3
+
+bruci completamente idrocarburi equivalenti a 0,500 mol
+
+
+
+|
+
+di un isomero dell’ottano. Scrivi l’equazione della reazione
+
+
+
+OH
+
+e calcola quanti grammi di anidride carbonica sono im-
+
+16 A temperatura ambiente il metanolo è una sostanza liqui-
+
+messi nell’aria.
+
+da mentre l’etano si trova allo stato aeriforme. Come si
+
+può spiegare questo fatto?
+
+7 Scrivi il nome dell’alcol e dell’acido carbossilico che si for-
+
+mano dalla reazione di idrolisi del butanoato di propile.
+
+
+
+a La massa molecolare dell’etanolo è molto maggiore
+
+di quella dell’etano
+
+8 Come si chiama l’idrocarburo che si ottiene dalla reazione
+
+
+
+b Solo tra le molecole del metanolo sono possibili ponti
+
+tra idrogeno e 2-pentene?
+
+a idrogeno
+
+9 In base alla formula, attribuisci a ognuno dei seguenti
+
+
+
+c Le molecole dell’etano sono più ramificate di quelle
+
+composti la classe di appartenenza:
+
+del metanolo
+
+
+
+d Tra le molecole di etano non sono presenti forze di
+
+
+
+a) CH3 — CH2 — CH2 — OH .....................
+
+dispersione
+
+
+
+b) CH3 — CO — CH3
+
+.....................
+
+
+
+e Solo gli atomi di carbonio nelle molecole di etano
+
+
+
+c) CH3 — CH2 — CH3
+
+.....................
+
+hanno una struttura tetraedrica
+
+
+
+d) CH3 — CH2 — COOH
+
+.....................
+
+17 Quali sono i prodotti della reazione di idrolisi di una pro-
+
+
+
+e) CH3 — CCl2 — CH3
+
+.....................
+
+teina?
+
+
+
+1) alcano
+
+
+
+a Acqua e polipetidi
+
+
+
+2) chetone
+
+
+
+b Amminoacidi e alcoli
+
+
+
+3) alcol
+
+
+
+c Molecole di amminoacidi
+
+
+
+4) cloruro alchilico
+
+
+
+d Glicerina e acidi grassi
+
+
+
+5) acido carbossilico
+
+
+
+e Molecole di glucosio
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+C•241
+
+C9
+
+Capitolo
+
+La chimica del carbonio
+
+
+
+
+
+esercizi di fine capitolo
+
+
+18 Quale delle seguenti formule identifica un composto che è
+
+
+
+c composti che presentano due o più gruppi funzionali
+
+un isomero funzionale del metilpropiletere?
+
+diversi
+
+
+
+a CH
+
+
+
+d composti costituiti da almeno 4 elementi diversi
+
+3 — CH2 — CH2 — CHO
+
+
+
+e composti insaturi con più di 2 atomi di carbonio
+
+
+
+b CH3 — CH2 — CHOH — CH3
+
+
+
+c CH3 — CH2 — CO — CH3
+
+25 Qual è il prodotto comune a tutte le reazioni di condensa-
+
+
+
+d CH3 — CH2 — O — CH2 — CH3
+
+zione?
+
+
+
+e Nessuna delle formule precedenti
+
+
+
+a Un estere
+
+
+
+b Un alcol
+
+19 Quale dei seguenti idrocarburi contiene il minor numero
+
+
+
+c Un etere
+
+di atomi di idrogeno?
+
+
+
+d L’acqua
+
+
+
+a Pentano
+
+
+
+e Un polimero
+
+
+
+b Cicloesano
+
+
+
+c 2-esino
+
+26 Scrivi la formula dei due amminoacidi che si ottengono
+
+
+
+d 1-esene
+
+dalla reazione di idrolisi di un dipeptide che ha la seguen-
+
+te formula:
+
+
+
+e 2-metilpropano
+
+H
+
+H
+
+H
+
+20 Per preparare un sapone si deve:
+
+O
+
+
+
+a idrolizzare un trigliceride con un idrossido alcalino
+
+NH2 9 C 9 C 9 N 9 C 9 C
+
+
+
+b neutralizzare una molecola di acido grasso con una
+
+OH
+
+base
+
+CH3 9 CH O
+
+CH2
+
+
+
+c condensare una molecola di alcol con una di acido
+
+grasso
+
+
+
+CH3
+
+SH
+
+
+
+d esterificare un acido grasso con un idrossido alcalino
+
+27 Scrivi il nome e la formula condensata di ognuno dei due
+
+
+
+e idrogenare un trigliceride insaturo fino a renderlo so-
+
+composti isomeri che si ottengono dalla reazione di addi-
+
+lido
+
+zione tra 2-pentene e cloruro di idrogeno.
+
+21 In relazione ai polimeri e alle reazioni di polimerizzazione,
+
+28 Un acido carbossilico saturo nella cui molecola sono pre-
+
+indica l’affermazione sbagliata.
+
+senti 6 atomi di carbonio forma un estere che ha formula
+
+
+
+a I polimeri sono macromolecole formate da un gran
+
+C8H16O2. Come si chiama l’alcol con il quale è avvenuta la
+
+numero di unità più semplici
+
+reazione di condensazione?
+
+
+
+b Il politene è un polimero che si ottiene con una rea-
+
+zione di poliaddizione
+
+29 Perché esistono due stereoisomeri del 3-metilesano?
+
+
+
+c Il PET è un polimero che deriva dalla condensazione
+
+30 Per estrarre i trigliceridi presenti nei chicchi di mais è ne-
+
+di due monomeri differenti
+
+cessario:
+
+
+
+d In tutte le reazioni di polimerizzazione si formano
+
+
+
+a triturare i chicchi e mescolarli con acqua calda per
+
+una o più molecole di acqua
+
+sciogliere gli oli
+
+
+
+e Il nylon è un polimero che si ottiene da una reazione
+
+
+
+b trattare i chicchi con acqua e idrossido di sodio per
+
+di policondensazione
+
+idrolizzare gli oli
+
+22 Scrivi la formula condensata dell’acido grasso che si ottie-
+
+
+
+c trattare i chicchi con idrogeno sotto pressione per so-
+
+ne idrogenando un acido grasso monoinsaturo che è for-
+
+lidificare gli oli
+
+mato da 12 atomi di carbonio.
+
+
+
+d triturare i chicchi e mescolarli con un solvente apola-
+
+re che scioglie gli oli
+
+23 Il lattosio è:
+
+
+
+e nessuno degli interventi proposti consente di estrarre
+
+
+
+a un polisaccaride presente nel latte
+
+gli oli
+
+
+
+b un disaccaride costituito da glucosio e fruttosio
+
+
+
+c un monosaccaride digeribile solo con l’enzima lattasi
+
+31 Un composto a catena aperta ha formula molecolare
+
+C4H10O. In base a questa sola informazione, quale tra le
+
+
+
+d un disaccaride isomero funzionale del glicogeno
+
+affermazioni che seguono è sicuramente esatta?
+
+
+
+e un disaccaride costituito da glucosio e galattosio
+
+
+
+a La formula si riferisce ad un’aldeide
+
+24 I composti del carbonio polifunzionali sono:
+
+
+
+b La formula è quella di un chetone
+
+
+
+a composti che possono dare più reazioni differenti
+
+
+
+c La formula è quella di un alcol
+
+
+
+b composti che presentano due o più gruppi funzionali
+
+
+
+d La formula si riferisce ad un acido carbossilico
+
+uguali
+
+
+
+e Nessuna delle proposte formulate è corretta
+
+Copyright © 2010 Zanichelli Editore SpA, Bologna [7558]
+
+C•242
+
+Questo file è una estensione online del corso Bagatti, Corradi, Desco, Ropa, Conoscere la materia, seconda edizione © Zanichelli 2010
+
+
+
+
+
