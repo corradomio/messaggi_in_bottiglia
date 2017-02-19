@@ -267,6 +267,11 @@ class FileCorpus:
     #end
 
     def text_to_words(self, text):
+        """
+        Split the text in a list of words and normalize the words
+        :param str text: text to parse
+        :return list[str]: list of owrds
+        """
         words = []
         for w in rexp.split(self._re, text):
             w = self._normalize(w)
@@ -277,6 +282,11 @@ class FileCorpus:
     # end
 
     def text_to_bow(self, text):
+        """
+        Convert the text in a bag of words
+        :param str text: text to parse
+        :return list[(int,int)]: bag of words
+        """
         words = self.text_to_words(text)
         bow = self._corpus_dict.doc2bow(words, False)
         return bow
