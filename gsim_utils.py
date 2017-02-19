@@ -1,9 +1,8 @@
 from path import Path as path
-from collections import defaultdict
 import re as rexp
 import logging
 import gensim.corpora as corpora
-
+import snowballstemmer as sbs
 
 
 class StopWords(object):
@@ -61,6 +60,8 @@ class StemRules(object):
         """
         self.N = N
         self._rules = [None] * (self.N+1)
+
+        self._stemmer = sbs.stemmer('italian')
     # end
 
     def load_stemrules(self, stfile):
@@ -99,6 +100,23 @@ class StemRules(object):
     # end
 
     def normalize(self, w):
+        #
+        # Nota: usa lo stemmer, porting da:
+        #
+        #   http://snowball.tartarus.org/
+        #
+        # Problema: lo stemmer tronca le parole.
+        #           Invece si vorrebbe trasformare le parole (eventualmente anche con errori,
+        #           non sarebbe un problema:
+        #
+        #           plurale -> singolare
+        #           femminile -> maschile
+        #           tempo verbale -> infinito
+        #
+        return self._stemmer.stemWord(w)
+    # end
+
+    def normalize_(self, w):
         """
         Normalize the word
 

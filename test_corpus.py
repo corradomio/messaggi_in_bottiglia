@@ -26,7 +26,7 @@ corpus = fc.load_corpus()
 dictionary = fc.dictionary()
 pprint(dictionary.token2id)
 
-bow = fc.text_to_bow("La rivoluzione Americana")
+bow = fc.text_to_bow("La rivoluzione Americana e Napoleone")
 
 # tfidf = models.TfidfModel(corpus, id2word=dictionary)
 # pprint(tfidf[bow])

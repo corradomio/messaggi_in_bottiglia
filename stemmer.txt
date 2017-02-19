@@ -8,9 +8,13 @@ emi:eme
 eri:ero
 esi:ese
 ggi:gge
+gie:gia
 ici:ico
+ili:ile
+iri:iro
 ini:ino
 ivi:ive
+lle:lla
 nte:nta
 nti:nte
 nti:nto
@@ -18,8 +22,10 @@ oli:olo
 oni:one
 ori:ore
 oti:oto
+ose:oso
 ovi:ovo
 ppi:ppio
+ree:rea
 tte:tta
 tti:tto
 sti:sto
@@ -29,3 +35,4 @@ iche:ica
 cchi:cchio
 orme:orma
 ica:ico
+gni:gnio
