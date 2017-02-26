@@ -6,9 +6,6 @@ import gensim.models as models
 logging.basicConfig(level=0, format="%(levelname)s:%(message)s")
 
 
-
-
-
 fc = FileCorpus(#directory="topics"],
                 # directory=["topics/Chimica"],
                 # directory=["topics/ElettrotecnicaEdElettronica"],
@@ -33,14 +30,14 @@ bow = fc.text_to_bow("La rivoluzione Americana e Napoleone")
 # pprint(tfidf[bow])
 
 lda = models.LdaModel(corpus, id2word=dictionary, num_topics=2)
-pprint(lda.show_topics(num_topics=100,num_words=10))
+pprint(lda.show_topics(num_topics=100,num_words=100))
 
 pprint(lda[bow])
 
 # hdp = models.HdpModel(corpus, id2word=dictionary)
 # pprint(hdp)
 
-tc = TopicsCorpus(homedirectory="topics")
-tc.load_copuses()
+# tc = TopicsCorpus(homedirectory="topics")
+# tc.load_copuses()
 
 pass
