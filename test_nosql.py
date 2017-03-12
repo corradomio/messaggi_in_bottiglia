@@ -2,6 +2,16 @@
 # SERVER="192.168.244.143"
 SERVER="192.168.1.3"
 
+# from urllib.parse import urlparse
+#
+# o = urlparse('orientdb://192.168.1.3:2424?u=root,p=password')
+# print(o[0]) # schema
+# print(o[1]) # netloc
+# print(o[2]) # path
+# print(o[3]) # params
+# print(o[4]) # query
+# print(o[5]) # fragment
+
 # ---------------------------------------------------------------------------
 # OrientDB
 # ---------------------------------------------------------------------------
