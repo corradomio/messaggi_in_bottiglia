@@ -1,13 +1,13 @@
 
-# SERVER="192.168.244.143"
-SERVER="192.168.1.3"
+# SERVER="192.168.1.66"
+SERVER="192.168.1.66"
 
 # ---------------------------------------------------------------------------
 # OrientDB
 # ---------------------------------------------------------------------------
 # pip install pyorient
 #
-# http://192.168.244.143:2480
+# http://192.168.1.66:2480
 #
 #   admin / admin
 #   root / password | root
@@ -35,20 +35,19 @@ print("=== OrientDB ===")
 
 
 
-# odb = orientdb.OrangeDB('orientdb://192.168.1.3:2424/GratefulDeadConcerts?u=root,p=password')
-odb = orientdb.OrangeDB('orientdb://192.168.1.3:2424?u=root,p=password')
+# odb = orientdb.OrangeDB('orientdb://192.168.1.66:2424/GratefulDeadConcerts?u=root,p=password')
+odb = orientdb.OrangeDB('orientdb://192.168.1.66:2424?u=root,p=root')
 odb.connect()
 print(odb.list_databases())
 # odb.drop_db("test")
 # odb.drop_db("other")
-# odb.create_db("test",  db_type="graph",  drop_if_exists=True)
-
+odb.create_db("test",  db_type="graph",  drop_if_exists=True)
 odb.open_db("test", db_type="graph")
 
 # odb.drop_class("Vtest", unsafe=True)
 # odb.drop_class("Etest", unsafe=True)
-# odb.create_class("VTest", {"extends": "V", "name":str})
-# odb.create_class("ETest", {"extends": "E", "label":str, "weight":float})
+odb.create_class("VTest", {"extends": "V", "name":str})
+odb.create_class("ETest", {"extends": "E", "label":str, "weight":float})
 
 v1 = odb.create_vertex("VTest", body={"name": "pippo"})
 v2 = odb.create_vertex("VTest", body={"name": "pluto"})
