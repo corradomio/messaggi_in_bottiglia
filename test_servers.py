@@ -1,5 +1,6 @@
 
 SERVER="192.168.244.143"
+# SERVER="192.168.1.10"
 
 # ---------------------------------------------------------------------------
 # Neo4j
@@ -37,7 +38,7 @@ import pyorient
 print("=== OrientDB ===")
 
 client = pyorient.OrientDB(SERVER, 2424)
-session = client.connect("admin", "admin")
+session = client.connect("root", "password")
 print(session)
 
 
@@ -71,3 +72,16 @@ cnx = mysql.connector.connect(host=SERVER, database='mysql',
                               user='root', password='password')
 print(cnx)
 cnx.close()
+
+
+# ---------------------------------------------------------------------------
+# ArangoDB
+# ---------------------------------------------------------------------------
+# pip3 install pyarango
+#
+# import pyArango.connection as acon
+#
+# print("=== ArangoDB ===")
+#
+# conn = acon.Connection(arangoURL="http://{0}:8529".format(SERVER), username="root", password="")
+# print(conn.databases)
