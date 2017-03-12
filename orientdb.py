@@ -216,9 +216,9 @@ class OrientDB:
 
     def __init__(self, url):
         """
-        :param str url: "orientdb://host:port/db?u=user&p=password
+        :param str url: "orient://host:port/db?u=user&p=password
         """
-        assert url.startswith("orientdb:")
+        assert url.startswith("orient")
 
         self._url = URL(url)
         self._client = None
