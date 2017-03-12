@@ -208,7 +208,7 @@ def vof(v):
 # The values for the command are more flexible dictionaries
 #
 
-class OrangeDB:
+class OrientDB:
 
     # -----------------------------------------------------------------------
     # Constructor

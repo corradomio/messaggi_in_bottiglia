@@ -47,7 +47,7 @@ print("=== OrientDB ===")
 
 # odb = orientdb.OrangeDB('orientdb://192.168.1.3:2424/GratefulDeadConcerts?u=root,p=password')
 # odb = orientdb.OrangeDB('orientdb://192.168.1.3:2424?u=root,p=password')
-odb = orientdb.OrangeDB('orientdb://cmshooter.homeip.net:2424?u=root,p=password')
+odb = orientdb.OrientDB('orientdb://cmshooter.homeip.net:2424?u=root,p=password')
 odb.connect()
 print(odb.list_databases())
 # odb.drop_db("test")
