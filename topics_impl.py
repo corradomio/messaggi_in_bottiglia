@@ -162,7 +162,6 @@ class StemRules(object):
 
 class Synonimous:
     def __init__(self):
-
         self._wddict = dict()
         self._sydict = dict()
         pass
@@ -248,6 +247,12 @@ class Synonimous:
             pass
         return [s.strip() for s in parts[1:]]
     # end
+
+    def __getitem__(self, w):
+        return self._sydict[w]
+
+    def __iter__(self):
+        return self._sydict.__iter__()
 # end
 
 
