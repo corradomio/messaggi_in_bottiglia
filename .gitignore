@@ -4,4 +4,7 @@ datasets/
 gstest/
 tmp/
 topics.orig/
-
+*.pyc
+__pycache__/
+_removed/
+topics_dict.txt
