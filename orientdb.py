@@ -6,7 +6,7 @@ import json
 # Utilities
 # ===========================================================================
 
-class URL:
+class _url:
     def __init__(self, url):
         self._params = dict()
         o = urlp.urlparse(url,scheme="file")
@@ -159,9 +159,10 @@ def _otype(stype):
         return stype
 
 
-def _vbodyof(body, op="SET"):
+def _vbodyof(body, op):
     """
     :param dict body:
+    :param str op: operation
     :return str:
     """
     if body is None or len(body) == 0:
@@ -175,9 +176,11 @@ def _vbodyof(body, op="SET"):
         set += ("%s = %s" % (name, _strof(body[name])))
     return set
 
+
 def _jbodyof(body, op):
     """
     :param dict body:
+    :param str op: operation
     :return str:
     """
     if body is None:
@@ -186,6 +189,7 @@ def _jbodyof(body, op):
         return ""
     else:
         return "%s %s" % (op, json.dumps(body))
+
 
 def _vof(v):
     """
@@ -263,7 +267,7 @@ class OrientDB:
         """
         assert url.startswith("orient")
 
-        self._url = URL(url)
+        self._url = _url(url)
         self._client = None
         self._session = None
         self._db = None
