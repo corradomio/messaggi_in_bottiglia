@@ -76,6 +76,7 @@ class URL:
 def strof(v):
     return json.dumps(v)
 
+
 def listof(l):
     if type(l) == str:
         return l
@@ -101,6 +102,30 @@ def orderbyof(olist):
             oby += o[0] + " " + o[1]
     return oby
 
+
+def whereof(where, params):
+    """
+    Replace $'{name}' with the value in 'params'
+
+    :param str where:
+    :param dict[str,Any] params:
+    :return str:
+    """
+    if where is None or params is None:
+        return where
+
+    pos = where.find("${")
+    while pos != -1:
+        end = where.find("}", pos)
+        name = where[pos+2:end]
+        if name not in params:
+            continue
+        value = params[name]
+        where = where[0:pos] + strof(value) + where[end+1:]
+        pos = where.find("${")
+    # end
+    return where
+# end
 
 
 # BOOLEAN
@@ -354,7 +379,7 @@ class OrientDB:
         """
         if db_name is None:
             db_name = self._url["path"][1:]
-            db_type = self._url["db_type"]
+            db_type = self._url.get("db_type")
 
         if user is None:
             user = self._url["username"]
@@ -431,7 +456,7 @@ class OrientDB:
         return len(aclass) > 0
     # end
 
-    def create_class(self, class_name, props, drop_if_exists=False):
+    def create_class(self, class_name, body, drop_if_exists=False):
         """
         Create a class
         Add the properties specified in 'props.
@@ -452,7 +477,7 @@ class OrientDB:
 
 
         :param str class_name:
-        :param dict props: field definitions
+        :param dict body: field definitions
         :return list:
         """
         if self.exists_class(class_name):
@@ -461,9 +486,9 @@ class OrientDB:
             else:
                 self.drop_class(class_name)
 
-        extends = props.get("extends", None)
+        extends = body.get("extends", None)
         """:type: str"""
-        abstract = props.get("abstract", False)
+        abstract = body.get("abstract", False)
         """:type: str"""
 
         ret = []
@@ -474,11 +499,11 @@ class OrientDB:
                 ("" if not abstract else " ABSTRACT"))).strip()
             ret.extend(self._client.command(command)) # [id]
 
-        for name in props:
+        for name in body:
             if name in ["extends", "abstract"]:
                 continue
             pname = "%s.%s" % (class_name, name)
-            ptype = otype(props[name])
+            ptype = otype(body[name])
             command = ("CREATE PROPERTY %s %s" % (pname, ptype))
             ret.extend(self._client.command(command))  # [id]
 
@@ -551,6 +576,12 @@ class OrientDB:
     # Handle vertices
     # -----------------------------------------------------------------------
 
+    def create_class_vertex(self, class_name, body=None, drop_if_exists=False):
+        if body is None: body = dict()
+        if "extends" not in body: body["extends"] = "V"
+        return self.create_class(class_name, body=body, drop_if_exists=drop_if_exists)
+    # end
+
     def insert_vertex(self, class_name, body=None):
         return self.create_vertex(class_name, body=body)
     # end
@@ -571,7 +602,7 @@ class OrientDB:
         return orid(ret)[0]
     # end
 
-    def delete_vertex(self, rid, where=None, limit=None):
+    def delete_vertex(self, rid, where=None, limit=None, params=None):
         """
         Delete a vertex
 
@@ -582,7 +613,7 @@ class OrientDB:
         """
         command = ("DELETE VERTEX %s%s%s" % (
             rid,
-            ("" if not where else " WHERE " + where),
+            ("" if not where else " WHERE " + whereof(where, params)),
             ("" if not limit else " LIMIT " + str(limit)))).strip()
         ret = self._client.command(command)
         return ret
@@ -591,7 +622,7 @@ class OrientDB:
     def update_vertex(self, rid,
                       body=None, merge=None,
                       set=None, add=None, put=None, remove=None, incr=None,
-                      where=None, limit=None):
+                      where=None, limit=None, params=None):
         return self.update_document(rid,
                                     body=body,
                                     merge=merge,
@@ -601,16 +632,32 @@ class OrientDB:
                                     remove=remove,
                                     incr=incr,
                                     where=where,
-                                    limit=limit)
+                                    limit=limit,
+                                    params=params)
     # end
 
     def get_vertex(self, class_name, rid):
         return self.get_document(class_name, rid)
     # end
 
+    def select_vertex(self, class_name, where, params=None):
+        return self.select_document(target=class_name, where=where, params=params)
+    # end
+
+    def exists_vertex(self, class_name, where, params=None):
+        return self.select_vertex(class_name, where=where, params=params) is not None
+    # end
+
+
     # -----------------------------------------------------------------------
     # Handle edges
     # -----------------------------------------------------------------------
+
+    def create_class_edge(self, class_name, body=None, drop_if_exists=False):
+        if body is None: body = dict()
+        if "extends" not in body: body["extends"] = "E"
+        return self.create_class(class_name, body=body, drop_if_exists=drop_if_exists)
+    # end
 
     def insert_edge(self, class_name, vfrom, vto, body=None):
         return self.create_edge(class_name, vfrom, vto, body=body)
@@ -650,7 +697,7 @@ class OrientDB:
         return rid
     # end
 
-    def delete_edge(self, vfrom, vto=None, where=None, limit=None):
+    def delete_edge(self, vfrom, vto=None, where=None, limit=None, params=None):
         """
 
         Note: vfram can be a class_name, a rid (starts with "#") or a list of
@@ -669,7 +716,7 @@ class OrientDB:
 
         command = ("DELETE EDGE %s%s%s" % (
             ("" if not vlist else vlist),
-            ("" if not where else " WHERE " + where),
+            ("" if not where else " WHERE " + whereof(where, params)),
             ("" if not limit else " LIMIT " + str(limit)))).strip()
         ret = self._client.command(command)
         return ret
@@ -678,7 +725,7 @@ class OrientDB:
     def update_edge(self, rid,
                     body=None, merge=None,
                     set=None, add=None, put=None, remove=None, incr=None,
-                    where=None, limit=None):
+                    where=None, limit=None, params=None):
         """
         Update the specified document
 
@@ -704,7 +751,7 @@ class OrientDB:
             ("" if put is None else vbodyof(set, " PUT")),
             ("" if body is None else jbodyof(body, " CONTENT")),
             ("" if merge is None else jbodyof(merge, " MERGE")),
-            ("" if where is None else " WHERE " + where),
+            ("" if where is None else " WHERE " + whereof(where, params)),
             ("" if limit is None else " LIMIT " + str(limit)))).strip()
         ret = self._client.command(command)
         return ret
@@ -742,7 +789,7 @@ class OrientDB:
     def update_document(self, rid,
                         body=None, merge=None,
                         set=None, add=None, put=None, remove=None, incr=None,
-                        where=None, limit=None):
+                        where=None, limit=None, params=None):
         """
         Update the specified document
 
@@ -754,7 +801,7 @@ class OrientDB:
         :param dict put: Puts an entry into a map field.
         :param dict remove: Removes an item in collection and map fields.
         :param dict incr: Increments the field by the value.
-        :param where:
+        :param str where:
         :param limit:
         :return:
         """
@@ -767,13 +814,13 @@ class OrientDB:
             ("" if put is None else vbodyof(set, " PUT")),
             ("" if body is None else jbodyof(body, " CONTENT")),
             ("" if merge is None else jbodyof(merge, " MERGE")),
-            ("" if where is None else " WHERE " + where),
+            ("" if where is None else " WHERE " + whereof(where, params)),
             ("" if limit is None else " LIMIT " + str(limit)))).strip()
         ret = self._client.command(command)
         return ret
     # end
 
-    def delete_documents(self, class_name, where=None, limit=None):
+    def delete_documents(self, class_name, where=None, limit=None, params=None):
         """
 
         :param str class_name:
@@ -783,7 +830,7 @@ class OrientDB:
         """
         command = ("DELETE FROM %s%s%s" % (
             class_name,
-            ("" if where is None else " WHERE " + where),
+            ("" if where is None else " WHERE " + whereof(where, params)),
             ("" if limit is None else " LIMIT " + str(limit)))).strip()
         ret = self._client.command(command)
         return ret
@@ -814,7 +861,8 @@ class OrientDB:
     #end
 
     def select_documents(self, what=None, target=None, where=None, groupby=None,
-                         orderby=None, skip=None, limit=None, query=None):
+                         orderby=None, skip=None, limit=None, query=None,
+                         params=None):
         """
 
         :param str|list[str] what:
@@ -829,8 +877,8 @@ class OrientDB:
         """
         command = ("SELECT %s%s%s%s%s%s%s%s" % (
             ("" if what is None else listof(what)),
-            ("" if target is None else " TARGET " + target),
-            ("" if where is None else " WHERE " + where),
+            ("" if target is None else " FROM " + target),
+            ("" if where is None else " WHERE " + whereof(where, params)),
             ("" if groupby is None else " GROUP BY " + groupbyof(groupby)),
             ("" if orderby is None else " ORDER BY " + orderbyof(orderby)),
             ("" if skip is None else " SKIP " + str(skip)),
@@ -841,11 +889,21 @@ class OrientDB:
     # end
 
     def select_document(self, what=None, target=None, where=None, groupby=None,
-                         orderby=None, skip=None, limit=None, query=None):
+                        orderby=None, skip=None, limit=None, query=None,
+                        params=None):
         ret = self.select_documents(what=what, target=target, where=where,
                                     groupby=groupby, orderby=orderby,
-                                    skip=skip, limit=limit, query=query)
+                                    skip=skip, limit=limit, query=query,
+                                    params=params)
         return None if len(ret) == 0 else ret[0]
+    # end
+
+    def exists_document(self, target=None, where=None, skip=None, query=None,
+                        params=None):
+        ret = self.select_documents(target=target,where=where,
+                                    skip=skip, limit=1,query=query,
+                                    params=params)
+        return len(ret) > 0
     # end
 
     # =======================================================================
