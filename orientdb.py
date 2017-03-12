@@ -73,12 +73,34 @@ class URL:
 # end
 
 
-# ===========================================================================
-# Utilities
-# ===========================================================================
-
 def strof(v):
     return json.dumps(v)
+
+def listof(l):
+    if type(l) == str:
+        return l
+    else:
+        return str.join(",", l)
+
+
+def groupbyof(glist):
+    if type(glist) == str:
+        return glist
+    else:
+        return str.join(",", glist)
+
+
+def orderbyof(olist):
+    oby = ""
+    for o in olist:
+        if len(oby) > 0:
+            oby += ","
+        if type(o) == str:
+            oby += o
+        else:
+            oby += o[0] + " " + o[1]
+    return oby
+
 
 
 # BOOLEAN
@@ -143,7 +165,7 @@ def vbodyof(body, op="SET"):
     return set
 
 
-def jbodyof(body, op="CONTENT"):
+def jbodyof(body, op):
     """
     :param dict body:
     :return str:
@@ -186,17 +208,17 @@ def vof(v):
 # The values for the command are more flexible dictionaries
 #
 
-class OrangeDB:
+class OrientDB:
 
-    # =======================================================================
-    #
-    # =======================================================================
+    # -----------------------------------------------------------------------
+    # Constructor
+    # -----------------------------------------------------------------------
 
     def __init__(self, url):
         """
-        :param str url: "orientdb://host:port/db?u=user&p=password
+        :param str url: "orient://host:port/db?u=user&p=password
         """
-        assert url.startswith("orientdb:")
+        assert url.startswith("orient")
 
         self._url = URL(url)
         self._client = None
@@ -239,11 +261,8 @@ class OrangeDB:
     # end
 
     # -----------------------------------------------------------------------
-    # database
+    # Handle databases
     # -----------------------------------------------------------------------
-    # create/drop
-    # insert/delete
-    #
 
     def list_databases(self, full=False):
         """
@@ -364,7 +383,7 @@ class OrangeDB:
 
 
     # -----------------------------------------------------------------------
-    # class & property
+    # Handle classes and properties
     # -----------------------------------------------------------------------
 
     def list_classes(self, full=False):
@@ -449,10 +468,10 @@ class OrangeDB:
 
         ret = []
         if class_name:
-            command = ("CREATE CLASS %s %s %s" % (
+            command = ("CREATE CLASS %s%s%s" % (
                 class_name,
-                ("" if not extends  else "EXTENDS " + extends),
-                ("" if not abstract else "ABSTRACT"))).strip()
+                ("" if not extends  else " EXTENDS " + extends),
+                ("" if not abstract else " ABSTRACT"))).strip()
             ret.extend(self._client.command(command)) # [id]
 
         for name in props:
@@ -474,9 +493,9 @@ class OrangeDB:
         :param bool unsafe:
         :return:
         """
-        command = ("DROP CLASS %s %s" % (
+        command = ("DROP CLASS %s%s" % (
             class_name,
-            ("" if not unsafe else "UNSAFE"))).strip()
+            ("" if not unsafe else " UNSAFE"))).strip()
         ret = self._client.command(command)  # [True]
         return ret
     # end
@@ -497,11 +516,11 @@ class OrangeDB:
         :param bool unsafe:
         :return:
         """
-        command = ("CREATE PROPERTY %s %s %s %s" % (
+        command = ("CREATE PROPERTY %s %s%s%s" % (
             property,
             otype(type),
-            ("" if link is None else link),
-            ("" if not unsafe else "UNSAFE"))).strip()
+            ("" if link is None else " " + link),
+            ("" if not unsafe else " UNSAFE"))).strip()
         ret = self._client.command(command)
         return ret
     # end
@@ -514,16 +533,27 @@ class OrangeDB:
         :param bool force:
         :return:
         """
-        command = ("DROP PROPERTY %s %s" % (
+        command = ("DROP PROPERTY %s%s" % (
             property,
-            ("" if not force else "FORCE"))).strip()
+            ("" if not force else " FORCE"))).strip()
         ret = self._client.command(command)
         return ret
     # end
 
     # -----------------------------------------------------------------------
-    # vertex & edge
+    # Execute command
     # -----------------------------------------------------------------------
+
+    def execute(self, command):
+        return self._client.command(command)
+
+    # -----------------------------------------------------------------------
+    # Handle vertices
+    # -----------------------------------------------------------------------
+
+    def insert_vertex(self, class_name, body=None):
+        return self.create_vertex(class_name, body=body)
+    # end
 
     def create_vertex(self, class_name, body=None):
         """
@@ -536,8 +566,7 @@ class OrangeDB:
         :param dict body:
         :return str: rid
         """
-        jbody = jbodyof(body)
-        command = ("CREATE VERTEX %s %s" % (class_name, jbody)).strip()
+        command = ("CREATE VERTEX %s%s" % (class_name, jbodyof(body, " CONTENT"))).strip()
         ret = self._client.command(command)
         return orid(ret)[0]
     # end
@@ -551,10 +580,10 @@ class OrangeDB:
         :param int limit:
         :return:
         """
-        command = ("DELETE VERTEX %s %s %s" % (
+        command = ("DELETE VERTEX %s%s%s" % (
             rid,
-            ("" if not where else "WHERE " + where),
-            ("" if not limit else "LIMIT " + str(limit)))).strip()
+            ("" if not where else " WHERE " + where),
+            ("" if not limit else " LIMIT " + str(limit)))).strip()
         ret = self._client.command(command)
         return ret
     # end
@@ -580,6 +609,12 @@ class OrangeDB:
     # end
 
     # -----------------------------------------------------------------------
+    # Handle edges
+    # -----------------------------------------------------------------------
+
+    def insert_edge(self, class_name, vfrom, vto, body=None):
+        return self.create_edge(class_name, vfrom, vto, body=body)
+    # end
 
     def create_edge(self, class_name, vfrom, vto, body=None):
         """
@@ -610,9 +645,8 @@ class OrangeDB:
         # il body. Soluzione: 2 passi
         #
         if body is not None:
-            command = ("UPDATE EDGE %s %s" % (rid, jbodyof(body)))
+            command = ("UPDATE EDGE %s%s" % (rid, jbodyof(body, " CONTENT")))
             ret = self._client.command(command)
-
         return rid
     # end
 
@@ -633,10 +667,10 @@ class OrangeDB:
         if vto is not None:
             vlist = "FROM %s TO %s" % (vlist, vof(vto))
 
-        command = ("DELETE EDGE %s %s %s" % (
+        command = ("DELETE EDGE %s%s%s" % (
             ("" if not vlist else vlist),
-            ("" if not where else "WHERE " + where),
-            ("" if not limit else "LIMIT " + str(limit)))).strip()
+            ("" if not where else " WHERE " + where),
+            ("" if not limit else " LIMIT " + str(limit)))).strip()
         ret = self._client.command(command)
         return ret
     # end
@@ -661,17 +695,17 @@ class OrangeDB:
         :return:
         """
 
-        command = ("UPDATE EDGE %s %s %s %s %s %s %s %s %s %s" % (
+        command = ("UPDATE EDGE %s%s%s%s%s%s%s%s%s%s" % (
             rid,
-            ("" if set is None else vbodyof(set, "SET")),
-            ("" if incr is None else vbodyof(set, "INCREMENT")),
-            ("" if add is None else vbodyof(set, "ADD")),
-            ("" if remove is None else vbodyof(set, "REMOVE")),
-            ("" if put is None else vbodyof(set, "PUT")),
-            ("" if body is None else jbodyof(body, "CONTENT")),
-            ("" if merge is None else jbodyof(merge, "MERGE")),
-            ("" if where is None else "WHERE " + where),
-            ("" if limit is None else "LIMIT " + str(limit)))).strip()
+            ("" if set is None else vbodyof(set, " SET")),
+            ("" if incr is None else vbodyof(set, " INCREMENT")),
+            ("" if add is None else vbodyof(set, " ADD")),
+            ("" if remove is None else vbodyof(set, " REMOVE")),
+            ("" if put is None else vbodyof(set, " PUT")),
+            ("" if body is None else jbodyof(body, " CONTENT")),
+            ("" if merge is None else jbodyof(merge, " MERGE")),
+            ("" if where is None else " WHERE " + where),
+            ("" if limit is None else " LIMIT " + str(limit)))).strip()
         ret = self._client.command(command)
         return ret
     # end
@@ -681,17 +715,26 @@ class OrangeDB:
     # end
 
     # -----------------------------------------------------------------------
-    # create document
+    # Navigate graph
+    # -----------------------------------------------------------------------
+
+    def traverse(self, field, target=None, while_=None, maxdepth=None,
+                 limit=None, strategy=None):
+        command = ("TRAVERSE " % (
+
+        )).strip()
+
+    # -----------------------------------------------------------------------
+    # Handle documents
     # -----------------------------------------------------------------------
     #
     # 'body' | 'merge' must be a object convertible in JSON format
     #
 
     def insert_document(self, class_name, body):
-        jbody = jbodyof(body)
-        command = ("INSERT INTO CLASS:%s %s RETURN @rid" % (
+        command = ("INSERT INTO CLASS:%s%s RETURN @rid" % (
                         class_name,
-                        jbody)).strip()
+                        jbodyof(body, " CONTENT"))).strip()
         ret = self._client.command(command)
         return ret
     # end
@@ -715,17 +758,17 @@ class OrangeDB:
         :param limit:
         :return:
         """
-        command = ("UPDATE %s %s %s %s %s %s %s %s %s %s" % (
+        command = ("UPDATE %s%s%s%s%s%s%s%s%s%s" % (
             rid,
-            ("" if set is None else vbodyof(set, "SET")),
-            ("" if incr is None else vbodyof(set, "INCREMENT")),
-            ("" if add is None else vbodyof(set, "ADD")),
-            ("" if remove is None else vbodyof(set, "REMOVE")),
-            ("" if put is None else vbodyof(set, "PUT")),
-            ("" if body is None else jbodyof(body, "CONTENT")),
-            ("" if merge is None else jbodyof(merge, "MERGE")),
-            ("" if where is None else "WHERE " + where),
-            ("" if limit is None else "LIMIT " + str(limit)))).strip()
+            ("" if set is None else vbodyof(set, " SET")),
+            ("" if incr is None else vbodyof(set, " INCREMENT")),
+            ("" if add is None else vbodyof(set, " ADD")),
+            ("" if remove is None else vbodyof(set, " REMOVE")),
+            ("" if put is None else vbodyof(set, " PUT")),
+            ("" if body is None else jbodyof(body, " CONTENT")),
+            ("" if merge is None else jbodyof(merge, " MERGE")),
+            ("" if where is None else " WHERE " + where),
+            ("" if limit is None else " LIMIT " + str(limit)))).strip()
         ret = self._client.command(command)
         return ret
     # end
@@ -738,10 +781,10 @@ class OrangeDB:
         :param int limit:
         :return:
         """
-        command = ("DELETE FROM %s %s %s" % (
+        command = ("DELETE FROM %s%s%s" % (
             class_name,
-            ("" if where is None else "WHERE " + where),
-            ("" if limit is None else "LIMIT " + str(limit)))).strip()
+            ("" if where is None else " WHERE " + where),
+            ("" if limit is None else " LIMIT " + str(limit)))).strip()
         ret = self._client.command(command)
         return ret
     #end
@@ -767,8 +810,43 @@ class OrangeDB:
         """
         command = ("SELECT FROM %s WHERE @rid = %s" % (class_name, rid)).strip()
         ret = self._client.command(command)
-        return ret[0] if len(ret) > 0 else None
+        return None if len(ret) == 0 else ret[0]
     #end
+
+    def select_documents(self, what=None, target=None, where=None, groupby=None,
+                         orderby=None, skip=None, limit=None, query=None):
+        """
+
+        :param str|list[str] what:
+        :param str target:
+        :param str where:
+        :param dict groupby:
+        :param dict orderby:
+        :param int skip:
+        :param int limit:
+        :param str query:
+        :return list:
+        """
+        command = ("SELECT %s%s%s%s%s%s%s%s" % (
+            ("" if what is None else listof(what)),
+            ("" if target is None else " TARGET " + target),
+            ("" if where is None else " WHERE " + where),
+            ("" if groupby is None else " GROUP BY " + groupbyof(groupby)),
+            ("" if orderby is None else " ORDER BY " + orderbyof(orderby)),
+            ("" if skip is None else " SKIP " + str(skip)),
+            ("" if limit is None else " LIMIT " + str(limit)),
+            ("" if query is None else query))).strip()
+        ret = self._client.command(command)
+        return ret
+    # end
+
+    def select_document(self, what=None, target=None, where=None, groupby=None,
+                         orderby=None, skip=None, limit=None, query=None):
+        ret = self.select_documents(what=what, target=target, where=where,
+                                    groupby=groupby, orderby=orderby,
+                                    skip=skip, limit=limit, query=query)
+        return None if len(ret) == 0 else ret[0]
+    # end
 
     # =======================================================================
     # class
