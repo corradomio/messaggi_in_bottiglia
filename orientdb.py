@@ -496,7 +496,7 @@ class OrientDB:
             command = ("CREATE CLASS %s%s%s" % (
                 class_name,
                 ("" if not extends  else " EXTENDS " + extends),
-                ("" if not abstract else " ABSTRACT"))).strip()
+                ("" if not abstract else " ABSTRACT")) ).strip()
             ret.extend(self._client.command(command)) # [id]
 
         for name in body:
@@ -576,11 +576,11 @@ class OrientDB:
     # Handle vertices
     # -----------------------------------------------------------------------
 
-    def create_class_vertex(self, class_name, body=None, drop_if_exists=False):
-        if body is None: body = dict()
-        if "extends" not in body: body["extends"] = "V"
-        return self.create_class(class_name, body=body, drop_if_exists=drop_if_exists)
-    # end
+    # def create_class_vertex(self, class_name, body=None, drop_if_exists=False):
+    #     if body is None: body = dict()
+    #     if "extends" not in body: body["extends"] = "V"
+    #     return self.create_class(class_name, body=body, drop_if_exists=drop_if_exists)
+    # # end
 
     def insert_vertex(self, class_name, body=None):
         return self.create_vertex(class_name, body=body)
@@ -602,28 +602,28 @@ class OrientDB:
         return orid(ret)[0]
     # end
 
-    def delete_vertex(self, rid, where=None, limit=None, params=None):
+    def delete_vertex(self, vertex, where=None, limit=None, params=None):
         """
         Delete a vertex
 
-        :param str rid: (rid) vertex identifier
+        :param str vertex: rid or vertex_class
         :param str where:
         :param int limit:
         :return:
         """
         command = ("DELETE VERTEX %s%s%s" % (
-            rid,
+            vertex,
             ("" if not where else " WHERE " + whereof(where, params)),
             ("" if not limit else " LIMIT " + str(limit)))).strip()
         ret = self._client.command(command)
         return ret
     # end
 
-    def update_vertex(self, rid,
+    def update_vertex(self, vertex,
                       body=None, merge=None,
                       set=None, add=None, put=None, remove=None, incr=None,
                       where=None, limit=None, params=None):
-        return self.update_document(rid,
+        return self.update_document(vertex,
                                     body=body,
                                     merge=merge,
                                     set=set,
@@ -636,16 +636,22 @@ class OrientDB:
                                     params=params)
     # end
 
-    def get_vertex(self, class_name, rid):
-        return self.get_document(class_name, rid)
-    # end
-
     def select_vertex(self, class_name, where, params=None):
         return self.select_document(target=class_name, where=where, params=params)
     # end
 
     def exists_vertex(self, class_name, where, params=None):
-        return self.select_vertex(class_name, where=where, params=params) is not None
+        return self.exists_document(class_name, where=where, params=params)
+    # end
+
+    def get_vertex(self, class_name, rid):
+        """
+        :param str class_name:
+        :param str rid:
+        :return:
+        """
+        assert rid.startswith("#")
+        return self.get_document(class_name, rid)
     # end
 
 
@@ -653,11 +659,11 @@ class OrientDB:
     # Handle edges
     # -----------------------------------------------------------------------
 
-    def create_class_edge(self, class_name, body=None, drop_if_exists=False):
-        if body is None: body = dict()
-        if "extends" not in body: body["extends"] = "E"
-        return self.create_class(class_name, body=body, drop_if_exists=drop_if_exists)
-    # end
+    # def create_class_edge(self, class_name, body=None, drop_if_exists=False):
+    #     if body is None: body = dict()
+    #     if "extends" not in body: body["extends"] = "E"
+    #     return self.create_class(class_name, body=body, drop_if_exists=drop_if_exists)
+    # # end
 
     def insert_edge(self, class_name, vfrom, vto, body=None):
         return self.create_edge(class_name, vfrom, vto, body=body)
@@ -802,7 +808,7 @@ class OrientDB:
         :param dict remove: Removes an item in collection and map fields.
         :param dict incr: Increments the field by the value.
         :param str where:
-        :param limit:
+        :param int limit:
         :return:
         """
         command = ("UPDATE %s%s%s%s%s%s%s%s%s%s" % (
@@ -822,7 +828,6 @@ class OrientDB:
 
     def delete_documents(self, class_name, where=None, limit=None, params=None):
         """
-
         :param str class_name:
         :param str where:
         :param int limit:
@@ -838,7 +843,6 @@ class OrientDB:
 
     def delete_document(self, class_name, rid):
         """
-
         :param str class_name:
         :param str rid:
         :return:
@@ -850,7 +854,6 @@ class OrientDB:
 
     def get_document(self, class_name, rid):
         """
-
         :param str class_name:
         :param str rid:
         :return dict:
@@ -864,7 +867,6 @@ class OrientDB:
                          orderby=None, skip=None, limit=None, query=None,
                          params=None):
         """
-
         :param str|list[str] what:
         :param str target:
         :param str where:
@@ -906,9 +908,39 @@ class OrientDB:
         return len(ret) > 0
     # end
 
-    # =======================================================================
-    # class
-    # =======================================================================
+
+    # -----------------------------------------------------------------------
+    # Handle indices
+    # -----------------------------------------------------------------------
+
+    def create_index(self, class_field, index_type=None, metadata=None):
+
+        # UNIQUE
+        # NOTUNIQUE
+
+        command = ("CREATE INDEX %s%s%s" % (
+                class_field,
+                ("" if index_type is None else " " + index_type),
+                ("" if metadata is None else jbodyof(metadata, " METADATA")))).strip()
+        ret = self._client.command(command)
+        return ret
+    # end
+
+    def drop_index(self, index_name):
+        command = ("DROP INDEX %s" % index_name).strip()
+        ret = self._client.command(command)
+        return ret
+    #end
+
+    def rebuild_index(self, index_name):
+        command = ("REBUILD INDEX %s" % index_name).strip()
+        ret = self._client.command(command)
+        return ret
+    #end
+
+    # -----------------------------------------------------------------------
+    # Handle indices
+    # -----------------------------------------------------------------------
 
     pass
 # end
