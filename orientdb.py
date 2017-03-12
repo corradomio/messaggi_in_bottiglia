@@ -73,173 +73,6 @@ class URL:
 # end
 
 
-# class URLx:
-#     def __init__(self, urlx):
-#         """
-#         :param str urlx:
-#         """
-#         self._urlx = urlx
-#         """:type: str"""
-#
-#         self._protocols = None
-#         """:type: list[str]"""
-#         self._params = dict()
-#         """:type: dict[str,str]"""
-#
-#         self._parse()
-#     # end
-#
-#     def _parse(self):
-#         self._params = dict()
-#
-#         u = self._urlx
-#         u = u.replace(";", "?").replace(",","&")
-#
-#         #
-#         # u ::= protocols '://' rest
-#         #
-#         p = u.find("://")
-#         if p == -1:
-#             raise SyntaxError(self._urlx)
-#
-#         #
-#         # protocols :: == [protocol ':']+
-#         #
-#         protocols = u[:p]
-#         u = u[p+3:]
-#         self._protocols = protocols.split(":")
-#         if len(self._protocols) == 0:
-#             self._protocols = ["file"]
-#         self._params["protocol"] = self._protocols[0]
-#
-#         #
-#         # u = [auth@]rest
-#         #
-#         p = u.find("@")
-#         if p == -1:
-#             auth = ""
-#         else:
-#             auth = u[:p]
-#             u = u[p+1:]
-#         # end
-#
-#         #
-#         # auth ::=  user[:password]
-#         #
-#         p = auth.find(":")
-#         if auth == "":
-#             self._params["username"] = ""
-#             self._params["password"] = ""
-#         elif p == -1:
-#             self._params["username"] = auth
-#             self._params["password"] = ""
-#         else:
-#             self._params["username"] = auth[:p]
-#             self._params["password"] = auth[p+1:]
-#         # end
-#
-#         #
-#         # u = prefix?params
-#         # u = prefix;args
-#         #
-#         p = u.rfind('?')
-#         if p == -1:
-#             params = ""
-#         else:
-#             params = u[p+1:]
-#             u = u[:p]
-#         # end
-#
-#         #
-#         # u = prefix#fragment
-#         #
-#         p = u.rfind("#")
-#         if p == -1:
-#             fragment = ""
-#         else:
-#             fragment = u[p+1:]
-#             u = u[:p]
-#         # end
-#         self._params["fragment"] = fragment
-#
-#         #
-#         # u = server[/rest]
-#         #
-#
-#         p = u.find("/")
-#         if p == -1:
-#             path = ""
-#         else:
-#             path = u[p:]
-#             u = u[:p]
-#         # end
-#
-#         #
-#         # u ::= host[:port]
-#         #
-#         p = u.find(":")
-#         if p == -1:
-#             port = None
-#         else:
-#             port = u[p+1:]
-#             u = u[:p]
-#         # end
-#
-#         self._params["host"] = u
-#         self._params["port"] = port
-#         self._params["path"] = path
-#         self._params["server"] = u if port is None else "{0}:{1}".format(u, port)
-#
-#         params = params.split("&")
-#         for param in params:
-#             p = param.find("=")
-#             if p == -1:
-#                 name = param
-#                 value = "1"
-#             else:
-#                 name = param[:p]
-#                 value = param[p+1:]
-#             # end
-#             if name in ["username", "user", "u"]:
-#                 name = "username"
-#             elif name in ["password", "pwd", "p"]:
-#                 name = "password"
-#             # end
-#
-#             self._params[name] = value
-#         # end
-#     # end
-#
-#     def get(self, key, default=None):
-#         if key not in self._params:
-#             return default
-#         if self._params[key] is None:
-#             return default
-#         if type(default) == int:
-#             return int(self._params[key])
-#         if type(default) == float:
-#             return float(self._params[key])
-#         if type(default) == bool:
-#             return bool(self._params[key])
-#         if type(default) == str:
-#             return str(self._params[key])
-#         else:
-#             return self._params[key]
-#     # end
-#
-#     def __getitem__(self, key):
-#         return self._params[key]
-#
-#     def __setitem__(self, key, value):
-#         self._params[key] = value
-#
-#     def __contains__(self, key):
-#         return key in self._params
-#
-#     pass
-# # end
-
-
 # ===========================================================================
 # Utilities
 # ===========================================================================
@@ -335,6 +168,7 @@ def vof(v):
         return v
     else:
         return "(%s)" % v
+
 
 # ===========================================================================
 # OrientDB
@@ -725,9 +559,10 @@ class OrangeDB:
         return ret
     # end
 
-    def update_vertex(self, rid, body=None, merge=None,
-                        set=None, add=None, put=None, remove=None, incr=None,
-                        where=None, limit=None):
+    def update_vertex(self, rid,
+                      body=None, merge=None,
+                      set=None, add=None, put=None, remove=None, incr=None,
+                      where=None, limit=None):
         return self.update_document(rid,
                                     body=body,
                                     merge=merge,
@@ -742,6 +577,9 @@ class OrangeDB:
 
     def get_vertex(self, class_name, rid):
         return self.get_document(class_name, rid)
+    # end
+
+    # -----------------------------------------------------------------------
 
     def create_edge(self, class_name, vfrom, vto, body=None):
         """
@@ -803,9 +641,10 @@ class OrangeDB:
         return ret
     # end
 
-    def update_edge(self, rid, body=None, merge=None,
-                        set=None, add=None, put=None, remove=None, incr=None,
-                        where=None, limit=None):
+    def update_edge(self, rid,
+                    body=None, merge=None,
+                    set=None, add=None, put=None, remove=None, incr=None,
+                    where=None, limit=None):
         """
         Update the specified document
 
@@ -837,6 +676,10 @@ class OrangeDB:
         return ret
     # end
 
+    def get_edge(self, class_name, rid):
+        return self.get_document(class_name, rid)
+    # end
+
     # -----------------------------------------------------------------------
     # create document
     # -----------------------------------------------------------------------
@@ -853,7 +696,8 @@ class OrangeDB:
         return ret
     # end
 
-    def update_document(self, rid, body=None, merge=None,
+    def update_document(self, rid,
+                        body=None, merge=None,
                         set=None, add=None, put=None, remove=None, incr=None,
                         where=None, limit=None):
         """
