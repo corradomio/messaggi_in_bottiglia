@@ -169,6 +169,7 @@ class Synonimous:
     def load_synonimous(self, syfile):
         self._wddict = dict()
         self._sydict = dict()
+        self._wset = set()
 
         if syfile is None:
             return
@@ -216,6 +217,9 @@ class Synonimous:
             if syn not in self._sydict:
                 self._sydict[syn] = set()
             self._sydict[syn] = self._sydict[syn].union(synonimous)
+
+        self._wset.add(word)
+        self._wset.update(synonimous)
     # end
 
     def _analyze_word(self, line):
@@ -249,10 +253,16 @@ class Synonimous:
     # end
 
     def __getitem__(self, w):
-        return self._sydict[w]
+        try:
+            return self._sydict[w]
+        except:
+            return []
+
+    def __missing__(self, w):
+        return []
 
     def __iter__(self):
-        return self._sydict.__iter__()
+        return self._wset.__iter__()
 # end
 
 
