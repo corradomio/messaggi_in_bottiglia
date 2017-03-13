@@ -791,11 +791,18 @@ class OrientDB:
     # Navigate graph
     # -----------------------------------------------------------------------
 
-    def traverse(self, field, target=None, while_=None, maxdepth=None,
-                 limit=None, strategy=None):
-        command = ("TRAVERSE " % (
-
-        )).strip()
+    def traverse(self, start, target=None, while_=None, maxdepth=None,
+                 limit=None, strategy=None, params=None):
+        command = ("TRAVERSE %s%s%s%s%s%s" % (
+            start,
+            ("" if target is None else " FROM " + target),
+            ("" if maxdepth is None else " MAXDEPTH " + str(maxdepth)),
+            ("" if while_ is None else " WHILE " + _whereof(while_, params)),
+            ("" if limit is None else " LIMIT " + str(limit)),
+            ("" if strategy is None else " STRATEGY " + strategy))).strip()
+        ret = self._client.command(command)
+        return ret
+    # end
 
     # -----------------------------------------------------------------------
     # Handle documents
