@@ -1239,6 +1239,17 @@ class OrientDB:
         return ret
     # end
 
+    def get_document(self, what=None, target=None, where=None,
+                     groupby=None, orderby=None,
+                     skip=None, query=None,
+                     params=None):
+        ret = self.select_documents(what=what, target=target, where=where,
+                                    groupby=groupby, orderby=orderby,
+                                    skip=skip, limit=1, query=query,
+                                    params=params)
+        return None if len(ret) == 0 else ret[0]
+    # end
+
     def update_document(self, rid,
                         body=None, merge=None,
                         set=None, add=None, put=None, remove=None, incr=None,
@@ -1274,52 +1285,44 @@ class OrientDB:
         return ret
     # end
 
+    def exists_document(self, target=None, where=None, skip=None, query=None, params=None):
+        ret = self.select_documents(target=target,where=where,
+                                    skip=skip, limit=1,query=query,
+                                    params=params)
+        return len(ret) > 0
+    # end
 
-    def _delete_documents(self, class_name, where=None, limit=None, params=None):
-        """
-        :param str class_name:
-        :param str where:
-        :param int limit:
-        :return:
-        """
-        command = ("DELETE FROM %s%s%s" % (
-            class_name,
-            ("" if where is None else " WHERE " + _resolve_vars(where, params)),
-            ("" if limit is None else " LIMIT " + str(limit))
-        )).strip()
-        ret = self._client.command(command)
-        return ret
-    #end
+    # def delete_document(self, class_name, rid):
+    #     """
+    #     :param str class_name:
+    #     :param str rid:
+    #     :return:
+    #     """
+    #     command = ("DELETE FROM %s WHERE @rid = %s" % (
+    #         class_name, rid
+    #     )).strip()
+    #     ret = self._client.command(command)
+    #     return ret
+    # #end
 
-    def delete_document(self, class_name, rid):
-        """
-        :param str class_name:
-        :param str rid:
-        :return:
-        """
-        command = ("DELETE FROM %s WHERE @rid = %s" % (
-            class_name, rid
-        )).strip()
-        ret = self._client.command(command)
-        return ret
-    #end
+    # -----------------------------------------------------------------------
 
-    def get_document(self, class_name, rid):
-        """
-        :param str class_name:
-        :param str rid:
-        :return dict:
-        """
-        command = ("SELECT FROM %s WHERE @rid = %s" % (
-            class_name, rid
-        )).strip()
-        ret = self._client.command(command)
-        return None if len(ret) == 0 else ret[0]
-    #end
+    # def get_document(self, class_name, rid):
+    #     """
+    #     :param str class_name:
+    #     :param str rid:
+    #     :return dict:
+    #     """
+    #     command = ("SELECT FROM %s WHERE @rid = %s" % (
+    #         class_name, rid
+    #     )).strip()
+    #     ret = self._client.command(command)
+    #     return None if len(ret) == 0 else ret[0]
+    # #end
 
     def select_documents(self, what=None, target=None, where=None, groupby=None,
                          orderby=None, skip=None, limit=None, query=None,
-                         params=None):
+                         params=None, callback=None):
         """
         :param str|list[str] what:
         :param str target:
@@ -1341,27 +1344,28 @@ class OrientDB:
             ("" if limit is None else " LIMIT " + str(limit)),
             ("" if query is None else query)
         )).strip()
-        ret = self._client.command(command)
+        if callback:
+            ret = self._client.query_async(command, 10, "*:*", callback)
+        else:
+            ret = self._client.query(command)
         return ret
     # end
 
-    def select_document(self, what=None, target=None, where=None, groupby=None,
-                        orderby=None, skip=None, limit=None, query=None,
-                        params=None):
-        ret = self.select_documents(what=what, target=target, where=where,
-                                    groupby=groupby, orderby=orderby,
-                                    skip=skip, limit=limit, query=query,
-                                    params=params)
-        return None if len(ret) == 0 else ret[0]
-    # end
-
-    def exists_document(self, target=None, where=None, skip=None, query=None,
-                        params=None):
-        ret = self.select_documents(target=target,where=where,
-                                    skip=skip, limit=1,query=query,
-                                    params=params)
-        return len(ret) > 0
-    # end
+    def _delete_documents(self, class_name, where=None, limit=None, params=None):
+        """
+        :param str class_name:
+        :param str where:
+        :param int limit:
+        :return:
+        """
+        command = ("DELETE FROM %s%s%s" % (
+            class_name,
+            ("" if where is None else " WHERE " + _resolve_vars(where, params)),
+            ("" if limit is None else " LIMIT " + str(limit))
+        )).strip()
+        ret = self._client.command(command)
+        return ret
+    #end
 
 
     # -----------------------------------------------------------------------
