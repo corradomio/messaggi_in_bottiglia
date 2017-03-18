@@ -12,7 +12,7 @@ def main():
 
     odb.open_db()
 
-    odb.create_class("Question", body={"extends": "V", "topic": "string", "text": "string", "subject": "string", "response": "string"})
+    odb.create_class("Question", body={"extends": "V", "topic": "string", "text": "string", "subject": "string", })
     odb.insert_vertex("Question", body={"topic": "ierbigb fbd", "text": "brbeb", "subject": "ehethetrq gre r "})
 
     # odb.drop_class("Vtest", unsafe=True)
