@@ -159,8 +159,6 @@ def _resolve_vars(where, params):
     return where
 # end
 
-# end
-
 
 def _funof(fun):
     if fun.startswith("-") or fun.endswith("-"):
@@ -308,19 +306,19 @@ def odata(orec):
 # end
 
 
-def orid(orec):
-    """
-    Extract the rid from the OrientRecord
-
-    :param orec:
-    :type orec: OrientRecord | list[OrientRecord]
-    :return:
-    """
-    if type(orec) == list:
-        return [o._OrientRecord__rid for o in orec]
-    else:
-        return orec._OrientRecord__rid
-# end
+# def orid(orec):
+#     """
+#     Extract the rid from the OrientRecord
+#
+#     :param orec:
+#     :type orec: OrientRecord | list[OrientRecord]
+#     :return:
+#     """
+#     if type(orec) == list:
+#         return [o._OrientRecord__rid for o in orec]
+#     else:
+#         return orec._OrientRecord__rid
+# # end
 
 
 #
@@ -948,7 +946,7 @@ class OrientDB:
             class_name, _jbodyof(body, " CONTENT")
         )).strip()
         ret = self._client.command(command)
-        return orid(ret)[0]
+        return ret[0]._rid
     # end
 
     def _delete_vertex(self, vertex, where=None, limit=None, params=None):
@@ -1018,7 +1016,28 @@ class OrientDB:
     #     return self.create_edge(class_name, vfrom, vto, body=body)
     # # end
 
-    def create_edge(self, class_name, vfrom, vto, body=None):
+    def exists_edge(self, class_name, vfrom, vto, direct=False):
+        command = ("SELECT FROM %s WHERE %s(%s).@rid CONTAINS %s" % (
+            vfrom,
+            ("out" if direct else "both"),
+            ("" if class_name is None else class_name),
+            vto
+        ))
+        ret = self._client.command(command)
+        return ret
+    # end
+
+    def create_edge(self, class_name, vfrom, vto, body=None, unique=True):
+        if unique:
+            ret = self.exists_edge(class_name, vfrom, vto)
+            if ret:
+                return ret
+
+        ret = self._create_edge(class_name, vfrom, vto, body=body)
+        return ret
+    # end
+
+    def _create_edge(self, class_name, vfrom, vto, body=None):
         """
         Create a edge between two vertices, and set the
         body with 'body'
@@ -1041,7 +1060,7 @@ class OrientDB:
             vto
         )).strip()
         ret = self._client.command(command)
-        rid = orid(ret[0])
+        rid = ret[0]._rid
 
         #
         # A quanto sempbra, NON FUNZIONA creare un edge e impostare direttamente
@@ -1050,7 +1069,7 @@ class OrientDB:
         if body is not None:
             command = ("UPDATE EDGE %s%s" % (rid, _jbodyof(body, " CONTENT")))
             ret = self._client.command(command)
-        return rid
+        return ret
     # end
 
     def delete_edge(self, vfrom, vto=None, where=None, limit=None, params=None):
@@ -1098,7 +1117,6 @@ class OrientDB:
         :param limit:
         :return:
         """
-
         command = ("UPDATE EDGE %s%s%s%s%s%s%s%s%s%s" % (
             rid,
             ("" if set is None else _vbodyof(set, " SET")),
@@ -1239,14 +1257,14 @@ class OrientDB:
         return ret
     # end
 
-    def get_document(self, what=None, target=None, where=None,
+    def get_document(self, target=None, what=None, where=None,
                      groupby=None, orderby=None,
                      skip=None, query=None,
                      params=None):
-        ret = self.select_documents(what=what, target=target, where=where,
+        ret = list(self.select_documents(what=what, target=target, where=where,
                                     groupby=groupby, orderby=orderby,
                                     skip=skip, limit=1, query=query,
-                                    params=params)
+                                    params=params))
         return None if len(ret) == 0 else ret[0]
     # end
 
@@ -1320,9 +1338,9 @@ class OrientDB:
     #     return None if len(ret) == 0 else ret[0]
     # #end
 
-    def select_documents(self, what=None, target=None, where=None, groupby=None,
+    def select_documents(self, target=None, what=None, where=None, groupby=None,
                          orderby=None, skip=None, limit=None, query=None,
-                         params=None, callback=None):
+                         params=None):
         """
         :param str|list[str] what:
         :param str target:
@@ -1344,11 +1362,25 @@ class OrientDB:
             ("" if limit is None else " LIMIT " + str(limit)),
             ("" if query is None else query)
         )).strip()
-        if callback:
-            ret = self._client.query_async(command, 10, "*:*", callback)
-        else:
+
+        if not skip:
+            skip = 0
+
+        if limit:
             ret = self._client.query(command)
-        return ret
+            for rec in ret:
+                yield rec
+        else:
+            limit = 25
+            ret = self._client.query(command)
+            while len(ret) > 0:
+                for rec in ret:
+                    skip += 1
+                    yield rec
+
+                ret = self._client.query(command + (" SKIP %d LIMIT %d" % (skip, limit)))
+            # end
+        pass
     # end
 
     def _delete_documents(self, class_name, where=None, limit=None, params=None):

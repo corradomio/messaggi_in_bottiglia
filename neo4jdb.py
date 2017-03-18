@@ -87,6 +87,8 @@ def _strof(o):
 # end
 
 def _bodyof(body):
+    if len(body) == 0:
+        return ""
     b = "{"
     for n in body:
         if len(b) > 1:
@@ -101,6 +103,98 @@ def _bodyof(body):
 # ===========================================================================
 # Public utilities
 # ===========================================================================
+
+class Relation(object):
+
+    def __init__(self, match, rel_name=None, alias=None,steps=None):
+        self._from = match
+        self._name = rel_name
+        self._alias = alias
+        self._steps = steps
+        self._to = None
+    # end
+
+    def steps(self, steps):
+        self._steps = steps
+        return self
+    # end
+
+    def match(self, class_name=None, alias=None):
+        self._to = Match(class_name=class_name, alias=alias).from_rel(self)
+        return self._to
+    # end
+
+    def __str__(self):
+        return ("%s-%s-" % (
+            str(self._from),
+            self._srel(),
+            # str(self._to)
+        ))
+
+    def _srel(self):
+        if self._name is None and self._alias is None:
+            return ""
+        else:
+            return ("[%s%s]" % (
+                ("" if self._alias is None else self._alias),
+                ("" if self._name is None else ":" + self._name)
+            ))
+
+    pass
+# end
+
+
+class Result(object):
+
+    def __init__(self, match, what):
+        self._match = match
+        self._what = what
+    # end
+
+    def __str__(self):
+        smatch = str(self._match)
+        swhat = self._what
+        return ("MATCH %s RETURN %s" % (
+                smatch,
+                swhat
+        ))
+
+class Match(object):
+
+    def __init__(self, class_name=None, alias=None):
+        self._name = class_name
+        self._alias = alias
+        self._body = dict()
+        self._from = None
+    # end
+
+    def field(self, name, value):
+        self._body[name] = value
+        return self
+
+    def relation(self, rel_name=None, alias=None, steps=None):
+        return Relation(self, rel_name=rel_name, alias=alias, steps=steps)
+
+    def from_rel(self, relation):
+        self._from = relation
+        return self
+    # end
+
+    def return_(self, what):
+        return Result(self, what)
+
+    def __str__(self):
+        return "%s(%s%s%s)" % (
+            ("" if self._from is None else str(self._from)),
+            ("" if self._alias is None else self._alias),
+            ("" if self._name is None else ":" + self._name),
+            ("" if self._body is None else _bodyof(self._body))
+        )
+
+    pass
+# end
+
+
 
 
 # ===========================================================================
@@ -161,7 +255,12 @@ class Neo4jDB:
     # Match
     # -----------------------------------------------------------------------
 
-    def match(self, command):
+    def execute(self, command):
+        return self._session.run(command)
+
+    def match(self, match):
+        command = str(match)
+        print(command)
         return self._session.run(command)
 
 

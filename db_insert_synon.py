@@ -30,13 +30,13 @@ def main():
     for w in syn:
         print(w)
 
-        vto = odb.select_vertex("Word", where="text=${text}", params={"text": w})
-        vto = o.orid(vto)
+        vto = odb.get_document("Word", where="text=${text}", params={"text": w})
+        vto = vto._rid
 
         slist = syn[w]
         for s in slist:
-            vfrom = odb.select_vertex("Word", where="text=${text}", params={"text": s})
-            vfrom = o.orid(vfrom)
+            vfrom = odb.get_document("Word", where="text=${text}", params={"text": s})
+            vfrom = vfrom._rid
 
             print("... %s" % s)
             odb.insert_edge("Syn", vfrom, vto)
