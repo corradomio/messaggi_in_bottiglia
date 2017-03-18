@@ -125,21 +125,40 @@ def _resolve_vars(where, params):
     :param dict[str,Any] params:
     :return str:
     """
-    if where is None or params is None:
+    if params is None:
+        params = dict()
+    if where is None or len(where) == 0:
         return where
 
-    pos = where.find("${")
-    while pos != -1:
-        end = where.find("}", pos)
-        name = where[pos+2:end]
-        if name not in params:
-            value=""
+    if type(where) == str:
+        if len(params) == 0:
+            return where
         else:
-            value = params[name]
-        where = where[0:pos] + _strof(value) + where[end + 1:]
-        pos = where.find("${")
+            pos = where.find("${")
+            while pos != -1:
+                end = where.find("}", pos)
+                name = where[pos + 2:end]
+                if name not in params:
+                    value = ""
+                else:
+                    value = params[name]
+                where = where[0:pos] + _strof(value) + where[end + 1:]
+                pos = where.find("${")
+            # end
+            return where
+        # end
+    # end
+
+    if type(where) == dict:
+        swhere = ""
+        for name in where:
+            if len(swhere) > 0: swhere += " AND "
+            swhere += ("%s=%s" % (name, _strof(where[name])))
+        return swhere
     # end
     return where
+# end
+
 # end
 
 
@@ -505,6 +524,11 @@ class Match(object):
 # The values for the command are more flexible dictionaries
 #
 
+#
+# Nota: !!!!!
+# E' inutile creare due tipi di oggetti distinti tra 'document' e 'vertex'
+#
+
 class OrientDB:
 
     # -----------------------------------------------------------------------
@@ -521,9 +545,11 @@ class OrientDB:
         self._client = None
         self._session = None
         self._db = None
+        self._is_graph = False
 
         host = self._url["host"]
         port = self._url.get("port", 2424)
+        self._is_graph = pyorient.DB_TYPE_GRAPH == self._url.get("db_type", None)
 
         self._client = pyorient.OrientDB(host, port)
     # end
@@ -637,6 +663,9 @@ class OrientDB:
     # close_db
     # =======================================================================
 
+    def is_graph(self):
+        return self._is_graph
+
     # -----------------------------------------------------------------------
     # Handle database
     # -----------------------------------------------------------------------
@@ -667,6 +696,8 @@ class OrientDB:
         self._db = self._client.db_open(
             db_name=db_name, db_type=db_type,
             user=user, password=password)
+
+        self._is_graph = pyorient.DB_TYPE_GRAPH == db_type
     # end
 
     def close_db(self):
@@ -680,6 +711,7 @@ class OrientDB:
 
         self._client.db_close(self._db)
         self._db = None
+        self._db_type = None
         return True
     # end
 
@@ -733,6 +765,12 @@ class OrientDB:
     # end
 
     def create_class(self, class_name, body, drop_if_exists=False):
+        if self._is_graph and "extends" not in body:
+            body["extends"] = "V"
+        return self._create_class(class_name, body, drop_if_exists=drop_if_exists)
+    # end
+
+    def _create_class(self, class_name, body, drop_if_exists=False):
         """
         Create a class
         Add the properties specified in 'props.
@@ -875,15 +913,27 @@ class OrientDB:
     #     return self.create_class(class_name, body=body, drop_if_exists=drop_if_exists)
     # # end
 
-    def create_node(self, class_name, body=None):
-        return self.create_vertex(class_name, body=body)
-    # end
+    # def create_node(self, class_name, body=None):
+    #     return self._create_vertex(class_name, body=body)
+    # # end
 
-    def insert_vertex(self, class_name, body=None):
-        return self.create_vertex(class_name, body=body)
-    # end
+    # def insert_vertex(self, class_name, body=None):
+    #     return self._create_vertex(class_name, body=body)
+    # # end
 
-    def create_vertex(self, class_name, body=None):
+    # def create_vertex(self, class_name, body=None):
+    #     return self._create_vertex(class_name, body=body)
+    # # end
+
+    # def delete_node(self, node, where=None, limit=None, params=None):
+    #     return self._delete_vertex(node, where=where, limit=limit, params=params)
+    # # end
+
+    # def delete_vertex(self, node, where=None, limit=None, params=None):
+    #     return self._delete_vertex(node, where=where, limit=limit, params=params)
+    # # end
+
+    def _create_vertex(self, class_name, body=None):
         """
         Create a vertex (a instance of the specified class), and set the
         body with 'body'
@@ -901,7 +951,7 @@ class OrientDB:
         return orid(ret)[0]
     # end
 
-    def delete_vertex(self, vertex, where=None, limit=None, params=None):
+    def _delete_vertex(self, vertex, where=None, limit=None, params=None):
         """
         Delete a vertex
 
@@ -919,40 +969,40 @@ class OrientDB:
         return ret
     # end
 
-    def update_vertex(self, vertex,
-                      body=None, merge=None,
-                      set=None, add=None, put=None, remove=None, incr=None,
-                      where=None, limit=None, params=None):
-        return self.update_document(vertex,
-                                    body=body,
-                                    merge=merge,
-                                    set=set,
-                                    add=add,
-                                    put=put,
-                                    remove=remove,
-                                    incr=incr,
-                                    where=where,
-                                    limit=limit,
-                                    params=params)
-    # end
+    # def update_vertex(self, vertex,
+    #                   body=None, merge=None,
+    #                   set=None, add=None, put=None, remove=None, incr=None,
+    #                   where=None, limit=None, params=None):
+    #     return self.update_document(vertex,
+    #                                 body=body,
+    #                                 merge=merge,
+    #                                 set=set,
+    #                                 add=add,
+    #                                 put=put,
+    #                                 remove=remove,
+    #                                 incr=incr,
+    #                                 where=where,
+    #                                 limit=limit,
+    #                                 params=params)
+    # # end
 
-    def select_vertex(self, class_name, where, params=None):
-        return self.select_document(target=class_name, where=where, params=params)
-    # end
+    # def select_vertex(self, class_name, where, params=None):
+    #     return self.select_document(target=class_name, where=where, params=params)
+    # # end
 
-    def exists_vertex(self, class_name, where, params=None):
-        return self.exists_document(class_name, where=where, params=params)
-    # end
+    # def exists_vertex(self, class_name, where, params=None):
+    #     return self.exists_document(class_name, where=where, params=params)
+    # # end
 
-    def get_vertex(self, class_name, rid):
-        """
-        :param str class_name:
-        :param str rid:
-        :return:
-        """
-        assert rid.startswith("#")
-        return self.get_document(class_name, rid)
-    # end
+    # def get_vertex(self, class_name, rid):
+    #     """
+    #     :param str class_name:
+    #     :param str rid:
+    #     :return:
+    #     """
+    #     assert rid.startswith("#")
+    #     return self.get_document(class_name, rid)
+    # # end
 
     # -----------------------------------------------------------------------
     # Handle edges
@@ -964,9 +1014,9 @@ class OrientDB:
     #     return self.create_class(class_name, body=body, drop_if_exists=drop_if_exists)
     # # end
 
-    def insert_edge(self, class_name, vfrom, vto, body=None):
-        return self.create_edge(class_name, vfrom, vto, body=body)
-    # end
+    # def insert_edge(self, class_name, vfrom, vto, body=None):
+    #     return self.create_edge(class_name, vfrom, vto, body=body)
+    # # end
 
     def create_edge(self, class_name, vfrom, vto, body=None):
         """
@@ -1165,7 +1215,23 @@ class OrientDB:
     #
 
     def insert_document(self, class_name, body):
-        command = ("INSERT INTO CLASS:%s%s RETURN @rid" % (
+        if self._is_graph:
+            return self._create_vertex(class_name, body)
+        else:
+            return self._insert_document(class_name, body)
+    # end
+
+    def delete_document(self, class_name, where=None, limit=None, params=None):
+        if self._is_graph:
+            return self._delete_vertex(class_name, where=where, limit=limit, params=params)
+        else:
+            return self._delete_documents(class_name, where=where, limit=limit, params=params)
+    # end
+
+    # -----------------------------------------------------------------------
+
+    def _insert_document(self, class_name, body):
+        command = ("INSERT INTO %s%s RETURN @rid" % (
             class_name,
             _jbodyof(body, " CONTENT")
         )).strip()
@@ -1208,7 +1274,8 @@ class OrientDB:
         return ret
     # end
 
-    def delete_documents(self, class_name, where=None, limit=None, params=None):
+
+    def _delete_documents(self, class_name, where=None, limit=None, params=None):
         """
         :param str class_name:
         :param str where:
