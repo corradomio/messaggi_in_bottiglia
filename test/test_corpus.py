@@ -1,7 +1,9 @@
-from gsim_utils import *
-from pprint import pprint
 import logging
+from pprint import pprint
+
 import gensim.models as models
+
+from test.gsim_utils import *
 
 logging.basicConfig(level=0, format="%(levelname)s:%(message)s")
 
