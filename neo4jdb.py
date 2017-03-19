@@ -6,6 +6,7 @@ from neo4j.v1 import GraphDatabase, basic_auth
 # ===========================================================================
 
 class _url:
+
     def __init__(self, url):
         self._params = dict()
         o = urlp.urlparse(url,scheme="file")
@@ -87,6 +88,11 @@ def _strof(o):
 # end
 
 def _bodyof(body):
+    if type(body) == tuple:
+        return ":%s%s" % (
+            body[0],
+            _bodyof(body[1])
+        )
     if len(body) == 0:
         return ""
     b = "{"
@@ -194,9 +200,6 @@ class Match(object):
     pass
 # end
 
-
-
-
 # ===========================================================================
 # Neo4jDB
 # ===========================================================================
@@ -212,7 +215,7 @@ class Neo4jDB:
 
         self._url = _url(url)
         self._driver = None
-        self._session = None
+        self._client = None
     # end
 
     # -----------------------------------------------------------------------
@@ -226,42 +229,153 @@ class Neo4jDB:
 
         url = "bolt://{0}".format(self._url["netloc"])
         self._driver = GraphDatabase.driver(url, auth=(user, password))
-        self._session = self._driver.session()
+        self._client = self._driver.session()
     # end
 
     def close(self):
-        if self._session:
-            self._session.close()
-            self._session = None
+        if self._client:
+            self._client.close()
+            self._client = None
     # end
+
+    # -----------------------------------------------------------------------
+    # Database
+    # -----------------------------------------------------------------------
+
+    def open_db(self, db_name=None, db_type=None, user=None, password=None):
+        self.connect(user=user, password=password)
+    # end
+
+    def close_db(self):
+        pass
+    # end
+
+    # -----------------------------------------------------------------------
+    # Database
+    # -----------------------------------------------------------------------
+
+    def list_classes(self, full=False):
+        command = "MATCH (n) RETURN distinct labels(n)"
+        ret = self._client.run(command)
+        labels = set()
+        for rec in ret:
+            labels.update(rec["labels(n)"])
+        return list(labels)
+    # end
+
+    def exists_class(self, class_name):
+        command = "MATCH (n:%s) RETURN n LIMIT 1" % class_name
+        ret = self._client.run(command)
+        return len(list(ret)) > 0
+    # end
+
+    def create_class(self, class_name, body, drop_if_exists=False):
+        pass
+
+    def drop_class(self, class_name, unsafe=False):
+        pass
+
+    # -----------------------------------------------------------------------
+
+    def list_properties(self, class_name, full=False):
+        command = "MATCH (n:%s) RETURN keys(n) LIMIT 1" % class_name
+        ret = self._client.run(command)
+        props = set()
+        for rec in ret:
+            props.update(rec["keys(n)"])
+        return list(props)
+    # end
+
+    def create_property(self, property, type, link=None, unsafe=False):
+        pass
+
+    def drop_property(self, property, force=False):
+        pass
 
     # -----------------------------------------------------------------------
     # Nodes and edges
     # -----------------------------------------------------------------------
 
-    def create_node(self, class_name, body=None, alias=None):
-        command = "CREATE (%s:%s %s)" % (
-            ("" if alias is None else alias),
-            class_name,
-            _bodyof(body)
-        )
-        return self._session.run(command)
+    def exists_node(self, target=None, where=None, skip=None, query=None, params=None):
+        command = ("MATCH (n:%s %s) RETURN n LIMIT 1" % (
+            target,
+            ("" if not where else _bodyof(where))
+        ))
+        ret = self._client.run(command)
+        return len(ret) > 0
     # end
 
-    def create_edge(self, label, vfrom, vto):
-        pass
+    def create_node(self, class_name, body=None, alias=None):
+        command = ("CREATE (%s:%s %s)" % (
+            ("n" if alias is None else alias),
+            class_name,
+            _bodyof(body)
+        ))
+        return self._client.run(command)
+    # end
+
+    def delete_node(self, class_name, where=None, limit=None, params=None):
+        command = ("MATCH (n:%s %s) DELETE n" % (
+            class_name,
+            ("" if where is None else _bodyof(where))
+        ))
+        return self._client.run(command)
+    # end
+
+    # -----------------------------------------------------------------------
+
+    def insert_document(self, class_name, body=None, alias=None):
+        return self.create_node(class_name, body=body, alias=alias)
+
+    def delete_document(self, class_name, where=None, limit=None, params=None):
+        return self.delete_node(class_name, where=where, limit=limit, params=params)
+
+    # -----------------------------------------------------------------------
+
+    def create_edge(self, label, vfrom, vto, body=None, undirect=False, multiple=False):
+        retf = rett = None
+        if True:
+            command = ("MATCH (f%s),(t%s) CREATE (f)-[r:%s%s]->(t)" % (
+                _bodyof(vfrom),
+                _bodyof(vto),
+                label,
+                ("" if not body else _bodyof(body))
+            ))
+            retf = list(self._client.run(command))
+        if undirect:
+            command = (
+            "MATCH (f%s),(t%s) CREATE (f)<-[r:%s%s]-(t)" % (
+                _bodyof(vfrom),
+                _bodyof(vto),
+                label,
+                ("" if not body else _bodyof(body))
+            ))
+            rett = list(self._client.run(command))
+        else:
+            rett = []
+
+        return retf.extend(rett)
+    # end
+
+    # -----------------------------------------------------------------------
+    # Execute command
+    # -----------------------------------------------------------------------
+
+    @property
+    def client(self):
+        return self._client
+
+    def execute(self, command):
+        return self._client.run(command)
 
     # -----------------------------------------------------------------------
     # Match
     # -----------------------------------------------------------------------
 
-    def execute(self, command):
-        return self._session.run(command)
-
     def match(self, match):
         command = str(match)
         print(command)
-        return self._session.run(command)
+        return self._client.run(command)
 
 
     # -----------------------------------------------------------------------

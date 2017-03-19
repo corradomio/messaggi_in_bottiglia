@@ -1,20 +1,17 @@
 import orientdb as o
+import neo4jdb as n
 from path import Path
 import time
 
-def main():
-    odb = o.OrientDB("orient://root:password@cmshooter.homeip.net:2424/test")
-    odb.open_db()
 
-    # _insert_documents(odb)
-    # _insert_topics(odb)
+def main(odb):
+
+    _insert_documents(odb)
+    _insert_topics(odb)
     _link_document_to_topic(odb)
 
-    odb.close()
 # end
 
-def _my_callback(for_every_record):
-    print(for_every_record)
 
 def _link_document_to_topic(odb):
     odb.create_class("IN_TOPIC", {"extends": "E"})
@@ -27,10 +24,8 @@ def _link_document_to_topic(odb):
 
         rid = odb.create_edge("IN_TOPIC", doc._rid, topic._rid)
         print(rid)
-
-
-
-        print(doc.topic)
+    # end
+# end
 
 
 def _insert_topics(odb):
@@ -38,11 +33,11 @@ def _insert_topics(odb):
 
     topic_root = Path("topics")
     for topic_dir in topic_root.dirs():
-        topic = str(topic_dir.name)
-        print (topic)
+        topic_name = str(topic_dir.name)
+        print (topic_name)
 
-        if not odb.exists_document("Topic", where={"topic": topic}):
-            odb.insert_document("Topic", body={"topic": topic})
+        if not odb.exists_document("Topic", where={"topic": topic_name}):
+            odb.insert_document("Topic", body={"topic": topic_name})
     # end
 # end
 
@@ -52,18 +47,22 @@ def _insert_documents(odb):
 
     topic_root = Path("topics")
     for topic_dir in topic_root.dirs():
-        topic = str(topic_dir.name)
-        print (topic)
+        topic_name = str(topic_dir.name)
+        print (topic_name)
         for doc_file in topic_dir.files(pattern="*.txt"):
             file_name = str(doc_file.name)
             print("... %s" % file_name)
 
-            if not odb.exists_document("Document", where={"name":file_name, "topic":topic}):
-                odb.insert_document("Document", body={"name":file_name, "topic":topic})
+            if not odb.exists_document("Document", where={"name":file_name, "topic":topic_name}):
+                odb.insert_document("Document", body={"name":file_name, "topic":topic_name})
         # end
     # end
 # end
 
 
 if __name__ == "__main__":
-    main()
+    # odb = o.OrientDB("orient://root:password@cmshooter.homeip.net:2424/test")
+    odb = n.Neo4jDB("bolt://theta:7687")
+    odb.open_db()
+    main(odb)
+    odb.close()
