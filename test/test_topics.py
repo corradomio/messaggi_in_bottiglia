@@ -2,13 +2,13 @@ import topics_impl as t
 
 
 
-def main():
+def main_1():
     s = t.Synonimous()
     s.load_synonimous("topics/Italiano/th_it_IT_v2.txt")
     s.dump()
 pass
 
-def main_1():
+def main():
 
     topics = t.Topics(
         # root="topics",
