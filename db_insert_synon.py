@@ -1,4 +1,4 @@
-import topics_impl as t
+import topics as t
 import orientdb as o
 
 

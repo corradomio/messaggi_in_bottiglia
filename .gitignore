@@ -1,10 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
 .idea/
 datasets/
-gstest/
-tmp/
-topics.orig/
+models/
 *.pyc
 __pycache__/
 _removed/
 topics_dict.txt
+test_other.py
+words_dict.txt

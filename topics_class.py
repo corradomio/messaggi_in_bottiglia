@@ -4,18 +4,6 @@ import snowballstemmer as sbs
 import gensim.corpora as corpora
 import gensim.models as models
 
-
-# def is_list(x):
-#     return isinstance(x, list)
-
-# def flatten(l):
-#     if all(map(is_list, l)):
-#         return reduce(operator.add, map(flatten, l))
-#     else:
-#         return l
-# # end
-
-
 # ===========================================================================
 #
 # ===========================================================================
@@ -27,7 +15,6 @@ class StopWords(object):
 
     def __init__(self):
         self._swords = set()
-    # end
 
     def load_stopwords(self, swfile):
         """
@@ -52,16 +39,15 @@ class StopWords(object):
                     self._swords.add(w.lower())
             pass
             f.close()
-        # end
-    # end
+        pass
+    pass
 
     def is_sw(self, w):
         """Check if the word is a stopword"""
         return w in self._swords
-    # end
 
     pass
-# end
+pass
 
 
 class StemRules(object):
@@ -78,7 +64,7 @@ class StemRules(object):
         self.N = N
         self._rules = [None]*(N+1)
         self._stemmer = sbs.stemmer('italian')
-    # end
+    pass
 
     def load_stemrules(self, stfile):
         """
@@ -105,11 +91,10 @@ class StemRules(object):
                     self._add_rule(suffix, replace)
                 except:
                     pass
-                # end
-            # end
+            pass
             f.close()
-        # end
-    # end
+        pass
+    pass
 
     def _add_rule(self, suffix, replace):
         n = len(suffix)
@@ -118,7 +103,7 @@ class StemRules(object):
             self._rules[n] = dict()
 
         self._rules[n][suffix] = replace
-    # end
+    pass
 
     def normalize(self, w):
         """
@@ -154,10 +139,10 @@ class StemRules(object):
             w = w[0:n - i] + rdict[suffix]
         pass
         return w
-    # end
+    pass
 
     pass
-# end
+pass
 
 
 class Synonimous:
@@ -193,19 +178,19 @@ class Synonimous:
                     synonimous = []
                     print(" ... analyzing '%s'" % word)
                     pass
-                # end
-            # end
+                pass
+            pass
             # last word
             self._register(word, synonimous)
-        # end
-    # end
+        pass
+    pass
 
     def dump(self, prefix=""):
         sd = self._sydict
         for w in sd:
             if w.startswith(prefix):
                 print("... {0}:\n... ... {1}".format(w, str(sd[w])))
-    # end
+    pass
 
 
     def _register(self, word, synonimous):
@@ -220,7 +205,7 @@ class Synonimous:
 
         self._wset.add(word)
         self._wset.update(synonimous)
-    # end
+    pass
 
     def _analyze_word(self, line):
         #
@@ -228,7 +213,7 @@ class Synonimous:
         #
         parts = line.split("|")
         return parts[0].strip()
-    # end
+    pass
 
     def _analyze_synonimous(self, line):
         # (v.   )
@@ -250,7 +235,7 @@ class Synonimous:
             print("... unknown prefix %s" % parts[0])
             pass
         return [s.strip() for s in parts[1:]]
-    # end
+    pass
 
     def __getitem__(self, w):
         try:
@@ -263,7 +248,7 @@ class Synonimous:
 
     def __iter__(self):
         return self._wset.__iter__()
-# end
+pass
 
 
 # ===========================================================================
@@ -284,12 +269,23 @@ class Topic:
         """
         self._topics = topics
         self._root = root
+
         self._info = self._root.joinpath("topic.info")
         """:type: Path"""
 
         self._name = str(root.name)
         """:type: str"""
 
+        self._corpus = None
+        """:type: list[list[]]"""
+
+        self._dict = corpora.Dictionary()
+        """:type: corpora.Dictionary"""
+
+        self._lda = None
+        """:type: models.LdaMulticore"""
+        self._lsi = None
+        """:type: models.LsiModel"""
         self._hdp = None
         """:type: models.HdpModel"""
     pass
@@ -301,77 +297,95 @@ class Topic:
     @property
     def name(self):
         return self._name
-    pass
 
     # -----------------------------------------------------------------------
-    # Operations
+    # load_documents
     # -----------------------------------------------------------------------
 
-    def load_documents(self):
-        print("[%s] Load documents ..." % self._name)
-
+    def compose_corpus(self):
+        print("[%s] Compose corpus ..." % self._name)
         topics = self._topics
 
+        self._corpus = []
         for pattern in topics._patterns:
             for file in self._root.files(pattern=pattern):
-                self._load_file(file)
+                bow = self._load_file(file, allow_update=True)
+                self._corpus.append(bow)
+            pass
+        pass
+
+        print("... create models ...")
+        self._lda = models.LdaMulticore(self._corpus, id2word=self._dict, num_topics=100)
+        self._lsi = models.LsiModel(self._corpus, id2word=self._dict, num_topics=100)
+        self._hdp = models.HdpModel(self._corpus, id2word=self._dict)
     pass
 
-    def _load_file(self, filepath):
+    def save_corpus(self, directory=None):
+        print("[%s] Save corpus ..." % self._name)
+        name = self._name
+
+        dir = "%s/" % (directory if directory else ".")
+
+        self._lda.save(dir + name + ".lda")
+        self._lsi.save(dir + name + ".lsi")
+        self._hdp.save(dir + name + ".hdp")
+        self._dict.save_as_text(dir + name + ".dict")
+        corpora.BleiCorpus.serialize(dir + name + ".blei", self._corpus)
+    pass
+
+    def load_corpus(self, directory=None):
+        print("[%s] Load corpus ..." % self._name)
+        name = self._name
+
+        dir = "%s/" % (directory if directory else ".")
+
+        self._dict = corpora.Dictionary.load_from_text(dir + name + ".dict")
+        self._lda = models.LdaMulticore.load(dir + name + ".lda")
+        self._lsi = models.LsiModel.load(dir + name + ".lsi")
+        self._hdp = models.HdpModel.load(dir + name + ".hdp")
+        self._corpus = corpora.BleiCorpus(self._corpus, dir + name + ".blei")
+    pass
+
+    def _load_file(self, filepath, allow_update=False):
         topics = self._topics
 
         print("... file '%s'" % filepath.name)
         doc = []
         with open(filepath, encoding="utf-8", mode="r") as f:
-            for text in f:
-                words = topics.text_to_words(text)
+            for line in f:
+                words = topics.text_to_words(line)
                 doc.extend(words)
             pass
             f.close()
         pass
-        return topics.doc2bow(doc, allow_update=True)
+        return self._doc2bow(doc, allow_update=allow_update)
+    pass
+
+    def _doc2bow(self, words, allow_update=False):
+        return self._dict.doc2bow(words, allow_update=allow_update)
     pass
 
     # -----------------------------------------------------------------------
-    #
+    # topic_for_bow
     # -----------------------------------------------------------------------
 
-    def extract_topics(self, n_topics=None):
-        print("[%s] Analyze documents ..." % self._name)
-        topics = self._topics
+    def topic_for_words(self, words):
+        print("[%s] Compare with documents ..." % self._name)
 
-        corpus = []
-        for pattern in topics._patterns:
-            for file in self._root.files(pattern=pattern):
-                bow = self._load_file(file)
-                corpus.append(bow)
-        pass
+        bow = self._doc2bow(words)
 
-        if n_topics is None:
-            n_topics=self._guess_topics(corpus)
+        lda = self._lda[bow]
+        lsi = self._lsi[bow]
+        hdp = self._hdp[bow]
 
-        dictionary = topics._corpus_dict
-
-        self._hdp = models.HdpModel(corpus, id2word=dictionary)
-
-    pass
-
-    def _guess_topics(self, corpus):
-        nwords = len(flatten(corpus))
-        return 100
-    pass
-
-    def save_topics(self, topics=None):
-        pass
-    pass
-    def load_topics(self, topics=None):
-        pass
+        return {"lda": lda, "lsi": lsi, "hdp": hdp}
     pass
 
     # -----------------------------------------------------------------------
     # End
     # -----------------------------------------------------------------------
-# end
+
+pass
 
 
 class Topics:
@@ -380,14 +394,9 @@ class Topics:
     # Constructor
     # -----------------------------------------------------------------------
 
-    def __init__(self,
-                 root=None,
-                 directory=None,
-                 pattern="*.txt",
+    def __init__(self, root=None, directory=None, pattern="*.txt",
                  re="[^A-Za-zàáèéìíòóùú]",
-                 stopwords=None,
-                 stemrules=None,
-                 minlen=1):
+                 stopwords=None, stemrules=None, minlen=1):
         """
         Initialize the Topics manager
         :param str|list root: root directory or list of root directories
@@ -413,11 +422,14 @@ class Topics:
         if type(pattern) != list:
             pattern = [pattern]
 
+        if not directory:
+            directory = []
+
         self._directories = [Path(d) for d in directory]
         """:type: list[Path]"""
 
-        self._topics = dict()
-        """:type: dict[str,Topic]"""
+        self._topics = list()
+        """:type: list[Topic]"""
 
         self._patterns = pattern
         """:type: list[str]"""
@@ -440,9 +452,21 @@ class Topics:
         self._stemrulefile = Path(stemrules) if stemrules else None
         """:type: Path"""
 
+        self._initialize()
+    pass
 
-        self._corpus_dict = corpora.Dictionary()
-        """:type: corpora.Dictionary"""
+    def _initialize(self):
+        # self._corpus_dict = corpora.Dictionary()
+        # load the stopword file
+        self._stopw.load_stopwords(self._stopwordfile)
+        # load the stemmer rules file
+        self._stemr.load_stemrules(self._stemrulefile)
+        # define the topics
+        for d in self._directories:
+            topic = Topic(self, d)
+            name = topic.name
+            self._topics.append(topic)
+        pass
     pass
 
     # -----------------------------------------------------------------------
@@ -452,86 +476,68 @@ class Topics:
     @property
     def topics(self):
         """
+        List of defined topics
+
         :return iter[str]:
         """
-        return self._topics.keys()
+        return [t.name for t in self._topics]
     pass
 
     # -----------------------------------------------------------------------
-    # Dictionary
+    # Corpora
     # -----------------------------------------------------------------------
 
-    def load_documents(self):
-        self._topics = dict()
-        """:type: dict[str,Topic"""
-
-        self._stopw.load_stopwords(self._stopwordfile)
-        self._stemr.load_stemrules(self._stemrulefile)
-
-        for d in self._directories:
-            # try:
-                topic = Topic(self, d)
-                topic.load_documents()
-                name = topic.name
-                self._topics[name] = topic
-            # except:
-            #     pass
-        pass
+    def compose_corpora(self):
+        """
+        Load the documents in the directories specified by topics
+        """
+        # load the documents in each topic and create the dictionary
+        for t in self._topics:
+            t.compose_corpus()
     pass
 
-    def save_dictionary(self, filepath="topics_dict.txt"):
-        self._corpus_dict.save_as_text(filepath)
+    def save_corpora(self, directory=None):
+        """
+        Save corpora for each topic
+        """
+        print("Save corpora ...")
+        for t in self._topics:
+            t.save_corpus(directory=directory)
     pass
 
-    def load_dictionary(self, filepath="topics_dict"):
-        self._corpus_dict.load_from_text(filepath)
-    pass
-
-    # -----------------------------------------------------------------------
-    # Dimension reduction - LDA
-    # -----------------------------------------------------------------------
-
-    def extract_topics(self, topics=None):
-        if topics is None:
-            topics = self.topics
-        if type(topics) == str:
-            topics = [topics]
-
-        for name in topics:
-            topic = self._topics[name]
-            topic.extract_topics()
-        pass
-    pass
-
-    def save_topics(self, topics=None):
-        if topics is None:
-            topics = self.topics
-        if type(topics) == str:
-            topics = [topics]
-        for name in topics:
-            topic = self._topics[name]
-            topic.save_topics()
-        pass
-    pass
-
-    def load_topics(self, topics=None):
-        if topics is None:
-            topics = self.topics
-        if type(topics) == str:
-            topics = [topics]
-        for name in topics:
-            topic = self._topics[name]
-            topic.load_topics()
-        pass
+    def load_corpora(self, directory=None):
+        """
+        Load the corpora related to each topic
+        """
+        print("Load corpora ...")
+        for t in self._topics:
+            t.load_corpus(directory=directory)
     pass
 
     # -----------------------------------------------------------------------
     # Implementation
     # -----------------------------------------------------------------------
 
+    def file_to_words(self, filepath):
+        words = []
+        with open(filepath) as f:
+            for line in f:
+                for w in rexp.split(self._re, line):
+                    w = self._normalize(w)
+                    if self._valid(w):
+                        words.append(w)
+                pass
+            pass
+        pass
+        return words
+    pass
+
+    # -----------------------------------------------------------------------
+
     def text_to_words(self, text):
         """
         Split the text in a list of words and normalize the words
+
         :param str text: text to parse
         :return list[str]: list of owrds
         """
@@ -544,19 +550,31 @@ class Topics:
         return words
     pass
 
-    def text_to_bow(self, text):
-        """
-        Convert the text in a bag of words
-        :param str text: text to parse
-        :return list[(int,int)]: bag of words
-        """
+    # -----------------------------------------------------------------------
+    # Topics selection
+    # -----------------------------------------------------------------------
+
+    def topic_for_text(self, text):
         words = self.text_to_words(text)
-        bow = self.doc2bow(words, False)
-        return bow
+        return self.topic_for_words(words)
     pass
 
-    def doc2bow(self, words, allow_update=False):
-        return self._corpus_dict.doc2bow(words, allow_update=allow_update)
+    def topic_for_file(self, filepath):
+        words = self.file_to_words(filepath)
+        return self.topic_for_words(words)
+    pass
+
+    def topic_for_words(self, words):
+        tdict = dict()
+
+        for t in self._topics:
+            assert isinstance(t, Topic)
+            tname = t.name
+            tweight = t.topic_for_words(words)
+
+            tdict[tname] = tweight
+        pass
+        return tdict
     pass
 
     # -----------------------------------------------------------------------
@@ -567,7 +585,7 @@ class Topics:
         w = w.lower()
         w = self._stemr.normalize(w)
         return w
-    # end
+    pass
 
     #
     # check if the word is valid
@@ -578,12 +596,13 @@ class Topics:
         if self._stopw.is_sw(w):
             return False
         return True
-    # end
+    pass
 
     # -----------------------------------------------------------------------
     # End
     # -----------------------------------------------------------------------
-# end
+
+pass
 
 
 # ===========================================================================
