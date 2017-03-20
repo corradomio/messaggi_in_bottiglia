@@ -279,6 +279,9 @@ class Topic:
         self._corpus = None
         """:type: list[list[]]"""
 
+        self._dict = corpora.Dictionary()
+        """:type: corpora.Dictionary"""
+
         self._lda = None
         """:type: models.LdaMulticore"""
         self._lsi = None
@@ -299,17 +302,6 @@ class Topic:
     # load_documents
     # -----------------------------------------------------------------------
 
-    def compose_dictionary(self):
-        print("[%s] Compose dictionary ..." % self._name)
-
-        topics = self._topics
-        for pattern in topics._patterns:
-            for file in self._root.files(pattern=pattern):
-                self._load_file(file, allow_update=True)
-            pass
-        pass
-    pass
-
     def compose_corpus(self):
         print("[%s] Compose corpus ..." % self._name)
         topics = self._topics
@@ -323,19 +315,23 @@ class Topic:
         pass
 
         print("... create models ...")
-        self._lda = models.LdaMulticore(self._corpus, id2word=topics._corpus_dict, num_topics=100)
-        self._lsi = models.LsiModel(self._corpus, id2word=topics._corpus_dict, num_topics=100)
-        self._hdp = models.HdpModel(self._corpus, id2word=topics._corpus_dict)
+        self._lda = models.LdaMulticore(self._corpus, id2word=self._dict, num_topics=100)
+        self._lsi = models.LsiModel(self._corpus, id2word=self._dict, num_topics=100)
+        self._hdp = models.HdpModel(self._corpus, id2word=self._dict)
     pass
 
-    def save_corpus(self):
+    def save_corpus(self, directory=None):
         print("[%s] Save corpus ..." % self._name)
         name = self._name
 
-        self._lda.save(name + ".lda")
-        self._lsi.save(name + ".lsi")
-        self._hdp.save(name + ".hdp")
-        pass
+        dir = "%s/" % (directory if directory else ".")
+
+        self._lda.save(dir + name + ".lda")
+        self._lsi.save(dir + name + ".lsi")
+        self._hdp.save(dir + name + ".hdp")
+        self._dict.save_as_text(dir + name + ".dict")
+        corpora.BleiCorpus.serialize(dir + name + ".blei", self._corpus)
+    pass
 
     def load_corpus(self, directory=None):
         print("[%s] Load corpus ..." % self._name)
@@ -343,10 +339,12 @@ class Topic:
 
         dir = "%s/" % (directory if directory else ".")
 
+        self._dict = corpora.Dictionary.load_from_text(dir + name + ".dict")
         self._lda = models.LdaMulticore.load(dir + name + ".lda")
         self._lsi = models.LsiModel.load(dir + name + ".lsi")
         self._hdp = models.HdpModel.load(dir + name + ".hdp")
-        pass
+        self._corpus = corpora.BleiCorpus(self._corpus, dir + name + ".blei")
+    pass
 
     def _load_file(self, filepath, allow_update=False):
         topics = self._topics
@@ -360,22 +358,27 @@ class Topic:
             pass
             f.close()
         pass
-        return topics._doc2bow(doc, allow_update=allow_update)
+        return self._doc2bow(doc, allow_update=allow_update)
+    pass
+
+    def _doc2bow(self, words, allow_update=False):
+        return self._dict.doc2bow(words, allow_update=allow_update)
     pass
 
     # -----------------------------------------------------------------------
     # topic_for_bow
     # -----------------------------------------------------------------------
 
-    def topic_for_bow(self, bow):
+    def topic_for_words(self, words):
         print("[%s] Compare with documents ..." % self._name)
-        name = self._name
+
+        bow = self._doc2bow(words)
 
         lda = self._lda[bow]
         lsi = self._lsi[bow]
         hdp = self._hdp[bow]
 
-        return {name: {"lda": lda, "lsi": lsi, "hdp": hdp}}
+        return {"lda": lda, "lsi": lsi, "hdp": hdp}
     pass
 
     # -----------------------------------------------------------------------
@@ -449,13 +452,11 @@ class Topics:
         self._stemrulefile = Path(stemrules) if stemrules else None
         """:type: Path"""
 
-        self._corpus_dict = corpora.Dictionary()
-        """:type: corpora.Dictionary"""
-
         self._initialize()
     pass
 
     def _initialize(self):
+        # self._corpus_dict = corpora.Dictionary()
         # load the stopword file
         self._stopw.load_stopwords(self._stopwordfile)
         # load the stemmer rules file
@@ -483,57 +484,25 @@ class Topics:
     pass
 
     # -----------------------------------------------------------------------
-    # Dictionary
-    # -----------------------------------------------------------------------
-
-    def compose_dictionary(self):
-        """
-        Load the documents in the directories specified by topics
-        """
-        print("Compose dictionary ...")
-        # load the documents in each topic and create the dictionary
-        for t in self._topics:
-            t.compose_dictionary()
-    pass
-
-    def save_dictionary(self, filepath="topics_dict.txt"):
-        """
-        Save the dictionary created reading the documents in each topic
-
-        :param str filepath: path of the file where to save the dictionary
-        """
-        self._corpus_dict.save_as_text(filepath)
-    pass
-
-    def load_dictionary(self, filepath="topics_dict.txt"):
-        """
-        Load a previous created dictionary
-
-        :param str filepath: path of the file where was saved the dictionary
-        :return:
-        """
-        self._corpus_dict = corpora.Dictionary.load_from_text(filepath)
-    pass
-
+    # Corpora
     # -----------------------------------------------------------------------
 
     def compose_corpora(self):
         """
         Load the documents in the directories specified by topics
         """
-        print("Compose corpora ...")
         # load the documents in each topic and create the dictionary
         for t in self._topics:
             t.compose_corpus()
     pass
 
-    def save_corpora(self):
+    def save_corpora(self, directory=None):
         """
         Save corpora for each topic
         """
         print("Save corpora ...")
         for t in self._topics:
-            t.save_corpus()
+            t.save_corpus(directory=directory)
     pass
 
     def load_corpora(self, directory=None):
@@ -563,12 +532,6 @@ class Topics:
         return words
     pass
 
-    def file_to_bow(self, filepath):
-        words = self.file_to_words(filepath)
-        bow = self._doc2bow(words, False)
-        return bow
-    pass
-
     # -----------------------------------------------------------------------
 
     def text_to_words(self, text):
@@ -587,44 +550,31 @@ class Topics:
         return words
     pass
 
-    def text_to_bow(self, text):
-        """
-        Convert the text in a bag of words
-
-        :param str text: text to parse
-        :return list[(int,int)]: bag of words
-        """
-        words = self.text_to_words(text)
-        bow = self._doc2bow(words, False)
-        return bow
-    pass
-
-    def _doc2bow(self, words, allow_update=False):
-        return self._corpus_dict.doc2bow(words, allow_update=allow_update)
-    pass
-
     # -----------------------------------------------------------------------
     # Topics selection
     # -----------------------------------------------------------------------
 
     def topic_for_text(self, text):
-        bow = self.text_to_bow(text)
-        return self.topic_for_bow(bow)
+        words = self.text_to_words(text)
+        return self.topic_for_words(words)
     pass
 
     def topic_for_file(self, filepath):
-        bow = self.file_to_bow(filepath)
-        return self.topic_for_bow(bow)
+        words = self.file_to_words(filepath)
+        return self.topic_for_words(words)
     pass
 
-    def topic_for_bow(self, bow):
-        indices = dict()
+    def topic_for_words(self, words):
+        tdict = dict()
+
         for t in self._topics:
+            assert isinstance(t, Topic)
             tname = t.name
-            index = t.topic_for_bow(bow)
-            indices[tname] = index
+            tweight = t.topic_for_words(words)
+
+            tdict[tname] = tweight
         pass
-        return indices
+        return tdict
     pass
 
     # -----------------------------------------------------------------------
