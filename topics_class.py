@@ -501,6 +501,8 @@ class Topics:
         Save corpora for each topic
         """
         print("Save corpora ...")
+
+        self._check_directory(directory)
         for t in self._topics:
             t.save_corpus(directory=directory)
     pass
@@ -512,6 +514,15 @@ class Topics:
         print("Load corpora ...")
         for t in self._topics:
             t.load_corpus(directory=directory)
+    pass
+
+    def _check_directory(self, directory):
+        if not directory:
+            return
+
+        d = Path(directory)
+        if not d.exists():
+            d.mkdir_p()
     pass
 
     # -----------------------------------------------------------------------

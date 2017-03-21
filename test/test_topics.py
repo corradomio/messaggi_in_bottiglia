@@ -9,8 +9,8 @@ def main():
         stemrules="../stemmer.txt"
     )
 
-    topics.compose_corpora()
-    topics.save_corpora("../models")
+    # topics.compose_corpora()
+    # topics.save_corpora("../models")
     topics.load_corpora("../models")
 
     select = topics.topic_for_text("Mi spiegate le equazioni parametriche con la formula di waring?")
