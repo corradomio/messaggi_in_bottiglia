@@ -1,8 +1,26 @@
 from path import Path
+from pprint import pprint
 import re as rexp
 import snowballstemmer as sbs
 import gensim.corpora as corpora
 import gensim.models as models
+import gensim.similarities as similarities
+
+
+def save_list(lines, file):
+    with open(file, mode="w") as f:
+        f.writelines(lines)
+        f.close()
+    pass
+pass
+
+def load_list(file):
+    with open(file, mode="r") as f:
+        lines = f.readlines()
+        f.close()
+    pass
+    return lines
+pass
 
 # ===========================================================================
 #
@@ -261,7 +279,7 @@ class Topic:
     # Constructor
     # -----------------------------------------------------------------------
 
-    def __init__(self, topics, root):
+    def __init__(self, topics, root, num_topics=100):
         """
 
         :param Topics topics:
@@ -276,8 +294,14 @@ class Topic:
         self._name = str(root.name)
         """:type: str"""
 
+        self._num_topics=num_topics
+        """:type: int"""
+
         self._corpus = None
         """:type: list[list[]]"""
+
+        self._filenames = None
+        """:type: list[str]"""
 
         self._dict = corpora.Dictionary()
         """:type: corpora.Dictionary"""
@@ -288,6 +312,8 @@ class Topic:
         """:type: models.LsiModel"""
         self._hdp = None
         """:type: models.HdpModel"""
+        self._index = None
+        """:type: similarities.MatrixSimilarity"""
     pass
 
     # -----------------------------------------------------------------------
@@ -303,21 +329,34 @@ class Topic:
     # -----------------------------------------------------------------------
 
     def compose_corpus(self):
-        print("[%s] Compose corpus ..." % self._name)
-        topics = self._topics
-
         self._corpus = []
+        self._filenames = []
+        self._load_documents()
+        self._create_models()
+    pass
+
+    def _load_documents(self):
+        print("[%s] Compose corpus ..." % self._name)
+
+        topics = self._topics
         for pattern in topics._patterns:
             for file in self._root.files(pattern=pattern):
                 bow = self._load_file(file, allow_update=True)
+                self._filenames.append(str(file.name))
                 self._corpus.append(bow)
             pass
         pass
+    pass
 
-        print("... create models ...")
-        self._lda = models.LdaMulticore(self._corpus, id2word=self._dict, num_topics=100)
-        self._lsi = models.LsiModel(self._corpus, id2word=self._dict, num_topics=100)
+    def _create_models(self):
+        print("Create models ...")
+
+        self._lda = models.LdaModel(self._corpus, id2word=self._dict, num_topics=self._num_topics)
+        self._lsi = models.LsiModel(self._corpus, id2word=self._dict, num_topics=self._num_topics)
         self._hdp = models.HdpModel(self._corpus, id2word=self._dict)
+        # self._index = similarities.MatrixSimilarity(self._lsi[self._corpus])
+        self._index = similarities.MatrixSimilarity(self._corpus)
+        # self._index = similarities.Similarity(None, self._corpus, num_features=12, num_best=6)
     pass
 
     def save_corpus(self, directory=None):
@@ -331,6 +370,9 @@ class Topic:
         self._hdp.save(dir + name + ".hdp")
         self._dict.save_as_text(dir + name + ".dict")
         corpora.BleiCorpus.serialize(dir + name + ".blei", self._corpus)
+        self._index.save(dir + name + ".index")
+        # self._index = similarities.Similarity(dir + name + ".index", self._corpus, num_features=12, num_best=6)
+        save_list(self._filenames, dir + name + ".files")
     pass
 
     def load_corpus(self, directory=None):
@@ -340,10 +382,13 @@ class Topic:
         dir = "%s/" % (directory if directory else ".")
 
         self._dict = corpora.Dictionary.load_from_text(dir + name + ".dict")
-        self._lda = models.LdaMulticore.load(dir + name + ".lda")
+        self._lda = models.LdaModel.load(dir + name + ".lda")
         self._lsi = models.LsiModel.load(dir + name + ".lsi")
         self._hdp = models.HdpModel.load(dir + name + ".hdp")
         self._corpus = corpora.BleiCorpus(self._corpus, dir + name + ".blei")
+        self._index = similarities.MatrixSimilarity.load(dir + name + ".index")
+        # self._index = similarities.Similarity.load(dir + name + ".index")
+        self._filenames = load_list(dir + name + ".files")
     pass
 
     def _load_file(self, filepath, allow_update=False):
@@ -382,9 +427,46 @@ class Topic:
     pass
 
     # -----------------------------------------------------------------------
-    # End
+    # Dump
     # -----------------------------------------------------------------------
 
+    def dump(self):
+        print("[%s]" % self._name)
+        print("... LDA")
+        pprint(self._lda.print_topics())
+        print("... LSI")
+        pprint(self._lsi.print_topics())
+        print("... HDP")
+        pprint(self._hdp.print_topics())
+        print("")
+    pass
+
+    # -----------------------------------------------------------------------
+    # End
+    # -----------------------------------------------------------------------
+pass
+
+
+class AllTopic(Topic):
+    def __init__(self, topics, num_topics=100):
+        """
+        :param Topics topics:
+        """
+        super().__init__(topics, Path("all"), num_topics=num_topics)
+    # end
+
+    def _load_documents(self):
+        for root in self._topics._directories:
+            print(root)
+            for pattern in self._topics._patterns:
+                for file in root.files(pattern=pattern):
+                    bow = self._load_file(file, allow_update=True)
+                    self._corpus.append(bow)
+                    self._filenames.append(str(file.name))
+                pass
+            pass
+        pass
+    pass
 pass
 
 
@@ -396,7 +478,8 @@ class Topics:
 
     def __init__(self, root=None, directory=None, pattern="*.txt",
                  re="[^A-Za-zàáèéìíòóùú]",
-                 stopwords=None, stemrules=None, minlen=1):
+                 stopwords=None, stemrules=None, minlen=1,
+                 num_topics=100):
         """
         Initialize the Topics manager
         :param str|list root: root directory or list of root directories
@@ -405,6 +488,7 @@ class Topics:
         :param str stopwords: file with the list of stopwords
         :param str stemrules: file with stem rules
         :param int minlen: minimum length of the words
+        :param int num_topics: number of topics
         """
         if root is not None:
             if type(root) == str:
@@ -440,6 +524,9 @@ class Topics:
         self._mlen = minlen
         """:type: int"""
 
+        self._num_topics = num_topics
+        """:type: int"""
+
         self._stopw = StopWords()
         """:type: StopWords"""
 
@@ -462,11 +549,11 @@ class Topics:
         # load the stemmer rules file
         self._stemr.load_stemrules(self._stemrulefile)
         # define the topics
-        for d in self._directories:
-            topic = Topic(self, d)
-            name = topic.name
-            self._topics.append(topic)
-        pass
+        self._topics.append(AllTopic(self, num_topics=self._num_topics))
+        # for d in self._directories:
+        #     topic = Topic(self, d, num_topics=self._num_topics)
+        #     self._topics.append(topic)
+        # pass
     pass
 
     # -----------------------------------------------------------------------
@@ -607,6 +694,23 @@ class Topics:
         if self._stopw.is_sw(w):
             return False
         return True
+    pass
+
+    # -----------------------------------------------------------------------
+    # Implementation
+    # -----------------------------------------------------------------------
+
+    def __iter__(self):
+        return self._topics.__iter__()
+
+    # -----------------------------------------------------------------------
+    # Dump
+    # -----------------------------------------------------------------------
+
+    def dump(self):
+        for t in self._topics:
+            t.dump()
+        pass
     pass
 
     # -----------------------------------------------------------------------

@@ -3,7 +3,7 @@
 # v 1.0, 12/02/2017
 #
 
-al all allo alla agli alle
+al all allo alla ai agli alle
 il lo la i gli le
 un uno una alcuni alcune
 del dell dello della degli delle
@@ -12,14 +12,14 @@ dal dallo dalla dagli dalle
 dei degli delle
 di da
 
-nel nello nella negli nelle
+nel nell nello nella negli nelle
 anche poi prima dopo
 
 suo sua suoi sue
 
 essere avere
 
-sono sei siamo siete sono
+sono sei è siamo siete sono
 ero eri era eravamo eravate erano
 sia siamo siate siano
 ho hai ha abbiamo avete hanno
@@ -38,17 +38,21 @@ nessuno nessuna
 tutto tutta tutti tutte
 
 altro altra altri altre
-io lui egli noi voi essi
+io tu lui lei egli noi voi essi
 
-che per con cui non come tra
+che per con cui non ne come tra
 uno due tre quattro cinque
 
 senza viene
 mai sempre
 
+qui qua li
+
+solo
+
 chi io tu egli noi voi essi loro
 cos cos cosa cosi cose
-più qui può
+più qui può né
 
 mio tuo suo nostro vostro loro
 mia tua sua nostra vostra
@@ -69,5 +73,10 @@ rqdgllqwhuyhqwr ulgrwwrdsulpdulr hwrgrghlsrwhq ypp
 
 esercizi esercizio seguenti
 zanichelli
+
+in se ma ci si sì ed fu ch mi ad ai
+a b c d e f g h i j k l m n o p q r s t u v w x y z
+
+agg avv inv
 
 www net com org http https ftp it uk de fr
