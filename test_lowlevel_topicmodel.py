@@ -50,10 +50,8 @@ def main():
     pprint(q)
     pprint(len(q))
 
-
-
     print("create lda")
-    lda = models.LdaMulticore(corpus, num_topics=10, id2word=wdict, workers=8)
+    lda = models.LdaMulticore(corpus, num_topics=100, id2word=wdict, workers=8)
 
     print("convert corpus in lda")
     corpus_lda = lda[corpus]
@@ -68,7 +66,6 @@ def main():
     q = list(index_lda[query_lda])
     pprint(q)
     pprint(len(q))
-
 
 pass
 

@@ -5,18 +5,20 @@ import snowballstemmer as sbs
 import gensim.corpora as corpora
 import gensim.models as models
 import gensim.similarities as similarities
+import gensim.models.basemodel as basemodel
 
 
 def save_list(lines, file):
     with open(file, mode="w") as f:
-        f.writelines(lines)
+        for l in lines:
+            f.write(l + "\n")
         f.close()
     pass
 pass
 
 def load_list(file):
     with open(file, mode="r") as f:
-        lines = f.readlines()
+        lines = [l.strip() for l in f]
         f.close()
     pass
     return lines
@@ -273,25 +275,52 @@ pass
 #
 # ===========================================================================
 
-class Topic:
+class NullModel(basemodel.BaseTopicModel):
+
+    def __init__(self, corpus, id2word=None):
+        super().__init__()
+        self._corpus = corpus
+        self._id2word = id2word
+    pass
+
+    def __getitem__(self, bow, eps=None):
+        return bow
+
+    def save(self, filepath):
+        corpora.MmCorpus.save_corpus(filepath, self._corpus)
+        self._id2word.save_as_text(filepath + ".id2w")
+
+    @classmethod
+    def load(cls, filepath):
+        corpus = corpora.MmCorpus.load(filepath)
+        id2word = corpora.Dictionary.load_from_text(filepath + ".id2w")
+        return NullModel(corpus, id2word)
+
+    def print_topics(self):
+        return "NullModel has no topics"
+
+pass
+
+# ===========================================================================
+#
+# ===========================================================================
+
+class TopicHandler:
 
     # -----------------------------------------------------------------------
     # Constructor
     # -----------------------------------------------------------------------
 
-    def __init__(self, topics, root, num_topics=100):
+    def __init__(self, topics, model_type="lda", num_topics=100):
         """
 
         :param Topics topics:
         :param Path root:
         """
         self._topics = topics
-        self._root = root
+        """:type: Topics"""
 
-        self._info = self._root.joinpath("topic.info")
-        """:type: Path"""
-
-        self._name = str(root.name)
+        self._model_type = model_type
         """:type: str"""
 
         self._num_topics=num_topics
@@ -300,20 +329,20 @@ class Topic:
         self._corpus = None
         """:type: list[list[]]"""
 
-        self._filenames = None
+        self._file_names = None
         """:type: list[str]"""
 
         self._dict = corpora.Dictionary()
         """:type: corpora.Dictionary"""
 
-        self._lda = None
-        """:type: models.LdaMulticore"""
-        self._lsi = None
-        """:type: models.LsiModel"""
-        self._hdp = None
-        """:type: models.HdpModel"""
+        self._topic_model = None
+        """:type: basemodel.BaseTopicModel"""
+
         self._index = None
         """:type: similarities.MatrixSimilarity"""
+
+        self._name = "TopicHandler"
+        """:type: str"""
     pass
 
     # -----------------------------------------------------------------------
@@ -321,8 +350,8 @@ class Topic:
     # -----------------------------------------------------------------------
 
     @property
-    def name(self):
-        return self._name
+    def topic_names(self):
+        return self._topic_names
 
     # -----------------------------------------------------------------------
     # load_documents
@@ -330,20 +359,36 @@ class Topic:
 
     def compose_corpus(self):
         self._corpus = []
-        self._filenames = []
+        self._topic_names = []
+        self._file_names = []
         self._load_documents()
         self._create_models()
     pass
 
-    def _load_documents(self):
-        print("[%s] Compose corpus ..." % self._name)
+    # def _load_documents(self):
+    #     print("[%s] Compose corpus ..." % self._name)
+    #
+    #     topics = self._topics
+    #     for pattern in topics._patterns:
+    #         for file in self._root.files(pattern=pattern):
+    #             bow = self._load_file(file, allow_update=True)
+    #             self._filenames.append(str(file.name))
+    #             self._corpus.append(bow)
+    #         pass
+    #     pass
+    # pass
 
-        topics = self._topics
-        for pattern in topics._patterns:
-            for file in self._root.files(pattern=pattern):
-                bow = self._load_file(file, allow_update=True)
-                self._filenames.append(str(file.name))
-                self._corpus.append(bow)
+    def _load_documents(self):
+        for root in self._topics._directories:
+            topic_name = str(root.name)
+            print(topic_name)
+            for pattern in self._topics._patterns:
+                for file in root.files(pattern=pattern):
+                    bow = self._load_file(file, allow_update=True)
+                    self._corpus.append(bow)
+                    self._file_names.append(str(file.name))
+                    self._topic_names.append(topic_name)
+                pass
             pass
         pass
     pass
@@ -351,44 +396,54 @@ class Topic:
     def _create_models(self):
         print("Create models ...")
 
-        self._lda = models.LdaModel(self._corpus, id2word=self._dict, num_topics=self._num_topics)
-        self._lsi = models.LsiModel(self._corpus, id2word=self._dict, num_topics=self._num_topics)
-        self._hdp = models.HdpModel(self._corpus, id2word=self._dict)
-        # self._index = similarities.MatrixSimilarity(self._lsi[self._corpus])
-        self._index = similarities.MatrixSimilarity(self._corpus)
-        # self._index = similarities.Similarity(None, self._corpus, num_features=12, num_best=6)
+        if self._model_type == "lda":
+            self._topic_model = models.LdaModel(self._corpus, id2word=self._dict, num_topics=self._num_topics)
+        elif self._model_type == "lsi":
+            self._topic_model = models.LsiModel(self._corpus, id2word=self._dict, num_topics=self._num_topics)
+        elif self._model_type == "hdp":
+            self._topic_model = models.HdpModel(self._corpus, id2word=self._dict)
+        else:
+            self._topic_model = NullModel(self._corpus, id2word=self._dict)
+
+        self._index = similarities.MatrixSimilarity(self._topic_model[self._corpus])
     pass
 
     def save_corpus(self, directory=None):
         print("[%s] Save corpus ..." % self._name)
-        name = self._name
 
         dir = "%s/" % (directory if directory else ".")
+        name = self._name
+        ext = self._model_type
 
-        self._lda.save(dir + name + ".lda")
-        self._lsi.save(dir + name + ".lsi")
-        self._hdp.save(dir + name + ".hdp")
+        self._topic_model.save(dir + name + "." + ext)
         self._dict.save_as_text(dir + name + ".dict")
         corpora.BleiCorpus.serialize(dir + name + ".blei", self._corpus)
         self._index.save(dir + name + ".index")
-        # self._index = similarities.Similarity(dir + name + ".index", self._corpus, num_features=12, num_best=6)
-        save_list(self._filenames, dir + name + ".files")
+        save_list(self._file_names, dir + name + ".file_names")
+        save_list(self._topic_names, dir + name + ".topic_names")
     pass
 
     def load_corpus(self, directory=None):
         print("[%s] Load corpus ..." % self._name)
         name = self._name
-
+        ext  = self._model_type
         dir = "%s/" % (directory if directory else ".")
 
         self._dict = corpora.Dictionary.load_from_text(dir + name + ".dict")
-        self._lda = models.LdaModel.load(dir + name + ".lda")
-        self._lsi = models.LsiModel.load(dir + name + ".lsi")
-        self._hdp = models.HdpModel.load(dir + name + ".hdp")
+
+        if self._model_type == "lda":
+            self._topic_model = models.LdaModel.load(dir + name + "." + ext)
+        elif self._model_type == "lsi":
+            self._topic_model = models.LsiModel.load(dir + name + "." + ext)
+        elif self._model_type == "hdp":
+            self._topic_model = models.HdpModel.load(dir + name + "." + ext)
+        else:
+            self._topic_model = NullModel.load(dir + name + "." + ext)
+
         self._corpus = corpora.BleiCorpus(self._corpus, dir + name + ".blei")
         self._index = similarities.MatrixSimilarity.load(dir + name + ".index")
-        # self._index = similarities.Similarity.load(dir + name + ".index")
-        self._filenames = load_list(dir + name + ".files")
+        self._file_names = load_list(dir + name + ".file_names")
+        self._topic_names = load_list(dir + name + ".topic_names")
     pass
 
     def _load_file(self, filepath, allow_update=False):
@@ -418,12 +473,29 @@ class Topic:
         print("[%s] Compare with documents ..." % self._name)
 
         bow = self._doc2bow(words)
+        topics = self._topic_model[bow]
 
-        lda = self._lda[bow]
-        lsi = self._lsi[bow]
-        hdp = self._hdp[bow]
+        return topics
+    pass
 
-        return {"lda": lda, "lsi": lsi, "hdp": hdp}
+    def query(self, words):
+        bow = self._doc2bow(words)
+        topics = self._topic_model[bow]
+
+        scores = list(self._index[topics])
+
+        dtopics = dict()
+        for i in range(len(scores)):
+            score = scores[i]
+            stopic = self._topic_names[i]
+
+            if score > 0:
+                if stopic not in dtopics:
+                    dtopics[stopic] = 0.0
+                dtopics[stopic] += score
+            pass
+        pass
+        return dtopics
     pass
 
     # -----------------------------------------------------------------------
@@ -432,12 +504,9 @@ class Topic:
 
     def dump(self):
         print("[%s]" % self._name)
-        print("... LDA")
-        pprint(self._lda.print_topics())
-        print("... LSI")
-        pprint(self._lsi.print_topics())
-        print("... HDP")
-        pprint(self._hdp.print_topics())
+        print("... %s" % self._model_type)
+        print("... %s" % self._topic_names)
+        pprint(self._topic_model.print_topics())
         print("")
     pass
 
@@ -446,28 +515,30 @@ class Topic:
     # -----------------------------------------------------------------------
 pass
 
-
-class AllTopic(Topic):
-    def __init__(self, topics, num_topics=100):
-        """
-        :param Topics topics:
-        """
-        super().__init__(topics, Path("all"), num_topics=num_topics)
-    # end
-
-    def _load_documents(self):
-        for root in self._topics._directories:
-            print(root)
-            for pattern in self._topics._patterns:
-                for file in root.files(pattern=pattern):
-                    bow = self._load_file(file, allow_update=True)
-                    self._corpus.append(bow)
-                    self._filenames.append(str(file.name))
-                pass
-            pass
-        pass
-    pass
-pass
+# class AllTopic(TopicHandler):
+#     def __init__(self, topics, model_type="lda", num_topics=100):
+#         """
+#         :param Topics topics:
+#         """
+#         super().__init__(topics, Path("all"),
+#                          model_type=model_type,
+#                          num_topics=num_topics)
+#     # end
+#
+#     def _load_documents(self):
+#         for root in self._topics._directories:
+#             topic_name = str(root.name)
+#             print(topic_name)
+#             for pattern in self._topics._patterns:
+#                 for file in root.files(pattern=pattern):
+#                     bow = self._load_file(file, allow_update=True)
+#                     self._corpus.append(bow)
+#                     self._filenames.append(str(file.name))
+#                 pass
+#             pass
+#         pass
+#     pass
+# pass
 
 
 class Topics:
@@ -479,7 +550,7 @@ class Topics:
     def __init__(self, root=None, directory=None, pattern="*.txt",
                  re="[^A-Za-zàáèéìíòóùú]",
                  stopwords=None, stemrules=None, minlen=1,
-                 num_topics=100):
+                 model_type="lda", num_topics=100):
         """
         Initialize the Topics manager
         :param str|list root: root directory or list of root directories
@@ -488,6 +559,7 @@ class Topics:
         :param str stopwords: file with the list of stopwords
         :param str stemrules: file with stem rules
         :param int minlen: minimum length of the words
+        :param str model_type: topic model. One of "lda", "lsi" hdp"
         :param int num_topics: number of topics
         """
         if root is not None:
@@ -512,9 +584,6 @@ class Topics:
         self._directories = [Path(d) for d in directory]
         """:type: list[Path]"""
 
-        self._topics = list()
-        """:type: list[Topic]"""
-
         self._patterns = pattern
         """:type: list[str]"""
 
@@ -526,6 +595,12 @@ class Topics:
 
         self._num_topics = num_topics
         """:type: int"""
+
+        self._model_type = model_type
+        """:type: str"""
+
+        self._topic_handler = None
+        """:type: TopicHandler"""
 
         self._stopw = StopWords()
         """:type: StopWords"""
@@ -549,11 +624,9 @@ class Topics:
         # load the stemmer rules file
         self._stemr.load_stemrules(self._stemrulefile)
         # define the topics
-        self._topics.append(AllTopic(self, num_topics=self._num_topics))
-        # for d in self._directories:
-        #     topic = Topic(self, d, num_topics=self._num_topics)
-        #     self._topics.append(topic)
-        # pass
+        self._topic_handler = TopicHandler(self,
+            model_type=self._model_type,
+            num_topics=self._num_topics)
     pass
 
     # -----------------------------------------------------------------------
@@ -561,13 +634,13 @@ class Topics:
     # -----------------------------------------------------------------------
 
     @property
-    def topics(self):
+    def topic_names(self):
         """
         List of defined topics
 
         :return iter[str]:
         """
-        return [t.name for t in self._topics]
+        return self._topic_handler.topic_names
     pass
 
     # -----------------------------------------------------------------------
@@ -579,8 +652,7 @@ class Topics:
         Load the documents in the directories specified by topics
         """
         # load the documents in each topic and create the dictionary
-        for t in self._topics:
-            t.compose_corpus()
+        self._topic_handler.compose_corpus()
     pass
 
     def save_corpora(self, directory=None):
@@ -590,8 +662,8 @@ class Topics:
         print("Save corpora ...")
 
         self._check_directory(directory)
-        for t in self._topics:
-            t.save_corpus(directory=directory)
+
+        self._topic_handler.save_corpus(directory=directory)
     pass
 
     def load_corpora(self, directory=None):
@@ -599,8 +671,8 @@ class Topics:
         Load the corpora related to each topic
         """
         print("Load corpora ...")
-        for t in self._topics:
-            t.load_corpus(directory=directory)
+
+        self._topic_handler.load_corpus(directory=directory)
     pass
 
     def _check_directory(self, directory):
@@ -649,6 +721,15 @@ class Topics:
     pass
 
     # -----------------------------------------------------------------------
+    # Query
+    # -----------------------------------------------------------------------
+
+    def query(self, text):
+        words = self.text_to_words(text)
+        return self._topic_handler.query(words)
+    pass
+
+    # -----------------------------------------------------------------------
     # Topics selection
     # -----------------------------------------------------------------------
 
@@ -663,16 +744,7 @@ class Topics:
     pass
 
     def topic_for_words(self, words):
-        tdict = dict()
-
-        for t in self._topics:
-            assert isinstance(t, Topic)
-            tname = t.name
-            tweight = t.topic_for_words(words)
-
-            tdict[tname] = tweight
-        pass
-        return tdict
+        return self._topic_handler.topic_for_words(words)
     pass
 
     # -----------------------------------------------------------------------
@@ -701,22 +773,20 @@ class Topics:
     # -----------------------------------------------------------------------
 
     def __iter__(self):
-        return self._topics.__iter__()
+        return self._topic_handler.__iter__()
+    pass
 
     # -----------------------------------------------------------------------
     # Dump
     # -----------------------------------------------------------------------
 
     def dump(self):
-        for t in self._topics:
-            t.dump()
-        pass
+        self._topic_handler.dump()
     pass
 
     # -----------------------------------------------------------------------
     # End
     # -----------------------------------------------------------------------
-
 pass
 
 

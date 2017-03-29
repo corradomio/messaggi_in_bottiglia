@@ -7,14 +7,17 @@ def main():
         root="topics",
         stopwords="stopwords.txt",
         stemrules="stemmer.txt",
-        num_topics=200
+        num_topics=100
     )
 
-    topics.compose_corpora()
-    topics.save_corpora("models")
+    # topics.compose_corpora()
+    # topics.save_corpora("models")
     topics.load_corpora("models")
+    # topics.dump()
 
-    topics.dump()
+    qinfo = topics.query("Il mercante di venezia")
+    print(qinfo)
+
 
     # print()
     # for tt in topics:
