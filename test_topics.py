@@ -43,10 +43,10 @@ def main():
 #     scores = topics.query(text)
 #     print(scores)
 
-    print(topics.compare("Qualcuno mi può spiegare le eqazioni parametriche con la formula di waring ?? Fra 4 giorni abbiamo la verifica e non l'ho capita",
-                         #"alessandro manzoni"
-                         "formula di waring"
-                         ))
+    # print(topics.compare("Qualcuno mi può spiegare le eqazioni parametriche con la formula di waring ?? Fra 4 giorni abbiamo la verifica e non l'ho capita",
+    #                      #"alessandro manzoni"
+    #                      "formula di waring"
+    #                      ))
 
 
 pass

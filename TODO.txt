@@ -13,12 +13,9 @@ Ad esempio:
 Come scoprire se due domande sono simili: chiedere
 
 
-
 String metrics:
     https://en.wikipedia.org/wiki/String_metric
 
 Trie:
     https://en.wikipedia.org/wiki/Trie#Full_text_search
-
-
 

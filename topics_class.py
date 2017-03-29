@@ -359,13 +359,33 @@ class TopicHandler:
     # load_documents
     # -----------------------------------------------------------------------
 
-    def compose_corpus(self):
+    def compose_corpus(self, directory):
+        """
+        
+        :param str|list[str] directory: directories with the documents 
+        """
+
+        dirs = self._scan_dirs(directory)
+
         self._corpus = []
         self._topic_names = []
         self._file_names = []
-        self._load_documents()
+        self._load_documents(dirs)
         self._create_models()
     pass
+
+    def _scan_dirs(self, directory):
+        if type(directory) == str:
+            dirs = [directory]
+        else:
+            dirs = directory
+
+        subdirs = []
+        for adir in dirs:
+            subdirs.extend(Path(adir).dirs())
+
+        return subdirs
+    # end
 
     # def _load_documents(self):
     #     print("[%s] Compose corpus ..." % self._name)
@@ -380,8 +400,9 @@ class TopicHandler:
     #     pass
     # pass
 
-    def _load_documents(self):
-        for root in self._topics._directories:
+    def _load_documents(self, dirs):
+        for adir in dirs:
+            root = Path(adir)
             topic_name = str(root.name)
             print(topic_name)
             for pattern in self._topics._patterns:
@@ -525,7 +546,9 @@ class TopicHandler:
                 dtopics[stopic] += score
             pass
         pass
-        return dtopics
+        ltopics = [(k,dtopics[k]) for k in dtopics]
+        ltopics = sorted(ltopics, key=lambda t: t[1], reverse=True)
+        return ltopics if len(ltopics) > 0 else [("Unknown", 0.0)]
     pass
 
     def compare(self, words1, words2):
@@ -569,13 +592,12 @@ class Topics:
     # Constructor
     # -----------------------------------------------------------------------
 
-    def __init__(self, root=None, directory=None, pattern="*.txt",
+    def __init__(self, pattern="*.txt",
                  re="[^A-Za-zàáèéìíòóùú]",
                  stopwords=None, stemrules=None, minlen=1,
                  model_type="lda", num_topics=100):
         """
         Initialize the Topics manager
-        :param str|list root: root directory or list of root directories
         :param str|list[str] pattern: list of file patterns to select
         :param str re: regular expression used to split the file
         :param str stopwords: file with the list of stopwords
@@ -584,27 +606,9 @@ class Topics:
         :param str model_type: topic model. One of "lda", "lsi" hdp"
         :param int num_topics: number of topics
         """
-        if root is not None:
-            if type(root) == str:
-                root = [root]
-            directory = []
-            for r in root:
-                r = Path(r)
-                directory.extend([str(d) for d in r.dirs()])
-            pass
-        pass
-
-        if type(directory) == str:
-            directory = [directory]
 
         if type(pattern) != list:
             pattern = [pattern]
-
-        if not directory:
-            directory = []
-
-        self._directories = [Path(d) for d in directory]
-        """:type: list[Path]"""
 
         self._patterns = pattern
         """:type: list[str]"""
@@ -669,12 +673,12 @@ class Topics:
     # Corpora
     # -----------------------------------------------------------------------
 
-    def compose_corpora(self):
+    def compose_corpora(self, directory):
         """
         Load the documents in the directories specified by topics
         """
         # load the documents in each topic and create the dictionary
-        self._topic_handler.compose_corpus()
+        self._topic_handler.compose_corpus(directory)
     pass
 
     def save_corpora(self, directory=None):
@@ -757,7 +761,7 @@ class Topics:
         
         :param str text: 
         :param float min_score: minimum score
-        :return dict[str,float]: scores for each topic 
+        :return list[(str,float)]: scores for each topic, sorted 
         """
         words = self.text_to_words(text)
         return self._topic_handler.query(words, min_score=min_score)
