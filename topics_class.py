@@ -1,6 +1,7 @@
 from path import Path
 from pprint import pprint
 import re as rexp
+import numpy as np
 import snowballstemmer as sbs
 import gensim.corpora as corpora
 import gensim.models as models
@@ -166,6 +167,7 @@ pass
 
 
 class Synonimous:
+
     def __init__(self):
         self._wddict = dict()
         self._sydict = dict()
@@ -287,12 +289,12 @@ class NullModel(basemodel.BaseTopicModel):
         return bow
 
     def save(self, filepath):
-        corpora.MmCorpus.save_corpus(filepath, self._corpus)
+        corpora.MmCorpus.serialize(filepath, self._corpus)
         self._id2word.save_as_text(filepath + ".id2w")
 
     @classmethod
     def load(cls, filepath):
-        corpus = corpora.MmCorpus.load(filepath)
+        corpus = corpora.MmCorpus(filepath)
         id2word = corpora.Dictionary.load_from_text(filepath + ".id2w")
         return NullModel(corpus, id2word)
 
@@ -402,8 +404,10 @@ class TopicHandler:
             self._topic_model = models.LsiModel(self._corpus, id2word=self._dict, num_topics=self._num_topics)
         elif self._model_type == "hdp":
             self._topic_model = models.HdpModel(self._corpus, id2word=self._dict)
-        else:
+        elif self._model_type == "none":
             self._topic_model = NullModel(self._corpus, id2word=self._dict)
+        else:
+            raise SyntaxError("Invalid model_type '%s'" % self._model_type)
 
         self._index = similarities.MatrixSimilarity(self._topic_model[self._corpus])
     pass
@@ -469,16 +473,42 @@ class TopicHandler:
     # topic_for_bow
     # -----------------------------------------------------------------------
 
-    def topic_for_words(self, words):
-        print("[%s] Compare with documents ..." % self._name)
+    # def topic_for_words(self, words):
+    #     """
+    #     Convert the list of words in a 'bow'
+    #
+    #     :param list[str] words: list of words
+    #     :return list[tuple]: 'bow'
+    #     """
+    #     print("[%s] Compare with documents ..." % self._name)
+    #
+    #     bow = self._doc2bow(words)
+    #     topics = self._topic_model[bow]
+    #
+    #     return topics
+    # pass
 
-        bow = self._doc2bow(words)
-        topics = self._topic_model[bow]
-
-        return topics
+    def missing_words(self, words):
+        """
+        Check the words not presents in the dictionary
+        
+        :param list[str] words: 
+        :return list[str]: unknown words 
+        """
+        wlist = set()
+        for word in words:
+            if len(self._doc2bow([word])) == 0:
+                wlist.add(word)
+        return list(wlist)
     pass
 
-    def query(self, words):
+    def query(self, words, min_score=0.0):
+        """
+        
+        :param list[str] words: 
+        :param float min_score: minimum valid score 
+        :return dict[str, float]: topic scores 
+        """
         bow = self._doc2bow(words)
         topics = self._topic_model[bow]
 
@@ -489,7 +519,7 @@ class TopicHandler:
             score = scores[i]
             stopic = self._topic_names[i]
 
-            if score > 0:
+            if score > min_score:
                 if stopic not in dtopics:
                     dtopics[stopic] = 0.0
                 dtopics[stopic] += score
@@ -497,6 +527,23 @@ class TopicHandler:
         pass
         return dtopics
     pass
+
+    def compare(self, words1, words2):
+        bow1 = self._doc2bow(words1)
+        topics1 = self._topic_model[bow1]
+        score1 = self._index[topics1]
+        mod1 = 1.#np.linalg.norm(score1)
+        if mod1 == 0: mod1 = 1
+
+        bow2 = self._doc2bow(words2)
+        topics2 = self._topic_model[bow2]
+        score2 = self._index[topics2]
+        mod2 = 1.#np.linalg.norm(score2)
+        if mod2 == 0: mod2 = 1
+
+        # print(score1)
+        # print(score2)
+        return np.dot(score1/mod1, score2/mod2)
 
     # -----------------------------------------------------------------------
     # Dump
@@ -514,31 +561,6 @@ class TopicHandler:
     # End
     # -----------------------------------------------------------------------
 pass
-
-# class AllTopic(TopicHandler):
-#     def __init__(self, topics, model_type="lda", num_topics=100):
-#         """
-#         :param Topics topics:
-#         """
-#         super().__init__(topics, Path("all"),
-#                          model_type=model_type,
-#                          num_topics=num_topics)
-#     # end
-#
-#     def _load_documents(self):
-#         for root in self._topics._directories:
-#             topic_name = str(root.name)
-#             print(topic_name)
-#             for pattern in self._topics._patterns:
-#                 for file in root.files(pattern=pattern):
-#                     bow = self._load_file(file, allow_update=True)
-#                     self._corpus.append(bow)
-#                     self._filenames.append(str(file.name))
-#                 pass
-#             pass
-#         pass
-#     pass
-# pass
 
 
 class Topics:
@@ -724,28 +746,46 @@ class Topics:
     # Query
     # -----------------------------------------------------------------------
 
-    def query(self, text):
+    def missing_words(self, text):
         words = self.text_to_words(text)
-        return self._topic_handler.query(words)
+        return self._topic_handler.missing_words(words)
+    pass
+
+    def query(self, text, min_score=0):
+        """
+        Analyze the query and return the score related to each topic
+        
+        :param str text: 
+        :param float min_score: minimum score
+        :return dict[str,float]: scores for each topic 
+        """
+        words = self.text_to_words(text)
+        return self._topic_handler.query(words, min_score=min_score)
+    pass
+
+    def compare(self, text1, text2):
+        words1 = self.text_to_words(text1)
+        words2 = self.text_to_words(text2)
+        return self._topic_handler.compare(words1, words2)
     pass
 
     # -----------------------------------------------------------------------
     # Topics selection
     # -----------------------------------------------------------------------
 
-    def topic_for_text(self, text):
-        words = self.text_to_words(text)
-        return self.topic_for_words(words)
-    pass
+    # def topic_for_text(self, text):
+    #     words = self.text_to_words(text)
+    #     return self.topic_for_words(words)
+    # pass
 
-    def topic_for_file(self, filepath):
-        words = self.file_to_words(filepath)
-        return self.topic_for_words(words)
-    pass
+    # def topic_for_file(self, filepath):
+    #     words = self.file_to_words(filepath)
+    #     return self.topic_for_words(words)
+    # pass
 
-    def topic_for_words(self, words):
-        return self._topic_handler.topic_for_words(words)
-    pass
+    # def topic_for_words(self, words):
+    #     return self._topic_handler.topic_for_words(words)
+    # pass
 
     # -----------------------------------------------------------------------
     # Implementation
