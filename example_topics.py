@@ -37,7 +37,7 @@ def main():
     scores = topics.query(text)
     print(scores)
 
-    scores = topics.query("Qualcuno mi può spiegare le eqazioni parametriche con la formula di waring ?? Fra 4 giorni abbiamo la verifica e non l'ho capita")
+    scores = topics.query("Qualcuno mi può spiegare le equazioni parametriche con la formula di waring ?? Fra 4 giorni abbiamo la verifica e non l'ho capita")
     print(scores)
 pass
 
