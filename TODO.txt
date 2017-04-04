@@ -1,0 +1,21 @@
+Come accorgersi che una query contiene delle parole che sono state scritte in
+modo scorretto?
+
+Ad esempio:
+
+    1) frase
+    2) scomposizione in word
+    3) eliminazione stopword
+    4) conversione della lista di word in bow
+    5) controllare se
+
+
+Come scoprire se due domande sono simili: chiedere
+
+
+String metrics:
+    https://en.wikipedia.org/wiki/String_metric
+
+Trie:
+    https://en.wikipedia.org/wiki/Trie#Full_text_search
+
