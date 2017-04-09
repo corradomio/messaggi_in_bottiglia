@@ -1,12 +1,12 @@
 from path import Path
 from pprint import pprint
 import re as rexp
-import numpy as np
 import snowballstemmer as sbs
 import gensim.corpora as corpora
 import gensim.models as models
 import gensim.similarities as similarities
 import gensim.models.basemodel as basemodel
+from fuzzywuzzy import fuzz
 
 
 def save_list(lines, file):
@@ -552,22 +552,40 @@ class TopicHandler:
         return ltopics if len(ltopics) > 0 else [("Unknown", 0.0)]
     pass
 
-    def compare(self, words1, words2):
-        bow1 = self._doc2bow(words1)
-        topics1 = self._topic_model[bow1]
-        score1 = self._index[topics1]
-        mod1 = 1.#np.linalg.norm(score1)
-        if mod1 == 0: mod1 = 1
+    def compare_query(self, words1, words2):
+        words1 = set(words1)
+        words2 = set(words2)
 
-        bow2 = self._doc2bow(words2)
-        topics2 = self._topic_model[bow2]
-        score2 = self._index[topics2]
-        mod2 = 1.#np.linalg.norm(score2)
-        if mod2 == 0: mod2 = 1
+        text1 = " ".join(words1)
+        text2 = " ".join(words2)
+
+        w1only = words1.difference(words2)
+        w2only = words2.difference(words1)
+        w12 = words1.intersection(words2)
+
+        return {
+            "ratio": fuzz.ratio(text1, text2),
+            "partial_ratio": fuzz.partial_ratio(text1, text2),
+            "token_sort_ratio": fuzz.token_sort_ratio(text1, text2),
+            "token_set_ratio": fuzz.token_set_ratio(text1, text2)
+        }
+
+        # bow1 = self._doc2bow(words1)
+        # topics1 = self._topic_model[bow1]
+        # score1 = self._index[topics1]
+        # mod1 = 1.#np.linalg.norm(score1)
+        # if mod1 == 0: mod1 = 1
+        #
+        # bow2 = self._doc2bow(words2)
+        # topics2 = self._topic_model[bow2]
+        # score2 = self._index[topics2]
+        # mod2 = 1.#np.linalg.norm(score2)
+        # if mod2 == 0: mod2 = 1
 
         # print(score1)
         # print(score2)
-        return np.dot(score1/mod1, score2/mod2)
+        # return np.dot(score1/mod1, score2/mod2)
+        return 0
 
     # -----------------------------------------------------------------------
     # Dump
@@ -756,7 +774,7 @@ class Topics:
         return self._topic_handler.missing_words(words)
     pass
 
-    def query(self, text, min_score=0):
+    def topics_query(self, text, min_score=0):
         """
         Analyze the query and return the score related to each topic
         
@@ -768,11 +786,19 @@ class Topics:
         return self._topic_handler.query(words, min_score=min_score)
     pass
 
-    def compare(self, text1, text2):
+    def compare_query(self, text1, text2):
         words1 = self.text_to_words(text1)
         words2 = self.text_to_words(text2)
-        return self._topic_handler.compare(words1, words2)
+        return self._topic_handler.compare_query(words1, words2)
     pass
+
+    # -- obsolete
+
+    def query(self, text, min_score=0):
+        return self.topics_query(text, min_score=min_score)
+
+    def compare(self, text1, text2):
+        return self.compare_query(text1, text2)
 
     # -----------------------------------------------------------------------
     # Topics selection
