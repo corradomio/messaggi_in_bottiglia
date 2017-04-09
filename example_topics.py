@@ -2,7 +2,7 @@ import topics_class as t
 
 
 def main():
-    # crea l'oggetto da  utilizzare per l'information retrieval
+    # crea l'oggetto da utilizzare per l'information retrieval
 
     topics = t.Topics(
         stopwords="stopwords.txt",  # lista di stopword
@@ -11,7 +11,7 @@ def main():
         model_type="lda"            # TopiC Model da utilizzare: 'lda', 'lsi', 'hdp', 'none'
     )
 
-    # addrestramento: legge i documenti dalla directory indicata
+    # addestramento: legge i documenti dalla directory indicata
     # e crea il supporto per il Topic Modelling.
     # deve essere fatto una sola volta
     # topics.compose_corpora(directory="topics")
