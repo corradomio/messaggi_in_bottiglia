@@ -334,7 +334,7 @@ class TopicHandler:
         self._file_names = None
         """:type: list[str]"""
 
-        self._dict = corpora.Dictionary()
+        self._wdict = corpora.Dictionary()
         """:type: corpora.Dictionary"""
 
         self._topic_model = None
@@ -420,13 +420,13 @@ class TopicHandler:
         print("Create models ...")
 
         if self._model_type == "lda":
-            self._topic_model = models.LdaModel(self._corpus, id2word=self._dict, num_topics=self._num_topics)
+            self._topic_model = models.LdaModel(self._corpus, id2word=self._wdict, num_topics=self._num_topics)
         elif self._model_type == "lsi":
-            self._topic_model = models.LsiModel(self._corpus, id2word=self._dict, num_topics=self._num_topics)
+            self._topic_model = models.LsiModel(self._corpus, id2word=self._wdict, num_topics=self._num_topics)
         elif self._model_type == "hdp":
-            self._topic_model = models.HdpModel(self._corpus, id2word=self._dict)
+            self._topic_model = models.HdpModel(self._corpus, id2word=self._wdict)
         elif self._model_type == "none":
-            self._topic_model = NullModel(self._corpus, id2word=self._dict)
+            self._topic_model = NullModel(self._corpus, id2word=self._wdict)
         else:
             raise SyntaxError("Invalid model_type '%s'" % self._model_type)
 
@@ -441,7 +441,7 @@ class TopicHandler:
         ext = self._model_type
 
         self._topic_model.save(dir + name + "." + ext)
-        self._dict.save_as_text(dir + name + ".dict")
+        self._wdict.save_as_text(dir + name + ".dict")
         corpora.BleiCorpus.serialize(dir + name + ".blei", self._corpus)
         self._index.save(dir + name + ".index")
         save_list(self._file_names, dir + name + ".file_names")
@@ -454,7 +454,7 @@ class TopicHandler:
         ext  = self._model_type
         dir = "%s/" % (directory if directory else ".")
 
-        self._dict = corpora.Dictionary.load_from_text(dir + name + ".dict")
+        self._wdict = corpora.Dictionary.load_from_text(dir + name + ".dict")
 
         if self._model_type == "lda":
             self._topic_model = models.LdaModel.load(dir + name + "." + ext)
@@ -487,7 +487,11 @@ class TopicHandler:
     pass
 
     def _doc2bow(self, words, allow_update=False):
-        return self._dict.doc2bow(words, allow_update=allow_update)
+        return self._wdict.doc2bow(words, allow_update=allow_update)
+    pass
+
+    def _has_word(self, w):
+        return w in self._wdict.token2id
     pass
 
     # -----------------------------------------------------------------------
@@ -516,11 +520,8 @@ class TopicHandler:
         :param list[str] words: 
         :return list[str]: unknown words 
         """
-        wlist = set()
-        for word in words:
-            if len(self._doc2bow([word])) == 0:
-                wlist.add(word)
-        return list(wlist)
+        missing = set(w for w in words if w not in self._wdict.token2id)
+        return list(missing)
     pass
 
     def query(self, words, min_score=0.0):
