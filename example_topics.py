@@ -39,6 +39,9 @@ def main():
 
     scores = topics.query("Qualcuno mi può spiegare le equazioni parametriche con la formula di waring ?? Fra 4 giorni abbiamo la verifica e non l'ho capita")
     print(scores)
+
+    scores = topics.query("Cristo, Maometto, Satana, non esistono?")
+    print(scores)
 pass
 
 
