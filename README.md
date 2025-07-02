@@ -22,7 +22,7 @@
 
 Una lista di bow e' un 'corpus'
 
-Un copus puo' essere semplificato usando uno dei 'Topic Modelling': bisogna
+Un corpus puo' essere semplificato usando uno dei 'Topic Modelling': bisogna
 indicare quanti topic e quante parole in ogni topic (le stesse per tutti i topic)
 
 PROBLEMA: 
@@ -32,15 +32,15 @@ PROBLEMA:
        ad una determinata categoria:
        ad esempio, se un certa parola appartiene a piu' categorie, il topic
        appartiene alla categoria prevalente tra tutte le categorie associate
-       a tutte le parole che compongono il topic
+       a tutte le parole che compongono il topic.
        In ogni caso, si possono assegnare dei pesi per l'appartenenza di un topic
-       ad una categoria
+       ad una categoria.
 
 3) create il topic-model ('tm') passandogli il corpus.
    A questo punto il tm e' una trasformazione tra il vector-space originale (il
    corpus) ed il nuovo vector-space
    
-NOTA: una volta creato il dizionario, non e' piu' necessario filtrare il desto da
+NOTA: una volta creato il dizionario, non e' piu' necessario filtrare il testo da
       trattare, perche' se una parola non e' presente nel dizionario, automaticamente
       viene esclusa nella conversione da sequenza di parole a 'bow'
 
