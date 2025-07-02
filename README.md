@@ -26,7 +26,7 @@ Un corpus puo' essere semplificato usando uno dei 'Topic Modelling': bisogna
 indicare quanti topic e quante parole in ogni topic (le stesse per tutti i topic)
 
 PROBLEMA: 
-    1) come capire quanti topic create?
+    1) come capire quanti topic creare?
     2) come assegnare una 'categoria' ai topic?
        Potrebbe non avere senso, se si sa gia' che certi topic appartengono 
        ad una determinata categoria:
